@@ -1,0 +1,23 @@
+﻿affinity_code,affinity_desc
+spend_all,All Spending
+spend_all_q1,All Spending First Income Quartile
+spend_all_q2,All Spending Second Income Quartile
+spend_all_q3,All Spending Third Income Quartile
+spend_all_q4,All Spending Fourth Income Quartile
+spend_aap,Apparel and Accessories Spending
+spend_acf,Accomodation and Food Services Spending
+spend_aer,"Arts, Entertainment, and Recreation Spending"
+spend_apg,General Merchandise Store and Apparel and Accessories Spending
+spend_durables,Durable Goods Spending
+spend_nondurables,Non-durable Goods Spending
+spend_grf,Grocery and Food Store Spending
+spend_gen,General Merchandise Store Spending
+spend_hic,Home Improvement Center Spending
+spend_hcs,Healthcare and Social Assistance Spending
+spend_inpersonmisc,Other In-person Services Spending
+spend_remoteservices,Remove Services Spending
+spend_sgh,Sporting Goods and Hobby Spending
+spend_tws,Transportation and Warehousing Spending
+spend_retail_w_grocery,Retail Including Grocery Spending
+spend_retail_no_grocery,Retail Excluding Grocery Spending
+spend_all_incmiddle,All Spending Second and Third Income Quartile

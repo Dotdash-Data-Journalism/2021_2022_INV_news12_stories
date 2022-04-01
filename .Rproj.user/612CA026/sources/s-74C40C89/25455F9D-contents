@@ -1,0 +1,2010 @@
+library(googlesheets4)
+library(googledrive)
+library(tidyverse)
+library(readxl)
+library(xml2)
+library(rvest)
+
+### Write into the Google Sheets
+drive_auth(email = "anesta@dotdash.com")
+gs4_auth(token = drive_token())
+
+
+read_sheet("https://docs.google.com/spreadsheets/d/1rhXWQqcxaBhghQeOGp4FoLwprgAMVU9Yl4t0hFflzKE/edit#gid=794026414")
+
+mySheets <- gs4_find()
+
+x <- gs4_find(order_by = "createdTime desc")
+
+
+drive_get(id = "https://drive.google.com/drive/folders/1nuxH1cE0E84cLhVbdHB-Cqm4Yi30FLSI")
+
+october2020Investopedia <- drive_get("DailyTrendingDocumentsReport/Investopedia/10-2020/DailyTrendingDocuments")
+october2020TheBalance <- drive_get("DailyTrendingDocumentsReport/The Balance/10-2020/DailyTrendingDocuments")
+
+november2020Investopedia <- drive_get("DailyTrendingDocumentsReport/Investopedia/11-2020/DailyTrendingDocuments")
+november2020TheBalance <- drive_get("DailyTrendingDocumentsReport/The Balance/11-2020/DailyTrendingDocuments")
+
+
+read_sheet(ss = '170krPrQTcc3PWG7LPuuZ-0oe0uRA4Tp3VTGMFvL7j94', sheet = 31)
+what <- read_sheet(ss = '170krPrQTcc3PWG7LPuuZ-0oe0uRA4Tp3VTGMFvL7j94', sheet = 2)
+
+
+october <- 1:31
+november <- 16:23
+
+octoberInvestopedia <- tibble()
+for (i in seq_along(october)) {
+  newDay <- read_sheet(ss = october2020Investopedia$id, 
+                       sheet = i,
+                       col_types = "ccnnnncccDDccnncnncnnccc"
+                       )
+  newDay <- mutate(newDay, Day = as.Date(paste0("2020-10-", i)))
+  
+  octoberInvestopedia <- bind_rows(octoberInvestopedia, newDay)
+  Sys.sleep(7)
+}
+
+octoberTheBalance <- tibble()
+for (i in seq_along(october)) {
+  newDay <- read_sheet(ss = october2020TheBalance$id, 
+                       sheet = i,
+                       col_types = "ccnnnncccDDccnncnncnnccc"
+  )
+  newDay <- mutate(newDay, Day = as.Date(paste0("2020-10-", i)))
+  
+  octoberTheBalance <- bind_rows(octoberTheBalance, newDay)
+  Sys.sleep(7)
+}
+
+
+
+
+
+
+novemberInvestopedia <- tibble()
+for (i in november) {
+  newDay <- read_sheet(ss = november2020Investopedia$id, 
+                       sheet = paste0("11-", i),
+                       col_types = "ccnnnncccDDccnncnncnnccc"
+  )
+  newDay <- mutate(newDay, Day = as.Date(paste0("2020-11-", i)))
+  
+  novemberInvestopedia <- bind_rows(novemberInvestopedia, newDay)
+  Sys.sleep(7)
+}
+
+novemberTheBalance <- tibble()
+for (i in seq_along(november)) {
+  newDay <- read_sheet(ss = november2020TheBalance$id, 
+                       sheet = paste0("11-0", i),
+                       col_types = "ccnnnncccDDccnncnncnnccc"
+  )
+  newDay <- mutate(newDay, Day = as.Date(paste0("2020-11-", i)))
+  
+  novemberTheBalance <- bind_rows(novemberTheBalance, newDay)
+  Sys.sleep(7)
+}
+
+combinedInvestoBalance <- bind_rows(octoberInvestopedia, novemberInvestopedia,
+                                    octoberTheBalance, novemberTheBalance)
+
+octCombined <- filter(octCombined, Day < as.Date("2020-11-01"))
+octCombined <- mutate(octCombined, document_id = as.character(document_id))
+combinedInvestoBalance <- bind_rows(octCombined, novemberInvestopedia, 
+                                    novemberTheBalance)
+
+
+combinedInvestoBalance %>% 
+  filter(`Actual Daily Organic Sessions` >= 500, 
+         Day >= as.Date("2020-10-03")) %>% 
+  group_by(document_id) %>% 
+  summarize(count = n()) %>% 
+  arrange(desc(count)) %>% 
+  filter(count >= 10) %>% 
+  ungroup() %>% 
+  pull(document_id) -> docsOverTenDays
+
+
+combinedInvestoBalance %>% 
+  filter(`Actual Daily Organic Sessions` >= 500, 
+         Day >= as.Date("2020-10-03"),
+         document_id %in% docsOverTenDays) %>% 
+  arrange(desc(`Percent Increase Relative to Daily Prediction`)) -> peak
+
+peak %>% 
+  ungroup() %>% 
+  group_by(`Organic Landing Page`, tax2) %>% 
+  summarize(numberDays = n(), 
+            maxSession = max(`Actual Daily Organic Sessions`), 
+            sumPercInc = sum(`Percent Increase Relative to Daily Prediction`)) %>% 
+  arrange(desc(sumPercInc)) -> better
+
+peak %>% 
+  ungroup() %>% 
+  group_by(`Organic Landing Page`, tax2) %>% 
+  summarize(numberDays = n(), 
+            maxSession = max(`Actual Daily Organic Sessions`), 
+            medPercInc = median(`Percent Increase Relative to Daily Prediction`)) %>% 
+  arrange(desc(medPercInc)) -> betterMedian
+
+
+
+combinedInvestoBalance %>% 
+  filter(`Actual Daily Organic Sessions` >= 500, 
+         Day >= as.Date("2020-10-27")) %>% 
+  group_by(document_id) %>% 
+  summarize(count = n()) %>% 
+  arrange(desc(count)) %>% 
+  filter(count >= 3) %>% 
+  ungroup() %>% 
+  pull(document_id) -> docsOverThreeDays
+
+
+combinedInvestoBalance %>% 
+  filter(`Actual Daily Organic Sessions` >= 500, 
+         Day >= as.Date("2020-10-27"),
+         document_id %in% docsOverThreeDays) %>% 
+  arrange(desc(`Percent Increase Relative to Daily Prediction`)) -> peakWeek
+
+peakWeek %>% 
+  ungroup() %>% 
+  group_by(`Organic Landing Page`, tax2) %>% 
+  summarize(numberDays = n(), 
+            maxSession = max(`Actual Daily Organic Sessions`), 
+            sumPercInc = sum(`Percent Increase Relative to Daily Prediction`)) %>% 
+  arrange(desc(sumPercInc)) -> betterWeek
+
+
+peakWeek %>% 
+  ungroup() %>% 
+  group_by(`Organic Landing Page`, tax2) %>% 
+  summarize(numberDays = n(), 
+            maxSession = max(`Actual Daily Organic Sessions`), 
+            medianPercInc = median(`Percent Increase Relative to Daily Prediction`)) %>% 
+  arrange(desc(medianPercInc)) -> betterWeekMedian
+
+## Grouped weekly traffic summary per article:
+trendingArticles <- combinedInvestoBalance %>% 
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/financial-edge/0812/5-presidents-who-couldnt-secure-a-second-term.aspx",
+                                       "https://www.investopedia.com/comparing-the-economic-plans-of-trump-and-biden-4843240",
+                                       "https://www.investopedia.com/explaining-biden-s-tax-plan-5080766",
+                                       "https://www.investopedia.com/taxes/trumps-tax-reform-plan-explained/",
+                                       "https://www.investopedia.com/terms/s/socialism.asp",
+                                       "https://www.investopedia.com/articles/retirement/122916/are-social-security-benefits-form-socialism.asp",
+                                       "https://www.investopedia.com/financial-edge/0110/10-things-to-know-about-1031-exchanges.aspx",
+                                       "https://www.investopedia.com/terms/m/marxism.asp",
+                                       "https://www.investopedia.com/articles/personal-finance/101515/comparing-longterm-vs-shortterm-capital-gain-tax-rates.asp",
+                                       "https://www.investopedia.com/terms/c/capital_gains_tax.asp")) %>% 
+  pull(document_id) %>% 
+  unique()
+
+
+combinedInvestoBalance %>% 
+  filter(document_id %in% trendingArticles, 
+         between(Day, as.Date("2020-10-28"), as.Date("2020-11-03"))) %>% 
+  select(`Organic Landing Page`, `Percent Increase Relative to Daily Prediction`, Day) %>% 
+  pivot_wider(names_from = Day, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  write_csv("groupedWeeklyArticleSummary.csv")
+
+novemberFourthTrafficBalance <- read_sheet("https://docs.google.com/spreadsheets/d/1RSscPXyLLVI3XMwdUt-Tg1xh7jif_SiQaMcaarewZdU/edit#gid=1813343819",
+                                           sheet = "11-04",
+                                           col_types = "ccnnnncccDDccnncnncnnccc")
+novemberFourthTrafficInvesto <- read_sheet("https://docs.google.com/spreadsheets/d/1KaRiUbpzmadsS4SBe_qk9Py-skfIeqXNatTuJHGvXbI/edit#gid=318510727",
+                                           sheet = "11-04",
+                                           col_types = "ccnnnncccDDccnncnncnnccc")
+
+
+
+novemberFourthCombined <- bind_rows(novemberFourthTrafficBalance, 
+                                    novemberFourthTrafficInvesto)
+
+novemberFourthCombined %>% 
+  filter(`Actual Daily Organic Sessions` >= 500) %>% 
+  arrange(desc(`Percent Increase Relative to Daily Prediction`)) %>% 
+  head(25) -> novFourthFiveHundredThresh
+
+
+
+
+write_csv(novFourthThousandThresh, "novFourthThousandThresh.csv")
+write_csv(novFourthFiveHundredThresh, "novFourthFiveHundredThresh.csv")
+
+### November 5th just Investing trending pieces analysis
+
+novemberFourthCombined %>% 
+  filter(tax1 == "Investing") %>% 
+  group_by(tax2) %>% 
+  summarize(Number_of_Pieces = n()) %>% 
+  arrange(desc(Number_of_Pieces)) %>% 
+  drop_na() %>% 
+  ungroup() %>% 
+  ggplot(aes(x = reorder(tax2, Number_of_Pieces), y = Number_of_Pieces)) +
+  geom_col() + 
+  coord_flip() + xlab('Tax Two')
+
+
+novemberFourthCombined %>% 
+  filter(tax1 == "Investing") %>% 
+  arrange(desc(`Percent Increase Relative to Daily Prediction`)) -> popularInvesting
+
+
+novemberFourthCombined %>% 
+  filter(tax1 == "Investing") %>% 
+  group_by(tax2) %>% 
+  summarize(Average_Perc_Inc = mean(`Percent Increase Relative to Daily Prediction`)) %>% 
+  drop_na() %>% 
+  ungroup() %>% 
+  ggplot(aes(x = reorder(tax2, Average_Perc_Inc), y = Average_Perc_Inc)) +
+  geom_col() + 
+  coord_flip() + xlab('Tax Two')
+
+### Top 3 articles by tax 2's with over 500 Average Percent Increase
+
+novemberFourthCombined %>% 
+  filter(tax1 == "Investing", tax2 %in% c("Trading", "Commodities", "Markets")) %>% 
+  select(`Organic Landing Page`, `Predicted Daily Organic Sessions`, `Actual Daily Organic Sessions`,
+         `Percent Increase Relative to Daily Prediction`, tax1, tax2, first_published_date,
+         updated_date, keyword_1, keyword_2) %>% 
+  write_csv("trendingInvestingByLargestChangedTaxTwo.csv")
+
+
+
+novemberFourthCombined %>% 
+  filter(tax1 == "Investing") %>% 
+  group_by(tax2) %>% 
+  summarize(Average_Perc_Inc = mean(`Percent Increase Relative to Daily Prediction`),
+            keywords = str_c(keyword_1, collapse = ",\n"),
+            Number_of_Pieces = n()) %>% 
+  drop_na() %>% 
+  ungroup() -> keywordScatter
+
+
+ggplot() +
+ggrepel::geom_label_repel(data = keywordScatter,
+          mapping = aes(x = Average_Perc_Inc, 
+                        y = Number_of_Pieces,
+                        label = keywords))
+
+
+###############################################################################
+library(googlesheets4)
+library(googledrive)
+library(tidyverse)
+
+drive_auth(email = "anesta@dotdash.com")
+gs4_auth(token = drive_token())
+
+
+november <- length(seq.Date(as.Date("2020-11-01"), Sys.Date() - 1, 1))
+
+novemberInvestopedia <- tibble()
+for (i in seq_len(november)) {
+  newDay <- read_sheet(ss = november2020Investopedia$id, 
+                       sheet = paste0("11-0", i),
+                       col_types = "ccnnnncccDDccnncnncnnccc"
+  )
+  newDay <- mutate(newDay, Day = as.Date(paste0("2020-11-", i)))
+  
+  novemberInvestopedia <- bind_rows(novemberInvestopedia, newDay)
+  Sys.sleep(7)
+}
+
+novemberTheBalance <- tibble()
+for (i in seq_len(november)) {
+  newDay <- read_sheet(ss = november2020TheBalance$id, 
+                       sheet = paste0("11-0", i),
+                       col_types = "ccnnnncccDDccnncnncnnccc"
+  )
+  newDay <- mutate(newDay, Day = as.Date(paste0("2020-11-", i)))
+  
+  novemberTheBalance <- bind_rows(novemberTheBalance, newDay)
+  Sys.sleep(7)
+}
+
+combinedInvestoBalance <- bind_rows(novemberInvestopedia,
+                                    novemberTheBalance)
+
+range_read(ss = "1qIxgV9or_tsSuOo8uNMZH1oJ7vyejMulNISl0RNquiA", 
+           sheet = "DW 11/9 Article",
+           range = "D3:D12",
+           col_names = F) %>% 
+  pull(1) -> trendingArticles1109
+  
+
+newNovTrending <- combinedInvestoBalance %>% 
+  filter(document_id %in% trendingArticles1109) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Day) %>% 
+  pivot_wider(names_from = Day, 
+              values_from = `Percent Increase Relative to Daily Prediction`)
+
+
+range_write(ss = "1qIxgV9or_tsSuOo8uNMZH1oJ7vyejMulNISl0RNquiA",
+            data = newNovTrending,
+            range = "B2:K12",
+            sheet = "DW 11/9 Article",
+            col_names = T)
+
+
+#### 11/16-11/23. Top trending documents via Percent over baseline.
+
+novemberInvestopedia %>% 
+  group_by(`Organic Landing Page`, tax2) %>% 
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n()) %>% 
+  arrange(desc(numOccurances)) -> mostTrending
+
+
+range_write(ss = "1fqI3l-5Nkr7R3GOdXCQN3F0pM4YVM42uRUKuE9ImsvI", 
+            data = mostTrending,
+            sheet = "Sheet1",
+            range = "A1",
+            col_names = T)
+
+novemberInvestopedia %>% 
+  filter(`Organic Landing Page` == "https://www.investopedia.com/terms/s/spinoff.asp") %>% select(`Organic Landing Page`, `Percent Increase Relative to Daily Prediction`, Day)
+
+# Top overall pieces
+
+topGeneral <- novemberInvestopedia %>% 
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/top-electric-car-stocks-for-q4-2020-5080568",
+                                       "https://www.investopedia.com/what-is-the-easiest-credit-card-to-get-approved-for-5077189",
+                                       "https://www.investopedia.com/tech/ripple-xrp-cryptocurrency-how-to-buy/",
+                                       "https://www.investopedia.com/top-reits-4582128",
+                                       "https://www.investopedia.com/tech/how-to-buy-bitcoin/",
+                                       "https://www.investopedia.com/joe-biden-s-economic-plan-save-the-middle-class-4769869")) %>% 
+  select(`Organic Landing Page`, `Percent Increase Relative to Daily Prediction`, Day) %>%
+  group_by(`Organic Landing Page`) %>% 
+  mutate(maxValue = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(maxDay = Day[`Percent Increase Relative to Daily Prediction` == maxValue]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Day, values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  relocate(c(maxValue, maxDay), .after = `2020-11-23`)
+  
+  
+range_write(ss = "1fqI3l-5Nkr7R3GOdXCQN3F0pM4YVM42uRUKuE9ImsvI", 
+            data = topGeneral,
+            sheet = "DW Top General",
+            range = "A1",
+            col_names = T)
+
+
+
+# Top Terms
+topTerms <- novemberInvestopedia %>% 
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/terms/s/spinoff.asp",
+                                       "https://www.investopedia.com/terms/s/spac.asp",
+                                       "https://www.investopedia.com/terms/m/marginal-propensity-invest.asp",
+                                       "https://www.investopedia.com/terms/l/limited-government.asp",
+                                       "https://www.investopedia.com/terms/b/basic-income.asp",
+                                       "https://www.investopedia.com/terms/f/fiscalpolicy.asp")) %>% 
+  select(`Organic Landing Page`, `Percent Increase Relative to Daily Prediction`, Day) %>%
+  group_by(`Organic Landing Page`) %>% 
+  mutate(maxValue = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(maxDay = Day[`Percent Increase Relative to Daily Prediction` == maxValue]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Day, values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  relocate(c(maxValue, maxDay), .after = `2020-11-23`)
+
+
+range_write(ss = "1fqI3l-5Nkr7R3GOdXCQN3F0pM4YVM42uRUKuE9ImsvI", 
+            data = topTerms,
+            sheet = "DW Top Terms",
+            range = "A1",
+            col_names = T)
+
+
+
+novemberInvestopedia %>% 
+  filter(`Organic Landing Page` == "https://www.investopedia.com/what-is-the-easiest-credit-card-to-get-approved-for-5077189")
+
+
+
+"ccnncnncnnccc"
+getMonth <- function(sheetID, month) {
+  for (i in seq_len(month)) {
+    newDay <- read_sheet(ss = sheetID, 
+                         sheet = if_else(i < 10, 
+                                         paste0(which(month.name == names(monthDays[i])), "-0", i), 
+                                         paste0(which(month.name == names(monthDays[i])), "-", i)),
+                         col_types = "ccnnnncccDDccnncnncnnccc"
+    )
+    newDay <- mutate(newDay, Day = as.Date(paste0("2020-", which(month.name == names(monthDays[i])), "-", i)))
+    
+    monthInvestopedia <- bind_rows(monthInvestopedia, newDay)
+    return(monthInvestopedia)
+    Sys.sleep(10)  
+  }  
+}
+
+
+for (i in seq_len(november)) {
+  newDay <- read_sheet(ss = november2020Investopedia$id, 
+                       sheet = paste0("11-0", i),
+                       col_types = "ccnnnncccDDccnncnncnnccc"
+  )
+  newDay <- mutate(newDay, Day = as.Date(paste0("2020-11-", i)))
+  
+  novemberInvestopedia <- bind_rows(novemberInvestopedia, newDay)
+  Sys.sleep(7)
+}
+
+
+#### 2/12/21
+
+februaryInvestopedia <- tibble()
+
+for (i in 1:11) {
+  newDay <- read_excel("2021-02_ DailyTrendingDocuments.xlsx", 
+                       sheet = if_else(i < 10, paste0("02-0", i), paste0("02-", i)),
+                       col_types = c("text", "text", "numeric", "numeric", 
+                                     "numeric", "numeric", "text", "text", "text",
+                                     "date", "date", "text", "text", "text", "numeric",
+                                     "numeric", "text", "numeric", "numeric", 
+                                     "text", "numeric", "numeric", "text", "text", 
+                                     "text"))
+  newDay <- mutate(newDay, Day = as.Date(paste0("2020-02-", i)))
+  print(paste("Reading sheet", i))
+  
+  februaryInvestopedia <- bind_rows(februaryInvestopedia, newDay)
+  Sys.sleep(7)
+}
+
+februaryInvestopedia %>% 
+  group_by(`Organic Landing Page`, tax2) %>% 
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n()) %>% 
+  ungroup() %>% 
+  filter(avgDailySessions > 500, numOccurances >= 7) %>% 
+  arrange(desc(peakPercentIncrease)) %>% 
+  write_csv("investo20210201_20210211Spikers.csv")
+
+februaryInvestopedia %>% 
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/terms/s/shortsalerule.asp",
+                                       "https://www.investopedia.com/investing/silver-stocks/",
+                                       "https://www.investopedia.com/best-marijuana-etfs-5077586",
+                                       "https://www.investopedia.com/terms/d/dogecoin.asp",
+                                       "https://www.investopedia.com/articles/investing/032613/best-way-buy-silver.asp",
+                                       "https://www.investopedia.com/ask/answers/06/shortedstock.asp",
+                                       "https://www.investopedia.com/terms/s/schedule13g.asp",
+                                       "https://www.investopedia.com/tech/ripple-xrp-cryptocurrency-how-to-buy/",
+                                       "https://www.investopedia.com/terms/p/paymentoforderflow.asp",
+                                       "https://www.investopedia.com/articles/stocks/08/short-squeeze-profits.asp")) %>% 
+  arrange(Day) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Day) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Day, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(c(`Peak Increase`, `When it Peaked`), .after = last_col()) %>% 
+  write_csv("earlyFeb21InvSpikers.csv")
+  
+
+###### 2021-03-09 to 2021-03-15 Investo Trending Terms
+
+  map_df(c("03-08", "03-09", map_chr(10:15, ~paste0("03-", .x))),
+         ~read_sheet(ss = "1BXSnE5OYNc3pIdhtGc6sVc3ENpqAZ-jD-GLOcIoWIr0", sheet = .x,
+                     col_types = "ccddddcccDDcccddcddcddccc")) %>%  
+  group_by(`Organic Landing Page`, document_id, tax2) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n()) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 3) %>%
+  arrange(desc(peakPercentIncrease)) %>%
+  write_csv("investo20210308_20210315Spikers.csv")
+
+
+  map_df(c("03-08", "03-09", map_chr(10:15, ~paste0("03-", .x))), 
+         function(x) {
+           read_sheet(ss = "1BXSnE5OYNc3pIdhtGc6sVc3ENpqAZ-jD-GLOcIoWIr0", sheet = x,
+                      col_types = "ccddddcccDDcccddcddcddccc") %>% 
+             mutate(Day = as.Date(paste0("2021-", x))) -> newDay
+           return(newDay)
+         }) %>% 
+    filter(document_id %in% pull(range_read(ss = "1TAz8vLzvoehHWWxVLVjVtEyo5aPjplUZ3dRHU8B22LU",
+                                            sheet = "Sheet2", range = "C2:C9", col_names = F))) %>% 
+    arrange(Day) %>% 
+    select(`Organic Landing Page`, 
+           document_id, 
+           `Percent Increase Relative to Daily Prediction`,
+           Day) %>% 
+    group_by(`Organic Landing Page`) %>% 
+    mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+    mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+    ungroup() %>% 
+    pivot_wider(names_from = Day, 
+                values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+    mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+      read_html(.x) %>% 
+        html_nodes("h1") %>% 
+        html_text() %>% 
+        str_remove("\n")
+    })) %>% 
+    select(-c(`Organic Landing Page`, document_id)) %>% 
+    relocate(`Article Title`, .before = `Peak Increase`) %>% 
+    relocate(c(`Peak Increase`, `When it Peaked`), .after = last_col()) %>% 
+    write_csv("20210308-20210315_InvSpikers.csv")
+
+  
+investoMar8_15 %>% 
+  filter(document_id == "5095694") %>% 
+  select(`Organic Landing Page`, `Actual Daily Organic Sessions`, 
+         `Percent Increase Relative to Daily Prediction`, Day) -> ARP
+  
+  
+### For Kelsey 03/14-03/28
+
+map_df(map_chr(14:28, ~paste0("03-", .x)),
+       function(x) {
+         read_sheet(ss = "1BXSnE5OYNc3pIdhtGc6sVc3ENpqAZ-jD-GLOcIoWIr0", sheet = x,
+                    col_types = "ccddddcccDDcccddcddcddccc") %>% 
+           mutate(Day = as.Date(paste0("2021-", x))) -> newDay
+         return(newDay)
+       }) %>%
+  arrange(Day) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id, tax2) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 1000, numOccurances >= 7) %>%
+  arrange(desc(peakPercentIncrease)) %>%
+  write_csv("investo20210314_20210328Spikers.csv")
+
+map_df(map_chr(14:28, ~paste0("03-", .x)),
+       function(x) {
+         read_sheet(ss = "1RFyMhzNtq48eLte73ds8MdHQcp6fKwmpX4dh9dSlYKo", sheet = x,
+                    col_types = "ccddddcccDDcccddcddcddccc") %>% 
+           mutate(Day = as.Date(paste0("2021-", x))) -> newDay
+         return(newDay)
+       }) %>%
+  arrange(Day) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id, tax2) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 4) %>%
+  arrange(desc(peakPercentIncrease)) %>%
+  write_csv("balance20210314_20210328Spikers.csv")
+
+
+### Investo Spiking Terms 2021-04-05 - 2021-04-12:
+
+map_df(map_chr(str_pad(5:12, 2, pad = "0"), ~paste0("04-", .x)),
+       ~read_sheet(ss = "1tDCfz0c9Q_E-sM083V0lWnPBKgeo0zpc68Qa8mQiIUw", sheet = .x,
+                   col_types = "ccddddcccDDcccddcddcddccc")) %>%  
+  group_by(`Organic Landing Page`, document_id, tax2) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n()) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 3) %>%
+  arrange(desc(peakPercentIncrease)) %>%
+  write_csv("investo20210405_20210412Spikers.csv")
+
+
+map_df(map_chr(str_pad(5:12, 2, pad = "0"), ~paste0("04-", .x)), 
+       function(x) {
+         read_sheet(ss = "1tDCfz0c9Q_E-sM083V0lWnPBKgeo0zpc68Qa8mQiIUw", sheet = x,
+                    col_types = "ccddddcccDDcccddcddcddccc") %>% 
+           mutate(Day = as.Date(paste0("2021-", x))) -> newDay
+         return(newDay)
+       }) %>% 
+  filter(document_id %in% pull(range_read(ss = "1hvo2-7GtBVa7TqcHntnQisb1i4SZNym2YqwYAQX4x8c",
+                                          sheet = "Selection", range = "C2:C6", col_names = F))) %>% 
+  arrange(Day) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Day) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Day, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(c(`Peak Increase`, `When it Peaked`), .after = last_col()) %>% 
+  write_csv("20210405-20210412_InvSpikersViz.csv")
+
+## For Kelsey 2021-04-13
+
+map_df(map_chr(29:31, ~paste0("03-", .x)),
+       function(x) {
+         read_sheet(ss = "1BXSnE5OYNc3pIdhtGc6sVc3ENpqAZ-jD-GLOcIoWIr0", sheet = x,
+                    col_types = "ccddddcccDDcccddcddcddccc") %>% 
+           mutate(Day = as.Date(paste0("2021-", x))) -> newDay
+         return(newDay)
+       }) %>%
+  arrange(Day) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id, tax2) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 7) %>%
+  arrange(desc(peakPercentIncrease)) %>%
+  bind_rows((map_df(map_chr(str_pad(1:11, 2, pad = "0"), ~paste0("04-", .x)),
+                    function(x) {
+                      read_sheet(ss = "1tDCfz0c9Q_E-sM083V0lWnPBKgeo0zpc68Qa8mQiIUw", sheet = x,
+                                 col_types = "ccddddcccDDcccddcddcddccc") %>% 
+                        mutate(Day = as.Date(paste0("2021-", x))) -> newDay
+                      return(newDay)
+                    }) %>%
+               arrange(Day) %>% 
+               group_by(`Organic Landing Page`) %>% 
+               mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+               mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+               ungroup() %>%
+               group_by(`Organic Landing Page`, document_id, tax2) %>%
+               summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+                         avgDailySessions = mean(`Actual Daily Organic Sessions`),
+                         peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+                         numOccurances = n(),
+                         peakDate = max(`When it Peaked`)) %>%
+               ungroup() %>%
+               filter(avgDailySessions > 500, numOccurances >= 7) %>%
+               arrange(desc(peakPercentIncrease)))) %>% 
+  write_csv("investo_20210329_20210411_spikers.csv")
+
+map_df(map_chr(29:31, ~paste0("03-", .x))[-2],
+       function(x) {
+         read_sheet(ss = "1RFyMhzNtq48eLte73ds8MdHQcp6fKwmpX4dh9dSlYKo", sheet = x,
+                    col_types = "ccddddcccDDcccddcddcddccc") %>% 
+           mutate(Day = as.Date(paste0("2021-", x))) -> newDay
+         return(newDay)
+       }) %>%
+  arrange(Day) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id, tax2) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 7) %>%
+  arrange(desc(peakPercentIncrease)) %>%
+  bind_rows((map_df(map_chr(str_pad(1:11, 2, pad = "0"), ~paste0("04-", .x)),
+                    function(x) {
+                      read_sheet(ss = "1AjtiZJmwdEEjg973Rtmpn9dpC8OXAEyXjV8PP72lSt4", sheet = x,
+                                 col_types = "ccddddcccDDcccddcddcddccc") %>% 
+                        mutate(Day = as.Date(paste0("2021-", x))) -> newDay
+                      return(newDay)
+                    }) %>%
+               arrange(Day) %>% 
+               group_by(`Organic Landing Page`) %>% 
+               mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+               mutate(`When it Peaked` = Day[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+               ungroup() %>%
+               group_by(`Organic Landing Page`, document_id, tax2) %>%
+               summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+                         avgDailySessions = mean(`Actual Daily Organic Sessions`),
+                         peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+                         numOccurances = n(),
+                         peakDate = max(`When it Peaked`)) %>%
+               ungroup() %>%
+               filter(avgDailySessions > 500, numOccurances >= 7) %>%
+               arrange(desc(peakPercentIncrease)))) %>% 
+  write_csv("balance_20210329_20210411_spikers.csv")
+
+
+#### 2021-05-12 Crypto Spikers Ask:
+
+
+investoMarch12_31 <- map_df(map_chr(12:31, ~paste0("03-", .x)), function(x) {
+  read_excel(path = "./cryptoTrendingAsk/2021-03_DailyTrendingDocuments.xlsx",
+             sheet = x,
+             col_types = c("text", "text", "numeric", "numeric", "numeric",
+                           "numeric", "text", "text", "text", "text", "text",
+                           "text", "text", "text", "numeric", "numeric",
+                           "text", "numeric", "numeric", "text", "numeric",
+                           "numeric", "text", "text", "text")) -> newDay 
+    newDay <- newDay %>% 
+      mutate(Date = as.Date(paste0("2021-", x)))
+    return(newDay)
+  
+})
+
+investoAprilAll <- map_df(map_chr(str_pad(1:30, 2, pad = "0"), ~paste0("04-", .x)), function(x) {
+  read_excel(path = "./cryptoTrendingAsk/2021-04_DailyTrendingDocuments.xlsx",
+             sheet = x,
+             col_types = c("text", "text", "numeric", "numeric", "numeric",
+                           "numeric", "text", "text", "text", "text", "text",
+                           "text", "text", "text", "numeric", "numeric",
+                           "text", "numeric", "numeric", "text", "numeric",
+                           "numeric", "text", "text", "text")) -> newDay 
+  newDay <- newDay %>% 
+    mutate(Date = as.Date(paste0("2021-", x)))
+  return(newDay)
+  
+})
+
+investoMay1_11 <- map_df(map_chr(str_pad(1:12, 2, pad = "0"), ~paste0("05-", .x)), function(x) {
+  read_excel(path = "./cryptoTrendingAsk/2021-05_DailyTrendingDocuments.xlsx",
+             sheet = x,
+             col_types = c("text", "text", "numeric", "numeric", "numeric",
+                           "numeric", "text", "text", "text", "text", "text",
+                           "text", "text", "text", "numeric", "numeric",
+                           "text", "numeric", "numeric", "text", "numeric",
+                           "numeric", "text", "text", "text")) -> newDay 
+  newDay <- newDay %>% 
+    mutate(Date = as.Date(paste0("2021-", x)))
+  return(newDay)
+  
+})
+
+investoLastTwoMonths <- bind_rows(investoMarch12_31, investoAprilAll, investoMay1_11)
+
+investoLastTwoMonths %>% 
+  filter(tax2 %in% c("Cryptocurrency", "Cryptocurrency News")) %>% 
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() -> cryptoAggregated
+
+write_csv(cryptoAggregated, "cryptoAggregated_20210312-20210512.csv")
+
+## Crypto viz
+investoLastTwoMonths %>% 
+  filter(document_id %in% pull(range_read(ss = "1KmR2oYfxsF4CoBNVbxrSSWWkBABl3c17ZX7ZLNVsmj4",
+                                        sheet = "Final Group", range = "E2:E7", col_names = F))) %>% 
+  arrange(Date) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Date, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(c(`Peak Increase`, `When it Peaked`), .after = last_col()) %>% 
+  write_csv("20210312-20210511_InvCryptoViz.csv")
+
+
+### Updated Crypto Ask 2021-05-19 ##
+investoMay11_18 <- map_df(map_chr(str_pad(11:18, 2, pad = "0"), ~paste0("05-", .x)), function(x) {
+  read_excel(path = "./cryptoTrendingAsk/2021-05_DailyTrendingDocuments.xlsx",
+             sheet = x,
+             col_types = c("text", "text", "numeric", "numeric", "numeric",
+                           "numeric", "text", "text", "text", "text", "text",
+                           "text", "text", "text", "numeric", "numeric",
+                           "text", "numeric", "numeric", "text", "numeric",
+                           "numeric", "text", "text", "text")) -> newDay 
+  newDay <- newDay %>% 
+    mutate(Date = as.Date(paste0("2021-", x)))
+  return(newDay)
+  
+})
+
+investoMay11_18 %>% 
+  filter(tax2 %in% c("Cryptocurrency", "Cryptocurrency News")) %>% 
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() -> cryptoAggregatedTwo
+
+write_csv(cryptoAggregatedTwo, "cryptoAggregated_20210511-20210518.csv")
+
+## Second Viz
+investoMay11_18 %>%
+  mutate(document_id = str_remove(document_id, "\\.0")) %>% 
+  filter(document_id %in% c("4195093",
+                            "4202514",
+                            "4202545",
+                            "4238756",
+                            "4214187",
+                            "4202504")) %>% 
+  arrange(Date) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Date, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(c(`Peak Increase`, `When it Peaked`), .after = last_col()) %>% 
+  write_csv("20210511-20210518_InvCryptoViz.csv")
+
+### June 3rd to 7th 2021 spikers
+
+map_df(map_chr(str_pad(3:7, 2, pad = "0"), ~paste0("06-", .x)),
+       function(x) {
+         read_excel(path = "./2021-06_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "text", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>%
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id, tax2) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 2) %>%
+  arrange(desc(peakPercentIncrease)) %>% 
+  write_csv("20210603_20210607_INV_Spikers.csv")
+
+# Viz
+
+map_df(map_chr(str_pad(3:7, 2, pad = "0"), ~paste0("06-", .x)),
+       function(x) {
+         read_excel(path = "./2021-06_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "text", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>%
+filter(document_id %in% c("4192518",
+                          "4198124",
+                          "4192523",
+                          "4187729",
+                          "4189076")) %>% 
+  arrange(Date) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Date, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(c(`Peak Increase`, `When it Peaked`), .after = last_col()) %>% 
+  write_csv("20210603-20210607_InvCryptoViz.csv")
+
+
+### Caleb 6/10-6/16
+map_df(map_chr(str_pad(10:16, 2, pad = "0"), ~paste0("06-", .x)),
+       function(x) {
+         read_excel(path = "./2021-06_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "text", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>%
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id, tax2, keyword_1, keyword_2, keyword_3) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 3) %>%
+  arrange(desc(peakPercentIncrease)) %>% 
+  write_csv("20210610_20210616_INV_Spikers.csv")
+
+spikers %>% 
+  filter(str_detect(`Organic Landing Page`, "inflation|taper|interest-rate")) %>% 
+  write_csv("20210610_20210616_INV_Spikers_Filtered_One.csv")
+
+spikers %>% 
+  filter(str_detect(`Organic Landing Page`, "crypto|stablecoin|bitcoin|ethereum|tax")) %>% 
+  write_csv("20210610_20210616_INV_Spikers_Filtered_Two.csv")
+
+
+### June 7th through June 21st
+map_df(map_chr(str_pad(7:21, 2, pad = "0"), ~paste0("06-", .x)),
+       function(x) {
+         read_excel(path = "./2021-06_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "text", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>%
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id, tax2, keyword_1, keyword_2, keyword_3) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 7) %>%
+  arrange(desc(peakPercentIncrease)) %>% 
+  write_csv("20210607_20210621_INV_Spikers.csv")
+
+## Viz
+
+map_df(map_chr(str_pad(7:21, 2, pad = "0"), ~paste0("06-", .x)),
+       function(x) {
+         read_excel(path = "./2021-06_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "text", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>%
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/terms/r/reverserepurchaseagreement.asp",
+                            "https://www.investopedia.com/terms/d/dark-pool.asp",
+                            "https://www.investopedia.com/terms/n/nakedshorting.asp",
+                            "https://www.investopedia.com/terms/t/taper-tantrum.asp",
+                            "https://www.investopedia.com/articles/investing/081315/9-top-assets-protection-against-inflation.asp",
+                            "https://www.investopedia.com/articles/investing/080813/how-profit-inflation.asp")) %>% 
+  arrange(Date) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Date, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(c(`Peak Increase`, `When it Peaked`), .after = last_col()) %>% 
+  write_csv("20210607-20210621_InvViz.csv")
+
+
+spikers %>% 
+  filter(str_detect(`Organic Landing Page`, "ethereum|bitcoin|cardono|altcoin|crypto|ether|litecoin|tether")) %>% 
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id, tax2, keyword_1, keyword_2, keyword_3) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>%
+  filter(avgDailySessions > 500, numOccurances >= 7) %>%
+  arrange(desc(peakPercentIncrease)) %>% 
+  write_csv("20210607_20210621_INV_Spikers_Filtered_Crypto.csv")
+
+
+## Viz 2
+
+map_df(map_chr(str_pad(7:21, 2, pad = "0"), ~paste0("06-", .x)),
+       function(x) {
+         read_excel(path = "./2021-06_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "text", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>%
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/news/how-bitcoin-works/",
+                                       "https://www.investopedia.com/tech/what-determines-value-1-bitcoin/",
+                                       "https://www.investopedia.com/articles/forex/121815/bitcoins-price-history.asp",
+                                       "https://www.investopedia.com/terms/d/deathcross.asp",
+                                       "https://www.investopedia.com/terms/h/head-shoulders.asp")) %>% 
+  arrange(Date) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Date, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(c(`Peak Increase`, `When it Peaked`), .after = last_col()) %>% 
+  write_csv("20210607-20210621_InvCryptoViz.csv")
+
+## Kara Roth IRA Look-See
+map_df(map_chr(str_pad(21:24, 2, pad = "0"), ~paste0("06-", .x)),
+       function(x) {
+         read_excel(path = "./2021-06_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "text", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>% 
+  filter(tax3 == "IRA") %>% 
+  group_by(Date) %>% 
+  summarize(numArticles = n(),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            avgPctOverBaseline = mean(`Percent Increase Relative to Daily Prediction`),
+            maxPctOverBaseline = max(`Percent Increase Relative to Daily Prediction`))
+
+## Specific trending pieces
+map_df(map_chr(str_pad(21:24, 2, pad = "0"), ~paste0("06-", .x)),
+       function(x) {
+         read_excel(path = "./2021-06_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "text", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>% 
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/ask/answers/06/stocksforira.asp",
+                                       "https://www.investopedia.com/articles/personal-finance/081615/basics-roth-ira-contribution-rules.asp",
+                                       "https://www.investopedia.com/ask/answers/042214/how-can-i-fund-roth-ira-if-my-income-too-high-make-direct-contributions.asp",
+                                       "https://www.investopedia.com/terms/b/backdoor-roth-ira.asp",
+                                       "https://www.investopedia.com/how-to-do-a-rothira-rollover-4770219")) %>% 
+  arrange(Date) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  # mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Date, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(`Peak Increase`, .after = last_col()) %>% 
+  map_df(~replace_na(.x, 0)) %>% 
+  write_csv("20210621_20210624_RothSpikers.csv")
+
+## Emily Ask Inv/TB Mar - May '21
+
+# Investo: Stocks = Tax2
+# Investo: Bonds = Tax2
+# Investo: Fixed Income Trading = Tax2
+# Investo: Sustainable Investing = Tax2
+# Investo: ETFs = Tax2
+
+# TB: Stocks = Tax3
+# TB: Bond = Tax3
+
+
+allSourceMar_May <- map_df(map_chr(str_pad(1:31, 2, pad = "0"), ~paste0("03-", .x)),
+       function(x) {
+         read_excel(path = "./2021-03_DailyTrendingDocuments_AllSource.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+         
+       }) %>%
+  bind_rows(map_df(map_chr(str_pad(1:30, 2, pad = "0"), ~paste0("04-", .x)),
+                   function(x) {
+                     read_excel(path = "./2021-04_DailyTrendingDocuments_AllSource.xlsx",
+                                sheet = x,
+                                col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                              "numeric", "text", "text", "text", "text", "text",
+                                              "text", "text", "text", "numeric", "numeric",
+                                              "text", "numeric", "numeric", "text", "numeric",
+                                              "numeric", "text", "text", "text", "text")) -> newDay 
+                     newDay <- newDay %>% 
+                       mutate(Date = as.Date(paste0("2021-", x)))
+                     return(newDay)
+                     
+                   })) %>% 
+  bind_rows(map_df(map_chr(str_pad(1:31, 2, pad = "0"), ~paste0("05-", .x)),
+                   function(x) {
+                     read_excel(path = "./2021-05_DailyTrendingDocuments_AllSource.xlsx",
+                                sheet = x,
+                                col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                              "numeric", "text", "text", "text", "text", "text",
+                                              "text", "text", "text", "numeric", "numeric",
+                                              "text", "numeric", "numeric", "text", "numeric",
+                                              "numeric", "text", "text", "text", "text")) -> newDay 
+                     newDay <- newDay %>% 
+                       mutate(Date = as.Date(paste0("2021-", x)))
+                     return(newDay)
+                     
+                   }))
+
+## Investo
+investo <- allSourceMar_May %>% 
+  filter((Vertical == "investopedia" & tax2 %in% c("Stocks",
+                                                   "Bonds",
+                                                   "Fixed Income Trading",
+                                                   "Sustainable Investing",
+                                                   "ETFs"))) %>% 
+  group_by(Vertical, tax2, `Organic Landing Page`, document_id) %>% 
+  summarize(numOccurances = n(),
+            avgPctOverBaseline = mean(`Percent Increase Relative to Daily Prediction`)) %>% 
+  ungroup() %>% 
+  # filter(numArticles >= 10) %>% 
+  group_by(Vertical, tax2) %>% 
+  # slice_max(order_by = avgPctOverBaseline, n = 5) %>% 
+  arrange(tax2, avgPctOverBaseline) 
+
+
+balance <- allSourceMar_May %>% 
+  filter((Vertical == "thebalance" & tax3 %in% c("Stocks","Bond","ETFs"))) %>% 
+  group_by(Vertical, tax3, `Organic Landing Page`, document_id) %>% 
+  summarize(numOccurances = n(),
+              avgPctOverBaseline = mean(`Percent Increase Relative to Daily Prediction`)) %>% 
+  ungroup() %>% 
+  # filter(numArticles >= 30) %>% 
+  group_by(Vertical, tax3) %>% 
+  # slice_max(order_by = avgPctOverBaseline, n = 5) %>%
+  arrange(tax3, avgPctOverBaseline)
+  
+write_csv(investo, "INV_Mar_May_2021_Highest_Pct_Over_Baseline.csv")
+write_csv(balance, "TB_Mar_May_2021_Highest_Pct_Over_Baseline.csv")
+
+#### Caleb ask Investo Crypto 8/23-8/30
+map_df(map_chr(str_pad(23:30, 2, pad = "0"), ~paste0("08-", .x)),
+                        function(x) {
+                          read_excel(path = "./2021-08_DailyTrendingDocuments.xlsx",
+                                     sheet = x,
+                                     col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                                   "numeric", "text", "text", "text", "text", "text",
+                                                   "text", "text", "text", "numeric", "numeric",
+                                                   "text", "numeric", "numeric", "text", "numeric",
+                                                   "numeric", "text", "text", "text")) -> newDay 
+                          newDay <- newDay %>% 
+                            mutate(Date = as.Date(paste0("2021-", x)))
+                          return(newDay)
+                        }) %>% 
+  filter(str_detect(`Organic Landing Page`, "bitcoin|ethereum|cardano|altcoin|dogecoin") | tax2 %in% c("Cryptocurrency", "Cryptocurrency News")) %>% 
+  arrange(desc(`Percent Increase Relative to Daily Prediction`)) %>% 
+  write_csv("topPieces20210823_20210830.csv")
+
+map_df(map_chr(str_pad(23:30, 2, pad = "0"), ~paste0("08-", .x)),
+       function(x) {
+         read_excel(path = "./2021-08_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric",
+                                  "text", "numeric", "numeric", "text", "numeric",
+                                  "numeric", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+       }) %>% 
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/tech/what-dao/",
+                                       "https://www.investopedia.com/cardano-definition-4683961",
+                                       "https://www.investopedia.com/terms/g/gas-ethereum.asp",
+                                       "https://www.investopedia.com/terms/g/gwei-ethereum.asp",
+                                       "https://www.investopedia.com/news/3-blockchain-etfs-buy-2018/",
+                                       "https://www.investopedia.com/tech/whats-difference-between-bitcoin-and-ripple/")) %>% 
+  arrange(Date) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Date, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(`Peak Increase`, .after = last_col()) %>% 
+  relocate(`When it Peaked`, .after = last_col()) %>% 
+  mutate(across(contains("2021-08-"), ~replace_na(.x, 0))) %>% 
+  write_csv("cryptoSpikers_20210823_20210830.csv")
+
+##### Ask Inv 
+# Tax2: Stocks. Markets. 
+# Terms: Correction, Bear Market, Lehman Brothers, 1987, sell-off, VIX, Volatility, tapering, capital gains, circuit breaker, buy the dip, options, leverage, taper, Federal Reserve, inflation, inter-market.
+
+
+map_df(map_chr(str_pad(13:20, 2, pad = "0"), ~paste0("09-", .x)),
+       function(x) {
+         read_excel(path = "2021-09_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric",
+                                  "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+       }) %>% 
+  filter(tax2 %in% c("Markets", "Stocks")) %>% 
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+  avgDailySessions = mean(`Actual Daily Organic Sessions`),
+  peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+  numOccurances = n(),
+  peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>% 
+  arrange(desc(peakPercentIncrease)) %>% 
+  filter(numOccurances >= 4) %>% 
+  write_csv("INV_Spikers_Stocks_Markets_20210913_20210920.csv")
+
+terms <- "correction|bear market|lehman brothers|1987|sell-off|vix|volatility|tapering|capital gains|circuit breaker|buy the dip|options|leverage|taper|federal reserve|inflation|inter-market"
+
+map_df(map_chr(str_pad(13:20, 2, pad = "0"), ~paste0("09-", .x)),
+       function(x) {
+         read_excel(path = "2021-09_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric",
+                                  "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+       }) %>%
+  mutate(all_keywords = paste(keyword_1, keyword_2, keyword_3)) %>% 
+  filter(str_detect(str_replace_all(str_to_lower(`Organic Landing Page`), "-", " "), terms) |
+           str_detect(all_keywords, terms)) %>% 
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>% 
+  arrange(desc(peakPercentIncrease)) %>% 
+  filter(numOccurances >= 4) %>% 
+  write_csv("INV_Spikers_Terms_20210913_20210920.csv")
+
+
+### YTD Terms from monthly as fo 2021-09-20
+
+map_df(map_chr(str_pad(1:8, 2, pad = "0"), ~paste0("2021-", .x)),
+       function(x) {
+         read_excel(path = "2021_MonthlyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric", 
+                                  "numeric", "numeric", "numeric", "numeric",
+                                  "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Month = as.Date(paste0(x, "-01")))
+         return(newDay)
+       }) %>% 
+  select(`Organic Landing Page`, document_id, `Percent Increase Relative to Monthly Prediction`,
+         Month) %>% 
+  rename(`Percent Increase Relative to Prediction` = `Percent Increase Relative to Monthly Prediction`) %>% 
+  bind_rows(map_df(map_chr(str_pad(1:26, 2, pad = "0"), ~paste0("09-", .x)),
+                   function(x) {
+                     read_excel(path = "2021-09_DailyTrendingDocuments.xlsx",
+                                sheet = x,
+                                col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                              "numeric", "text", "text", "text", "text", "text",
+                                              "text", "text", "text", "numeric", "numeric", "text",
+                                              "numeric", "numeric", "text", "numeric", "numeric",
+                                              "text", "text", "text")) -> newDay 
+                     newDay <- newDay %>% 
+                       mutate(Month = as.Date("2021-09-01")) %>% 
+                       select(`Organic Landing Page`, document_id, `Percent Increase Relative to Daily Prediction`,
+                              Month) %>% 
+                       rename(`Percent Increase Relative to Prediction` = `Percent Increase Relative to Daily Prediction`)
+                     return(newDay)
+                   })) %>% 
+  filter(str_detect(`Organic Landing Page`, "/terms/")) %>% 
+  group_by(`Organic Landing Page`, document_id) %>% 
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Prediction`)) %>% 
+  ungroup() %>% 
+  slice_max(order_by = avgPctAboveBaseline, n = 200) %>% 
+  write_csv("YTD_Top_200_Terms_20210926.csv")
+
+### Investo 9/20 to 9/26 "Options" tax
+
+map_df(map_chr(str_pad(20:26, 2, pad = "0"), ~paste0("09-", .x)),
+       function(x) {
+         read_excel(path = "2021-09_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric",
+                                  "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+       }) %>% 
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>% 
+  arrange(desc(peakPercentIncrease)) %>% 
+  filter(numOccurances >= 4 & avgDailySessions >= 500) %>% 
+  write_csv("all20210920_20210926.csv")
+  
+
+#### Amanda VW Mind Monthlies
+map_df(map_chr(str_pad(1:9, 2, pad = "0"), ~paste0("2021-", .x)),
+       function(x) {
+         read_excel(path = "2021_MonthlyTrendingDocuments_VWM.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric", 
+                                  "numeric", "numeric", "numeric", "numeric",
+                                  "text")) -> newMonth 
+         newMonth <- newMonth %>% 
+           mutate(Month = as.Date(paste0(x, "-01")))
+         return(newMonth)
+       }) %>% 
+  arrange(Month) %>% 
+  filter(`Actual Monthly Organic Sessions` >= 3000, `Number of Days Trending this Month` >= 7) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Monthly Prediction`)) %>% 
+  mutate(`When it Peaked` = Month[`Percent Increase Relative to Monthly Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  filter(!(tax2 %in% c("Coronavirus News", "Gender Identity", "Mental Health News",
+                       "Eating Disorders", "Spirituality", "LGBTQ+", "OCD", "Panic Disorder", "Sleeping and Dreaming"))) %>%
+  group_by(tax2) %>% 
+  summarize(`Max Percent Increase Relative to Baseline` = max(`Peak Increase`),
+            `Month Peak` = Month[Month == `When it Peaked` & `Max Percent Increase Relative to Baseline` == `Peak Increase`],
+            `Top Trending Article (all time)` = `Organic Landing Page`[Month == `When it Peaked` & `Max Percent Increase Relative to Baseline` == `Peak Increase`]) -> topPiecesTax2
+  
+  
+map_df(map_chr(str_pad(1:9, 2, pad = "0"), ~paste0("2021-", .x)),
+       function(x) {
+         read_excel(path = "2021_MonthlyTrendingDocuments_VWM.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric", 
+                                  "numeric", "numeric", "numeric", "numeric",
+                                  "text")) -> newMonth 
+         newMonth <- newMonth %>% 
+           mutate(Month = as.Date(paste0(x, "-01")))
+         return(newMonth)
+       }) %>% 
+  arrange(Month) %>% 
+  filter(`Actual Monthly Organic Sessions` >= 3000, `Number of Days Trending this Month` >= 7) %>% 
+  filter(!(tax2 %in% c("Coronavirus News", "Gender Identity", "Mental Health News",
+                       "Eating Disorders", "Spirituality", "LGBTQ+", "OCD", "Panic Disorder", "Sleeping and Dreaming"))) %>%
+  group_by(tax2, Month) %>% 
+  summarize(numOccurances = n()) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Month, values_from = numOccurances) %>% 
+  inner_join(topPiecesTax2, by = "tax2") -> finalTax2Pivot
+
+
+write_csv(finalTax2Pivot, "vwMindMonthlyOverlook.csv")
+
+
+### Caleb October Ask
+map_df(map_chr(str_pad(1:30, 2, pad = "0"), ~paste0("09-", .x)),
+       function(x) {
+         read_excel(path = "2021-09_INV_DailyTrendingDocuments.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric",
+                                  "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+       }) %>% 
+  bind_rows(map_df(map_chr(str_pad(1:14, 2, pad = "0"), ~paste0("10-", .x)),
+                   function(x) {
+                     read_excel(path = "2021-10_INV_DailyTrendingDocuments.xlsx",
+                                sheet = x,
+                                col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                              "numeric", "text", "text", "text", "text", "text",
+                                              "text", "text", "text", "numeric", "numeric", "text",
+                                              "numeric", "numeric", "text", "numeric", "numeric",
+                                              "text", "text", "text")) -> newDay 
+                     newDay <- newDay %>% 
+                       mutate(Date = as.Date(paste0("2021-", x)))
+                     return(newDay)
+                   })) %>% 
+  filter(between(Date, base::as.Date("2021-09-30"), base::as.Date("2021-10-14"))) -> lastTwoInv 
+
+lastTwoInv %>% 
+  filter(tax1 == "Investing" | tax2 %in% c("Stocks", "Stock Trading", 
+                                           "Trading Skills & Essentials", 
+                                           "Trading Strategies", "Cryptocurrency",
+                                           "Cryptocurrency News", "Economics", 
+                                           "Fiscal Policy", "Monetary Policy")) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id) %>% 
+  summarize(avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            maxPctOverBaseline = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            whenPeaked = unique(`When it Peaked`)) %>% 
+  ungroup() %>% 
+  filter(numOccurances >= 7, avgDailySessions >= 300) %>% 
+  arrange(desc(maxPctOverBaseline)) %>% 
+  write_csv("INV_2021_09_30-2021_10_14_Min300.csv")
+  
+### Emily INV and Balance ask
+## Daily
+trendingDocsJulySept <- map_df(map_chr(str_pad(1:31, 2, pad = "0"), ~paste0("07-", .x)),
+       function(x) {
+         read_excel(path = "2021-07_DailyTrendingDocuments_AllSource.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric",
+                                  "text", "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+       }) %>% bind_rows(
+         map_df(map_chr(str_pad(1:31, 2, pad = "0"), ~paste0("08-", .x)),
+                function(x) {
+                  read_excel(path = "2021-08_DailyTrendingDocuments_AllSource.xlsx",
+                             sheet = x,
+                             col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                           "numeric", "text", "text", "text", "text", "text",
+                                           "text", "text", "text", "numeric", "numeric", "text",
+                                           "numeric", "numeric", "text", "numeric", "numeric",
+                                           "text", "text", "text", "text")) -> newDay 
+                  newDay <- newDay %>% 
+                    mutate(Date = as.Date(paste0("2021-", x)))
+                  return(newDay)
+                }),
+         map_df(map_chr(str_pad(c(1:5, 13:30), 2, pad = "0"), ~paste0("09-", .x)),
+                function(x) {
+                  read_excel(path = "2021-09_DailyTrendingDocuments_AllSource.xlsx",
+                             sheet = x,
+                             col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                           "numeric", "text", "text", "text", "text", "text",
+                                           "text", "text", "text", "numeric", "numeric", "text",
+                                           "numeric", "numeric", "text", "numeric", "numeric",
+                                           "text", "text", "text", "text")) -> newDay 
+                  newDay <- newDay %>% 
+                    mutate(Date = as.Date(paste0("2021-", x)))
+                  return(newDay)
+                })
+       )  
+  
+
+trendingDocsJulySept %>% 
+  filter(Vertical == "investopedia" & tax2 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>% 
+  group_by(tax2) %>% 
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  arrange(desc(avgPctAboveBaseline)) %>% 
+  write_csv("dailyInvTax2AvgPctAboveBaseline.csv")
+
+trendingDocsJulySept %>% 
+  filter(Vertical == "investopedia" & tax2 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>% 
+  group_by(`Organic Landing Page`, document_id, tax2) %>% 
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  ungroup() %>% 
+  arrange(desc(avgPctAboveBaseline)) %>% 
+  write_csv("dailyInvTax2AvgPctAboveBaseline_ArticleLevel.csv")
+
+trendingDocsJulySept %>% 
+  filter(Vertical == "investopedia" & tax2 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>% 
+  select(`Organic Landing Page`, document_id, `Percent Increase Relative to Daily Prediction`, Date) %>% 
+  arrange(desc(`Percent Increase Relative to Daily Prediction`)) %>% 
+  write_csv("dailyInvTax2PctAboveBaselineList.csv")
+
+trendingDocsJulySept %>% 
+  filter(Vertical == "thebalance" & tax3 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>%
+  group_by(tax3) %>% 
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  arrange(desc(avgPctAboveBaseline)) %>% 
+  write_csv("dailyBalTax3AvgPctAboveBaseline.csv")
+
+trendingDocsJulySept %>% 
+  filter(Vertical == "thebalance" & tax3 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>%
+  group_by(`Organic Landing Page`, document_id, tax3) %>%  
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  arrange(desc(avgPctAboveBaseline)) %>% 
+  write_csv("dailyBalTax3AvgPctAboveBaseline_ArticleLevel.csv")
+
+trendingDocsJulySept %>% 
+  filter(Vertical == "thebalance" & tax3 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>%
+  select(`Organic Landing Page`, document_id, `Percent Increase Relative to Daily Prediction`, Date) %>% 
+  arrange(desc(`Percent Increase Relative to Daily Prediction`)) %>% 
+  write_csv("dailyBalTax2PctAboveBaselineList.csv")
+
+## Monthly
+trendingDocsJulySeptMonth <- map_df(map_chr(str_pad(1:9, 2, pad = "0"), ~paste0("2021-", .x)),
+       function(x) {
+         read_excel(path = "2021_MonthlyTrendingDocuments_AllSource_SeptYTD.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric", 
+                                  "numeric", "numeric", "numeric", "numeric",
+                                  "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Month = as.Date(paste0(x, "-01")))
+         return(newDay)
+       }) %>% filter(between(Month, as.Date("2021-06-30"), as.Date("2021-09-02")))
+
+trendingDocsJulySeptMonth %>% 
+  filter(Vertical == "investopedia" & tax2 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>% 
+  group_by(tax2) %>% 
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Monthly Prediction`, na.rm = T)) %>% 
+  arrange(desc(avgPctAboveBaseline)) %>% 
+  write_csv("monthlyInvTax2AvgPctAboveBaseline.csv")
+
+trendingDocsJulySeptMonth %>% 
+  filter(Vertical == "investopedia" & tax2 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>% 
+  group_by(`Organic Landing Page`, document_id, tax2) %>%
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Monthly Prediction`, na.rm = T)) %>% 
+  arrange(desc(avgPctAboveBaseline)) %>% 
+  write_csv("monthlyInvTax2AvgPctAboveBaseline_ArticleLevel.csv")
+
+trendingDocsJulySeptMonth %>% 
+  filter(Vertical == "investopedia" & tax2 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>% 
+  select(`Organic Landing Page`, document_id, `Percent Increase Relative to Monthly Prediction`, Month) %>% 
+  arrange(desc(`Percent Increase Relative to Monthly Prediction`)) %>% 
+  write_csv("monthlyInvTax2PctAboveBaselineList.csv")
+
+trendingDocsJulySeptMonth %>% 
+  filter(Vertical == "thebalance" & tax3 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>%
+  group_by(tax3) %>% 
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Monthly Prediction`, na.rm = T)) %>% 
+  arrange(desc(avgPctAboveBaseline)) %>% 
+  write_csv("monthlyBalTax3AvgPctAboveBaseline.csv")
+
+
+trendingDocsJulySeptMonth %>% 
+  filter(Vertical == "thebalance" & tax3 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>%
+  group_by(`Organic Landing Page`, document_id, tax2) %>% 
+  summarize(avgPctAboveBaseline = mean(`Percent Increase Relative to Monthly Prediction`, na.rm = T)) %>% 
+  arrange(desc(avgPctAboveBaseline)) %>% 
+  write_csv("monthlyBalTax3AvgPctAboveBaseline_ArticleLevel.csv")
+
+
+trendingDocsJulySeptMonth %>% 
+  filter(Vertical == "thebalance" & tax3 %in% c("ETFs", "Stocks", "Bonds", "Sustainable Investing")) %>%
+  select(`Organic Landing Page`, document_id, `Percent Increase Relative to Monthly Prediction`, Month) %>% 
+  arrange(desc(`Percent Increase Relative to Monthly Prediction`)) %>% 
+  write_csv("monthlyBalTax2PctAboveBaselineList.csv")
+
+### Investo Crypto last two weeks
+
+terms <- c(
+  "crypto", "bitcoin", "stablecoin", "cryptocurrency", "cryptocurrencies", 
+  "blockchain", "taxes"
+)
+
+bind_rows(
+  map_df(map_chr(str_pad(19:31, 2, pad = "0"), ~paste0("10-", .x)),
+         function(x) {
+           read_excel(path = "2021-10_DailyTrendingDocuments_INV.xlsx",
+                      sheet = x,
+                      col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                    "numeric", "text", "text", "text", "text", "text",
+                                    "text", "text", "text", "numeric", "numeric", "text",
+                                    "numeric", "numeric", "text", "numeric", "numeric",
+                                    "text", "text", "text")) -> newDay 
+           newDay <- newDay %>% 
+             mutate(Date = as.Date(paste0("2021-", x)))
+           return(newDay)
+         }),
+  map_df(map_chr(str_pad(1:2, 2, pad = "0"), ~paste0("11-", .x)),
+         function(x) {
+           read_excel(path = "2021-11_DailyTrendingDocuments_INV.xlsx",
+                      sheet = x,
+                      col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                    "numeric", "text", "text", "text", "text", "text",
+                                    "text", "text", "text", "numeric", "numeric", "text",
+                                    "numeric", "numeric", "text", "numeric", "numeric",
+                                    "text", "text", "text")) -> newDay 
+           newDay <- newDay %>% 
+             mutate(Date = as.Date(paste0("2021-", x)))
+           return(newDay)
+         })
+) %>% 
+  mutate(all_keywords = paste(keyword_1, keyword_2, keyword_3)) -> lastTwoCrypto
+
+lastTwoCrypto %>% 
+  mutate(url_match = map_lgl(str_replace_all(str_to_lower(lastTwoCrypto$`Organic Landing Page`), "-", " "), function(t) {
+    any(map_lgl(terms, ~str_detect(t, .x))) -> isMatch
+    return(isMatch)
+  }),
+        keyword_match = map_lgl(lastTwoCrypto$all_keywords, function(t) {
+          any(map_lgl(terms, ~str_detect(t, .x))) -> isMatch
+          return(isMatch)
+        })) %>% 
+  filter(url_match | keyword_match) %>% 
+  arrange(Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`) %>%
+  summarize(avgPercIncrease = mean(`Percent Increase Relative to Daily Prediction`),
+            avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            peakPercentIncrease = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            peakDate = max(`When it Peaked`)) %>%
+  ungroup() %>% 
+  arrange(desc(peakPercentIncrease)) %>% 
+  # filter(numOccurances >= 6, avgDailySessions >= 200) %>% 
+  write_csv("20211019_20211103_Crypto_Inv_Trending.csv")
+  
+### Making viz
+
+lastTwoCrypto %>% 
+  filter(`Organic Landing Page` %in% c("https://www.investopedia.com/investing/bitcoin-etfs-explained/",
+                                       "https://www.investopedia.com/cryptocurrency-regulations-around-the-world-5202122",
+                                       "https://www.investopedia.com/tech/whats-environmental-impact-cryptocurrency/",
+                                       "https://www.investopedia.com/tech/what-dao/",
+                                       "https://www.investopedia.com/tech/what-are-legal-risks-cryptocurrency-investors/",
+                                       "https://www.investopedia.com/terms/s/stablecoin.asp")) %>% 
+  arrange(Date) %>% 
+  select(`Organic Landing Page`, 
+         document_id, 
+         `Percent Increase Relative to Daily Prediction`,
+         Date) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`, na.rm = T)) %>% 
+  # mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Date, 
+              values_from = `Percent Increase Relative to Daily Prediction`) %>% 
+  mutate(`Article Title` = map_chr(.$`Organic Landing Page`, function(.x) {
+    read_html(.x) %>% 
+      html_nodes("h1") %>% 
+      html_text() %>% 
+      str_remove("\n")
+  })) %>% 
+  select(-c(`Organic Landing Page`, document_id)) %>% 
+  relocate(`Article Title`, .before = `Peak Increase`) %>% 
+  relocate(`Peak Increase`, .after = last_col()) %>% 
+  # relocate(`When it Peaked`, .after = last_col()) %>% 
+  mutate(across(contains("2021-"), ~replace_na(.x, 0))) %>% 
+  write_csv("cryptoSpikers_20211019_20211102.csv")
+
+### Monthly tax2 & tax3 for Emily by Quarter
+
+map_df(map_chr(str_pad(1:9, 2, pad = "0"), ~paste0("2021-", .x)),
+       function(x) {
+         read_excel(path = "2021_MonthlyTrendingDocuments_INV_20211129.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric", 
+                                  "numeric", "numeric", "numeric", "numeric",
+                                  "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Month = as.Date(paste0(x, "-01")))
+         return(newDay)
+       }) %>% 
+  mutate(Quarter = zoo::format.yearqtr(x = Month, format = "%Y Q%q")) -> INV_monthly
+
+INV_monthly %>% 
+  group_by(Quarter, tax2) %>% 
+  summarize(meanPctIncToPrediction = mean(`Percent Increase Relative to Monthly Prediction`, na.rm = T),
+            medianPctIncToPrediction = median(`Percent Increase Relative to Monthly Prediction`, na.rm = T)) %>% 
+  write_csv("tax2QuarterlyPctIncreaseMonthlyPrediction_INV_Q1_Q32021.csv")
+  
+
+INV_monthly %>% 
+  group_by(Quarter, tax3) %>% 
+  summarize(meanPctIncToPrediction = mean(`Percent Increase Relative to Monthly Prediction`, na.rm = T),
+            medianPctIncToPrediction = median(`Percent Increase Relative to Monthly Prediction`, na.rm = T)) %>% 
+  write_csv("tax3QuarterlyPctIncreaseMonthlyPrediction_INV_Q1_Q32021.csv")
+
+
+
+## Monthly Balance Aggregate for Amanda ##
+map_df(map_chr(str_pad(1:11, 2, pad = "0"), ~paste0("2021-", .x)),
+       function(x) {
+         read_excel(path = "2021_MonthlyTrendingDocuments_BAL_2021_11.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric", 
+                                  "numeric", "numeric", "numeric", "numeric",
+                                  "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Month = as.Date(paste0(x, "-01")))
+         return(newDay)
+       }) %>% 
+  write_csv("theBalanceMonthlyTrending_2021_11.csv")
+
+
+balanceMonthlies %>% 
+  filter(keyword_1 %in% c("bitcoin mining", "how to mine bitcoin",
+                          "coinbase pro", "national debt by president",
+                          "venmo vs paypal", "amazon paypal", 
+                          "section 8 qualifications", "section 8 housing",
+                          "best long term stocks", "unemployment taxes",
+                          "meme stocks", "stocks meme", "short stock",
+                          "tapering", "what happens if us defaults on debt",
+                          "us default on debt", "rv loan rates")) %>% 
+  group_by(`Organic Landing Page`, keyword_1) %>% 
+  summarize(avgPctIncrease = mean(`Percent Increase Relative to Monthly Prediction`, na.rm = T)) %>% 
+  arrange(desc(avgPctIncrease)) -> trendingTerms
+
+trendingTerms %>% 
+  write_csv("bal2021_EOYTerms.csv")
+
+
+###### Caleb trending ask 01/16/2022 - 01/23/2022 Trading, Investing, Cryptocurrency, Technical Analysis and Economy
+
+map_df(map_chr(str_pad(16:23, 2, pad = "0"), ~paste0("01-", .x)),
+       function(x) {
+         read_excel(path = "2022-01_DailyTrendingDocuments_INV.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric",
+                                  "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+       }) -> invJan
+
+invJan %>% 
+  filter(tax1 %in% c("Investing", "Trading", "Economy") | tax2 %in% c("Cryptocurrency", "Technical Analysis")) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id) %>% 
+  summarize(avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            maxPctOverBaseline = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            whenPeaked = unique(`When it Peaked`)) %>% 
+  ungroup() %>% 
+  filter(numOccurances >= 3, avgDailySessions >= 400) %>% 
+  arrange(desc(maxPctOverBaseline)) -> invTrending_20220116_20220123
+
+write_csv(invTrending_20220116_20220123, "invTrending_20220116_20220123.csv")
+  
+### INV Spikers 2022-02-28 to 2022-03-07 ###
+
+bind_rows(map_df(map_chr(str_pad(28:28, 2, pad = "0"), ~paste0("02-", .x)),
+       function(x) {
+         read_excel(path = "2022-02_DailyTrendingDocuments_INV.xlsx",
+                    sheet = x,
+                    col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                  "numeric", "text", "text", "text", "text", "text",
+                                  "text", "text", "text", "numeric", "numeric", "text",
+                                  "numeric", "numeric", "text", "numeric", "numeric",
+                                  "text", "text", "text")) -> newDay 
+         newDay <- newDay %>% 
+           mutate(Date = as.Date(paste0("2021-", x)))
+         return(newDay)
+       }), map_df(map_chr(str_pad(1:7, 2, pad = "0"), ~paste0("03-", .x)),
+                  function(x) {
+                    read_excel(path = "2022-03_DailyTrendingDocuments_INV.xlsx",
+                               sheet = x,
+                               col_types = c("text", "numeric", "numeric", "numeric", "numeric",
+                                             "numeric", "text", "text", "text", "text", "text",
+                                             "text", "text", "text", "numeric", "numeric", "text",
+                                             "numeric", "numeric", "text", "numeric", "numeric",
+                                             "text", "text", "text")) -> newDay 
+                    newDay <- newDay %>% 
+                      mutate(Date = as.Date(paste0("2021-", x)))
+                    return(newDay)
+                  })) -> inv_0228_0307_2022 
+
+
+inv_0228_0307_2022 %>% 
+  filter(tax2 %in% c("Commodities", "ETFs", "Technical Analysis", "Stocks", 
+                     "Fundamental Analysis") | tax1 %in% c("Trading", "Investing")) %>% 
+  group_by(`Organic Landing Page`) %>% 
+  mutate(`Peak Increase` = max(`Percent Increase Relative to Daily Prediction`)) %>% 
+  mutate(`When it Peaked` = Date[`Percent Increase Relative to Daily Prediction` == `Peak Increase`]) %>% 
+  ungroup() %>%
+  group_by(`Organic Landing Page`, document_id) %>% 
+  summarize(avgDailySessions = mean(`Actual Daily Organic Sessions`),
+            maxPctOverBaseline = max(`Percent Increase Relative to Daily Prediction`),
+            numOccurances = n(),
+            whenPeaked = unique(`When it Peaked`)) %>% 
+  ungroup() %>% 
+  filter(numOccurances >= 3, avgDailySessions >= 400) %>% 
+  arrange(desc(maxPctOverBaseline)) -> inv_trending_20220228_20220307
+
+write_csv(inv_trending_20220228_20220307, "inv_trending_20220228_20220307.csv")
+
+
+
+
+
+
+
+
+
+
