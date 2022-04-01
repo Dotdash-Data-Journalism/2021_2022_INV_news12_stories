@@ -1,0 +1,4501 @@
+date,state,value
+2022-03-20,Subways,68.4
+2022-03-20,Buses,54.2
+2022-03-20,Lirr,NA
+2022-03-20,Metro North,NA
+2022-03-20,Access A Ride,69
+2022-03-20,Bridges And Tunnels,100.9
+2022-03-19,Subways,66.2
+2022-03-19,Buses,59.1
+2022-03-19,Lirr,NA
+2022-03-19,Metro North,NA
+2022-03-19,Access A Ride,78.1
+2022-03-19,Bridges And Tunnels,98.6
+2022-03-18,Subways,59.6
+2022-03-18,Buses,63.4
+2022-03-18,Lirr,NA
+2022-03-18,Metro North,NA
+2022-03-18,Access A Ride,85.4
+2022-03-18,Bridges And Tunnels,101.5
+2022-03-17,Subways,57.2
+2022-03-17,Buses,60.9
+2022-03-17,Lirr,NA
+2022-03-17,Metro North,NA
+2022-03-17,Access A Ride,78.5
+2022-03-17,Bridges And Tunnels,96.7
+2022-03-16,Subways,58.6
+2022-03-16,Buses,62.5
+2022-03-16,Lirr,NA
+2022-03-16,Metro North,NA
+2022-03-16,Access A Ride,79.3
+2022-03-16,Bridges And Tunnels,99
+2022-03-15,Subways,58.2
+2022-03-15,Buses,62.2
+2022-03-15,Lirr,NA
+2022-03-15,Metro North,NA
+2022-03-15,Access A Ride,79.3
+2022-03-15,Bridges And Tunnels,99.8
+2022-03-14,Subways,55.9
+2022-03-14,Buses,62.3
+2022-03-14,Lirr,NA
+2022-03-14,Metro North,NA
+2022-03-14,Access A Ride,80.3
+2022-03-14,Bridges And Tunnels,98.6
+2022-03-13,Subways,61.3
+2022-03-13,Buses,54.8
+2022-03-13,Lirr,NA
+2022-03-13,Metro North,NA
+2022-03-13,Access A Ride,62.3
+2022-03-13,Bridges And Tunnels,90.9
+2022-03-12,Subways,52.2
+2022-03-12,Buses,47
+2022-03-12,Lirr,NA
+2022-03-12,Metro North,NA
+2022-03-12,Access A Ride,62.9
+2022-03-12,Bridges And Tunnels,74
+2022-03-11,Subways,56.8
+2022-03-11,Buses,63.5
+2022-03-11,Lirr,NA
+2022-03-11,Metro North,NA
+2022-03-11,Access A Ride,81.8
+2022-03-11,Bridges And Tunnels,98.9
+2022-03-10,Subways,57.6
+2022-03-10,Buses,62.6
+2022-03-10,Lirr,NA
+2022-03-10,Metro North,NA
+2022-03-10,Access A Ride,78.4
+2022-03-10,Bridges And Tunnels,98
+2022-03-09,Subways,54
+2022-03-09,Buses,56.9
+2022-03-09,Lirr,NA
+2022-03-09,Metro North,NA
+2022-03-09,Access A Ride,73.3
+2022-03-09,Bridges And Tunnels,89.6
+2022-03-08,Subways,56.5
+2022-03-08,Buses,62.5
+2022-03-08,Lirr,NA
+2022-03-08,Metro North,NA
+2022-03-08,Access A Ride,78.5
+2022-03-08,Bridges And Tunnels,98.5
+2022-03-07,Subways,53.7
+2022-03-07,Buses,60.9
+2022-03-07,Lirr,NA
+2022-03-07,Metro North,NA
+2022-03-07,Access A Ride,77.9
+2022-03-07,Bridges And Tunnels,95.4
+2022-03-06,Subways,64.4
+2022-03-06,Buses,61.3
+2022-03-06,Lirr,NA
+2022-03-06,Metro North,NA
+2022-03-06,Access A Ride,74.9
+2022-03-06,Bridges And Tunnels,107.9
+2022-03-05,Subways,68.7
+2022-03-05,Buses,64.9
+2022-03-05,Lirr,NA
+2022-03-05,Metro North,NA
+2022-03-05,Access A Ride,73.5
+2022-03-05,Bridges And Tunnels,102.8
+2022-03-04,Subways,55.9
+2022-03-04,Buses,63.4
+2022-03-04,Lirr,NA
+2022-03-04,Metro North,NA
+2022-03-04,Access A Ride,71.6
+2022-03-04,Bridges And Tunnels,99.6
+2022-03-03,Subways,56.5
+2022-03-03,Buses,64.7
+2022-03-03,Lirr,NA
+2022-03-03,Metro North,NA
+2022-03-03,Access A Ride,73.1
+2022-03-03,Bridges And Tunnels,99.6
+2022-03-02,Subways,57.2
+2022-03-02,Buses,65
+2022-03-02,Lirr,NA
+2022-03-02,Metro North,NA
+2022-03-02,Access A Ride,72.6
+2022-03-02,Bridges And Tunnels,100.8
+2022-03-01,Subways,56.4
+2022-03-01,Buses,64.6
+2022-03-01,Lirr,NA
+2022-03-01,Metro North,NA
+2022-03-01,Access A Ride,71.5
+2022-03-01,Bridges And Tunnels,99.9
+2022-02-28,Subways,54
+2022-02-28,Buses,61.3
+2022-02-28,Lirr,54
+2022-02-28,Metro North,56
+2022-02-28,Access A Ride,72.4
+2022-02-28,Bridges And Tunnels,99.9
+2022-02-27,Subways,61.7
+2022-02-27,Buses,59.7
+2022-02-27,Lirr,71
+2022-02-27,Metro North,70
+2022-02-27,Access A Ride,56.5
+2022-02-27,Bridges And Tunnels,100.9
+2022-02-26,Subways,62.5
+2022-02-26,Buses,61.5
+2022-02-26,Lirr,64
+2022-02-26,Metro North,65
+2022-02-26,Access A Ride,69.6
+2022-02-26,Bridges And Tunnels,101.9
+2022-02-25,Subways,49.9
+2022-02-25,Buses,54.6
+2022-02-25,Lirr,39
+2022-02-25,Metro North,35
+2022-02-25,Access A Ride,62.8
+2022-02-25,Bridges And Tunnels,85.5
+2022-02-24,Subways,53.4
+2022-02-24,Buses,60.2
+2022-02-24,Lirr,46
+2022-02-24,Metro North,42
+2022-02-24,Access A Ride,69.3
+2022-02-24,Bridges And Tunnels,100.5
+2022-02-23,Subways,54.1
+2022-02-23,Buses,61.3
+2022-02-23,Lirr,49
+2022-02-23,Metro North,46
+2022-02-23,Access A Ride,72.4
+2022-02-23,Bridges And Tunnels,101.2
+2022-02-22,Subways,51.9
+2022-02-22,Buses,58.9
+2022-02-22,Lirr,47
+2022-02-22,Metro North,43
+2022-02-22,Access A Ride,61.9
+2022-02-22,Bridges And Tunnels,98.8
+2022-02-21,Subways,60.7
+2022-02-21,Buses,64.2
+2022-02-21,Lirr,38
+2022-02-21,Metro North,24
+2022-02-21,Access A Ride,76.5
+2022-02-21,Bridges And Tunnels,103.3
+2022-02-20,Subways,64.9
+2022-02-20,Buses,56.5
+2022-02-20,Lirr,59
+2022-02-20,Metro North,68
+2022-02-20,Access A Ride,54.9
+2022-02-20,Bridges And Tunnels,96.7
+2022-02-19,Subways,61.4
+2022-02-19,Buses,57.4
+2022-02-19,Lirr,57
+2022-02-19,Metro North,69
+2022-02-19,Access A Ride,69.3
+2022-02-19,Bridges And Tunnels,97.8
+2022-02-18,Subways,53.4
+2022-02-18,Buses,61
+2022-02-18,Lirr,43
+2022-02-18,Metro North,42
+2022-02-18,Access A Ride,69.5
+2022-02-18,Bridges And Tunnels,96.9
+2022-02-17,Subways,54.9
+2022-02-17,Buses,63.8
+2022-02-17,Lirr,49
+2022-02-17,Metro North,44
+2022-02-17,Access A Ride,72
+2022-02-17,Bridges And Tunnels,99.5
+2022-02-16,Subways,55.7
+2022-02-16,Buses,62
+2022-02-16,Lirr,49
+2022-02-16,Metro North,45
+2022-02-16,Access A Ride,68.7
+2022-02-16,Bridges And Tunnels,99.5
+2022-02-15,Subways,54.1
+2022-02-15,Buses,60
+2022-02-15,Lirr,51
+2022-02-15,Metro North,46
+2022-02-15,Access A Ride,66.7
+2022-02-15,Bridges And Tunnels,101.4
+2022-02-14,Subways,54
+2022-02-14,Buses,59.3
+2022-02-14,Lirr,49
+2022-02-14,Metro North,43
+2022-02-14,Access A Ride,69.2
+2022-02-14,Bridges And Tunnels,102
+2022-02-13,Subways,57.9
+2022-02-13,Buses,52.5
+2022-02-13,Lirr,54
+2022-02-13,Metro North,58
+2022-02-13,Access A Ride,51.8
+2022-02-13,Bridges And Tunnels,86.5
+2022-02-12,Subways,72.9
+2022-02-12,Buses,72.3
+2022-02-12,Lirr,64
+2022-02-12,Metro North,74
+2022-02-12,Access A Ride,81.3
+2022-02-12,Bridges And Tunnels,105.3
+2022-02-11,Subways,54.5
+2022-02-11,Buses,64
+2022-02-11,Lirr,44
+2022-02-11,Metro North,41
+2022-02-11,Access A Ride,73.1
+2022-02-11,Bridges And Tunnels,96.1
+2022-02-10,Subways,54.9
+2022-02-10,Buses,64.4
+2022-02-10,Lirr,50
+2022-02-10,Metro North,44
+2022-02-10,Access A Ride,70.9
+2022-02-10,Bridges And Tunnels,98.9
+2022-02-09,Subways,55.5
+2022-02-09,Buses,62.7
+2022-02-09,Lirr,50
+2022-02-09,Metro North,45
+2022-02-09,Access A Ride,69.7
+2022-02-09,Bridges And Tunnels,98.7
+2022-02-08,Subways,53.9
+2022-02-08,Buses,62.2
+2022-02-08,Lirr,49
+2022-02-08,Metro North,46
+2022-02-08,Access A Ride,69
+2022-02-08,Bridges And Tunnels,98.9
+2022-02-07,Subways,51.7
+2022-02-07,Buses,60.5
+2022-02-07,Lirr,47
+2022-02-07,Metro North,42
+2022-02-07,Access A Ride,70.2
+2022-02-07,Bridges And Tunnels,95.7
+2022-02-06,Subways,58.8
+2022-02-06,Buses,56.2
+2022-02-06,Lirr,55
+2022-02-06,Metro North,60
+2022-02-06,Access A Ride,54.1
+2022-02-06,Bridges And Tunnels,97.3
+2022-02-05,Subways,60.3
+2022-02-05,Buses,56.5
+2022-02-05,Lirr,54
+2022-02-05,Metro North,64
+2022-02-05,Access A Ride,62.8
+2022-02-05,Bridges And Tunnels,93.3
+2022-02-04,Subways,49.4
+2022-02-04,Buses,55.7
+2022-02-04,Lirr,39
+2022-02-04,Metro North,35
+2022-02-04,Access A Ride,60.3
+2022-02-04,Bridges And Tunnels,85.3
+2022-02-03,Subways,51.6
+2022-02-03,Buses,59.6
+2022-02-03,Lirr,44
+2022-02-03,Metro North,40
+2022-02-03,Access A Ride,69.5
+2022-02-03,Bridges And Tunnels,96.4
+2022-02-02,Subways,51.9
+2022-02-02,Buses,57.4
+2022-02-02,Lirr,49
+2022-02-02,Metro North,43
+2022-02-02,Access A Ride,66.7
+2022-02-02,Bridges And Tunnels,96.6
+2022-02-01,Subways,47.2
+2022-02-01,Buses,49.8
+2022-02-01,Lirr,47
+2022-02-01,Metro North,43
+2022-02-01,Access A Ride,62.8
+2022-02-01,Bridges And Tunnels,93.9
+2022-01-31,Subways,47.9
+2022-01-31,Buses,51.9
+2022-01-31,Lirr,46
+2022-01-31,Metro North,41
+2022-01-31,Access A Ride,61.1
+2022-01-31,Bridges And Tunnels,90.7
+2022-01-30,Subways,56.5
+2022-01-30,Buses,47.5
+2022-01-30,Lirr,51
+2022-01-30,Metro North,56
+2022-01-30,Access A Ride,30.2
+2022-01-30,Bridges And Tunnels,72
+2022-01-29,Subways,34.8
+2022-01-29,Buses,21.7
+2022-01-29,Lirr,7
+2022-01-29,Metro North,23
+2022-01-29,Access A Ride,31.7
+2022-01-29,Bridges And Tunnels,22.1
+2022-01-28,Subways,50.1
+2022-01-28,Buses,56.9
+2022-01-28,Lirr,40
+2022-01-28,Metro North,36
+2022-01-28,Access A Ride,64.5
+2022-01-28,Bridges And Tunnels,92.9
+2022-01-27,Subways,48.4
+2022-01-27,Buses,58.1
+2022-01-27,Lirr,41
+2022-01-27,Metro North,37
+2022-01-27,Access A Ride,66.3
+2022-01-27,Bridges And Tunnels,100.8
+2022-01-26,Subways,48.2
+2022-01-26,Buses,56.8
+2022-01-26,Lirr,41
+2022-01-26,Metro North,37
+2022-01-26,Access A Ride,64.5
+2022-01-26,Bridges And Tunnels,95.5
+2022-01-25,Subways,48.5
+2022-01-25,Buses,58.6
+2022-01-25,Lirr,43
+2022-01-25,Metro North,38
+2022-01-25,Access A Ride,67.3
+2022-01-25,Bridges And Tunnels,95.6
+2022-01-24,Subways,48.4
+2022-01-24,Buses,59.4
+2022-01-24,Lirr,44
+2022-01-24,Metro North,38
+2022-01-24,Access A Ride,65.8
+2022-01-24,Bridges And Tunnels,93.8
+2022-01-23,Subways,53.5
+2022-01-23,Buses,52.8
+2022-01-23,Lirr,52
+2022-01-23,Metro North,54
+2022-01-23,Access A Ride,51.1
+2022-01-23,Bridges And Tunnels,89.6
+2022-01-22,Subways,60.9
+2022-01-22,Buses,63.6
+2022-01-22,Lirr,53
+2022-01-22,Metro North,56
+2022-01-22,Access A Ride,65.2
+2022-01-22,Bridges And Tunnels,98.8
+2022-01-21,Subways,48.1
+2022-01-21,Buses,55.7
+2022-01-21,Lirr,38
+2022-01-21,Metro North,34
+2022-01-21,Access A Ride,62.6
+2022-01-21,Bridges And Tunnels,93.1
+2022-01-20,Subways,46.8
+2022-01-20,Buses,55.5
+2022-01-20,Lirr,39
+2022-01-20,Metro North,34
+2022-01-20,Access A Ride,58.7
+2022-01-20,Bridges And Tunnels,86.1
+2022-01-19,Subways,48.8
+2022-01-19,Buses,60.3
+2022-01-19,Lirr,42
+2022-01-19,Metro North,37
+2022-01-19,Access A Ride,64.8
+2022-01-19,Bridges And Tunnels,95.7
+2022-01-18,Subways,47.9
+2022-01-18,Buses,58.9
+2022-01-18,Lirr,44
+2022-01-18,Metro North,39
+2022-01-18,Access A Ride,61.9
+2022-01-18,Bridges And Tunnels,94.3
+2022-01-17,Subways,50.2
+2022-01-17,Buses,53.2
+2022-01-17,Lirr,34
+2022-01-17,Metro North,17
+2022-01-17,Access A Ride,56
+2022-01-17,Bridges And Tunnels,81.5
+2022-01-16,Subways,51.1
+2022-01-16,Buses,48.3
+2022-01-16,Lirr,47
+2022-01-16,Metro North,47
+2022-01-16,Access A Ride,50.3
+2022-01-16,Bridges And Tunnels,88.4
+2022-01-15,Subways,55.4
+2022-01-15,Buses,56.5
+2022-01-15,Lirr,47
+2022-01-15,Metro North,47
+2022-01-15,Access A Ride,67.4
+2022-01-15,Bridges And Tunnels,109.3
+2022-01-14,Subways,47.3
+2022-01-14,Buses,58.4
+2022-01-14,Lirr,36
+2022-01-14,Metro North,33
+2022-01-14,Access A Ride,62
+2022-01-14,Bridges And Tunnels,91.1
+2022-01-13,Subways,45.8
+2022-01-13,Buses,56.6
+2022-01-13,Lirr,39
+2022-01-13,Metro North,34
+2022-01-13,Access A Ride,62.7
+2022-01-13,Bridges And Tunnels,90.8
+2022-01-12,Subways,44.7
+2022-01-12,Buses,52.9
+2022-01-12,Lirr,39
+2022-01-12,Metro North,33
+2022-01-12,Access A Ride,59.1
+2022-01-12,Bridges And Tunnels,88.6
+2022-01-11,Subways,41.9
+2022-01-11,Buses,47.9
+2022-01-11,Lirr,36
+2022-01-11,Metro North,31
+2022-01-11,Access A Ride,54.2
+2022-01-11,Bridges And Tunnels,87.5
+2022-01-10,Subways,45.1
+2022-01-10,Buses,52.9
+2022-01-10,Lirr,40
+2022-01-10,Metro North,34
+2022-01-10,Access A Ride,61.1
+2022-01-10,Bridges And Tunnels,90
+2022-01-09,Subways,48.2
+2022-01-09,Buses,47.8
+2022-01-09,Lirr,46
+2022-01-09,Metro North,44
+2022-01-09,Access A Ride,40.9
+2022-01-09,Bridges And Tunnels,75
+2022-01-08,Subways,49.5
+2022-01-08,Buses,48.5
+2022-01-08,Lirr,46
+2022-01-08,Metro North,48
+2022-01-08,Access A Ride,49.8
+2022-01-08,Bridges And Tunnels,77.3
+2022-01-07,Subways,39
+2022-01-07,Buses,41.3
+2022-01-07,Lirr,30
+2022-01-07,Metro North,27
+2022-01-07,Access A Ride,46
+2022-01-07,Bridges And Tunnels,61.3
+2022-01-06,Subways,43.8
+2022-01-06,Buses,54.3
+2022-01-06,Lirr,36
+2022-01-06,Metro North,32
+2022-01-06,Access A Ride,59.2
+2022-01-06,Bridges And Tunnels,87.9
+2022-01-05,Subways,41.8
+2022-01-05,Buses,50.3
+2022-01-05,Lirr,34
+2022-01-05,Metro North,30
+2022-01-05,Access A Ride,58.7
+2022-01-05,Bridges And Tunnels,83.1
+2022-01-04,Subways,42.4
+2022-01-04,Buses,50.3
+2022-01-04,Lirr,36
+2022-01-04,Metro North,32
+2022-01-04,Access A Ride,56.7
+2022-01-04,Bridges And Tunnels,87.1
+2022-01-03,Subways,41.4
+2022-01-03,Buses,47.8
+2022-01-03,Lirr,35
+2022-01-03,Metro North,32
+2022-01-03,Access A Ride,55.2
+2022-01-03,Bridges And Tunnels,83.2
+2022-01-02,Subways,53.7
+2022-01-02,Buses,50.4
+2022-01-02,Lirr,53
+2022-01-02,Metro North,53
+2022-01-02,Access A Ride,45
+2022-01-02,Bridges And Tunnels,88.8
+2022-01-01,Subways,44.5
+2022-01-01,Buses,46.4
+2022-01-01,Lirr,30
+2022-01-01,Metro North,31
+2022-01-01,Access A Ride,57.5
+2022-01-01,Bridges And Tunnels,74.6
+2021-12-31,Subways,52.2
+2021-12-31,Buses,58
+2021-12-31,Lirr,32
+2021-12-31,Metro North,32
+2021-12-31,Access A Ride,75.7
+2021-12-31,Bridges And Tunnels,73.7
+2021-12-30,Subways,50.9
+2021-12-30,Buses,60.4
+2021-12-30,Lirr,38
+2021-12-30,Metro North,35
+2021-12-30,Access A Ride,65.7
+2021-12-30,Bridges And Tunnels,98.5
+2021-12-29,Subways,50.1
+2021-12-29,Buses,60
+2021-12-29,Lirr,37
+2021-12-29,Metro North,36
+2021-12-29,Access A Ride,68.5
+2021-12-29,Bridges And Tunnels,94.1
+2021-12-28,Subways,50.2
+2021-12-28,Buses,62.1
+2021-12-28,Lirr,38
+2021-12-28,Metro North,35
+2021-12-28,Access A Ride,68
+2021-12-28,Bridges And Tunnels,93.5
+2021-12-27,Subways,46.5
+2021-12-27,Buses,58
+2021-12-27,Lirr,37
+2021-12-27,Metro North,34
+2021-12-27,Access A Ride,60.8
+2021-12-27,Bridges And Tunnels,91.1
+2021-12-26,Subways,51
+2021-12-26,Buses,55.1
+2021-12-26,Lirr,60
+2021-12-26,Metro North,64
+2021-12-26,Access A Ride,48.8
+2021-12-26,Bridges And Tunnels,86.2
+2021-12-25,Subways,46.6
+2021-12-25,Buses,49.3
+2021-12-25,Lirr,35
+2021-12-25,Metro North,33
+2021-12-25,Access A Ride,61
+2021-12-25,Bridges And Tunnels,76.1
+2021-12-24,Subways,43.2
+2021-12-24,Buses,48.9
+2021-12-24,Lirr,33
+2021-12-24,Metro North,30
+2021-12-24,Access A Ride,54.1
+2021-12-24,Bridges And Tunnels,81.6
+2021-12-23,Subways,52.5
+2021-12-23,Buses,63.7
+2021-12-23,Lirr,41
+2021-12-23,Metro North,37
+2021-12-23,Access A Ride,71.6
+2021-12-23,Bridges And Tunnels,97.2
+2021-12-22,Subways,55.6
+2021-12-22,Buses,68.4
+2021-12-22,Lirr,41
+2021-12-22,Metro North,36
+2021-12-22,Access A Ride,80.3
+2021-12-22,Bridges And Tunnels,94.9
+2021-12-21,Subways,57
+2021-12-21,Buses,71
+2021-12-21,Lirr,43
+2021-12-21,Metro North,37
+2021-12-21,Access A Ride,80.2
+2021-12-21,Bridges And Tunnels,93.6
+2021-12-20,Subways,57.4
+2021-12-20,Buses,69.8
+2021-12-20,Lirr,45
+2021-12-20,Metro North,39
+2021-12-20,Access A Ride,75.3
+2021-12-20,Bridges And Tunnels,92.6
+2021-12-19,Subways,59.3
+2021-12-19,Buses,61
+2021-12-19,Lirr,70
+2021-12-19,Metro North,70
+2021-12-19,Access A Ride,61.7
+2021-12-19,Bridges And Tunnels,93.5
+2021-12-18,Subways,59.1
+2021-12-18,Buses,62.1
+2021-12-18,Lirr,66
+2021-12-18,Metro North,69
+2021-12-18,Access A Ride,70.6
+2021-12-18,Bridges And Tunnels,91.8
+2021-12-17,Subways,55.1
+2021-12-17,Buses,66.2
+2021-12-17,Lirr,49
+2021-12-17,Metro North,45
+2021-12-17,Access A Ride,72.3
+2021-12-17,Bridges And Tunnels,97.6
+2021-12-16,Subways,56.1
+2021-12-16,Buses,70.3
+2021-12-16,Lirr,53
+2021-12-16,Metro North,48
+2021-12-16,Access A Ride,74.1
+2021-12-16,Bridges And Tunnels,97.4
+2021-12-15,Subways,54.7
+2021-12-15,Buses,65
+2021-12-15,Lirr,53
+2021-12-15,Metro North,50
+2021-12-15,Access A Ride,70.7
+2021-12-15,Bridges And Tunnels,97.6
+2021-12-14,Subways,57.6
+2021-12-14,Buses,67.4
+2021-12-14,Lirr,54
+2021-12-14,Metro North,51
+2021-12-14,Access A Ride,73
+2021-12-14,Bridges And Tunnels,103.3
+2021-12-13,Subways,54.6
+2021-12-13,Buses,61.2
+2021-12-13,Lirr,53
+2021-12-13,Metro North,49
+2021-12-13,Access A Ride,71.6
+2021-12-13,Bridges And Tunnels,96.4
+2021-12-12,Subways,65.1
+2021-12-12,Buses,59.5
+2021-12-12,Lirr,87
+2021-12-12,Metro North,83
+2021-12-12,Access A Ride,61.7
+2021-12-12,Bridges And Tunnels,98.5
+2021-12-11,Subways,65.7
+2021-12-11,Buses,61.3
+2021-12-11,Lirr,81
+2021-12-11,Metro North,84
+2021-12-11,Access A Ride,75.4
+2021-12-11,Bridges And Tunnels,98
+2021-12-10,Subways,57.8
+2021-12-10,Buses,66.5
+2021-12-10,Lirr,51
+2021-12-10,Metro North,48
+2021-12-10,Access A Ride,72.5
+2021-12-10,Bridges And Tunnels,98.2
+2021-12-09,Subways,56.5
+2021-12-09,Buses,64.3
+2021-12-09,Lirr,54
+2021-12-09,Metro North,48
+2021-12-09,Access A Ride,69.6
+2021-12-09,Bridges And Tunnels,94.8
+2021-12-08,Subways,56.9
+2021-12-08,Buses,64.7
+2021-12-08,Lirr,55
+2021-12-08,Metro North,50
+2021-12-08,Access A Ride,73.1
+2021-12-08,Bridges And Tunnels,100.8
+2021-12-07,Subways,56.9
+2021-12-07,Buses,64.9
+2021-12-07,Lirr,53
+2021-12-07,Metro North,50
+2021-12-07,Access A Ride,71.1
+2021-12-07,Bridges And Tunnels,97.1
+2021-12-06,Subways,55.9
+2021-12-06,Buses,67.8
+2021-12-06,Lirr,53
+2021-12-06,Metro North,48
+2021-12-06,Access A Ride,72.8
+2021-12-06,Bridges And Tunnels,98.8
+2021-12-05,Subways,65
+2021-12-05,Buses,64.3
+2021-12-05,Lirr,78
+2021-12-05,Metro North,75
+2021-12-05,Access A Ride,63.9
+2021-12-05,Bridges And Tunnels,99.1
+2021-12-04,Subways,65.8
+2021-12-04,Buses,65.5
+2021-12-04,Lirr,81
+2021-12-04,Metro North,84
+2021-12-04,Access A Ride,71.9
+2021-12-04,Bridges And Tunnels,96.5
+2021-12-03,Subways,56.7
+2021-12-03,Buses,64.5
+2021-12-03,Lirr,48
+2021-12-03,Metro North,44
+2021-12-03,Access A Ride,72.7
+2021-12-03,Bridges And Tunnels,96.2
+2021-12-02,Subways,55.5
+2021-12-02,Buses,63.5
+2021-12-02,Lirr,54
+2021-12-02,Metro North,49
+2021-12-02,Access A Ride,68.5
+2021-12-02,Bridges And Tunnels,95.7
+2021-12-01,Subways,55.7
+2021-12-01,Buses,63.9
+2021-12-01,Lirr,57
+2021-12-01,Metro North,53
+2021-12-01,Access A Ride,69.2
+2021-12-01,Bridges And Tunnels,96.6
+2021-11-30,Subways,55.1
+2021-11-30,Buses,64.2
+2021-11-30,Lirr,58
+2021-11-30,Metro North,53
+2021-11-30,Access A Ride,74.3
+2021-11-30,Bridges And Tunnels,100.1
+2021-11-29,Subways,57
+2021-11-29,Buses,70.4
+2021-11-29,Lirr,57
+2021-11-29,Metro North,50
+2021-11-29,Access A Ride,80.5
+2021-11-29,Bridges And Tunnels,117.9
+2021-11-28,Subways,72.2
+2021-11-28,Buses,72.3
+2021-11-28,Lirr,80
+2021-11-28,Metro North,81
+2021-11-28,Access A Ride,69.7
+2021-11-28,Bridges And Tunnels,113.5
+2021-11-27,Subways,67.5
+2021-11-27,Buses,61.3
+2021-11-27,Lirr,74
+2021-11-27,Metro North,79
+2021-11-27,Access A Ride,74.4
+2021-11-27,Bridges And Tunnels,94.3
+2021-11-26,Subways,60.1
+2021-11-26,Buses,59.5
+2021-11-26,Lirr,43
+2021-11-26,Metro North,40
+2021-11-26,Access A Ride,74.1
+2021-11-26,Bridges And Tunnels,98.4
+2021-11-25,Subways,64
+2021-11-25,Buses,62.4
+2021-11-25,Lirr,44
+2021-11-25,Metro North,27
+2021-11-25,Access A Ride,72.2
+2021-11-25,Bridges And Tunnels,95.4
+2021-11-24,Subways,58.5
+2021-11-24,Buses,62.7
+2021-11-24,Lirr,58
+2021-11-24,Metro North,54
+2021-11-24,Access A Ride,76.3
+2021-11-24,Bridges And Tunnels,100.5
+2021-11-23,Subways,56.4
+2021-11-23,Buses,61.8
+2021-11-23,Lirr,56
+2021-11-23,Metro North,53
+2021-11-23,Access A Ride,70.8
+2021-11-23,Bridges And Tunnels,99.2
+2021-11-22,Subways,54.8
+2021-11-22,Buses,62.4
+2021-11-22,Lirr,54
+2021-11-22,Metro North,48
+2021-11-22,Access A Ride,71.7
+2021-11-22,Bridges And Tunnels,99.6
+2021-11-21,Subways,74.3
+2021-11-21,Buses,72.4
+2021-11-21,Lirr,86
+2021-11-21,Metro North,83
+2021-11-21,Access A Ride,NA
+2021-11-21,Bridges And Tunnels,111.5
+2021-11-20,Subways,67
+2021-11-20,Buses,63.5
+2021-11-20,Lirr,84
+2021-11-20,Metro North,86
+2021-11-20,Access A Ride,NA
+2021-11-20,Bridges And Tunnels,102
+2021-11-19,Subways,57.2
+2021-11-19,Buses,65.3
+2021-11-19,Lirr,51
+2021-11-19,Metro North,47
+2021-11-19,Access A Ride,74.5
+2021-11-19,Bridges And Tunnels,100.9
+2021-11-18,Subways,57
+2021-11-18,Buses,64.5
+2021-11-18,Lirr,55
+2021-11-18,Metro North,51
+2021-11-18,Access A Ride,74.2
+2021-11-18,Bridges And Tunnels,99.9
+2021-11-17,Subways,56.9
+2021-11-17,Buses,64.5
+2021-11-17,Lirr,55
+2021-11-17,Metro North,51
+2021-11-17,Access A Ride,72.8
+2021-11-17,Bridges And Tunnels,98.6
+2021-11-16,Subways,56.8
+2021-11-16,Buses,64.3
+2021-11-16,Lirr,56
+2021-11-16,Metro North,53
+2021-11-16,Access A Ride,72.5
+2021-11-16,Bridges And Tunnels,99.2
+2021-11-15,Subways,55.5
+2021-11-15,Buses,66.1
+2021-11-15,Lirr,55
+2021-11-15,Metro North,50
+2021-11-15,Access A Ride,74.7
+2021-11-15,Bridges And Tunnels,100.9
+2021-11-14,Subways,70
+2021-11-14,Buses,65
+2021-11-14,Lirr,78
+2021-11-14,Metro North,78
+2021-11-14,Access A Ride,65.7
+2021-11-14,Bridges And Tunnels,104.6
+2021-11-13,Subways,67.1
+2021-11-13,Buses,61.9
+2021-11-13,Lirr,72
+2021-11-13,Metro North,77
+2021-11-13,Access A Ride,75.1
+2021-11-13,Bridges And Tunnels,96.2
+2021-11-12,Subways,53.8
+2021-11-12,Buses,60.6
+2021-11-12,Lirr,47
+2021-11-12,Metro North,44
+2021-11-12,Access A Ride,69
+2021-11-12,Bridges And Tunnels,92.9
+2021-11-11,Subways,61
+2021-11-11,Buses,66.1
+2021-11-11,Lirr,50
+2021-11-11,Metro North,47
+2021-11-11,Access A Ride,89.8
+2021-11-11,Bridges And Tunnels,105.4
+2021-11-10,Subways,57.6
+2021-11-10,Buses,69
+2021-11-10,Lirr,56
+2021-11-10,Metro North,52
+2021-11-10,Access A Ride,76.3
+2021-11-10,Bridges And Tunnels,100.9
+2021-11-09,Subways,56.6
+2021-11-09,Buses,69.2
+2021-11-09,Lirr,54
+2021-11-09,Metro North,52
+2021-11-09,Access A Ride,77.6
+2021-11-09,Bridges And Tunnels,101.2
+2021-11-08,Subways,52.8
+2021-11-08,Buses,63.2
+2021-11-08,Lirr,55
+2021-11-08,Metro North,49
+2021-11-08,Access A Ride,73.5
+2021-11-08,Bridges And Tunnels,96.8
+2021-11-07,Subways,65.7
+2021-11-07,Buses,62
+2021-11-07,Lirr,87
+2021-11-07,Metro North,90
+2021-11-07,Access A Ride,63
+2021-11-07,Bridges And Tunnels,100.5
+2021-11-06,Subways,67.9
+2021-11-06,Buses,66.1
+2021-11-06,Lirr,75
+2021-11-06,Metro North,84
+2021-11-06,Access A Ride,77.1
+2021-11-06,Bridges And Tunnels,99.6
+2021-11-05,Subways,56.3
+2021-11-05,Buses,66.7
+2021-11-05,Lirr,50
+2021-11-05,Metro North,45
+2021-11-05,Access A Ride,77.7
+2021-11-05,Bridges And Tunnels,98.5
+2021-11-04,Subways,54.6
+2021-11-04,Buses,63.6
+2021-11-04,Lirr,53
+2021-11-04,Metro North,49
+2021-11-04,Access A Ride,74.5
+2021-11-04,Bridges And Tunnels,97.5
+2021-11-03,Subways,54.8
+2021-11-03,Buses,63.4
+2021-11-03,Lirr,54
+2021-11-03,Metro North,51
+2021-11-03,Access A Ride,70.1
+2021-11-03,Bridges And Tunnels,96.3
+2021-11-02,Subways,51.5
+2021-11-02,Buses,59.8
+2021-11-02,Lirr,51
+2021-11-02,Metro North,50
+2021-11-02,Access A Ride,72.2
+2021-11-02,Bridges And Tunnels,95.7
+2021-11-01,Subways,52.2
+2021-11-01,Buses,62.6
+2021-11-01,Lirr,54
+2021-11-01,Metro North,49
+2021-11-01,Access A Ride,71
+2021-11-01,Bridges And Tunnels,97.8
+2021-10-31,Subways,69.5
+2021-10-31,Buses,62.4
+2021-10-31,Lirr,73
+2021-10-31,Metro North,82
+2021-10-31,Access A Ride,63
+2021-10-31,Bridges And Tunnels,96.1
+2021-10-30,Subways,61.1
+2021-10-30,Buses,59.1
+2021-10-30,Lirr,68
+2021-10-30,Metro North,72
+2021-10-30,Access A Ride,69.4
+2021-10-30,Bridges And Tunnels,92.3
+2021-10-29,Subways,54.7
+2021-10-29,Buses,63
+2021-10-29,Lirr,51
+2021-10-29,Metro North,46
+2021-10-29,Access A Ride,74.3
+2021-10-29,Bridges And Tunnels,97.2
+2021-10-28,Subways,58.4
+2021-10-28,Buses,69.8
+2021-10-28,Lirr,55
+2021-10-28,Metro North,51
+2021-10-28,Access A Ride,85.5
+2021-10-28,Bridges And Tunnels,108.3
+2021-10-27,Subways,54.9
+2021-10-27,Buses,63.7
+2021-10-27,Lirr,54
+2021-10-27,Metro North,50
+2021-10-27,Access A Ride,75.2
+2021-10-27,Bridges And Tunnels,98.8
+2021-10-26,Subways,45.3
+2021-10-26,Buses,53.1
+2021-10-26,Lirr,45
+2021-10-26,Metro North,40
+2021-10-26,Access A Ride,68.2
+2021-10-26,Bridges And Tunnels,80.9
+2021-10-25,Subways,52.1
+2021-10-25,Buses,63
+2021-10-25,Lirr,54
+2021-10-25,Metro North,47
+2021-10-25,Access A Ride,75.2
+2021-10-25,Bridges And Tunnels,96.7
+2021-10-24,Subways,72.7
+2021-10-24,Buses,75.6
+2021-10-24,Lirr,74
+2021-10-24,Metro North,85
+2021-10-24,Access A Ride,71.9
+2021-10-24,Bridges And Tunnels,113.7
+2021-10-23,Subways,62.3
+2021-10-23,Buses,60.6
+2021-10-23,Lirr,66
+2021-10-23,Metro North,86
+2021-10-23,Access A Ride,76
+2021-10-23,Bridges And Tunnels,96.1
+2021-10-22,Subways,54.7
+2021-10-22,Buses,64.1
+2021-10-22,Lirr,49
+2021-10-22,Metro North,47
+2021-10-22,Access A Ride,75.7
+2021-10-22,Bridges And Tunnels,98
+2021-10-21,Subways,53.5
+2021-10-21,Buses,62
+2021-10-21,Lirr,52
+2021-10-21,Metro North,49
+2021-10-21,Access A Ride,74.8
+2021-10-21,Bridges And Tunnels,96.3
+2021-10-20,Subways,53.5
+2021-10-20,Buses,63.6
+2021-10-20,Lirr,54
+2021-10-20,Metro North,51
+2021-10-20,Access A Ride,74.7
+2021-10-20,Bridges And Tunnels,96.9
+2021-10-19,Subways,54.9
+2021-10-19,Buses,66.7
+2021-10-19,Lirr,53
+2021-10-19,Metro North,50
+2021-10-19,Access A Ride,78
+2021-10-19,Bridges And Tunnels,102.8
+2021-10-18,Subways,52.7
+2021-10-18,Buses,63.8
+2021-10-18,Lirr,53
+2021-10-18,Metro North,48
+2021-10-18,Access A Ride,78.1
+2021-10-18,Bridges And Tunnels,101.8
+2021-10-17,Subways,67
+2021-10-17,Buses,67.8
+2021-10-17,Lirr,80
+2021-10-17,Metro North,87
+2021-10-17,Access A Ride,67.4
+2021-10-17,Bridges And Tunnels,106.9
+2021-10-16,Subways,60.8
+2021-10-16,Buses,62
+2021-10-16,Lirr,74
+2021-10-16,Metro North,78
+2021-10-16,Access A Ride,75.3
+2021-10-16,Bridges And Tunnels,93.9
+2021-10-15,Subways,53.9
+2021-10-15,Buses,65.3
+2021-10-15,Lirr,50
+2021-10-15,Metro North,46
+2021-10-15,Access A Ride,77.2
+2021-10-15,Bridges And Tunnels,96.3
+2021-10-14,Subways,53.4
+2021-10-14,Buses,66
+2021-10-14,Lirr,54
+2021-10-14,Metro North,49
+2021-10-14,Access A Ride,77
+2021-10-14,Bridges And Tunnels,98.3
+2021-10-13,Subways,54.1
+2021-10-13,Buses,68.9
+2021-10-13,Lirr,53
+2021-10-13,Metro North,48
+2021-10-13,Access A Ride,78.4
+2021-10-13,Bridges And Tunnels,99.8
+2021-10-12,Subways,52.9
+2021-10-12,Buses,64.4
+2021-10-12,Lirr,54
+2021-10-12,Metro North,49
+2021-10-12,Access A Ride,78.7
+2021-10-12,Bridges And Tunnels,99.6
+2021-10-11,Subways,53.2
+2021-10-11,Buses,64
+2021-10-11,Lirr,45
+2021-10-11,Metro North,43
+2021-10-11,Access A Ride,88.9
+2021-10-11,Bridges And Tunnels,102.9
+2021-10-10,Subways,56.4
+2021-10-10,Buses,55.8
+2021-10-10,Lirr,70
+2021-10-10,Metro North,73
+2021-10-10,Access A Ride,63.8
+2021-10-10,Bridges And Tunnels,90
+2021-10-09,Subways,62.8
+2021-10-09,Buses,62.1
+2021-10-09,Lirr,75
+2021-10-09,Metro North,85
+2021-10-09,Access A Ride,77.9
+2021-10-09,Bridges And Tunnels,97.8
+2021-10-08,Subways,54.1
+2021-10-08,Buses,64.6
+2021-10-08,Lirr,51
+2021-10-08,Metro North,46
+2021-10-08,Access A Ride,78.3
+2021-10-08,Bridges And Tunnels,97
+2021-10-07,Subways,52.9
+2021-10-07,Buses,64.2
+2021-10-07,Lirr,52
+2021-10-07,Metro North,47
+2021-10-07,Access A Ride,78.1
+2021-10-07,Bridges And Tunnels,97.9
+2021-10-06,Subways,52.9
+2021-10-06,Buses,63.4
+2021-10-06,Lirr,52
+2021-10-06,Metro North,48
+2021-10-06,Access A Ride,79.5
+2021-10-06,Bridges And Tunnels,98.7
+2021-10-05,Subways,54.1
+2021-10-05,Buses,65
+2021-10-05,Lirr,52
+2021-10-05,Metro North,48
+2021-10-05,Access A Ride,77.8
+2021-10-05,Bridges And Tunnels,101
+2021-10-04,Subways,50.2
+2021-10-04,Buses,60.4
+2021-10-04,Lirr,53
+2021-10-04,Metro North,46
+2021-10-04,Access A Ride,74.8
+2021-10-04,Bridges And Tunnels,96.4
+2021-10-03,Subways,62.6
+2021-10-03,Buses,62.6
+2021-10-03,Lirr,80
+2021-10-03,Metro North,83
+2021-10-03,Access A Ride,67.2
+2021-10-03,Bridges And Tunnels,102
+2021-10-02,Subways,61.9
+2021-10-02,Buses,62.8
+2021-10-02,Lirr,77
+2021-10-02,Metro North,84
+2021-10-02,Access A Ride,79.8
+2021-10-02,Bridges And Tunnels,98.7
+2021-10-01,Subways,52.8
+2021-10-01,Buses,64
+2021-10-01,Lirr,47
+2021-10-01,Metro North,43
+2021-10-01,Access A Ride,77.3
+2021-10-01,Bridges And Tunnels,98.1
+2021-09-30,Subways,52.4
+2021-09-30,Buses,65.7
+2021-09-30,Lirr,50
+2021-09-30,Metro North,47
+2021-09-30,Access A Ride,74.6
+2021-09-30,Bridges And Tunnels,101.8
+2021-09-29,Subways,51.6
+2021-09-29,Buses,62.6
+2021-09-29,Lirr,48
+2021-09-29,Metro North,46
+2021-09-29,Access A Ride,75.1
+2021-09-29,Bridges And Tunnels,95.8
+2021-09-28,Subways,48.8
+2021-09-28,Buses,61.1
+2021-09-28,Lirr,49
+2021-09-28,Metro North,45
+2021-09-28,Access A Ride,72.2
+2021-09-28,Bridges And Tunnels,90.1
+2021-09-27,Subways,50
+2021-09-27,Buses,63.6
+2021-09-27,Lirr,50
+2021-09-27,Metro North,46
+2021-09-27,Access A Ride,75.7
+2021-09-27,Bridges And Tunnels,95.4
+2021-09-26,Subways,63.7
+2021-09-26,Buses,60.1
+2021-09-26,Lirr,86
+2021-09-26,Metro North,81
+2021-09-26,Access A Ride,64.3
+2021-09-26,Bridges And Tunnels,97.5
+2021-09-25,Subways,66.4
+2021-09-25,Buses,62.6
+2021-09-25,Lirr,78
+2021-09-25,Metro North,84
+2021-09-25,Access A Ride,81.7
+2021-09-25,Bridges And Tunnels,98.2
+2021-09-24,Subways,53.1
+2021-09-24,Buses,63.7
+2021-09-24,Lirr,48
+2021-09-24,Metro North,43
+2021-09-24,Access A Ride,76.5
+2021-09-24,Bridges And Tunnels,96.6
+2021-09-23,Subways,49.8
+2021-09-23,Buses,62.6
+2021-09-23,Lirr,49
+2021-09-23,Metro North,44
+2021-09-23,Access A Ride,75.3
+2021-09-23,Bridges And Tunnels,94
+2021-09-22,Subways,49.9
+2021-09-22,Buses,62.7
+2021-09-22,Lirr,49
+2021-09-22,Metro North,46
+2021-09-22,Access A Ride,72.8
+2021-09-22,Bridges And Tunnels,92.1
+2021-09-21,Subways,50.3
+2021-09-21,Buses,63.2
+2021-09-21,Lirr,49
+2021-09-21,Metro North,48
+2021-09-21,Access A Ride,74.5
+2021-09-21,Bridges And Tunnels,93.2
+2021-09-20,Subways,50.2
+2021-09-20,Buses,63.2
+2021-09-20,Lirr,51
+2021-09-20,Metro North,46
+2021-09-20,Access A Ride,78.1
+2021-09-20,Bridges And Tunnels,97
+2021-09-19,Subways,61.1
+2021-09-19,Buses,60.2
+2021-09-19,Lirr,74
+2021-09-19,Metro North,80
+2021-09-19,Access A Ride,67.4
+2021-09-19,Bridges And Tunnels,97.9
+2021-09-18,Subways,60.7
+2021-09-18,Buses,61.1
+2021-09-18,Lirr,69
+2021-09-18,Metro North,79
+2021-09-18,Access A Ride,79.5
+2021-09-18,Bridges And Tunnels,97.5
+2021-09-17,Subways,50.7
+2021-09-17,Buses,62.6
+2021-09-17,Lirr,47
+2021-09-17,Metro North,44
+2021-09-17,Access A Ride,80.7
+2021-09-17,Bridges And Tunnels,96.8
+2021-09-16,Subways,42.1
+2021-09-16,Buses,50
+2021-09-16,Lirr,44
+2021-09-16,Metro North,41
+2021-09-16,Access A Ride,67.2
+2021-09-16,Bridges And Tunnels,88.2
+2021-09-15,Subways,49.9
+2021-09-15,Buses,61.8
+2021-09-15,Lirr,49
+2021-09-15,Metro North,45
+2021-09-15,Access A Ride,74.6
+2021-09-15,Bridges And Tunnels,95.8
+2021-09-14,Subways,50.6
+2021-09-14,Buses,62.4
+2021-09-14,Lirr,50
+2021-09-14,Metro North,46
+2021-09-14,Access A Ride,75.3
+2021-09-14,Bridges And Tunnels,97.5
+2021-09-13,Subways,50.3
+2021-09-13,Buses,60.9
+2021-09-13,Lirr,51
+2021-09-13,Metro North,46
+2021-09-13,Access A Ride,77.5
+2021-09-13,Bridges And Tunnels,98.5
+2021-09-12,Subways,62.1
+2021-09-12,Buses,62.6
+2021-09-12,Lirr,82
+2021-09-12,Metro North,73
+2021-09-12,Access A Ride,66.2
+2021-09-12,Bridges And Tunnels,97.9
+2021-09-11,Subways,63.3
+2021-09-11,Buses,62.9
+2021-09-11,Lirr,73
+2021-09-11,Metro North,68
+2021-09-11,Access A Ride,77.4
+2021-09-11,Bridges And Tunnels,97.7
+2021-09-10,Subways,48.4
+2021-09-10,Buses,56.4
+2021-09-10,Lirr,50
+2021-09-10,Metro North,42
+2021-09-10,Access A Ride,78.1
+2021-09-10,Bridges And Tunnels,98
+2021-09-09,Subways,45.5
+2021-09-09,Buses,52
+2021-09-09,Lirr,48
+2021-09-09,Metro North,43
+2021-09-09,Access A Ride,76.1
+2021-09-09,Bridges And Tunnels,93.8
+2021-09-08,Subways,46
+2021-09-08,Buses,54.7
+2021-09-08,Lirr,47
+2021-09-08,Metro North,43
+2021-09-08,Access A Ride,73.4
+2021-09-08,Bridges And Tunnels,95.6
+2021-09-07,Subways,42.1
+2021-09-07,Buses,51.9
+2021-09-07,Lirr,48
+2021-09-07,Metro North,44
+2021-09-07,Access A Ride,73.8
+2021-09-07,Bridges And Tunnels,94.8
+2021-09-06,Subways,68.3
+2021-09-06,Buses,77.4
+2021-09-06,Lirr,83
+2021-09-06,Metro North,19
+2021-09-06,Access A Ride,105.5
+2021-09-06,Bridges And Tunnels,109.6
+2021-09-05,Subways,56.8
+2021-09-05,Buses,57.1
+2021-09-05,Lirr,76
+2021-09-05,Metro North,56
+2021-09-05,Access A Ride,63.7
+2021-09-05,Bridges And Tunnels,92.8
+2021-09-04,Subways,61
+2021-09-04,Buses,62.3
+2021-09-04,Lirr,75
+2021-09-04,Metro North,59
+2021-09-04,Access A Ride,81.8
+2021-09-04,Bridges And Tunnels,98.5
+2021-09-03,Subways,48.8
+2021-09-03,Buses,61
+2021-09-03,Lirr,47
+2021-09-03,Metro North,36
+2021-09-03,Access A Ride,84.5
+2021-09-03,Bridges And Tunnels,98.1
+2021-09-02,Subways,31.5
+2021-09-02,Buses,57
+2021-09-02,Lirr,37
+2021-09-02,Metro North,NA
+2021-09-02,Access A Ride,75.8
+2021-09-02,Bridges And Tunnels,83.3
+2021-09-01,Subways,44.2
+2021-09-01,Buses,53.7
+2021-09-01,Lirr,41
+2021-09-01,Metro North,35
+2021-09-01,Access A Ride,71.9
+2021-09-01,Bridges And Tunnels,85.8
+2021-08-31,Subways,48.7
+2021-08-31,Buses,60.6
+2021-08-31,Lirr,46
+2021-08-31,Metro North,38
+2021-08-31,Access A Ride,80.6
+2021-08-31,Bridges And Tunnels,99.5
+2021-08-30,Subways,47.7
+2021-08-30,Buses,61
+2021-08-30,Lirr,45
+2021-08-30,Metro North,37
+2021-08-30,Access A Ride,75.7
+2021-08-30,Bridges And Tunnels,98.4
+2021-08-29,Subways,56.1
+2021-08-29,Buses,58.2
+2021-08-29,Lirr,74
+2021-08-29,Metro North,67
+2021-08-29,Access A Ride,61.7
+2021-08-29,Bridges And Tunnels,99.3
+2021-08-28,Subways,57
+2021-08-28,Buses,58
+2021-08-28,Lirr,61
+2021-08-28,Metro North,58
+2021-08-28,Access A Ride,78
+2021-08-28,Bridges And Tunnels,94.6
+2021-08-27,Subways,48.7
+2021-08-27,Buses,57.3
+2021-08-27,Lirr,40
+2021-08-27,Metro North,34
+2021-08-27,Access A Ride,79.4
+2021-08-27,Bridges And Tunnels,94.1
+2021-08-26,Subways,47.1
+2021-08-26,Buses,58.7
+2021-08-26,Lirr,42
+2021-08-26,Metro North,35
+2021-08-26,Access A Ride,78.9
+2021-08-26,Bridges And Tunnels,93.1
+2021-08-25,Subways,48.2
+2021-08-25,Buses,61.1
+2021-08-25,Lirr,44
+2021-08-25,Metro North,36
+2021-08-25,Access A Ride,80.4
+2021-08-25,Bridges And Tunnels,101.3
+2021-08-24,Subways,47.3
+2021-08-24,Buses,60
+2021-08-24,Lirr,45
+2021-08-24,Metro North,38
+2021-08-24,Access A Ride,80.4
+2021-08-24,Bridges And Tunnels,100.2
+2021-08-23,Subways,42.2
+2021-08-23,Buses,53.3
+2021-08-23,Lirr,38
+2021-08-23,Metro North,32
+2021-08-23,Access A Ride,74.1
+2021-08-23,Bridges And Tunnels,88.8
+2021-08-22,Subways,32
+2021-08-22,Buses,33.5
+2021-08-22,Lirr,29
+2021-08-22,Metro North,20
+2021-08-22,Access A Ride,45
+2021-08-22,Bridges And Tunnels,52.7
+2021-08-21,Subways,59.2
+2021-08-21,Buses,59.7
+2021-08-21,Lirr,65
+2021-08-21,Metro North,64
+2021-08-21,Access A Ride,79
+2021-08-21,Bridges And Tunnels,95.6
+2021-08-20,Subways,50.4
+2021-08-20,Buses,62.3
+2021-08-20,Lirr,42
+2021-08-20,Metro North,37
+2021-08-20,Access A Ride,79.3
+2021-08-20,Bridges And Tunnels,95.8
+2021-08-19,Subways,47.9
+2021-08-19,Buses,60.1
+2021-08-19,Lirr,41
+2021-08-19,Metro North,36
+2021-08-19,Access A Ride,77.2
+2021-08-19,Bridges And Tunnels,94.2
+2021-08-18,Subways,48.3
+2021-08-18,Buses,61.2
+2021-08-18,Lirr,41
+2021-08-18,Metro North,38
+2021-08-18,Access A Ride,77.9
+2021-08-18,Bridges And Tunnels,96.4
+2021-08-17,Subways,47.6
+2021-08-17,Buses,60.1
+2021-08-17,Lirr,42
+2021-08-17,Metro North,40
+2021-08-17,Access A Ride,78.5
+2021-08-17,Bridges And Tunnels,95.5
+2021-08-16,Subways,47.5
+2021-08-16,Buses,61
+2021-08-16,Lirr,43
+2021-08-16,Metro North,38
+2021-08-16,Access A Ride,77.3
+2021-08-16,Bridges And Tunnels,96.8
+2021-08-15,Subways,62.9
+2021-08-15,Buses,60.8
+2021-08-15,Lirr,78
+2021-08-15,Metro North,68
+2021-08-15,Access A Ride,69.1
+2021-08-15,Bridges And Tunnels,100.7
+2021-08-14,Subways,60
+2021-08-14,Buses,58.7
+2021-08-14,Lirr,67
+2021-08-14,Metro North,60
+2021-08-14,Access A Ride,79.3
+2021-08-14,Bridges And Tunnels,95.5
+2021-08-13,Subways,48.5
+2021-08-13,Buses,60.1
+2021-08-13,Lirr,41
+2021-08-13,Metro North,34
+2021-08-13,Access A Ride,78.8
+2021-08-13,Bridges And Tunnels,96.6
+2021-08-12,Subways,46.1
+2021-08-12,Buses,59.6
+2021-08-12,Lirr,42
+2021-08-12,Metro North,35
+2021-08-12,Access A Ride,77.9
+2021-08-12,Bridges And Tunnels,96.8
+2021-08-11,Subways,47.3
+2021-08-11,Buses,61.5
+2021-08-11,Lirr,42
+2021-08-11,Metro North,37
+2021-08-11,Access A Ride,77.8
+2021-08-11,Bridges And Tunnels,98.3
+2021-08-10,Subways,47.6
+2021-08-10,Buses,63.1
+2021-08-10,Lirr,42
+2021-08-10,Metro North,37
+2021-08-10,Access A Ride,81.8
+2021-08-10,Bridges And Tunnels,99.9
+2021-08-09,Subways,45.6
+2021-08-09,Buses,59.5
+2021-08-09,Lirr,38
+2021-08-09,Metro North,36
+2021-08-09,Access A Ride,78.4
+2021-08-09,Bridges And Tunnels,94.2
+2021-08-08,Subways,53.8
+2021-08-08,Buses,54.4
+2021-08-08,Lirr,65
+2021-08-08,Metro North,68
+2021-08-08,Access A Ride,67
+2021-08-08,Bridges And Tunnels,92.2
+2021-08-07,Subways,58.9
+2021-08-07,Buses,60.7
+2021-08-07,Lirr,68
+2021-08-07,Metro North,70
+2021-08-07,Access A Ride,83
+2021-08-07,Bridges And Tunnels,94.4
+2021-08-06,Subways,48.8
+2021-08-06,Buses,60.7
+2021-08-06,Lirr,41
+2021-08-06,Metro North,38
+2021-08-06,Access A Ride,81
+2021-08-06,Bridges And Tunnels,95.8
+2021-08-05,Subways,46.6
+2021-08-05,Buses,59.9
+2021-08-05,Lirr,42
+2021-08-05,Metro North,38
+2021-08-05,Access A Ride,77.8
+2021-08-05,Bridges And Tunnels,95.6
+2021-08-04,Subways,48.2
+2021-08-04,Buses,63.2
+2021-08-04,Lirr,43
+2021-08-04,Metro North,38
+2021-08-04,Access A Ride,80.3
+2021-08-04,Bridges And Tunnels,100.6
+2021-08-03,Subways,46.5
+2021-08-03,Buses,59.7
+2021-08-03,Lirr,43
+2021-08-03,Metro North,40
+2021-08-03,Access A Ride,78.3
+2021-08-03,Bridges And Tunnels,96.8
+2021-08-02,Subways,45.5
+2021-08-02,Buses,58.6
+2021-08-02,Lirr,43
+2021-08-02,Metro North,38
+2021-08-02,Access A Ride,73.9
+2021-08-02,Bridges And Tunnels,96
+2021-08-01,Subways,55.2
+2021-08-01,Buses,55.7
+2021-08-01,Lirr,71
+2021-08-01,Metro North,65
+2021-08-01,Access A Ride,63
+2021-08-01,Bridges And Tunnels,93.9
+2021-07-31,Subways,61.2
+2021-07-31,Buses,61.4
+2021-07-31,Lirr,76
+2021-07-31,Metro North,70
+2021-07-31,Access A Ride,83.6
+2021-07-31,Bridges And Tunnels,101.5
+2021-07-30,Subways,49.1
+2021-07-30,Buses,60.3
+2021-07-30,Lirr,44
+2021-07-30,Metro North,39
+2021-07-30,Access A Ride,80.8
+2021-07-30,Bridges And Tunnels,97
+2021-07-29,Subways,44.5
+2021-07-29,Buses,55.1
+2021-07-29,Lirr,42
+2021-07-29,Metro North,36
+2021-07-29,Access A Ride,76.7
+2021-07-29,Bridges And Tunnels,91
+2021-07-28,Subways,47.4
+2021-07-28,Buses,62.4
+2021-07-28,Lirr,44
+2021-07-28,Metro North,39
+2021-07-28,Access A Ride,78.6
+2021-07-28,Bridges And Tunnels,98.7
+2021-07-27,Subways,46.2
+2021-07-27,Buses,59.8
+2021-07-27,Lirr,44
+2021-07-27,Metro North,40
+2021-07-27,Access A Ride,78.1
+2021-07-27,Bridges And Tunnels,96.9
+2021-07-26,Subways,45.1
+2021-07-26,Buses,59.1
+2021-07-26,Lirr,45
+2021-07-26,Metro North,38
+2021-07-26,Access A Ride,75.4
+2021-07-26,Bridges And Tunnels,96.1
+2021-07-25,Subways,56
+2021-07-25,Buses,55.6
+2021-07-25,Lirr,71
+2021-07-25,Metro North,66
+2021-07-25,Access A Ride,63.1
+2021-07-25,Bridges And Tunnels,90.8
+2021-07-24,Subways,60.7
+2021-07-24,Buses,61.2
+2021-07-24,Lirr,75
+2021-07-24,Metro North,71
+2021-07-24,Access A Ride,83.1
+2021-07-24,Bridges And Tunnels,96.6
+2021-07-23,Subways,48.1
+2021-07-23,Buses,59.8
+2021-07-23,Lirr,44
+2021-07-23,Metro North,38
+2021-07-23,Access A Ride,80.8
+2021-07-23,Bridges And Tunnels,94.9
+2021-07-22,Subways,46.5
+2021-07-22,Buses,59.5
+2021-07-22,Lirr,44
+2021-07-22,Metro North,39
+2021-07-22,Access A Ride,78.8
+2021-07-22,Bridges And Tunnels,95
+2021-07-21,Subways,44.8
+2021-07-21,Buses,56.2
+2021-07-21,Lirr,42
+2021-07-21,Metro North,41
+2021-07-21,Access A Ride,75.2
+2021-07-21,Bridges And Tunnels,93.4
+2021-07-20,Subways,46.7
+2021-07-20,Buses,60
+2021-07-20,Lirr,44
+2021-07-20,Metro North,41
+2021-07-20,Access A Ride,76.5
+2021-07-20,Bridges And Tunnels,101
+2021-07-19,Subways,46.1
+2021-07-19,Buses,60.7
+2021-07-19,Lirr,44
+2021-07-19,Metro North,39
+2021-07-19,Access A Ride,77
+2021-07-19,Bridges And Tunnels,98.3
+2021-07-18,Subways,64.5
+2021-07-18,Buses,62.1
+2021-07-18,Lirr,72
+2021-07-18,Metro North,70
+2021-07-18,Access A Ride,73.2
+2021-07-18,Bridges And Tunnels,96
+2021-07-17,Subways,64.9
+2021-07-17,Buses,62.6
+2021-07-17,Lirr,65
+2021-07-17,Metro North,67
+2021-07-17,Access A Ride,88.2
+2021-07-17,Bridges And Tunnels,97
+2021-07-16,Subways,48.8
+2021-07-16,Buses,59.4
+2021-07-16,Lirr,41
+2021-07-16,Metro North,39
+2021-07-16,Access A Ride,80.6
+2021-07-16,Bridges And Tunnels,95.7
+2021-07-15,Subways,47.8
+2021-07-15,Buses,62.4
+2021-07-15,Lirr,44
+2021-07-15,Metro North,40
+2021-07-15,Access A Ride,82
+2021-07-15,Bridges And Tunnels,99.3
+2021-07-14,Subways,46
+2021-07-14,Buses,59.6
+2021-07-14,Lirr,42
+2021-07-14,Metro North,39
+2021-07-14,Access A Ride,77.5
+2021-07-14,Bridges And Tunnels,97.1
+2021-07-13,Subways,44.4
+2021-07-13,Buses,57.2
+2021-07-13,Lirr,43
+2021-07-13,Metro North,41
+2021-07-13,Access A Ride,74.3
+2021-07-13,Bridges And Tunnels,93.7
+2021-07-12,Subways,42.5
+2021-07-12,Buses,55.9
+2021-07-12,Lirr,41
+2021-07-12,Metro North,37
+2021-07-12,Access A Ride,76.4
+2021-07-12,Bridges And Tunnels,91.2
+2021-07-11,Subways,56.1
+2021-07-11,Buses,56.3
+2021-07-11,Lirr,67
+2021-07-11,Metro North,66
+2021-07-11,Access A Ride,65.2
+2021-07-11,Bridges And Tunnels,87.5
+2021-07-10,Subways,58.8
+2021-07-10,Buses,58.9
+2021-07-10,Lirr,65
+2021-07-10,Metro North,67
+2021-07-10,Access A Ride,84.7
+2021-07-10,Bridges And Tunnels,93.1
+2021-07-09,Subways,43
+2021-07-09,Buses,54.8
+2021-07-09,Lirr,37
+2021-07-09,Metro North,33
+2021-07-09,Access A Ride,74.3
+2021-07-09,Bridges And Tunnels,87.4
+2021-07-08,Subways,43.1
+2021-07-08,Buses,56
+2021-07-08,Lirr,40
+2021-07-08,Metro North,36
+2021-07-08,Access A Ride,77.4
+2021-07-08,Bridges And Tunnels,92.5
+2021-07-07,Subways,43.8
+2021-07-07,Buses,56.6
+2021-07-07,Lirr,43
+2021-07-07,Metro North,38
+2021-07-07,Access A Ride,78.6
+2021-07-07,Bridges And Tunnels,96.6
+2021-07-06,Subways,42.2
+2021-07-06,Buses,54.4
+2021-07-06,Lirr,44
+2021-07-06,Metro North,39
+2021-07-06,Access A Ride,76
+2021-07-06,Bridges And Tunnels,95.2
+2021-07-05,Subways,64.7
+2021-07-05,Buses,69.9
+2021-07-05,Lirr,84
+2021-07-05,Metro North,22
+2021-07-05,Access A Ride,56.9
+2021-07-05,Bridges And Tunnels,90.7
+2021-07-04,Subways,54
+2021-07-04,Buses,55.1
+2021-07-04,Lirr,75
+2021-07-04,Metro North,80
+2021-07-04,Access A Ride,98.4
+2021-07-04,Bridges And Tunnels,88.3
+2021-07-03,Subways,59.5
+2021-07-03,Buses,57.8
+2021-07-03,Lirr,57
+2021-07-03,Metro North,59
+2021-07-03,Access A Ride,87.4
+2021-07-03,Bridges And Tunnels,97.9
+2021-07-02,Subways,59
+2021-07-02,Buses,63.7
+2021-07-02,Lirr,39
+2021-07-02,Metro North,35
+2021-07-02,Access A Ride,96.8
+2021-07-02,Bridges And Tunnels,107.6
+2021-07-01,Subways,41.8
+2021-07-01,Buses,53.1
+2021-07-01,Lirr,40
+2021-07-01,Metro North,35
+2021-07-01,Access A Ride,74.3
+2021-07-01,Bridges And Tunnels,121.4
+2021-06-30,Subways,45
+2021-06-30,Buses,54.7
+2021-06-30,Lirr,42
+2021-06-30,Metro North,38
+2021-06-30,Access A Ride,76.9
+2021-06-30,Bridges And Tunnels,93.7
+2021-06-29,Subways,44
+2021-06-29,Buses,56.2
+2021-06-29,Lirr,41
+2021-06-29,Metro North,38
+2021-06-29,Access A Ride,73.2
+2021-06-29,Bridges And Tunnels,98.2
+2021-06-28,Subways,43.3
+2021-06-28,Buses,56.4
+2021-06-28,Lirr,42
+2021-06-28,Metro North,38
+2021-06-28,Access A Ride,76.9
+2021-06-28,Bridges And Tunnels,96.5
+2021-06-27,Subways,51.7
+2021-06-27,Buses,59.6
+2021-06-27,Lirr,80
+2021-06-27,Metro North,78
+2021-06-27,Access A Ride,69.6
+2021-06-27,Bridges And Tunnels,96.5
+2021-06-26,Subways,58.2
+2021-06-26,Buses,63.1
+2021-06-26,Lirr,68
+2021-06-26,Metro North,69
+2021-06-26,Access A Ride,84.1
+2021-06-26,Bridges And Tunnels,98.2
+2021-06-25,Subways,47.3
+2021-06-25,Buses,60.9
+2021-06-25,Lirr,42
+2021-06-25,Metro North,37
+2021-06-25,Access A Ride,80.3
+2021-06-25,Bridges And Tunnels,94.5
+2021-06-24,Subways,45.2
+2021-06-24,Buses,59.9
+2021-06-24,Lirr,42
+2021-06-24,Metro North,39
+2021-06-24,Access A Ride,77.1
+2021-06-24,Bridges And Tunnels,93.7
+2021-06-23,Subways,44
+2021-06-23,Buses,56
+2021-06-23,Lirr,43
+2021-06-23,Metro North,39
+2021-06-23,Access A Ride,78.8
+2021-06-23,Bridges And Tunnels,93.2
+2021-06-22,Subways,42.7
+2021-06-22,Buses,55.7
+2021-06-22,Lirr,40
+2021-06-22,Metro North,38
+2021-06-22,Access A Ride,74.7
+2021-06-22,Bridges And Tunnels,93.8
+2021-06-21,Subways,41.9
+2021-06-21,Buses,56.1
+2021-06-21,Lirr,43
+2021-06-21,Metro North,36
+2021-06-21,Access A Ride,75.5
+2021-06-21,Bridges And Tunnels,94.5
+2021-06-20,Subways,52.9
+2021-06-20,Buses,58.1
+2021-06-20,Lirr,82
+2021-06-20,Metro North,76
+2021-06-20,Access A Ride,70.5
+2021-06-20,Bridges And Tunnels,98.3
+2021-06-19,Subways,54.1
+2021-06-19,Buses,60
+2021-06-19,Lirr,68
+2021-06-19,Metro North,69
+2021-06-19,Access A Ride,80.2
+2021-06-19,Bridges And Tunnels,95
+2021-06-18,Subways,46.4
+2021-06-18,Buses,66.1
+2021-06-18,Lirr,41
+2021-06-18,Metro North,39
+2021-06-18,Access A Ride,78.8
+2021-06-18,Bridges And Tunnels,96.4
+2021-06-17,Subways,44.9
+2021-06-17,Buses,62.8
+2021-06-17,Lirr,42
+2021-06-17,Metro North,38
+2021-06-17,Access A Ride,77.8
+2021-06-17,Bridges And Tunnels,97.4
+2021-06-16,Subways,44
+2021-06-16,Buses,58.7
+2021-06-16,Lirr,42
+2021-06-16,Metro North,37
+2021-06-16,Access A Ride,79.4
+2021-06-16,Bridges And Tunnels,97.5
+2021-06-15,Subways,44.1
+2021-06-15,Buses,60.8
+2021-06-15,Lirr,41
+2021-06-15,Metro North,37
+2021-06-15,Access A Ride,77.8
+2021-06-15,Bridges And Tunnels,98.7
+2021-06-14,Subways,40.8
+2021-06-14,Buses,54
+2021-06-14,Lirr,40
+2021-06-14,Metro North,34
+2021-06-14,Access A Ride,79.2
+2021-06-14,Bridges And Tunnels,91.5
+2021-06-13,Subways,59.2
+2021-06-13,Buses,61.8
+2021-06-13,Lirr,63
+2021-06-13,Metro North,64
+2021-06-13,Access A Ride,64.6
+2021-06-13,Bridges And Tunnels,95.2
+2021-06-12,Subways,55.5
+2021-06-12,Buses,59.5
+2021-06-12,Lirr,60
+2021-06-12,Metro North,64
+2021-06-12,Access A Ride,80.5
+2021-06-12,Bridges And Tunnels,91
+2021-06-11,Subways,43.3
+2021-06-11,Buses,54.7
+2021-06-11,Lirr,39
+2021-06-11,Metro North,35
+2021-06-11,Access A Ride,80.7
+2021-06-11,Bridges And Tunnels,93
+2021-06-10,Subways,43.4
+2021-06-10,Buses,58.5
+2021-06-10,Lirr,39
+2021-06-10,Metro North,35
+2021-06-10,Access A Ride,79.6
+2021-06-10,Bridges And Tunnels,97.9
+2021-06-09,Subways,40.6
+2021-06-09,Buses,54
+2021-06-09,Lirr,38
+2021-06-09,Metro North,35
+2021-06-09,Access A Ride,74.5
+2021-06-09,Bridges And Tunnels,92.7
+2021-06-08,Subways,39.4
+2021-06-08,Buses,52.5
+2021-06-08,Lirr,38
+2021-06-08,Metro North,34
+2021-06-08,Access A Ride,78.1
+2021-06-08,Bridges And Tunnels,91.5
+2021-06-07,Subways,42.2
+2021-06-07,Buses,58.5
+2021-06-07,Lirr,39
+2021-06-07,Metro North,34
+2021-06-07,Access A Ride,82.6
+2021-06-07,Bridges And Tunnels,102.2
+2021-06-06,Subways,52.6
+2021-06-06,Buses,60.3
+2021-06-06,Lirr,66
+2021-06-06,Metro North,64
+2021-06-06,Access A Ride,69.8
+2021-06-06,Bridges And Tunnels,103.4
+2021-06-05,Subways,54.8
+2021-06-05,Buses,61.8
+2021-06-05,Lirr,65
+2021-06-05,Metro North,65
+2021-06-05,Access A Ride,81.9
+2021-06-05,Bridges And Tunnels,97.7
+2021-06-04,Subways,40.8
+2021-06-04,Buses,52
+2021-06-04,Lirr,35
+2021-06-04,Metro North,33
+2021-06-04,Access A Ride,78.7
+2021-06-04,Bridges And Tunnels,90.3
+2021-06-03,Subways,39.1
+2021-06-03,Buses,52.8
+2021-06-03,Lirr,36
+2021-06-03,Metro North,33
+2021-06-03,Access A Ride,77.2
+2021-06-03,Bridges And Tunnels,89.1
+2021-06-02,Subways,40.8
+2021-06-02,Buses,54.7
+2021-06-02,Lirr,39
+2021-06-02,Metro North,35
+2021-06-02,Access A Ride,78.7
+2021-06-02,Bridges And Tunnels,94.3
+2021-06-01,Subways,40.9
+2021-06-01,Buses,58.3
+2021-06-01,Lirr,40
+2021-06-01,Metro North,37
+2021-06-01,Access A Ride,75.3
+2021-06-01,Bridges And Tunnels,95.4
+2021-05-31,Subways,53.4
+2021-05-31,Buses,61
+2021-05-31,Lirr,32
+2021-05-31,Metro North,22
+2021-05-31,Access A Ride,96.2
+2021-05-31,Bridges And Tunnels,79.1
+2021-05-30,Subways,42.1
+2021-05-30,Buses,44.7
+2021-05-30,Lirr,45
+2021-05-30,Metro North,45
+2021-05-30,Access A Ride,55.5
+2021-05-30,Bridges And Tunnels,74.1
+2021-05-29,Subways,43.2
+2021-05-29,Buses,45.6
+2021-05-29,Lirr,46
+2021-05-29,Metro North,48
+2021-05-29,Access A Ride,67.6
+2021-05-29,Bridges And Tunnels,77.1
+2021-05-28,Subways,38.8
+2021-05-28,Buses,51.3
+2021-05-28,Lirr,35
+2021-05-28,Metro North,31
+2021-05-28,Access A Ride,77.1
+2021-05-28,Bridges And Tunnels,88.8
+2021-05-27,Subways,41
+2021-05-27,Buses,57
+2021-05-27,Lirr,37
+2021-05-27,Metro North,32
+2021-05-27,Access A Ride,81.9
+2021-05-27,Bridges And Tunnels,99.5
+2021-05-26,Subways,40
+2021-05-26,Buses,56.3
+2021-05-26,Lirr,36
+2021-05-26,Metro North,30
+2021-05-26,Access A Ride,80.2
+2021-05-26,Bridges And Tunnels,97.2
+2021-05-25,Subways,41.9
+2021-05-25,Buses,57.6
+2021-05-25,Lirr,35
+2021-05-25,Metro North,30
+2021-05-25,Access A Ride,80.7
+2021-05-25,Bridges And Tunnels,97.5
+2021-05-24,Subways,38.3
+2021-05-24,Buses,53.6
+2021-05-24,Lirr,33
+2021-05-24,Metro North,28
+2021-05-24,Access A Ride,75.8
+2021-05-24,Bridges And Tunnels,110.5
+2021-05-23,Subways,49.9
+2021-05-23,Buses,60.7
+2021-05-23,Lirr,59
+2021-05-23,Metro North,61
+2021-05-23,Access A Ride,63.8
+2021-05-23,Bridges And Tunnels,101
+2021-05-22,Subways,54.7
+2021-05-22,Buses,63
+2021-05-22,Lirr,56
+2021-05-22,Metro North,63
+2021-05-22,Access A Ride,84.6
+2021-05-22,Bridges And Tunnels,100.9
+2021-05-21,Subways,43.1
+2021-05-21,Buses,55.5
+2021-05-21,Lirr,34
+2021-05-21,Metro North,32
+2021-05-21,Access A Ride,81
+2021-05-21,Bridges And Tunnels,91.9
+2021-05-20,Subways,40
+2021-05-20,Buses,56.8
+2021-05-20,Lirr,33
+2021-05-20,Metro North,29
+2021-05-20,Access A Ride,79.6
+2021-05-20,Bridges And Tunnels,91.9
+2021-05-19,Subways,38.4
+2021-05-19,Buses,53.9
+2021-05-19,Lirr,33
+2021-05-19,Metro North,29
+2021-05-19,Access A Ride,76.1
+2021-05-19,Bridges And Tunnels,92.3
+2021-05-18,Subways,36.8
+2021-05-18,Buses,52.4
+2021-05-18,Lirr,31
+2021-05-18,Metro North,28
+2021-05-18,Access A Ride,74.4
+2021-05-18,Bridges And Tunnels,86.5
+2021-05-17,Subways,36.3
+2021-05-17,Buses,51
+2021-05-17,Lirr,31
+2021-05-17,Metro North,27
+2021-05-17,Access A Ride,75.3
+2021-05-17,Bridges And Tunnels,83.8
+2021-05-16,Subways,45.8
+2021-05-16,Buses,55.7
+2021-05-16,Lirr,50
+2021-05-16,Metro North,55
+2021-05-16,Access A Ride,59.2
+2021-05-16,Bridges And Tunnels,85.9
+2021-05-15,Subways,48.1
+2021-05-15,Buses,59.2
+2021-05-15,Lirr,53
+2021-05-15,Metro North,60
+2021-05-15,Access A Ride,76.6
+2021-05-15,Bridges And Tunnels,89.6
+2021-05-14,Subways,39.6
+2021-05-14,Buses,54.5
+2021-05-14,Lirr,33
+2021-05-14,Metro North,30
+2021-05-14,Access A Ride,78.5
+2021-05-14,Bridges And Tunnels,89.8
+2021-05-13,Subways,36.6
+2021-05-13,Buses,50.8
+2021-05-13,Lirr,32
+2021-05-13,Metro North,28
+2021-05-13,Access A Ride,77.8
+2021-05-13,Bridges And Tunnels,90
+2021-05-12,Subways,37.1
+2021-05-12,Buses,52.6
+2021-05-12,Lirr,31
+2021-05-12,Metro North,27
+2021-05-12,Access A Ride,74.9
+2021-05-12,Bridges And Tunnels,90.7
+2021-05-11,Subways,37.3
+2021-05-11,Buses,53.3
+2021-05-11,Lirr,30
+2021-05-11,Metro North,26
+2021-05-11,Access A Ride,76.9
+2021-05-11,Bridges And Tunnels,93.1
+2021-05-10,Subways,36.6
+2021-05-10,Buses,54.1
+2021-05-10,Lirr,30
+2021-05-10,Metro North,26
+2021-05-10,Access A Ride,78.8
+2021-05-10,Bridges And Tunnels,93.3
+2021-05-09,Subways,53.5
+2021-05-09,Buses,69.1
+2021-05-09,Lirr,55
+2021-05-09,Metro North,57
+2021-05-09,Access A Ride,70.9
+2021-05-09,Bridges And Tunnels,100.3
+2021-05-08,Subways,44.9
+2021-05-08,Buses,54.3
+2021-05-08,Lirr,48
+2021-05-08,Metro North,52
+2021-05-08,Access A Ride,73.5
+2021-05-08,Bridges And Tunnels,86.1
+2021-05-07,Subways,39.8
+2021-05-07,Buses,54.1
+2021-05-07,Lirr,32
+2021-05-07,Metro North,29
+2021-05-07,Access A Ride,79.8
+2021-05-07,Bridges And Tunnels,91.9
+2021-05-06,Subways,37.4
+2021-05-06,Buses,53.2
+2021-05-06,Lirr,30
+2021-05-06,Metro North,27
+2021-05-06,Access A Ride,77.2
+2021-05-06,Bridges And Tunnels,91.7
+2021-05-05,Subways,35.4
+2021-05-05,Buses,48.4
+2021-05-05,Lirr,29
+2021-05-05,Metro North,25
+2021-05-05,Access A Ride,72.9
+2021-05-05,Bridges And Tunnels,87.5
+2021-05-04,Subways,36.5
+2021-05-04,Buses,51.9
+2021-05-04,Lirr,29
+2021-05-04,Metro North,25
+2021-05-04,Access A Ride,74.2
+2021-05-04,Bridges And Tunnels,90.9
+2021-05-03,Subways,35
+2021-05-03,Buses,51.1
+2021-05-03,Lirr,29
+2021-05-03,Metro North,23
+2021-05-03,Access A Ride,75.9
+2021-05-03,Bridges And Tunnels,89.3
+2021-05-02,Subways,49.5
+2021-05-02,Buses,73.8
+2021-05-02,Lirr,43
+2021-05-02,Metro North,49
+2021-05-02,Access A Ride,65.9
+2021-05-02,Bridges And Tunnels,101.6
+2021-05-01,Subways,46.9
+2021-05-01,Buses,59
+2021-05-01,Lirr,43
+2021-05-01,Metro North,51
+2021-05-01,Access A Ride,75.4
+2021-05-01,Bridges And Tunnels,90.9
+2021-04-30,Subways,37.7
+2021-04-30,Buses,53.1
+2021-04-30,Lirr,30
+2021-04-30,Metro North,27
+2021-04-30,Access A Ride,77.8
+2021-04-30,Bridges And Tunnels,91.3
+2021-04-29,Subways,34.5
+2021-04-29,Buses,49.7
+2021-04-29,Lirr,29
+2021-04-29,Metro North,24
+2021-04-29,Access A Ride,74.9
+2021-04-29,Bridges And Tunnels,88.8
+2021-04-28,Subways,36.8
+2021-04-28,Buses,52.2
+2021-04-28,Lirr,30
+2021-04-28,Metro North,25
+2021-04-28,Access A Ride,79.2
+2021-04-28,Bridges And Tunnels,93.3
+2021-04-27,Subways,35.5
+2021-04-27,Buses,52.4
+2021-04-27,Lirr,29
+2021-04-27,Metro North,24
+2021-04-27,Access A Ride,76.3
+2021-04-27,Bridges And Tunnels,90.4
+2021-04-26,Subways,35.2
+2021-04-26,Buses,51.5
+2021-04-26,Lirr,29
+2021-04-26,Metro North,24
+2021-04-26,Access A Ride,77.4
+2021-04-26,Bridges And Tunnels,91.3
+2021-04-25,Subways,40.7
+2021-04-25,Buses,54.5
+2021-04-25,Lirr,37
+2021-04-25,Metro North,36
+2021-04-25,Access A Ride,56
+2021-04-25,Bridges And Tunnels,83.1
+2021-04-24,Subways,46.5
+2021-04-24,Buses,60.5
+2021-04-24,Lirr,45
+2021-04-24,Metro North,53
+2021-04-24,Access A Ride,81.4
+2021-04-24,Bridges And Tunnels,92.7
+2021-04-23,Subways,42.1
+2021-04-23,Buses,67.7
+2021-04-23,Lirr,30
+2021-04-23,Metro North,27
+2021-04-23,Access A Ride,86.8
+2021-04-23,Bridges And Tunnels,102
+2021-04-22,Subways,37.4
+2021-04-22,Buses,59
+2021-04-22,Lirr,28
+2021-04-22,Metro North,24
+2021-04-22,Access A Ride,78
+2021-04-22,Bridges And Tunnels,92.5
+2021-04-21,Subways,36.2
+2021-04-21,Buses,56.5
+2021-04-21,Lirr,27
+2021-04-21,Metro North,23
+2021-04-21,Access A Ride,76.3
+2021-04-21,Bridges And Tunnels,88
+2021-04-20,Subways,38.4
+2021-04-20,Buses,60.4
+2021-04-20,Lirr,29
+2021-04-20,Metro North,25
+2021-04-20,Access A Ride,85
+2021-04-20,Bridges And Tunnels,92.4
+2021-04-19,Subways,38.7
+2021-04-19,Buses,63.2
+2021-04-19,Lirr,28
+2021-04-19,Metro North,23
+2021-04-19,Access A Ride,89.1
+2021-04-19,Bridges And Tunnels,88.8
+2021-04-18,Subways,43.7
+2021-04-18,Buses,61.4
+2021-04-18,Lirr,42
+2021-04-18,Metro North,47
+2021-04-18,Access A Ride,58.3
+2021-04-18,Bridges And Tunnels,85.6
+2021-04-17,Subways,43.4
+2021-04-17,Buses,57.3
+2021-04-17,Lirr,44
+2021-04-17,Metro North,49
+2021-04-17,Access A Ride,75.4
+2021-04-17,Bridges And Tunnels,96.3
+2021-04-16,Subways,36.4
+2021-04-16,Buses,51.8
+2021-04-16,Lirr,28
+2021-04-16,Metro North,26
+2021-04-16,Access A Ride,74.3
+2021-04-16,Bridges And Tunnels,92.2
+2021-04-15,Subways,32.4
+2021-04-15,Buses,48.1
+2021-04-15,Lirr,26
+2021-04-15,Metro North,22
+2021-04-15,Access A Ride,71.5
+2021-04-15,Bridges And Tunnels,82.2
+2021-04-14,Subways,33.8
+2021-04-14,Buses,51.3
+2021-04-14,Lirr,28
+2021-04-14,Metro North,24
+2021-04-14,Access A Ride,74.7
+2021-04-14,Bridges And Tunnels,88.1
+2021-04-13,Subways,34
+2021-04-13,Buses,50.9
+2021-04-13,Lirr,28
+2021-04-13,Metro North,24
+2021-04-13,Access A Ride,75.5
+2021-04-13,Bridges And Tunnels,88
+2021-04-12,Subways,33.3
+2021-04-12,Buses,49.6
+2021-04-12,Lirr,27
+2021-04-12,Metro North,22
+2021-04-12,Access A Ride,75.8
+2021-04-12,Bridges And Tunnels,87.3
+2021-04-11,Subways,36.4
+2021-04-11,Buses,51
+2021-04-11,Lirr,35
+2021-04-11,Metro North,35
+2021-04-11,Access A Ride,52.3
+2021-04-11,Bridges And Tunnels,78.2
+2021-04-10,Subways,42.4
+2021-04-10,Buses,56.4
+2021-04-10,Lirr,40
+2021-04-10,Metro North,45
+2021-04-10,Access A Ride,72
+2021-04-10,Bridges And Tunnels,86.8
+2021-04-09,Subways,35.5
+2021-04-09,Buses,51.2
+2021-04-09,Lirr,28
+2021-04-09,Metro North,25
+2021-04-09,Access A Ride,75.5
+2021-04-09,Bridges And Tunnels,89.4
+2021-04-08,Subways,34.6
+2021-04-08,Buses,50.3
+2021-04-08,Lirr,28
+2021-04-08,Metro North,24
+2021-04-08,Access A Ride,71.9
+2021-04-08,Bridges And Tunnels,90.3
+2021-04-07,Subways,33.9
+2021-04-07,Buses,49.9
+2021-04-07,Lirr,28
+2021-04-07,Metro North,23
+2021-04-07,Access A Ride,73.4
+2021-04-07,Bridges And Tunnels,90.3
+2021-04-06,Subways,33.8
+2021-04-06,Buses,49.9
+2021-04-06,Lirr,28
+2021-04-06,Metro North,23
+2021-04-06,Access A Ride,71.7
+2021-04-06,Bridges And Tunnels,91.9
+2021-04-05,Subways,32.8
+2021-04-05,Buses,47.6
+2021-04-05,Lirr,28
+2021-04-05,Metro North,24
+2021-04-05,Access A Ride,70.5
+2021-04-05,Bridges And Tunnels,91.4
+2021-04-04,Subways,40.6
+2021-04-04,Buses,52.2
+2021-04-04,Lirr,45
+2021-04-04,Metro North,46
+2021-04-04,Access A Ride,60.1
+2021-04-04,Bridges And Tunnels,83.9
+2021-04-03,Subways,46.6
+2021-04-03,Buses,62.8
+2021-04-03,Lirr,42
+2021-04-03,Metro North,46
+2021-04-03,Access A Ride,86.1
+2021-04-03,Bridges And Tunnels,83.2
+2021-04-02,Subways,37
+2021-04-02,Buses,54.3
+2021-04-02,Lirr,26
+2021-04-02,Metro North,23
+2021-04-02,Access A Ride,77
+2021-04-02,Bridges And Tunnels,86.8
+2021-04-01,Subways,31.2
+2021-04-01,Buses,43.6
+2021-04-01,Lirr,25
+2021-04-01,Metro North,19
+2021-04-01,Access A Ride,65.2
+2021-04-01,Bridges And Tunnels,87.8
+2021-03-31,Subways,30.8
+2021-03-31,Buses,41.9
+2021-03-31,Lirr,27
+2021-03-31,Metro North,22
+2021-03-31,Access A Ride,63.1
+2021-03-31,Bridges And Tunnels,89.2
+2021-03-30,Subways,32.7
+2021-03-30,Buses,46
+2021-03-30,Lirr,29
+2021-03-30,Metro North,24
+2021-03-30,Access A Ride,70.3
+2021-03-30,Bridges And Tunnels,92.9
+2021-03-29,Subways,31.4
+2021-03-29,Buses,43.7
+2021-03-29,Lirr,28
+2021-03-29,Metro North,23
+2021-03-29,Access A Ride,65
+2021-03-29,Bridges And Tunnels,85.1
+2021-03-28,Subways,35.7
+2021-03-28,Buses,46.5
+2021-03-28,Lirr,33
+2021-03-28,Metro North,32
+2021-03-28,Access A Ride,52.2
+2021-03-28,Bridges And Tunnels,73.7
+2021-03-27,Subways,42.3
+2021-03-27,Buses,55.9
+2021-03-27,Lirr,44
+2021-03-27,Metro North,47
+2021-03-27,Access A Ride,74.7
+2021-03-27,Bridges And Tunnels,90.6
+2021-03-26,Subways,34.7
+2021-03-26,Buses,49
+2021-03-26,Lirr,27
+2021-03-26,Metro North,23
+2021-03-26,Access A Ride,72.7
+2021-03-26,Bridges And Tunnels,87.8
+2021-03-25,Subways,33.3
+2021-03-25,Buses,48.4
+2021-03-25,Lirr,27
+2021-03-25,Metro North,22
+2021-03-25,Access A Ride,71.3
+2021-03-25,Bridges And Tunnels,87.6
+2021-03-24,Subways,32
+2021-03-24,Buses,46.6
+2021-03-24,Lirr,25
+2021-03-24,Metro North,20
+2021-03-24,Access A Ride,68.8
+2021-03-24,Bridges And Tunnels,85.8
+2021-03-23,Subways,33.1
+2021-03-23,Buses,48.3
+2021-03-23,Lirr,27
+2021-03-23,Metro North,21
+2021-03-23,Access A Ride,71.2
+2021-03-23,Bridges And Tunnels,89.5
+2021-03-22,Subways,33.3
+2021-03-22,Buses,48.5
+2021-03-22,Lirr,27
+2021-03-22,Metro North,22
+2021-03-22,Access A Ride,71.7
+2021-03-22,Bridges And Tunnels,88.7
+2021-03-21,Subways,41.9
+2021-03-21,Buses,53.8
+2021-03-21,Lirr,40
+2021-03-21,Metro North,40
+2021-03-21,Access A Ride,56.1
+2021-03-21,Bridges And Tunnels,84.4
+2021-03-20,Subways,43.2
+2021-03-20,Buses,57.9
+2021-03-20,Lirr,39
+2021-03-20,Metro North,40
+2021-03-20,Access A Ride,76.1
+2021-03-20,Bridges And Tunnels,89
+2021-03-19,Subways,34.7
+2021-03-19,Buses,50.6
+2021-03-19,Lirr,26
+2021-03-19,Metro North,22
+2021-03-19,Access A Ride,72.4
+2021-03-19,Bridges And Tunnels,89.6
+2021-03-18,Subways,31.9
+2021-03-18,Buses,46.7
+2021-03-18,Lirr,24
+2021-03-18,Metro North,20
+2021-03-18,Access A Ride,69.3
+2021-03-18,Bridges And Tunnels,87
+2021-03-17,Subways,32.8
+2021-03-17,Buses,47.1
+2021-03-17,Lirr,26
+2021-03-17,Metro North,21
+2021-03-17,Access A Ride,70
+2021-03-17,Bridges And Tunnels,87.6
+2021-03-16,Subways,32
+2021-03-16,Buses,45.6
+2021-03-16,Lirr,25
+2021-03-16,Metro North,20
+2021-03-16,Access A Ride,68.3
+2021-03-16,Bridges And Tunnels,86.6
+2021-03-15,Subways,32.1
+2021-03-15,Buses,45.5
+2021-03-15,Lirr,25
+2021-03-15,Metro North,20
+2021-03-15,Access A Ride,71.4
+2021-03-15,Bridges And Tunnels,86.7
+2021-03-14,Subways,37.9
+2021-03-14,Buses,51.6
+2021-03-14,Lirr,35
+2021-03-14,Metro North,34
+2021-03-14,Access A Ride,53.3
+2021-03-14,Bridges And Tunnels,79.8
+2021-03-13,Subways,39.4
+2021-03-13,Buses,53.9
+2021-03-13,Lirr,36
+2021-03-13,Metro North,39
+2021-03-13,Access A Ride,70.5
+2021-03-13,Bridges And Tunnels,85.8
+2021-03-12,Subways,34
+2021-03-12,Buses,49
+2021-03-12,Lirr,26
+2021-03-12,Metro North,23
+2021-03-12,Access A Ride,74.8
+2021-03-12,Bridges And Tunnels,87.5
+2021-03-11,Subways,32.4
+2021-03-11,Buses,47
+2021-03-11,Lirr,26
+2021-03-11,Metro North,21
+2021-03-11,Access A Ride,72.3
+2021-03-11,Bridges And Tunnels,86.7
+2021-03-10,Subways,32
+2021-03-10,Buses,47
+2021-03-10,Lirr,25
+2021-03-10,Metro North,21
+2021-03-10,Access A Ride,71.1
+2021-03-10,Bridges And Tunnels,86.6
+2021-03-09,Subways,31.9
+2021-03-09,Buses,47.3
+2021-03-09,Lirr,25
+2021-03-09,Metro North,21
+2021-03-09,Access A Ride,72.4
+2021-03-09,Bridges And Tunnels,87.2
+2021-03-08,Subways,31
+2021-03-08,Buses,45.4
+2021-03-08,Lirr,25
+2021-03-08,Metro North,20
+2021-03-08,Access A Ride,71.8
+2021-03-08,Bridges And Tunnels,85
+2021-03-07,Subways,42.3
+2021-03-07,Buses,58.6
+2021-03-07,Lirr,34
+2021-03-07,Metro North,33
+2021-03-07,Access A Ride,57.3
+2021-03-07,Bridges And Tunnels,86.1
+2021-03-06,Subways,37.5
+2021-03-06,Buses,51
+2021-03-06,Lirr,34
+2021-03-06,Metro North,33
+2021-03-06,Access A Ride,68.4
+2021-03-06,Bridges And Tunnels,81.3
+2021-03-05,Subways,32.2
+2021-03-05,Buses,46.9
+2021-03-05,Lirr,25
+2021-03-05,Metro North,21
+2021-03-05,Access A Ride,75.3
+2021-03-05,Bridges And Tunnels,85.9
+2021-03-04,Subways,31.4
+2021-03-04,Buses,47.6
+2021-03-04,Lirr,25
+2021-03-04,Metro North,20
+2021-03-04,Access A Ride,70
+2021-03-04,Bridges And Tunnels,86.1
+2021-03-03,Subways,32.5
+2021-03-03,Buses,50
+2021-03-03,Lirr,25
+2021-03-03,Metro North,20
+2021-03-03,Access A Ride,72.4
+2021-03-03,Bridges And Tunnels,88.1
+2021-03-02,Subways,30.6
+2021-03-02,Buses,44.7
+2021-03-02,Lirr,24
+2021-03-02,Metro North,19
+2021-03-02,Access A Ride,67.3
+2021-03-02,Bridges And Tunnels,85.1
+2021-03-01,Subways,39.4
+2021-03-01,Buses,64.5
+2021-03-01,Lirr,24
+2021-03-01,Metro North,19
+2021-03-01,Access A Ride,86
+2021-03-01,Bridges And Tunnels,109
+2021-02-28,Subways,36.1
+2021-02-28,Buses,50.2
+2021-02-28,Lirr,30
+2021-02-28,Metro North,30
+2021-02-28,Access A Ride,53.1
+2021-02-28,Bridges And Tunnels,78.8
+2021-02-27,Subways,37.7
+2021-02-27,Buses,50.8
+2021-02-27,Lirr,29
+2021-02-27,Metro North,30
+2021-02-27,Access A Ride,62.7
+2021-02-27,Bridges And Tunnels,81
+2021-02-26,Subways,33.1
+2021-02-26,Buses,49.5
+2021-02-26,Lirr,25
+2021-02-26,Metro North,21
+2021-02-26,Access A Ride,68.7
+2021-02-26,Bridges And Tunnels,88.5
+2021-02-25,Subways,31.7
+2021-02-25,Buses,48.2
+2021-02-25,Lirr,25
+2021-02-25,Metro North,20
+2021-02-25,Access A Ride,68
+2021-02-25,Bridges And Tunnels,87.9
+2021-02-24,Subways,32.2
+2021-02-24,Buses,48.9
+2021-02-24,Lirr,24
+2021-02-24,Metro North,20
+2021-02-24,Access A Ride,69.5
+2021-02-24,Bridges And Tunnels,89.7
+2021-02-23,Subways,31.1
+2021-02-23,Buses,46.8
+2021-02-23,Lirr,24
+2021-02-23,Metro North,19
+2021-02-23,Access A Ride,65
+2021-02-23,Bridges And Tunnels,87
+2021-02-22,Subways,29.3
+2021-02-22,Buses,41.7
+2021-02-22,Lirr,23
+2021-02-22,Metro North,18
+2021-02-22,Access A Ride,62.8
+2021-02-22,Bridges And Tunnels,80.4
+2021-02-21,Subways,36.8
+2021-02-21,Buses,51.1
+2021-02-21,Lirr,32
+2021-02-21,Metro North,30
+2021-02-21,Access A Ride,45.8
+2021-02-21,Bridges And Tunnels,76.1
+2021-02-20,Subways,38
+2021-02-20,Buses,53.9
+2021-02-20,Lirr,31
+2021-02-20,Metro North,31
+2021-02-20,Access A Ride,60.2
+2021-02-20,Bridges And Tunnels,79
+2021-02-19,Subways,30.3
+2021-02-19,Buses,43
+2021-02-19,Lirr,21
+2021-02-19,Metro North,18
+2021-02-19,Access A Ride,47.5
+2021-02-19,Bridges And Tunnels,65.4
+2021-02-18,Subways,25.8
+2021-02-18,Buses,36.5
+2021-02-18,Lirr,19
+2021-02-18,Metro North,16
+2021-02-18,Access A Ride,50.2
+2021-02-18,Bridges And Tunnels,50.3
+2021-02-17,Subways,32.4
+2021-02-17,Buses,52.2
+2021-02-17,Lirr,24
+2021-02-17,Metro North,20
+2021-02-17,Access A Ride,68
+2021-02-17,Bridges And Tunnels,93.1
+2021-02-16,Subways,31.7
+2021-02-16,Buses,49.6
+2021-02-16,Lirr,24
+2021-02-16,Metro North,19
+2021-02-16,Access A Ride,61.5
+2021-02-16,Bridges And Tunnels,84.7
+2021-02-15,Subways,38.1
+2021-02-15,Buses,53.3
+2021-02-15,Lirr,21
+2021-02-15,Metro North,33
+2021-02-15,Access A Ride,70
+2021-02-15,Bridges And Tunnels,81.2
+2021-02-14,Subways,36.8
+2021-02-14,Buses,49.4
+2021-02-14,Lirr,29
+2021-02-14,Metro North,31
+2021-02-14,Access A Ride,40.5
+2021-02-14,Bridges And Tunnels,72.8
+2021-02-13,Subways,39.3
+2021-02-13,Buses,57.9
+2021-02-13,Lirr,30
+2021-02-13,Metro North,31
+2021-02-13,Access A Ride,71
+2021-02-13,Bridges And Tunnels,81
+2021-02-12,Subways,30.8
+2021-02-12,Buses,45.8
+2021-02-12,Lirr,24
+2021-02-12,Metro North,20
+2021-02-12,Access A Ride,65.2
+2021-02-12,Bridges And Tunnels,82.2
+2021-02-11,Subways,30.3
+2021-02-11,Buses,45.5
+2021-02-11,Lirr,23
+2021-02-11,Metro North,19
+2021-02-11,Access A Ride,61.2
+2021-02-11,Bridges And Tunnels,82.5
+2021-02-10,Subways,31.5
+2021-02-10,Buses,46.4
+2021-02-10,Lirr,23
+2021-02-10,Metro North,19
+2021-02-10,Access A Ride,64.8
+2021-02-10,Bridges And Tunnels,87.4
+2021-02-09,Subways,29.8
+2021-02-09,Buses,44.5
+2021-02-09,Lirr,23
+2021-02-09,Metro North,18
+2021-02-09,Access A Ride,59
+2021-02-09,Bridges And Tunnels,79.2
+2021-02-08,Subways,30.5
+2021-02-08,Buses,44.9
+2021-02-08,Lirr,23
+2021-02-08,Metro North,19
+2021-02-08,Access A Ride,59.1
+2021-02-08,Bridges And Tunnels,82.9
+2021-02-07,Subways,29
+2021-02-07,Buses,37
+2021-02-07,Lirr,22
+2021-02-07,Metro North,21
+2021-02-07,Access A Ride,36.3
+2021-02-07,Bridges And Tunnels,44.4
+2021-02-06,Subways,38.6
+2021-02-06,Buses,55.7
+2021-02-06,Lirr,30
+2021-02-06,Metro North,31
+2021-02-06,Access A Ride,66.4
+2021-02-06,Bridges And Tunnels,83
+2021-02-05,Subways,31.6
+2021-02-05,Buses,47.5
+2021-02-05,Lirr,23
+2021-02-05,Metro North,19
+2021-02-05,Access A Ride,65.4
+2021-02-05,Bridges And Tunnels,83.7
+2021-02-04,Subways,31.6
+2021-02-04,Buses,47.2
+2021-02-04,Lirr,23
+2021-02-04,Metro North,19
+2021-02-04,Access A Ride,63.3
+2021-02-04,Bridges And Tunnels,83.9
+2021-02-03,Subways,30
+2021-02-03,Buses,41.5
+2021-02-03,Lirr,23
+2021-02-03,Metro North,18
+2021-02-03,Access A Ride,50.1
+2021-02-03,Bridges And Tunnels,74.9
+2021-02-02,Subways,18
+2021-02-02,Buses,24
+2021-02-02,Lirr,7
+2021-02-02,Metro North,11
+2021-02-02,Access A Ride,25.2
+2021-02-02,Bridges And Tunnels,36.4
+2021-02-01,Subways,10.9
+2021-02-01,Buses,15.4
+2021-02-01,Lirr,3
+2021-02-01,Metro North,6
+2021-02-01,Access A Ride,40.5
+2021-02-01,Bridges And Tunnels,18.3
+2021-01-31,Subways,32.3
+2021-01-31,Buses,44.1
+2021-01-31,Lirr,28
+2021-01-31,Metro North,26
+2021-01-31,Access A Ride,43.6
+2021-01-31,Bridges And Tunnels,81.5
+2021-01-30,Subways,32.8
+2021-01-30,Buses,45.3
+2021-01-30,Lirr,27
+2021-01-30,Metro North,26
+2021-01-30,Access A Ride,60.9
+2021-01-30,Bridges And Tunnels,82.6
+2021-01-29,Subways,28
+2021-01-29,Buses,38.3
+2021-01-29,Lirr,22
+2021-01-29,Metro North,18
+2021-01-29,Access A Ride,61.1
+2021-01-29,Bridges And Tunnels,83.6
+2021-01-28,Subways,29.2
+2021-01-28,Buses,43.2
+2021-01-28,Lirr,23
+2021-01-28,Metro North,19
+2021-01-28,Access A Ride,63.8
+2021-01-28,Bridges And Tunnels,89.1
+2021-01-27,Subways,29.5
+2021-01-27,Buses,45.1
+2021-01-27,Lirr,23
+2021-01-27,Metro North,18
+2021-01-27,Access A Ride,60.9
+2021-01-27,Bridges And Tunnels,84.8
+2021-01-26,Subways,27.8
+2021-01-26,Buses,40.8
+2021-01-26,Lirr,23
+2021-01-26,Metro North,18
+2021-01-26,Access A Ride,57.4
+2021-01-26,Bridges And Tunnels,76.4
+2021-01-25,Subways,30.4
+2021-01-25,Buses,46.7
+2021-01-25,Lirr,24
+2021-01-25,Metro North,19
+2021-01-25,Access A Ride,67.5
+2021-01-25,Bridges And Tunnels,86.2
+2021-01-24,Subways,31.8
+2021-01-24,Buses,45.7
+2021-01-24,Lirr,29
+2021-01-24,Metro North,27
+2021-01-24,Access A Ride,45
+2021-01-24,Bridges And Tunnels,73.3
+2021-01-23,Subways,38.3
+2021-01-23,Buses,60.1
+2021-01-23,Lirr,29
+2021-01-23,Metro North,27
+2021-01-23,Access A Ride,65.7
+2021-01-23,Bridges And Tunnels,86
+2021-01-22,Subways,31.4
+2021-01-22,Buses,49.2
+2021-01-22,Lirr,24
+2021-01-22,Metro North,19
+2021-01-22,Access A Ride,66.9
+2021-01-22,Bridges And Tunnels,84.8
+2021-01-21,Subways,30.4
+2021-01-21,Buses,47.3
+2021-01-21,Lirr,24
+2021-01-21,Metro North,19
+2021-01-21,Access A Ride,62.8
+2021-01-21,Bridges And Tunnels,85.4
+2021-01-20,Subways,29.1
+2021-01-20,Buses,43.2
+2021-01-20,Lirr,22
+2021-01-20,Metro North,18
+2021-01-20,Access A Ride,59.2
+2021-01-20,Bridges And Tunnels,82.2
+2021-01-19,Subways,30.8
+2021-01-19,Buses,48.8
+2021-01-19,Lirr,24
+2021-01-19,Metro North,19
+2021-01-19,Access A Ride,67.2
+2021-01-19,Bridges And Tunnels,85.1
+2021-01-18,Subways,40.1
+2021-01-18,Buses,58.8
+2021-01-18,Lirr,23
+2021-01-18,Metro North,11
+2021-01-18,Access A Ride,90.3
+2021-01-18,Bridges And Tunnels,86.5
+2021-01-17,Subways,35
+2021-01-17,Buses,53.4
+2021-01-17,Lirr,29
+2021-01-17,Metro North,31
+2021-01-17,Access A Ride,58.1
+2021-01-17,Bridges And Tunnels,82.7
+2021-01-16,Subways,38.3
+2021-01-16,Buses,63.6
+2021-01-16,Lirr,28
+2021-01-16,Metro North,28
+2021-01-16,Access A Ride,82.6
+2021-01-16,Bridges And Tunnels,98.1
+2021-01-15,Subways,30.5
+2021-01-15,Buses,48.3
+2021-01-15,Lirr,23
+2021-01-15,Metro North,19
+2021-01-15,Access A Ride,71.6
+2021-01-15,Bridges And Tunnels,82.8
+2021-01-14,Subways,29.9
+2021-01-14,Buses,47.3
+2021-01-14,Lirr,23
+2021-01-14,Metro North,19
+2021-01-14,Access A Ride,69.1
+2021-01-14,Bridges And Tunnels,83.3
+2021-01-13,Subways,29.8
+2021-01-13,Buses,44.7
+2021-01-13,Lirr,23
+2021-01-13,Metro North,19
+2021-01-13,Access A Ride,68.3
+2021-01-13,Bridges And Tunnels,83.3
+2021-01-12,Subways,30.3
+2021-01-12,Buses,45.9
+2021-01-12,Lirr,24
+2021-01-12,Metro North,19
+2021-01-12,Access A Ride,67.4
+2021-01-12,Bridges And Tunnels,84.9
+2021-01-11,Subways,30.1
+2021-01-11,Buses,44.6
+2021-01-11,Lirr,24
+2021-01-11,Metro North,18
+2021-01-11,Access A Ride,70.5
+2021-01-11,Bridges And Tunnels,83.6
+2021-01-10,Subways,33.3
+2021-01-10,Buses,50.4
+2021-01-10,Lirr,29
+2021-01-10,Metro North,27
+2021-01-10,Access A Ride,48.9
+2021-01-10,Bridges And Tunnels,74.6
+2021-01-09,Subways,33
+2021-01-09,Buses,49.4
+2021-01-09,Lirr,28
+2021-01-09,Metro North,27
+2021-01-09,Access A Ride,65.6
+2021-01-09,Bridges And Tunnels,76
+2021-01-08,Subways,29.7
+2021-01-08,Buses,46
+2021-01-08,Lirr,23
+2021-01-08,Metro North,18
+2021-01-08,Access A Ride,70.1
+2021-01-08,Bridges And Tunnels,82.6
+2021-01-07,Subways,29.5
+2021-01-07,Buses,46.8
+2021-01-07,Lirr,23
+2021-01-07,Metro North,18
+2021-01-07,Access A Ride,68.4
+2021-01-07,Bridges And Tunnels,83
+2021-01-06,Subways,29.7
+2021-01-06,Buses,46.5
+2021-01-06,Lirr,23
+2021-01-06,Metro North,18
+2021-01-06,Access A Ride,70.9
+2021-01-06,Bridges And Tunnels,85.2
+2021-01-05,Subways,29.6
+2021-01-05,Buses,46
+2021-01-05,Lirr,23
+2021-01-05,Metro North,18
+2021-01-05,Access A Ride,68.5
+2021-01-05,Bridges And Tunnels,84.2
+2021-01-04,Subways,29.8
+2021-01-04,Buses,46.1
+2021-01-04,Lirr,23
+2021-01-04,Metro North,18
+2021-01-04,Access A Ride,69.2
+2021-01-04,Bridges And Tunnels,82.7
+2021-01-03,Subways,28.7
+2021-01-03,Buses,43.9
+2021-01-03,Lirr,25
+2021-01-03,Metro North,23
+2021-01-03,Access A Ride,52.3
+2021-01-03,Bridges And Tunnels,70.6
+2021-01-02,Subways,35.2
+2021-01-02,Buses,51.3
+2021-01-02,Lirr,29
+2021-01-02,Metro North,28
+2021-01-02,Access A Ride,65.4
+2021-01-02,Bridges And Tunnels,84.5
+2021-01-01,Subways,26.6
+2021-01-01,Buses,50
+2021-01-01,Lirr,10
+2021-01-01,Metro North,8
+2021-01-01,Access A Ride,69.8
+2021-01-01,Bridges And Tunnels,53.8
+2020-12-31,Subways,32
+2020-12-31,Buses,49
+2020-12-31,Lirr,24
+2020-12-31,Metro North,20
+2020-12-31,Access A Ride,68.9
+2020-12-31,Bridges And Tunnels,86
+2020-12-30,Subways,36.6
+2020-12-30,Buses,60.9
+2020-12-30,Lirr,25
+2020-12-30,Metro North,21
+2020-12-30,Access A Ride,85
+2020-12-30,Bridges And Tunnels,119.7
+2020-12-29,Subways,36
+2020-12-29,Buses,59.8
+2020-12-29,Lirr,25
+2020-12-29,Metro North,20
+2020-12-29,Access A Ride,80.1
+2020-12-29,Bridges And Tunnels,95.9
+2020-12-28,Subways,34.9
+2020-12-28,Buses,58.8
+2020-12-28,Lirr,26
+2020-12-28,Metro North,21
+2020-12-28,Access A Ride,76.5
+2020-12-28,Bridges And Tunnels,90.9
+2020-12-27,Subways,30.2
+2020-12-27,Buses,49.9
+2020-12-27,Lirr,32
+2020-12-27,Metro North,31
+2020-12-27,Access A Ride,52.7
+2020-12-27,Bridges And Tunnels,76.1
+2020-12-26,Subways,28.2
+2020-12-26,Buses,46
+2020-12-26,Lirr,28
+2020-12-26,Metro North,27
+2020-12-26,Access A Ride,59.9
+2020-12-26,Bridges And Tunnels,69.7
+2020-12-25,Subways,27.9
+2020-12-25,Buses,46.8
+2020-12-25,Lirr,16
+2020-12-25,Metro North,7
+2020-12-25,Access A Ride,58.2
+2020-12-25,Bridges And Tunnels,53.5
+2020-12-24,Subways,36
+2020-12-24,Buses,53.3
+2020-12-24,Lirr,24
+2020-12-24,Metro North,20
+2020-12-24,Access A Ride,71.7
+2020-12-24,Bridges And Tunnels,89.6
+2020-12-23,Subways,37.4
+2020-12-23,Buses,56.5
+2020-12-23,Lirr,27
+2020-12-23,Metro North,21
+2020-12-23,Access A Ride,86.3
+2020-12-23,Bridges And Tunnels,112.9
+2020-12-22,Subways,37.2
+2020-12-22,Buses,56.4
+2020-12-22,Lirr,26
+2020-12-22,Metro North,20
+2020-12-22,Access A Ride,84.5
+2020-12-22,Bridges And Tunnels,90.1
+2020-12-21,Subways,36.2
+2020-12-21,Buses,55.3
+2020-12-21,Lirr,26
+2020-12-21,Metro North,20
+2020-12-21,Access A Ride,80.2
+2020-12-21,Bridges And Tunnels,83.9
+2020-12-20,Subways,30.8
+2020-12-20,Buses,49.5
+2020-12-20,Lirr,31
+2020-12-20,Metro North,28
+2020-12-20,Access A Ride,48.3
+2020-12-20,Bridges And Tunnels,66.2
+2020-12-19,Subways,35
+2020-12-19,Buses,52.9
+2020-12-19,Lirr,32
+2020-12-19,Metro North,30
+2020-12-19,Access A Ride,66.5
+2020-12-19,Bridges And Tunnels,71.8
+2020-12-18,Subways,30.7
+2020-12-18,Buses,45.2
+2020-12-18,Lirr,24
+2020-12-18,Metro North,19
+2020-12-18,Access A Ride,56.2
+2020-12-18,Bridges And Tunnels,74.2
+2020-12-17,Subways,18.8
+2020-12-17,Buses,25.7
+2020-12-17,Lirr,7
+2020-12-17,Metro North,6
+2020-12-17,Access A Ride,31.2
+2020-12-17,Bridges And Tunnels,30.5
+2020-12-16,Subways,26.5
+2020-12-16,Buses,38.7
+2020-12-16,Lirr,22
+2020-12-16,Metro North,17
+2020-12-16,Access A Ride,57.5
+2020-12-16,Bridges And Tunnels,66.2
+2020-12-15,Subways,31.4
+2020-12-15,Buses,52.7
+2020-12-15,Lirr,25
+2020-12-15,Metro North,20
+2020-12-15,Access A Ride,74.2
+2020-12-15,Bridges And Tunnels,94.6
+2020-12-14,Subways,27.7
+2020-12-14,Buses,43.6
+2020-12-14,Lirr,24
+2020-12-14,Metro North,18
+2020-12-14,Access A Ride,70.6
+2020-12-14,Bridges And Tunnels,79.9
+2020-12-13,Subways,32.4
+2020-12-13,Buses,55
+2020-12-13,Lirr,37
+2020-12-13,Metro North,34
+2020-12-13,Access A Ride,51.7
+2020-12-13,Bridges And Tunnels,78.4
+2020-12-12,Subways,31.6
+2020-12-12,Buses,54.9
+2020-12-12,Lirr,33
+2020-12-12,Metro North,30
+2020-12-12,Access A Ride,69.2
+2020-12-12,Bridges And Tunnels,76.2
+2020-12-11,Subways,30.2
+2020-12-11,Buses,49.9
+2020-12-11,Lirr,25
+2020-12-11,Metro North,20
+2020-12-11,Access A Ride,74.2
+2020-12-11,Bridges And Tunnels,83.9
+2020-12-10,Subways,29
+2020-12-10,Buses,47.7
+2020-12-10,Lirr,24
+2020-12-10,Metro North,19
+2020-12-10,Access A Ride,70
+2020-12-10,Bridges And Tunnels,80.1
+2020-12-09,Subways,28.7
+2020-12-09,Buses,46
+2020-12-09,Lirr,24
+2020-12-09,Metro North,18
+2020-12-09,Access A Ride,72.3
+2020-12-09,Bridges And Tunnels,85
+2020-12-08,Subways,26
+2020-12-08,Buses,46
+2020-12-08,Lirr,24
+2020-12-08,Metro North,19
+2020-12-08,Access A Ride,67.8
+2020-12-08,Bridges And Tunnels,81.8
+2020-12-07,Subways,29.5
+2020-12-07,Buses,49.5
+2020-12-07,Lirr,25
+2020-12-07,Metro North,19
+2020-12-07,Access A Ride,71.7
+2020-12-07,Bridges And Tunnels,83.3
+2020-12-06,Subways,32.9
+2020-12-06,Buses,52.7
+2020-12-06,Lirr,33
+2020-12-06,Metro North,30
+2020-12-06,Access A Ride,50.5
+2020-12-06,Bridges And Tunnels,71.5
+2020-12-05,Subways,28.4
+2020-12-05,Buses,46.9
+2020-12-05,Lirr,26
+2020-12-05,Metro North,24
+2020-12-05,Access A Ride,54.8
+2020-12-05,Bridges And Tunnels,63.9
+2020-12-04,Subways,28.6
+2020-12-04,Buses,46
+2020-12-04,Lirr,23
+2020-12-04,Metro North,19
+2020-12-04,Access A Ride,70.9
+2020-12-04,Bridges And Tunnels,79.3
+2020-12-03,Subways,28.7
+2020-12-03,Buses,46.3
+2020-12-03,Lirr,24
+2020-12-03,Metro North,19
+2020-12-03,Access A Ride,69.8
+2020-12-03,Bridges And Tunnels,79.5
+2020-12-02,Subways,28.5
+2020-12-02,Buses,44.5
+2020-12-02,Lirr,23
+2020-12-02,Metro North,18
+2020-12-02,Access A Ride,67.3
+2020-12-02,Bridges And Tunnels,80.2
+2020-12-01,Subways,29.3
+2020-12-01,Buses,47.1
+2020-12-01,Lirr,23
+2020-12-01,Metro North,18
+2020-12-01,Access A Ride,71.7
+2020-12-01,Bridges And Tunnels,83.9
+2020-11-30,Subways,27.7
+2020-11-30,Buses,41.8
+2020-11-30,Lirr,24
+2020-11-30,Metro North,19
+2020-11-30,Access A Ride,75.3
+2020-11-30,Bridges And Tunnels,85.4
+2020-11-29,Subways,40.7
+2020-11-29,Buses,66.6
+2020-11-29,Lirr,35
+2020-11-29,Metro North,33
+2020-11-29,Access A Ride,62.3
+2020-11-29,Bridges And Tunnels,86.9
+2020-11-28,Subways,37.1
+2020-11-28,Buses,55.9
+2020-11-28,Lirr,33
+2020-11-28,Metro North,30
+2020-11-28,Access A Ride,75.7
+2020-11-28,Bridges And Tunnels,71.9
+2020-11-27,Subways,36.3
+2020-11-27,Buses,57.3
+2020-11-27,Lirr,24
+2020-11-27,Metro North,12
+2020-11-27,Access A Ride,83
+2020-11-27,Bridges And Tunnels,83.6
+2020-11-26,Subways,30.8
+2020-11-26,Buses,54.3
+2020-11-26,Lirr,22
+2020-11-26,Metro North,10
+2020-11-26,Access A Ride,56.8
+2020-11-26,Bridges And Tunnels,62.5
+2020-11-25,Subways,32
+2020-11-25,Buses,48.2
+2020-11-25,Lirr,28
+2020-11-25,Metro North,23
+2020-11-25,Access A Ride,77.9
+2020-11-25,Bridges And Tunnels,86.4
+2020-11-24,Subways,29.8
+2020-11-24,Buses,46.2
+2020-11-24,Lirr,27
+2020-11-24,Metro North,21
+2020-11-24,Access A Ride,71.6
+2020-11-24,Bridges And Tunnels,82.3
+2020-11-23,Subways,28.8
+2020-11-23,Buses,44.1
+2020-11-23,Lirr,27
+2020-11-23,Metro North,21
+2020-11-23,Access A Ride,71.2
+2020-11-23,Bridges And Tunnels,83.4
+2020-11-22,Subways,36.3
+2020-11-22,Buses,58.3
+2020-11-22,Lirr,33
+2020-11-22,Metro North,31
+2020-11-22,Access A Ride,59
+2020-11-22,Bridges And Tunnels,79.2
+2020-11-21,Subways,36.3
+2020-11-21,Buses,55.3
+2020-11-21,Lirr,34
+2020-11-21,Metro North,34
+2020-11-21,Access A Ride,77.6
+2020-11-21,Bridges And Tunnels,82.8
+2020-11-20,Subways,31.1
+2020-11-20,Buses,49
+2020-11-20,Lirr,27
+2020-11-20,Metro North,21
+2020-11-20,Access A Ride,75.4
+2020-11-20,Bridges And Tunnels,86.2
+2020-11-19,Subways,29.3
+2020-11-19,Buses,45.4
+2020-11-19,Lirr,26
+2020-11-19,Metro North,20
+2020-11-19,Access A Ride,67.2
+2020-11-19,Bridges And Tunnels,83.3
+2020-11-18,Subways,30.2
+2020-11-18,Buses,46.1
+2020-11-18,Lirr,26
+2020-11-18,Metro North,20
+2020-11-18,Access A Ride,69.8
+2020-11-18,Bridges And Tunnels,83.7
+2020-11-17,Subways,30.4
+2020-11-17,Buses,47.1
+2020-11-17,Lirr,26
+2020-11-17,Metro North,20
+2020-11-17,Access A Ride,69
+2020-11-17,Bridges And Tunnels,84.1
+2020-11-16,Subways,31.1
+2020-11-16,Buses,48.4
+2020-11-16,Lirr,27
+2020-11-16,Metro North,21
+2020-11-16,Access A Ride,73.5
+2020-11-16,Bridges And Tunnels,85.9
+2020-11-15,Subways,33.7
+2020-11-15,Buses,51.9
+2020-11-15,Lirr,33
+2020-11-15,Metro North,32
+2020-11-15,Access A Ride,51.5
+2020-11-15,Bridges And Tunnels,72.7
+2020-11-14,Subways,37.6
+2020-11-14,Buses,57.4
+2020-11-14,Lirr,36
+2020-11-14,Metro North,38
+2020-11-14,Access A Ride,74
+2020-11-14,Bridges And Tunnels,81.4
+2020-11-13,Subways,31
+2020-11-13,Buses,47.6
+2020-11-13,Lirr,26
+2020-11-13,Metro North,21
+2020-11-13,Access A Ride,70.4
+2020-11-13,Bridges And Tunnels,82.9
+2020-11-12,Subways,30
+2020-11-12,Buses,46.2
+2020-11-12,Lirr,26
+2020-11-12,Metro North,20
+2020-11-12,Access A Ride,67.4
+2020-11-12,Bridges And Tunnels,81.2
+2020-11-11,Subways,33.7
+2020-11-11,Buses,53.4
+2020-11-11,Lirr,25
+2020-11-11,Metro North,20
+2020-11-11,Access A Ride,91.7
+2020-11-11,Bridges And Tunnels,77.8
+2020-11-10,Subways,31.6
+2020-11-10,Buses,52.2
+2020-11-10,Lirr,28
+2020-11-10,Metro North,22
+2020-11-10,Access A Ride,71.7
+2020-11-10,Bridges And Tunnels,90.2
+2020-11-09,Subways,30.2
+2020-11-09,Buses,50.1
+2020-11-09,Lirr,28
+2020-11-09,Metro North,22
+2020-11-09,Access A Ride,67.9
+2020-11-09,Bridges And Tunnels,91
+2020-11-08,Subways,36.9
+2020-11-08,Buses,55.6
+2020-11-08,Lirr,41
+2020-11-08,Metro North,42
+2020-11-08,Access A Ride,54
+2020-11-08,Bridges And Tunnels,84.6
+2020-11-07,Subways,38.5
+2020-11-07,Buses,57.3
+2020-11-07,Lirr,40
+2020-11-07,Metro North,44
+2020-11-07,Access A Ride,75.6
+2020-11-07,Bridges And Tunnels,86.5
+2020-11-06,Subways,31.4
+2020-11-06,Buses,51
+2020-11-06,Lirr,27
+2020-11-06,Metro North,23
+2020-11-06,Access A Ride,76.5
+2020-11-06,Bridges And Tunnels,87.5
+2020-11-05,Subways,29.8
+2020-11-05,Buses,48.1
+2020-11-05,Lirr,26
+2020-11-05,Metro North,21
+2020-11-05,Access A Ride,71.1
+2020-11-05,Bridges And Tunnels,85.8
+2020-11-04,Subways,28.1
+2020-11-04,Buses,45.5
+2020-11-04,Lirr,25
+2020-11-04,Metro North,20
+2020-11-04,Access A Ride,66.6
+2020-11-04,Bridges And Tunnels,80.6
+2020-11-03,Subways,29
+2020-11-03,Buses,48.4
+2020-11-03,Lirr,25
+2020-11-03,Metro North,20
+2020-11-03,Access A Ride,67
+2020-11-03,Bridges And Tunnels,80.8
+2020-11-02,Subways,30.1
+2020-11-02,Buses,46
+2020-11-02,Lirr,27
+2020-11-02,Metro North,21
+2020-11-02,Access A Ride,70.1
+2020-11-02,Bridges And Tunnels,84
+2020-11-01,Subways,27.3
+2020-11-01,Buses,51.5
+2020-11-01,Lirr,31
+2020-11-01,Metro North,34
+2020-11-01,Access A Ride,60.2
+2020-11-01,Bridges And Tunnels,85.1
+2020-10-31,Subways,35
+2020-10-31,Buses,52.2
+2020-10-31,Lirr,37
+2020-10-31,Metro North,42
+2020-10-31,Access A Ride,70.3
+2020-10-31,Bridges And Tunnels,80.3
+2020-10-30,Subways,29.7
+2020-10-30,Buses,44.4
+2020-10-30,Lirr,27
+2020-10-30,Metro North,23
+2020-10-30,Access A Ride,70.2
+2020-10-30,Bridges And Tunnels,83.2
+2020-10-29,Subways,29.6
+2020-10-29,Buses,44.8
+2020-10-29,Lirr,26
+2020-10-29,Metro North,21
+2020-10-29,Access A Ride,72.1
+2020-10-29,Bridges And Tunnels,87.6
+2020-10-28,Subways,30.3
+2020-10-28,Buses,47
+2020-10-28,Lirr,28
+2020-10-28,Metro North,22
+2020-10-28,Access A Ride,72.5
+2020-10-28,Bridges And Tunnels,86.6
+2020-10-27,Subways,30.4
+2020-10-27,Buses,49
+2020-10-27,Lirr,28
+2020-10-27,Metro North,22
+2020-10-27,Access A Ride,70.3
+2020-10-27,Bridges And Tunnels,86.4
+2020-10-26,Subways,29.4
+2020-10-26,Buses,45.6
+2020-10-26,Lirr,28
+2020-10-26,Metro North,22
+2020-10-26,Access A Ride,72
+2020-10-26,Bridges And Tunnels,83.2
+2020-10-25,Subways,40.2
+2020-10-25,Buses,66.2
+2020-10-25,Lirr,37
+2020-10-25,Metro North,43
+2020-10-25,Access A Ride,58.8
+2020-10-25,Bridges And Tunnels,93.4
+2020-10-24,Subways,35.5
+2020-10-24,Buses,55.8
+2020-10-24,Lirr,38
+2020-10-24,Metro North,47
+2020-10-24,Access A Ride,72.4
+2020-10-24,Bridges And Tunnels,84.6
+2020-10-23,Subways,31.2
+2020-10-23,Buses,49.2
+2020-10-23,Lirr,29
+2020-10-23,Metro North,24
+2020-10-23,Access A Ride,72.2
+2020-10-23,Bridges And Tunnels,87.6
+2020-10-22,Subways,29.9
+2020-10-22,Buses,48.1
+2020-10-22,Lirr,28
+2020-10-22,Metro North,23
+2020-10-22,Access A Ride,69.7
+2020-10-22,Bridges And Tunnels,85.8
+2020-10-21,Subways,30
+2020-10-21,Buses,47.8
+2020-10-21,Lirr,27
+2020-10-21,Metro North,22
+2020-10-21,Access A Ride,70.1
+2020-10-21,Bridges And Tunnels,85.4
+2020-10-20,Subways,30.7
+2020-10-20,Buses,49.8
+2020-10-20,Lirr,28
+2020-10-20,Metro North,22
+2020-10-20,Access A Ride,73.1
+2020-10-20,Bridges And Tunnels,90.3
+2020-10-19,Subways,30.4
+2020-10-19,Buses,48.2
+2020-10-19,Lirr,28
+2020-10-19,Metro North,23
+2020-10-19,Access A Ride,75.7
+2020-10-19,Bridges And Tunnels,89.5
+2020-10-18,Subways,36.9
+2020-10-18,Buses,59.8
+2020-10-18,Lirr,38
+2020-10-18,Metro North,46
+2020-10-18,Access A Ride,53.7
+2020-10-18,Bridges And Tunnels,90.2
+2020-10-17,Subways,36
+2020-10-17,Buses,56.4
+2020-10-17,Lirr,39
+2020-10-17,Metro North,46
+2020-10-17,Access A Ride,67
+2020-10-17,Bridges And Tunnels,83.3
+2020-10-16,Subways,27.9
+2020-10-16,Buses,43.2
+2020-10-16,Lirr,27
+2020-10-16,Metro North,22
+2020-10-16,Access A Ride,69
+2020-10-16,Bridges And Tunnels,79.7
+2020-10-15,Subways,30.5
+2020-10-15,Buses,49.8
+2020-10-15,Lirr,29
+2020-10-15,Metro North,23
+2020-10-15,Access A Ride,72.8
+2020-10-15,Bridges And Tunnels,89.3
+2020-10-14,Subways,31.5
+2020-10-14,Buses,52.9
+2020-10-14,Lirr,28
+2020-10-14,Metro North,23
+2020-10-14,Access A Ride,74.5
+2020-10-14,Bridges And Tunnels,90.7
+2020-10-13,Subways,29.2
+2020-10-13,Buses,45.4
+2020-10-13,Lirr,24
+2020-10-13,Metro North,22
+2020-10-13,Access A Ride,69
+2020-10-13,Bridges And Tunnels,83.7
+2020-10-12,Subways,30.2
+2020-10-12,Buses,47.1
+2020-10-12,Lirr,24
+2020-10-12,Metro North,20
+2020-10-12,Access A Ride,82.6
+2020-10-12,Bridges And Tunnels,80.4
+2020-10-11,Subways,31.9
+2020-10-11,Buses,52.3
+2020-10-11,Lirr,38
+2020-10-11,Metro North,43
+2020-10-11,Access A Ride,51.2
+2020-10-11,Bridges And Tunnels,77.4
+2020-10-10,Subways,35.9
+2020-10-10,Buses,55.9
+2020-10-10,Lirr,39
+2020-10-10,Metro North,51
+2020-10-10,Access A Ride,72.2
+2020-10-10,Bridges And Tunnels,87.6
+2020-10-09,Subways,30.9
+2020-10-09,Buses,48.9
+2020-10-09,Lirr,25
+2020-10-09,Metro North,25
+2020-10-09,Access A Ride,71.3
+2020-10-09,Bridges And Tunnels,86.9
+2020-10-08,Subways,29.8
+2020-10-08,Buses,47.5
+2020-10-08,Lirr,28
+2020-10-08,Metro North,23
+2020-10-08,Access A Ride,69.8
+2020-10-08,Bridges And Tunnels,87
+2020-10-07,Subways,36.3
+2020-10-07,Buses,61.3
+2020-10-07,Lirr,28
+2020-10-07,Metro North,22
+2020-10-07,Access A Ride,82.3
+2020-10-07,Bridges And Tunnels,100
+2020-10-06,Subways,30.8
+2020-10-06,Buses,49.1
+2020-10-06,Lirr,28
+2020-10-06,Metro North,22
+2020-10-06,Access A Ride,70.6
+2020-10-06,Bridges And Tunnels,91.4
+2020-10-05,Subways,29.4
+2020-10-05,Buses,46.5
+2020-10-05,Lirr,28
+2020-10-05,Metro North,22
+2020-10-05,Access A Ride,68.5
+2020-10-05,Bridges And Tunnels,86.7
+2020-10-04,Subways,33.9
+2020-10-04,Buses,52.7
+2020-10-04,Lirr,38
+2020-10-04,Metro North,42
+2020-10-04,Access A Ride,52
+2020-10-04,Bridges And Tunnels,81.2
+2020-10-03,Subways,35
+2020-10-03,Buses,54.9
+2020-10-03,Lirr,40
+2020-10-03,Metro North,45
+2020-10-03,Access A Ride,72
+2020-10-03,Bridges And Tunnels,86.6
+2020-10-02,Subways,29.9
+2020-10-02,Buses,47.5
+2020-10-02,Lirr,28
+2020-10-02,Metro North,23
+2020-10-02,Access A Ride,72.4
+2020-10-02,Bridges And Tunnels,88.7
+2020-10-01,Subways,30.1
+2020-10-01,Buses,49.8
+2020-10-01,Lirr,27
+2020-10-01,Metro North,21
+2020-10-01,Access A Ride,70.6
+2020-10-01,Bridges And Tunnels,92.9
+2020-09-30,Subways,29.3
+2020-09-30,Buses,45
+2020-09-30,Lirr,27
+2020-09-30,Metro North,21
+2020-09-30,Access A Ride,69
+2020-09-30,Bridges And Tunnels,88.9
+2020-09-29,Subways,32.1
+2020-09-29,Buses,50
+2020-09-29,Lirr,27
+2020-09-29,Metro North,21
+2020-09-29,Access A Ride,73.6
+2020-09-29,Bridges And Tunnels,90.5
+2020-09-28,Subways,31.3
+2020-09-28,Buses,50
+2020-09-28,Lirr,27
+2020-09-28,Metro North,22
+2020-09-28,Access A Ride,74.1
+2020-09-28,Bridges And Tunnels,86.7
+2020-09-27,Subways,33.3
+2020-09-27,Buses,54
+2020-09-27,Lirr,40
+2020-09-27,Metro North,43
+2020-09-27,Access A Ride,50.7
+2020-09-27,Bridges And Tunnels,79.6
+2020-09-26,Subways,34.9
+2020-09-26,Buses,54
+2020-09-26,Lirr,40
+2020-09-26,Metro North,44
+2020-09-26,Access A Ride,71.2
+2020-09-26,Bridges And Tunnels,84.9
+2020-09-25,Subways,30
+2020-09-25,Buses,47
+2020-09-25,Lirr,28
+2020-09-25,Metro North,24
+2020-09-25,Access A Ride,74.1
+2020-09-25,Bridges And Tunnels,89.3
+2020-09-24,Subways,28.5
+2020-09-24,Buses,45
+2020-09-24,Lirr,27
+2020-09-24,Metro North,22
+2020-09-24,Access A Ride,70.4
+2020-09-24,Bridges And Tunnels,88.1
+2020-09-23,Subways,28.7
+2020-09-23,Buses,45
+2020-09-23,Lirr,27
+2020-09-23,Metro North,22
+2020-09-23,Access A Ride,70.8
+2020-09-23,Bridges And Tunnels,88
+2020-09-22,Subways,28.3
+2020-09-22,Buses,45
+2020-09-22,Lirr,27
+2020-09-22,Metro North,21
+2020-09-22,Access A Ride,70.2
+2020-09-22,Bridges And Tunnels,87.6
+2020-09-21,Subways,28.3
+2020-09-21,Buses,44
+2020-09-21,Lirr,27
+2020-09-21,Metro North,21
+2020-09-21,Access A Ride,69.5
+2020-09-21,Bridges And Tunnels,85.4
+2020-09-20,Subways,31.7
+2020-09-20,Buses,52
+2020-09-20,Lirr,39
+2020-09-20,Metro North,40
+2020-09-20,Access A Ride,49.5
+2020-09-20,Bridges And Tunnels,75.5
+2020-09-19,Subways,34.2
+2020-09-19,Buses,53
+2020-09-19,Lirr,40
+2020-09-19,Metro North,42
+2020-09-19,Access A Ride,69.3
+2020-09-19,Bridges And Tunnels,82.5
+2020-09-18,Subways,28.9
+2020-09-18,Buses,46
+2020-09-18,Lirr,28
+2020-09-18,Metro North,23
+2020-09-18,Access A Ride,71.7
+2020-09-18,Bridges And Tunnels,88.2
+2020-09-17,Subways,28.1
+2020-09-17,Buses,44
+2020-09-17,Lirr,27
+2020-09-17,Metro North,21
+2020-09-17,Access A Ride,67.8
+2020-09-17,Bridges And Tunnels,86.5
+2020-09-16,Subways,28.2
+2020-09-16,Buses,44
+2020-09-16,Lirr,27
+2020-09-16,Metro North,21
+2020-09-16,Access A Ride,68.7
+2020-09-16,Bridges And Tunnels,86.4
+2020-09-15,Subways,28.2
+2020-09-15,Buses,45
+2020-09-15,Lirr,27
+2020-09-15,Metro North,21
+2020-09-15,Access A Ride,67.6
+2020-09-15,Bridges And Tunnels,87.6
+2020-09-14,Subways,28.3
+2020-09-14,Buses,44
+2020-09-14,Lirr,27
+2020-09-14,Metro North,21
+2020-09-14,Access A Ride,70.4
+2020-09-14,Bridges And Tunnels,86.1
+2020-09-13,Subways,31.1
+2020-09-13,Buses,52
+2020-09-13,Lirr,37
+2020-09-13,Metro North,36
+2020-09-13,Access A Ride,50.4
+2020-09-13,Bridges And Tunnels,76.5
+2020-09-12,Subways,34.6
+2020-09-12,Buses,55
+2020-09-12,Lirr,38
+2020-09-12,Metro North,40
+2020-09-12,Access A Ride,73.1
+2020-09-12,Bridges And Tunnels,85.2
+2020-09-11,Subways,28.8
+2020-09-11,Buses,46
+2020-09-11,Lirr,27
+2020-09-11,Metro North,23
+2020-09-11,Access A Ride,70.6
+2020-09-11,Bridges And Tunnels,88.1
+2020-09-10,Subways,26
+2020-09-10,Buses,41
+2020-09-10,Lirr,25
+2020-09-10,Metro North,20
+2020-09-10,Access A Ride,64.9
+2020-09-10,Bridges And Tunnels,82.5
+2020-09-09,Subways,27.1
+2020-09-09,Buses,44
+2020-09-09,Lirr,26
+2020-09-09,Metro North,21
+2020-09-09,Access A Ride,69.1
+2020-09-09,Bridges And Tunnels,88.1
+2020-09-08,Subways,26.4
+2020-09-08,Buses,43
+2020-09-08,Lirr,28
+2020-09-08,Metro North,22
+2020-09-08,Access A Ride,63.8
+2020-09-08,Bridges And Tunnels,89.9
+2020-09-07,Subways,39.1
+2020-09-07,Buses,69
+2020-09-07,Lirr,24
+2020-09-07,Metro North,14
+2020-09-07,Access A Ride,97
+2020-09-07,Bridges And Tunnels,76
+2020-09-06,Subways,32.6
+2020-09-06,Buses,53
+2020-09-06,Lirr,45
+2020-09-06,Metro North,43
+2020-09-06,Access A Ride,53.7
+2020-09-06,Bridges And Tunnels,83.8
+2020-09-05,Subways,31.5
+2020-09-05,Buses,52
+2020-09-05,Lirr,43
+2020-09-05,Metro North,42
+2020-09-05,Access A Ride,71.5
+2020-09-05,Bridges And Tunnels,85.5
+2020-09-04,Subways,27.9
+2020-09-04,Buses,48
+2020-09-04,Lirr,27
+2020-09-04,Metro North,22
+2020-09-04,Access A Ride,70.4
+2020-09-04,Bridges And Tunnels,96.4
+2020-09-03,Subways,26.6
+2020-09-03,Buses,45
+2020-09-03,Lirr,25
+2020-09-03,Metro North,20
+2020-09-03,Access A Ride,66
+2020-09-03,Bridges And Tunnels,90.9
+2020-09-02,Subways,27.1
+2020-09-02,Buses,46
+2020-09-02,Lirr,24
+2020-09-02,Metro North,18
+2020-09-02,Access A Ride,65.6
+2020-09-02,Bridges And Tunnels,86.4
+2020-09-01,Subways,27.7
+2020-09-01,Buses,47
+2020-09-01,Lirr,23
+2020-09-01,Metro North,18
+2020-09-01,Access A Ride,66.1
+2020-09-01,Bridges And Tunnels,85.1
+2020-08-31,Subways,26.4
+2020-08-31,Buses,46
+2020-08-31,Lirr,25
+2020-08-31,Metro North,19
+2020-08-31,Access A Ride,63.5
+2020-08-31,Bridges And Tunnels,110.3
+2020-08-30,Subways,30
+2020-08-30,Buses,76
+2020-08-30,Lirr,43
+2020-08-30,Metro North,40
+2020-08-30,Access A Ride,52.1
+2020-08-30,Bridges And Tunnels,89.8
+2020-08-29,Subways,26.6
+2020-08-29,Buses,67
+2020-08-29,Lirr,28
+2020-08-29,Metro North,27
+2020-08-29,Access A Ride,60
+2020-08-29,Bridges And Tunnels,68.6
+2020-08-28,Subways,28.3
+2020-08-28,Buses,67
+2020-08-28,Lirr,24
+2020-08-28,Metro North,19
+2020-08-28,Access A Ride,70.5
+2020-08-28,Bridges And Tunnels,87
+2020-08-27,Subways,25.8
+2020-08-27,Buses,61
+2020-08-27,Lirr,23
+2020-08-27,Metro North,18
+2020-08-27,Access A Ride,68.9
+2020-08-27,Bridges And Tunnels,83
+2020-08-26,Subways,27.1
+2020-08-26,Buses,67
+2020-08-26,Lirr,24
+2020-08-26,Metro North,19
+2020-08-26,Access A Ride,71.2
+2020-08-26,Bridges And Tunnels,91
+2020-08-25,Subways,25.9
+2020-08-25,Buses,62
+2020-08-25,Lirr,23
+2020-08-25,Metro North,18
+2020-08-25,Access A Ride,66.3
+2020-08-25,Bridges And Tunnels,87.3
+2020-08-24,Subways,26.9
+2020-08-24,Buses,66
+2020-08-24,Lirr,24
+2020-08-24,Metro North,18
+2020-08-24,Access A Ride,69.5
+2020-08-24,Bridges And Tunnels,88.1
+2020-08-23,Subways,28.8
+2020-08-23,Buses,71
+2020-08-23,Lirr,36
+2020-08-23,Metro North,34
+2020-08-23,Access A Ride,46.8
+2020-08-23,Bridges And Tunnels,79.4
+2020-08-22,Subways,30.4
+2020-08-22,Buses,73
+2020-08-22,Lirr,37
+2020-08-22,Metro North,34
+2020-08-22,Access A Ride,69.3
+2020-08-22,Bridges And Tunnels,82.5
+2020-08-21,Subways,28.5
+2020-08-21,Buses,70
+2020-08-21,Lirr,24
+2020-08-21,Metro North,19
+2020-08-21,Access A Ride,70.3
+2020-08-21,Bridges And Tunnels,89.9
+2020-08-20,Subways,27.7
+2020-08-20,Buses,68
+2020-08-20,Lirr,24
+2020-08-20,Metro North,19
+2020-08-20,Access A Ride,68.3
+2020-08-20,Bridges And Tunnels,89.3
+2020-08-19,Subways,25.5
+2020-08-19,Buses,61
+2020-08-19,Lirr,22
+2020-08-19,Metro North,17
+2020-08-19,Access A Ride,68.3
+2020-08-19,Bridges And Tunnels,85.8
+2020-08-18,Subways,26.9
+2020-08-18,Buses,65
+2020-08-18,Lirr,24
+2020-08-18,Metro North,18
+2020-08-18,Access A Ride,68.1
+2020-08-18,Bridges And Tunnels,88
+2020-08-17,Subways,27.1
+2020-08-17,Buses,66
+2020-08-17,Lirr,24
+2020-08-17,Metro North,18
+2020-08-17,Access A Ride,66.9
+2020-08-17,Bridges And Tunnels,85.7
+2020-08-16,Subways,24.4
+2020-08-16,Buses,57
+2020-08-16,Lirr,29
+2020-08-16,Metro North,27
+2020-08-16,Access A Ride,44.1
+2020-08-16,Bridges And Tunnels,68.1
+2020-08-15,Subways,30.1
+2020-08-15,Buses,72
+2020-08-15,Lirr,35
+2020-08-15,Metro North,34
+2020-08-15,Access A Ride,69.2
+2020-08-15,Bridges And Tunnels,84.9
+2020-08-14,Subways,27.1
+2020-08-14,Buses,67
+2020-08-14,Lirr,23
+2020-08-14,Metro North,19
+2020-08-14,Access A Ride,66.9
+2020-08-14,Bridges And Tunnels,88.6
+2020-08-13,Subways,24.3
+2020-08-13,Buses,58
+2020-08-13,Lirr,22
+2020-08-13,Metro North,17
+2020-08-13,Access A Ride,64.6
+2020-08-13,Bridges And Tunnels,82.1
+2020-08-12,Subways,24.8
+2020-08-12,Buses,61
+2020-08-12,Lirr,22
+2020-08-12,Metro North,17
+2020-08-12,Access A Ride,64.5
+2020-08-12,Bridges And Tunnels,84.6
+2020-08-11,Subways,25.7
+2020-08-11,Buses,64
+2020-08-11,Lirr,23
+2020-08-11,Metro North,17
+2020-08-11,Access A Ride,65.8
+2020-08-11,Bridges And Tunnels,90.7
+2020-08-10,Subways,25.4
+2020-08-10,Buses,63
+2020-08-10,Lirr,24
+2020-08-10,Metro North,17
+2020-08-10,Access A Ride,69.4
+2020-08-10,Bridges And Tunnels,87.3
+2020-08-09,Subways,26.8
+2020-08-09,Buses,70
+2020-08-09,Lirr,36
+2020-08-09,Metro North,31
+2020-08-09,Access A Ride,46.5
+2020-08-09,Bridges And Tunnels,81.4
+2020-08-08,Subways,27.6
+2020-08-08,Buses,70
+2020-08-08,Lirr,31
+2020-08-08,Metro North,29
+2020-08-08,Access A Ride,62.4
+2020-08-08,Bridges And Tunnels,74.7
+2020-08-07,Subways,24.9
+2020-08-07,Buses,62
+2020-08-07,Lirr,21
+2020-08-07,Metro North,16
+2020-08-07,Access A Ride,63.9
+2020-08-07,Bridges And Tunnels,82.5
+2020-08-06,Subways,24.6
+2020-08-06,Buses,59
+2020-08-06,Lirr,21
+2020-08-06,Metro North,14
+2020-08-06,Access A Ride,65.8
+2020-08-06,Bridges And Tunnels,84.7
+2020-08-05,Subways,25.7
+2020-08-05,Buses,66
+2020-08-05,Lirr,19
+2020-08-05,Metro North,14
+2020-08-05,Access A Ride,62.3
+2020-08-05,Bridges And Tunnels,92.5
+2020-08-04,Subways,19.2
+2020-08-04,Buses,46
+2020-08-04,Lirr,12
+2020-08-04,Metro North,11
+2020-08-04,Access A Ride,51.2
+2020-08-04,Bridges And Tunnels,61.8
+2020-08-03,Subways,24.8
+2020-08-03,Buses,62
+2020-08-03,Lirr,23
+2020-08-03,Metro North,17
+2020-08-03,Access A Ride,65.6
+2020-08-03,Bridges And Tunnels,87
+2020-08-02,Subways,24.1
+2020-08-02,Buses,62
+2020-08-02,Lirr,29
+2020-08-02,Metro North,27
+2020-08-02,Access A Ride,40.2
+2020-08-02,Bridges And Tunnels,70.1
+2020-08-01,Subways,28
+2020-08-01,Buses,69
+2020-08-01,Lirr,33
+2020-08-01,Metro North,32
+2020-08-01,Access A Ride,64.1
+2020-08-01,Bridges And Tunnels,85.2
+2020-07-31,Subways,24.1
+2020-07-31,Buses,60
+2020-07-31,Lirr,21
+2020-07-31,Metro North,18
+2020-07-31,Access A Ride,64.5
+2020-07-31,Bridges And Tunnels,84.3
+2020-07-30,Subways,23.3
+2020-07-30,Buses,57
+2020-07-30,Lirr,22
+2020-07-30,Metro North,17
+2020-07-30,Access A Ride,59.9
+2020-07-30,Bridges And Tunnels,81.2
+2020-07-29,Subways,24.2
+2020-07-29,Buses,62
+2020-07-29,Lirr,22
+2020-07-29,Metro North,17
+2020-07-29,Access A Ride,61.8
+2020-07-29,Bridges And Tunnels,86.5
+2020-07-28,Subways,23
+2020-07-28,Buses,57
+2020-07-28,Lirr,21
+2020-07-28,Metro North,16
+2020-07-28,Access A Ride,58.3
+2020-07-28,Bridges And Tunnels,82.5
+2020-07-27,Subways,23.4
+2020-07-27,Buses,57
+2020-07-27,Lirr,22
+2020-07-27,Metro North,16
+2020-07-27,Access A Ride,62.9
+2020-07-27,Bridges And Tunnels,84.1
+2020-07-26,Subways,24.9
+2020-07-26,Buses,64
+2020-07-26,Lirr,35
+2020-07-26,Metro North,30
+2020-07-26,Access A Ride,41
+2020-07-26,Bridges And Tunnels,73.3
+2020-07-25,Subways,26.8
+2020-07-25,Buses,69
+2020-07-25,Lirr,34
+2020-07-25,Metro North,31
+2020-07-25,Access A Ride,61.3
+2020-07-25,Bridges And Tunnels,78.2
+2020-07-24,Subways,23
+2020-07-24,Buses,56
+2020-07-24,Lirr,21
+2020-07-24,Metro North,17
+2020-07-24,Access A Ride,62.7
+2020-07-24,Bridges And Tunnels,79.6
+2020-07-23,Subways,22.2
+2020-07-23,Buses,55
+2020-07-23,Lirr,21
+2020-07-23,Metro North,17
+2020-07-23,Access A Ride,58.1
+2020-07-23,Bridges And Tunnels,78.1
+2020-07-22,Subways,22.1
+2020-07-22,Buses,54
+2020-07-22,Lirr,21
+2020-07-22,Metro North,17
+2020-07-22,Access A Ride,57.9
+2020-07-22,Bridges And Tunnels,80.1
+2020-07-21,Subways,23.6
+2020-07-21,Buses,59
+2020-07-21,Lirr,21
+2020-07-21,Metro North,17
+2020-07-21,Access A Ride,57.9
+2020-07-21,Bridges And Tunnels,86.7
+2020-07-20,Subways,22.9
+2020-07-20,Buses,57
+2020-07-20,Lirr,21
+2020-07-20,Metro North,17
+2020-07-20,Access A Ride,60.6
+2020-07-20,Bridges And Tunnels,84.4
+2020-07-19,Subways,26.9
+2020-07-19,Buses,67
+2020-07-19,Lirr,35
+2020-07-19,Metro North,28
+2020-07-19,Access A Ride,45.6
+2020-07-19,Bridges And Tunnels,79.7
+2020-07-18,Subways,29.5
+2020-07-18,Buses,72
+2020-07-18,Lirr,32
+2020-07-18,Metro North,29
+2020-07-18,Access A Ride,65.2
+2020-07-18,Bridges And Tunnels,80.8
+2020-07-17,Subways,23.2
+2020-07-17,Buses,57
+2020-07-17,Lirr,20
+2020-07-17,Metro North,17
+2020-07-17,Access A Ride,60.8
+2020-07-17,Bridges And Tunnels,79.7
+2020-07-16,Subways,23.1
+2020-07-16,Buses,59
+2020-07-16,Lirr,21
+2020-07-16,Metro North,17
+2020-07-16,Access A Ride,59.5
+2020-07-16,Bridges And Tunnels,83.8
+2020-07-15,Subways,22.8
+2020-07-15,Buses,58
+2020-07-15,Lirr,21
+2020-07-15,Metro North,17
+2020-07-15,Access A Ride,59.5
+2020-07-15,Bridges And Tunnels,84.8
+2020-07-14,Subways,22.4
+2020-07-14,Buses,56
+2020-07-14,Lirr,21
+2020-07-14,Metro North,16
+2020-07-14,Access A Ride,56.9
+2020-07-14,Bridges And Tunnels,83.1
+2020-07-13,Subways,22.2
+2020-07-13,Buses,55
+2020-07-13,Lirr,21
+2020-07-13,Metro North,16
+2020-07-13,Access A Ride,59
+2020-07-13,Bridges And Tunnels,79.6
+2020-07-12,Subways,25.8
+2020-07-12,Buses,64
+2020-07-12,Lirr,33
+2020-07-12,Metro North,30
+2020-07-12,Access A Ride,41.1
+2020-07-12,Bridges And Tunnels,74.1
+2020-07-11,Subways,22.9
+2020-07-11,Buses,59
+2020-07-11,Lirr,24
+2020-07-11,Metro North,23
+2020-07-11,Access A Ride,49.3
+2020-07-11,Bridges And Tunnels,62.9
+2020-07-10,Subways,19.1
+2020-07-10,Buses,45
+2020-07-10,Lirr,18
+2020-07-10,Metro North,14
+2020-07-10,Access A Ride,56.6
+2020-07-10,Bridges And Tunnels,70
+2020-07-09,Subways,22.1
+2020-07-09,Buses,57
+2020-07-09,Lirr,21
+2020-07-09,Metro North,16
+2020-07-09,Access A Ride,57.4
+2020-07-09,Bridges And Tunnels,84.3
+2020-07-08,Subways,21.1
+2020-07-08,Buses,51
+2020-07-08,Lirr,20
+2020-07-08,Metro North,15
+2020-07-08,Access A Ride,56.5
+2020-07-08,Bridges And Tunnels,79.1
+2020-07-07,Subways,21.2
+2020-07-07,Buses,52
+2020-07-07,Lirr,20
+2020-07-07,Metro North,16
+2020-07-07,Access A Ride,53.7
+2020-07-07,Bridges And Tunnels,79
+2020-07-06,Subways,21.2
+2020-07-06,Buses,50
+2020-07-06,Lirr,20
+2020-07-06,Metro North,16
+2020-07-06,Access A Ride,55
+2020-07-06,Bridges And Tunnels,81.2
+2020-07-05,Subways,23.1
+2020-07-05,Buses,60
+2020-07-05,Lirr,33
+2020-07-05,Metro North,29
+2020-07-05,Access A Ride,34.7
+2020-07-05,Bridges And Tunnels,75.2
+2020-07-04,Subways,22.8
+2020-07-04,Buses,59
+2020-07-04,Lirr,30
+2020-07-04,Metro North,27
+2020-07-04,Access A Ride,57.9
+2020-07-04,Bridges And Tunnels,71.7
+2020-07-03,Subways,31.3
+2020-07-03,Buses,87
+2020-07-03,Lirr,18
+2020-07-03,Metro North,15
+2020-07-03,Access A Ride,83.8
+2020-07-03,Bridges And Tunnels,83.4
+2020-07-02,Subways,22.4
+2020-07-02,Buses,57
+2020-07-02,Lirr,20
+2020-07-02,Metro North,16
+2020-07-02,Access A Ride,53.4
+2020-07-02,Bridges And Tunnels,114.6
+2020-07-01,Subways,21.5
+2020-07-01,Buses,53
+2020-07-01,Lirr,18
+2020-07-01,Metro North,14
+2020-07-01,Access A Ride,55
+2020-07-01,Bridges And Tunnels,77.2
+2020-06-30,Subways,20.9
+2020-06-30,Buses,52
+2020-06-30,Lirr,17
+2020-06-30,Metro North,14
+2020-06-30,Access A Ride,51.8
+2020-06-30,Bridges And Tunnels,80.1
+2020-06-29,Subways,21.2
+2020-06-29,Buses,53
+2020-06-29,Lirr,19
+2020-06-29,Metro North,14
+2020-06-29,Access A Ride,55.2
+2020-06-29,Bridges And Tunnels,80.1
+2020-06-28,Subways,17.7
+2020-06-28,Buses,58
+2020-06-28,Lirr,26
+2020-06-28,Metro North,24
+2020-06-28,Access A Ride,33.7
+2020-06-28,Bridges And Tunnels,66.8
+2020-06-27,Subways,19.3
+2020-06-27,Buses,57
+2020-06-27,Lirr,22
+2020-06-27,Metro North,22
+2020-06-27,Access A Ride,53.1
+2020-06-27,Bridges And Tunnels,65.2
+2020-06-26,Subways,20.2
+2020-06-26,Buses,57
+2020-06-26,Lirr,17
+2020-06-26,Metro North,14
+2020-06-26,Access A Ride,54
+2020-06-26,Bridges And Tunnels,79.5
+2020-06-25,Subways,19.1
+2020-06-25,Buses,52
+2020-06-25,Lirr,16
+2020-06-25,Metro North,13
+2020-06-25,Access A Ride,50.2
+2020-06-25,Bridges And Tunnels,74.8
+2020-06-24,Subways,18.5
+2020-06-24,Buses,49
+2020-06-24,Lirr,16
+2020-06-24,Metro North,13
+2020-06-24,Access A Ride,49.3
+2020-06-24,Bridges And Tunnels,74.1
+2020-06-23,Subways,19
+2020-06-23,Buses,52
+2020-06-23,Lirr,16
+2020-06-23,Metro North,13
+2020-06-23,Access A Ride,50.5
+2020-06-23,Bridges And Tunnels,77.9
+2020-06-22,Subways,18.5
+2020-06-22,Buses,48
+2020-06-22,Lirr,16
+2020-06-22,Metro North,13
+2020-06-22,Access A Ride,49
+2020-06-22,Bridges And Tunnels,74.8
+2020-06-21,Subways,17.1
+2020-06-21,Buses,53
+2020-06-21,Lirr,28
+2020-06-21,Metro North,25
+2020-06-21,Access A Ride,33.8
+2020-06-21,Bridges And Tunnels,67.6
+2020-06-20,Subways,17.4
+2020-06-20,Buses,55
+2020-06-20,Lirr,24
+2020-06-20,Metro North,23
+2020-06-20,Access A Ride,47
+2020-06-20,Bridges And Tunnels,66.4
+2020-06-19,Subways,17.8
+2020-06-19,Buses,55
+2020-06-19,Lirr,15
+2020-06-19,Metro North,13
+2020-06-19,Access A Ride,48.6
+2020-06-19,Bridges And Tunnels,77.7
+2020-06-18,Subways,16.6
+2020-06-18,Buses,48
+2020-06-18,Lirr,14
+2020-06-18,Metro North,12
+2020-06-18,Access A Ride,46.1
+2020-06-18,Bridges And Tunnels,73
+2020-06-17,Subways,16.6
+2020-06-17,Buses,45
+2020-06-17,Lirr,14
+2020-06-17,Metro North,12
+2020-06-17,Access A Ride,46.8
+2020-06-17,Bridges And Tunnels,73.2
+2020-06-16,Subways,16.7
+2020-06-16,Buses,46
+2020-06-16,Lirr,14
+2020-06-16,Metro North,12
+2020-06-16,Access A Ride,42.9
+2020-06-16,Bridges And Tunnels,74.7
+2020-06-15,Subways,16.5
+2020-06-15,Buses,43
+2020-06-15,Lirr,14
+2020-06-15,Metro North,12
+2020-06-15,Access A Ride,47.5
+2020-06-15,Bridges And Tunnels,71
+2020-06-14,Subways,18.5
+2020-06-14,Buses,55
+2020-06-14,Lirr,21
+2020-06-14,Metro North,21
+2020-06-14,Access A Ride,27.9
+2020-06-14,Bridges And Tunnels,60.5
+2020-06-13,Subways,17
+2020-06-13,Buses,50
+2020-06-13,Lirr,21
+2020-06-13,Metro North,20
+2020-06-13,Access A Ride,43.4
+2020-06-13,Bridges And Tunnels,62.5
+2020-06-12,Subways,15.7
+2020-06-12,Buses,43
+2020-06-12,Lirr,14
+2020-06-12,Metro North,11
+2020-06-12,Access A Ride,45.8
+2020-06-12,Bridges And Tunnels,73.5
+2020-06-11,Subways,14.4
+2020-06-11,Buses,38
+2020-06-11,Lirr,12
+2020-06-11,Metro North,10
+2020-06-11,Access A Ride,42.4
+2020-06-11,Bridges And Tunnels,67.6
+2020-06-10,Subways,14.6
+2020-06-10,Buses,39
+2020-06-10,Lirr,13
+2020-06-10,Metro North,10
+2020-06-10,Access A Ride,42.5
+2020-06-10,Bridges And Tunnels,69.4
+2020-06-09,Subways,14.7
+2020-06-09,Buses,41
+2020-06-09,Lirr,13
+2020-06-09,Metro North,10
+2020-06-09,Access A Ride,43.8
+2020-06-09,Bridges And Tunnels,70.9
+2020-06-08,Subways,15.3
+2020-06-08,Buses,42
+2020-06-08,Lirr,13
+2020-06-08,Metro North,10
+2020-06-08,Access A Ride,45.9
+2020-06-08,Bridges And Tunnels,73.5
+2020-06-07,Subways,14.6
+2020-06-07,Buses,49
+2020-06-07,Lirr,17
+2020-06-07,Metro North,17
+2020-06-07,Access A Ride,25.9
+2020-06-07,Bridges And Tunnels,60.4
+2020-06-06,Subways,14.2
+2020-06-06,Buses,46
+2020-06-06,Lirr,15
+2020-06-06,Metro North,15
+2020-06-06,Access A Ride,36.9
+2020-06-06,Bridges And Tunnels,57
+2020-06-05,Subways,12.4
+2020-06-05,Buses,35
+2020-06-05,Lirr,10
+2020-06-05,Metro North,9
+2020-06-05,Access A Ride,40.5
+2020-06-05,Bridges And Tunnels,62.4
+2020-06-04,Subways,12.7
+2020-06-04,Buses,37
+2020-06-04,Lirr,9
+2020-06-04,Metro North,9
+2020-06-04,Access A Ride,40.2
+2020-06-04,Bridges And Tunnels,64.8
+2020-06-03,Subways,11.9
+2020-06-03,Buses,32
+2020-06-03,Lirr,10
+2020-06-03,Metro North,8
+2020-06-03,Access A Ride,38.7
+2020-06-03,Bridges And Tunnels,60.3
+2020-06-02,Subways,12.6
+2020-06-02,Buses,34
+2020-06-02,Lirr,10
+2020-06-02,Metro North,8
+2020-06-02,Access A Ride,37.8
+2020-06-02,Bridges And Tunnels,60.9
+2020-06-01,Subways,12.4
+2020-06-01,Buses,34
+2020-06-01,Lirr,10
+2020-06-01,Metro North,8
+2020-06-01,Access A Ride,37.8
+2020-06-01,Bridges And Tunnels,62.2
+2020-05-31,Subways,13.6
+2020-05-31,Buses,43
+2020-05-31,Lirr,14
+2020-05-31,Metro North,14
+2020-05-31,Access A Ride,23.3
+2020-05-31,Bridges And Tunnels,55.3
+2020-05-30,Subways,13.5
+2020-05-30,Buses,44
+2020-05-30,Lirr,13
+2020-05-30,Metro North,13
+2020-05-30,Access A Ride,35.4
+2020-05-30,Bridges And Tunnels,55.6
+2020-05-29,Subways,11.4
+2020-05-29,Buses,33
+2020-05-29,Lirr,8
+2020-05-29,Metro North,7
+2020-05-29,Access A Ride,36.5
+2020-05-29,Bridges And Tunnels,57
+2020-05-28,Subways,11.5
+2020-05-28,Buses,32
+2020-05-28,Lirr,8
+2020-05-28,Metro North,7
+2020-05-28,Access A Ride,35
+2020-05-28,Bridges And Tunnels,59.9
+2020-05-27,Subways,11.9
+2020-05-27,Buses,33
+2020-05-27,Lirr,8
+2020-05-27,Metro North,7
+2020-05-27,Access A Ride,37.7
+2020-05-27,Bridges And Tunnels,63.4
+2020-05-26,Subways,12.1
+2020-05-26,Buses,33
+2020-05-26,Lirr,8
+2020-05-26,Metro North,8
+2020-05-26,Access A Ride,34.9
+2020-05-26,Bridges And Tunnels,63.4
+2020-05-25,Subways,15.1
+2020-05-25,Buses,46
+2020-05-25,Lirr,6
+2020-05-25,Metro North,7
+2020-05-25,Access A Ride,50.3
+2020-05-25,Bridges And Tunnels,56.5
+2020-05-24,Subways,12.6
+2020-05-24,Buses,43
+2020-05-24,Lirr,12
+2020-05-24,Metro North,14
+2020-05-24,Access A Ride,22.3
+2020-05-24,Bridges And Tunnels,52.6
+2020-05-23,Subways,11.2
+2020-05-23,Buses,35
+2020-05-23,Lirr,9
+2020-05-23,Metro North,9
+2020-05-23,Access A Ride,35
+2020-05-23,Bridges And Tunnels,43.6
+2020-05-22,Subways,11.7
+2020-05-22,Buses,31
+2020-05-22,Lirr,7
+2020-05-22,Metro North,7
+2020-05-22,Access A Ride,35.2
+2020-05-22,Bridges And Tunnels,59.6
+2020-05-21,Subways,11.1
+2020-05-21,Buses,30
+2020-05-21,Lirr,7
+2020-05-21,Metro North,7
+2020-05-21,Access A Ride,32.7
+2020-05-21,Bridges And Tunnels,57.8
+2020-05-20,Subways,10.6
+2020-05-20,Buses,28
+2020-05-20,Lirr,7
+2020-05-20,Metro North,6
+2020-05-20,Access A Ride,32.7
+2020-05-20,Bridges And Tunnels,54.7
+2020-05-19,Subways,10.4
+2020-05-19,Buses,28
+2020-05-19,Lirr,7
+2020-05-19,Metro North,7
+2020-05-19,Access A Ride,30.9
+2020-05-19,Bridges And Tunnels,54.1
+2020-05-18,Subways,10.7
+2020-05-18,Buses,28
+2020-05-18,Lirr,7
+2020-05-18,Metro North,7
+2020-05-18,Access A Ride,32.5
+2020-05-18,Bridges And Tunnels,52.3
+2020-05-17,Subways,11
+2020-05-17,Buses,37
+2020-05-17,Lirr,9
+2020-05-17,Metro North,3
+2020-05-17,Access A Ride,19.1
+2020-05-17,Bridges And Tunnels,41.3
+2020-05-16,Subways,10.6
+2020-05-16,Buses,37
+2020-05-16,Lirr,9
+2020-05-16,Metro North,12
+2020-05-16,Access A Ride,33.7
+2020-05-16,Bridges And Tunnels,47.9
+2020-05-15,Subways,10.3
+2020-05-15,Buses,30
+2020-05-15,Lirr,6
+2020-05-15,Metro North,16
+2020-05-15,Access A Ride,33.1
+2020-05-15,Bridges And Tunnels,53.4
+2020-05-14,Subways,9.6
+2020-05-14,Buses,26
+2020-05-14,Lirr,6
+2020-05-14,Metro North,6
+2020-05-14,Access A Ride,29.4
+2020-05-14,Bridges And Tunnels,51
+2020-05-13,Subways,9.6
+2020-05-13,Buses,26
+2020-05-13,Lirr,6
+2020-05-13,Metro North,6
+2020-05-13,Access A Ride,29.5
+2020-05-13,Bridges And Tunnels,52.1
+2020-05-12,Subways,9.6
+2020-05-12,Buses,26
+2020-05-12,Lirr,6
+2020-05-12,Metro North,6
+2020-05-12,Access A Ride,27.9
+2020-05-12,Bridges And Tunnels,52.1
+2020-05-11,Subways,9.6
+2020-05-11,Buses,26
+2020-05-11,Lirr,6
+2020-05-11,Metro North,6
+2020-05-11,Access A Ride,29
+2020-05-11,Bridges And Tunnels,50.6
+2020-05-10,Subways,13.1
+2020-05-10,Buses,46
+2020-05-10,Lirr,8
+2020-05-10,Metro North,9
+2020-05-10,Access A Ride,20.2
+2020-05-10,Bridges And Tunnels,48.8
+2020-05-09,Subways,9.9
+2020-05-09,Buses,32
+2020-05-09,Lirr,6
+2020-05-09,Metro North,7
+2020-05-09,Access A Ride,27.8
+2020-05-09,Bridges And Tunnels,37.4
+2020-05-08,Subways,9.3
+2020-05-08,Buses,25
+2020-05-08,Lirr,5
+2020-05-08,Metro North,5
+2020-05-08,Access A Ride,30.4
+2020-05-08,Bridges And Tunnels,47.4
+2020-05-07,Subways,9.1
+2020-05-07,Buses,26
+2020-05-07,Lirr,5
+2020-05-07,Metro North,6
+2020-05-07,Access A Ride,27.6
+2020-05-07,Bridges And Tunnels,49.5
+2020-05-06,Subways,8.7
+2020-05-06,Buses,22
+2020-05-06,Lirr,5
+2020-05-06,Metro North,5
+2020-05-06,Access A Ride,27.7
+2020-05-06,Bridges And Tunnels,46.2
+2020-05-05,Subways,9
+2020-05-05,Buses,25
+2020-05-05,Lirr,4
+2020-05-05,Metro North,5
+2020-05-05,Access A Ride,27.3
+2020-05-05,Bridges And Tunnels,49.4
+2020-05-04,Subways,9.1
+2020-05-04,Buses,25
+2020-05-04,Lirr,3
+2020-05-04,Metro North,6
+2020-05-04,Access A Ride,29.3
+2020-05-04,Bridges And Tunnels,48.2
+2020-05-03,Subways,11.1
+2020-05-03,Buses,45
+2020-05-03,Lirr,3
+2020-05-03,Metro North,7
+2020-05-03,Access A Ride,18.6
+2020-05-03,Bridges And Tunnels,44.3
+2020-05-02,Subways,10.1
+2020-05-02,Buses,34
+2020-05-02,Lirr,3
+2020-05-02,Metro North,7
+2020-05-02,Access A Ride,31.2
+2020-05-02,Bridges And Tunnels,43
+2020-05-01,Subways,8.6
+2020-05-01,Buses,25
+2020-05-01,Lirr,2
+2020-05-01,Metro North,4
+2020-05-01,Access A Ride,29
+2020-05-01,Bridges And Tunnels,44.1
+2020-04-30,Subways,7.9
+2020-04-30,Buses,21
+2020-04-30,Lirr,3
+2020-04-30,Metro North,5
+2020-04-30,Access A Ride,24.5
+2020-04-30,Bridges And Tunnels,41.2
+2020-04-29,Subways,8.2
+2020-04-29,Buses,22
+2020-04-29,Lirr,3
+2020-04-29,Metro North,5
+2020-04-29,Access A Ride,25.5
+2020-04-29,Bridges And Tunnels,43.1
+2020-04-28,Subways,8.5
+2020-04-28,Buses,24
+2020-04-28,Lirr,3
+2020-04-28,Metro North,5
+2020-04-28,Access A Ride,25.5
+2020-04-28,Bridges And Tunnels,47
+2020-04-27,Subways,8.3
+2020-04-27,Buses,23
+2020-04-27,Lirr,3
+2020-04-27,Metro North,5
+2020-04-27,Access A Ride,25.4
+2020-04-27,Bridges And Tunnels,42.4
+2020-04-26,Subways,9.1
+2020-04-26,Buses,30
+2020-04-26,Lirr,2
+2020-04-26,Metro North,5
+2020-04-26,Access A Ride,14.3
+2020-04-26,Bridges And Tunnels,27.6
+2020-04-25,Subways,9.1
+2020-04-25,Buses,32
+2020-04-25,Lirr,3
+2020-04-25,Metro North,6
+2020-04-25,Access A Ride,28.8
+2020-04-25,Bridges And Tunnels,38
+2020-04-24,Subways,8.8
+2020-04-24,Buses,27
+2020-04-24,Lirr,3
+2020-04-24,Metro North,5
+2020-04-24,Access A Ride,27.7
+2020-04-24,Bridges And Tunnels,42.9
+2020-04-23,Subways,8.3
+2020-04-23,Buses,25
+2020-04-23,Lirr,3
+2020-04-23,Metro North,5
+2020-04-23,Access A Ride,24.9
+2020-04-23,Bridges And Tunnels,41.1
+2020-04-22,Subways,8.5
+2020-04-22,Buses,26
+2020-04-22,Lirr,3
+2020-04-22,Metro North,5
+2020-04-22,Access A Ride,25.6
+2020-04-22,Bridges And Tunnels,42.3
+2020-04-21,Subways,7.8
+2020-04-21,Buses,22
+2020-04-21,Lirr,3
+2020-04-21,Metro North,5
+2020-04-21,Access A Ride,23.9
+2020-04-21,Bridges And Tunnels,38.2
+2020-04-20,Subways,8.9
+2020-04-20,Buses,27
+2020-04-20,Lirr,3
+2020-04-20,Metro North,5
+2020-04-20,Access A Ride,29.5
+2020-04-20,Bridges And Tunnels,40.4
+2020-04-19,Subways,9.6
+2020-04-19,Buses,32
+2020-04-19,Lirr,2
+2020-04-19,Metro North,6
+2020-04-19,Access A Ride,14.2
+2020-04-19,Bridges And Tunnels,31.4
+2020-04-18,Subways,9
+2020-04-18,Buses,29
+2020-04-18,Lirr,2
+2020-04-18,Metro North,5
+2020-04-18,Access A Ride,28.4
+2020-04-18,Bridges And Tunnels,30.2
+2020-04-17,Subways,9.1
+2020-04-17,Buses,27
+2020-04-17,Lirr,3
+2020-04-17,Metro North,5
+2020-04-17,Access A Ride,28.8
+2020-04-17,Bridges And Tunnels,39.2
+2020-04-16,Subways,7.1
+2020-04-16,Buses,20
+2020-04-16,Lirr,3
+2020-04-16,Metro North,5
+2020-04-16,Access A Ride,22.2
+2020-04-16,Bridges And Tunnels,34.6
+2020-04-15,Subways,7
+2020-04-15,Buses,19
+2020-04-15,Lirr,3
+2020-04-15,Metro North,5
+2020-04-15,Access A Ride,22
+2020-04-15,Bridges And Tunnels,35.1
+2020-04-14,Subways,7.3
+2020-04-14,Buses,20
+2020-04-14,Lirr,3
+2020-04-14,Metro North,5
+2020-04-14,Access A Ride,21.9
+2020-04-14,Bridges And Tunnels,37.6
+2020-04-13,Subways,6.5
+2020-04-13,Buses,16
+2020-04-13,Lirr,3
+2020-04-13,Metro North,5
+2020-04-13,Access A Ride,22.2
+2020-04-13,Bridges And Tunnels,31.3
+2020-04-12,Subways,8
+2020-04-12,Buses,28
+2020-04-12,Lirr,2
+2020-04-12,Metro North,5
+2020-04-12,Access A Ride,13.6
+2020-04-12,Bridges And Tunnels,25.6
+2020-04-11,Subways,7.8
+2020-04-11,Buses,27
+2020-04-11,Lirr,2
+2020-04-11,Metro North,5
+2020-04-11,Access A Ride,24
+2020-04-11,Bridges And Tunnels,26.9
+2020-04-10,Subways,7
+2020-04-10,Buses,19
+2020-04-10,Lirr,3
+2020-04-10,Metro North,5
+2020-04-10,Access A Ride,18.5
+2020-04-10,Bridges And Tunnels,31.4
+2020-04-09,Subways,7
+2020-04-09,Buses,17
+2020-04-09,Lirr,3
+2020-04-09,Metro North,4
+2020-04-09,Access A Ride,19.9
+2020-04-09,Bridges And Tunnels,31.2
+2020-04-08,Subways,7.3
+2020-04-08,Buses,18
+2020-04-08,Lirr,3
+2020-04-08,Metro North,5
+2020-04-08,Access A Ride,21.7
+2020-04-08,Bridges And Tunnels,34.2
+2020-04-07,Subways,7.6
+2020-04-07,Buses,19
+2020-04-07,Lirr,3
+2020-04-07,Metro North,5
+2020-04-07,Access A Ride,23.3
+2020-04-07,Bridges And Tunnels,36.7
+2020-04-06,Subways,8
+2020-04-06,Buses,20
+2020-04-06,Lirr,3
+2020-04-06,Metro North,5
+2020-04-06,Access A Ride,25
+2020-04-06,Bridges And Tunnels,36.9
+2020-04-05,Subways,9.1
+2020-04-05,Buses,30
+2020-04-05,Lirr,3
+2020-04-05,Metro North,5
+2020-04-05,Access A Ride,14.4
+2020-04-05,Bridges And Tunnels,23.4
+2020-04-04,Subways,8.6
+2020-04-04,Buses,27
+2020-04-04,Lirr,3
+2020-04-04,Metro North,5
+2020-04-04,Access A Ride,24.5
+2020-04-04,Bridges And Tunnels,26
+2020-04-03,Subways,8.5
+2020-04-03,Buses,22
+2020-04-03,Lirr,3
+2020-04-03,Metro North,5
+2020-04-03,Access A Ride,27.3
+2020-04-03,Bridges And Tunnels,34.9
+2020-04-02,Subways,8.2
+2020-04-02,Buses,20
+2020-04-02,Lirr,3
+2020-04-02,Metro North,5
+2020-04-02,Access A Ride,22.5
+2020-04-02,Bridges And Tunnels,34.8
+2020-04-01,Subways,8.7
+2020-04-01,Buses,21
+2020-04-01,Lirr,3
+2020-04-01,Metro North,5
+2020-04-01,Access A Ride,25.2
+2020-04-01,Bridges And Tunnels,36.7
+2020-03-31,Subways,8.8
+2020-03-31,Buses,22
+2020-03-31,Lirr,NA
+2020-03-31,Metro North,NA
+2020-03-31,Access A Ride,25.7
+2020-03-31,Bridges And Tunnels,37.3
+2020-03-30,Subways,9.8
+2020-03-30,Buses,25
+2020-03-30,Lirr,NA
+2020-03-30,Metro North,NA
+2020-03-30,Access A Ride,28.3
+2020-03-30,Bridges And Tunnels,38.4
+2020-03-29,Subways,11.7
+2020-03-29,Buses,31
+2020-03-29,Lirr,NA
+2020-03-29,Metro North,NA
+2020-03-29,Access A Ride,19.4
+2020-03-29,Bridges And Tunnels,24.2
+2020-03-28,Subways,10.2
+2020-03-28,Buses,29
+2020-03-28,Lirr,NA
+2020-03-28,Metro North,NA
+2020-03-28,Access A Ride,26
+2020-03-28,Bridges And Tunnels,25.9
+2020-03-27,Subways,11.8
+2020-03-27,Buses,29
+2020-03-27,Lirr,NA
+2020-03-27,Metro North,NA
+2020-03-27,Access A Ride,29.4
+2020-03-27,Bridges And Tunnels,40.2
+2020-03-26,Subways,11.8
+2020-03-26,Buses,28
+2020-03-26,Lirr,NA
+2020-03-26,Metro North,NA
+2020-03-26,Access A Ride,28.8
+2020-03-26,Bridges And Tunnels,40.3
+2020-03-25,Subways,12.1
+2020-03-25,Buses,27
+2020-03-25,Lirr,NA
+2020-03-25,Metro North,NA
+2020-03-25,Access A Ride,30.2
+2020-03-25,Bridges And Tunnels,40.6
+2020-03-24,Subways,13.1
+2020-03-24,Buses,28
+2020-03-24,Lirr,NA
+2020-03-24,Metro North,NA
+2020-03-24,Access A Ride,30.1
+2020-03-24,Bridges And Tunnels,43.7
+2020-03-23,Subways,13.1
+2020-03-23,Buses,26
+2020-03-23,Lirr,NA
+2020-03-23,Metro North,NA
+2020-03-23,Access A Ride,34.8
+2020-03-23,Bridges And Tunnels,40.7
+2020-03-22,Subways,16.9
+2020-03-22,Buses,35
+2020-03-22,Lirr,NA
+2020-03-22,Metro North,NA
+2020-03-22,Access A Ride,26.1
+2020-03-22,Bridges And Tunnels,31.8
+2020-03-21,Subways,20.5
+2020-03-21,Buses,43
+2020-03-21,Lirr,NA
+2020-03-21,Metro North,NA
+2020-03-21,Access A Ride,39.2
+2020-03-21,Bridges And Tunnels,43.3
+2020-03-20,Subways,23.9
+2020-03-20,Buses,41
+2020-03-20,Lirr,NA
+2020-03-20,Metro North,NA
+2020-03-20,Access A Ride,45.3
+2020-03-20,Bridges And Tunnels,58.4
+2020-03-19,Subways,25.6
+2020-03-19,Buses,43
+2020-03-19,Lirr,NA
+2020-03-19,Metro North,NA
+2020-03-19,Access A Ride,48.3
+2020-03-19,Bridges And Tunnels,62
+2020-03-18,Subways,28.6
+2020-03-18,Buses,45
+2020-03-18,Lirr,NA
+2020-03-18,Metro North,NA
+2020-03-18,Access A Ride,50
+2020-03-18,Bridges And Tunnels,68.8
+2020-03-17,Subways,31.8
+2020-03-17,Buses,47
+2020-03-17,Lirr,NA
+2020-03-17,Metro North,NA
+2020-03-17,Access A Ride,59.4
+2020-03-17,Bridges And Tunnels,71.6
+2020-03-16,Subways,40.5
+2020-03-16,Buses,55
+2020-03-16,Lirr,NA
+2020-03-16,Metro North,NA
+2020-03-16,Access A Ride,75.6
+2020-03-16,Bridges And Tunnels,79.4
+2020-03-15,Subways,47.6
+2020-03-15,Buses,69
+2020-03-15,Lirr,NA
+2020-03-15,Metro North,NA
+2020-03-15,Access A Ride,68.3
+2020-03-15,Bridges And Tunnels,63.6
+2020-03-14,Subways,52.5
+2020-03-14,Buses,73
+2020-03-14,Lirr,NA
+2020-03-14,Metro North,NA
+2020-03-14,Access A Ride,79.1
+2020-03-14,Bridges And Tunnels,69.8
+2020-03-13,Subways,62
+2020-03-13,Buses,77
+2020-03-13,Lirr,NA
+2020-03-13,Metro North,NA
+2020-03-13,Access A Ride,91.8
+2020-03-13,Bridges And Tunnels,86.2
+2020-03-12,Subways,71.6
+2020-03-12,Buses,82
+2020-03-12,Lirr,NA
+2020-03-12,Metro North,NA
+2020-03-12,Access A Ride,98.5
+2020-03-12,Bridges And Tunnels,91.3
+2020-03-11,Subways,81.5
+2020-03-11,Buses,90
+2020-03-11,Lirr,NA
+2020-03-11,Metro North,NA
+2020-03-11,Access A Ride,100.6
+2020-03-11,Bridges And Tunnels,93.3
+2020-03-10,Subways,84.9
+2020-03-10,Buses,91
+2020-03-10,Lirr,NA
+2020-03-10,Metro North,NA
+2020-03-10,Access A Ride,102.1
+2020-03-10,Bridges And Tunnels,94.2
+2020-03-09,Subways,89.6
+2020-03-09,Buses,93
+2020-03-09,Lirr,NA
+2020-03-09,Metro North,NA
+2020-03-09,Access A Ride,102.7
+2020-03-09,Bridges And Tunnels,95.3
+2020-03-08,Subways,100.4
+2020-03-08,Buses,107
+2020-03-08,Lirr,NA
+2020-03-08,Metro North,NA
+2020-03-08,Access A Ride,113.4
+2020-03-08,Bridges And Tunnels,99.4
+2020-03-07,Subways,90.4
+2020-03-07,Buses,91
+2020-03-07,Lirr,NA
+2020-03-07,Metro North,NA
+2020-03-07,Access A Ride,103.7
+2020-03-07,Bridges And Tunnels,92.4
+2020-03-06,Subways,91.6
+2020-03-06,Buses,93
+2020-03-06,Lirr,NA
+2020-03-06,Metro North,NA
+2020-03-06,Access A Ride,106.7
+2020-03-06,Bridges And Tunnels,96
+2020-03-05,Subways,95.6
+2020-03-05,Buses,99
+2020-03-05,Lirr,NA
+2020-03-05,Metro North,NA
+2020-03-05,Access A Ride,107.1
+2020-03-05,Bridges And Tunnels,99.1
+2020-03-04,Subways,96.8
+2020-03-04,Buses,97
+2020-03-04,Lirr,NA
+2020-03-04,Metro North,NA
+2020-03-04,Access A Ride,108.7
+2020-03-04,Bridges And Tunnels,99.9
+2020-03-03,Subways,96.1
+2020-03-03,Buses,97
+2020-03-03,Lirr,NA
+2020-03-03,Metro North,NA
+2020-03-03,Access A Ride,106.9
+2020-03-03,Bridges And Tunnels,98.3
+2020-03-02,Subways,123.9
+2020-03-02,Buses,140
+2020-03-02,Lirr,NA
+2020-03-02,Metro North,NA
+2020-03-02,Access A Ride,128.2
+2020-03-02,Bridges And Tunnels,127.5
+2020-03-01,Subways,98.7
+2020-03-01,Buses,101
+2020-03-01,Lirr,NA
+2020-03-01,Metro North,NA
+2020-03-01,Access A Ride,118.8
+2020-03-01,Bridges And Tunnels,107.8

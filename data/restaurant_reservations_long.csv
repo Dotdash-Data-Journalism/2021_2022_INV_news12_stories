@@ -1,0 +1,3093 @@
+value,state,date
+8,Connecticut,2020-02-18
+26,Connecticut,2020-02-19
+1,Connecticut,2020-02-20
+-3,Connecticut,2020-02-21
+-6,Connecticut,2020-02-22
+2,Connecticut,2020-02-23
+-2,Connecticut,2020-02-24
+6,Connecticut,2020-02-25
+9,Connecticut,2020-02-26
+-8,Connecticut,2020-02-27
+-1,Connecticut,2020-02-28
+4,Connecticut,2020-02-29
+13,Connecticut,2020-03-01
+13,Connecticut,2020-03-02
+-9,Connecticut,2020-03-03
+-6,Connecticut,2020-03-04
+-7,Connecticut,2020-03-05
+-8,Connecticut,2020-03-06
+-8,Connecticut,2020-03-07
+0,Connecticut,2020-03-08
+-12,Connecticut,2020-03-09
+-20,Connecticut,2020-03-10
+-20,Connecticut,2020-03-11
+-43,Connecticut,2020-03-12
+-50,Connecticut,2020-03-13
+-58,Connecticut,2020-03-14
+-57,Connecticut,2020-03-15
+-55,Connecticut,2020-03-16
+-100,Connecticut,2020-03-17
+-100,Connecticut,2020-03-18
+-100,Connecticut,2020-03-19
+-100,Connecticut,2020-03-20
+-100,Connecticut,2020-03-21
+-100,Connecticut,2020-03-22
+-100,Connecticut,2020-03-23
+-100,Connecticut,2020-03-24
+-100,Connecticut,2020-03-25
+-100,Connecticut,2020-03-26
+-100,Connecticut,2020-03-27
+-100,Connecticut,2020-03-28
+-100,Connecticut,2020-03-29
+-100,Connecticut,2020-03-30
+-100,Connecticut,2020-03-31
+-100,Connecticut,2020-04-01
+-100,Connecticut,2020-04-02
+-100,Connecticut,2020-04-03
+-100,Connecticut,2020-04-04
+-100,Connecticut,2020-04-05
+-100,Connecticut,2020-04-06
+-100,Connecticut,2020-04-07
+-100,Connecticut,2020-04-08
+-100,Connecticut,2020-04-09
+-100,Connecticut,2020-04-10
+-100,Connecticut,2020-04-11
+-100,Connecticut,2020-04-12
+-100,Connecticut,2020-04-13
+-100,Connecticut,2020-04-14
+-100,Connecticut,2020-04-15
+-100,Connecticut,2020-04-16
+-100,Connecticut,2020-04-17
+-100,Connecticut,2020-04-18
+-100,Connecticut,2020-04-19
+-100,Connecticut,2020-04-20
+-100,Connecticut,2020-04-21
+-100,Connecticut,2020-04-22
+-100,Connecticut,2020-04-23
+-100,Connecticut,2020-04-24
+-100,Connecticut,2020-04-25
+-100,Connecticut,2020-04-26
+-100,Connecticut,2020-04-27
+-100,Connecticut,2020-04-28
+-100,Connecticut,2020-04-29
+-100,Connecticut,2020-04-30
+-100,Connecticut,2020-05-01
+-100,Connecticut,2020-05-02
+-100,Connecticut,2020-05-03
+-100,Connecticut,2020-05-04
+-100,Connecticut,2020-05-05
+-100,Connecticut,2020-05-06
+-100,Connecticut,2020-05-07
+-100,Connecticut,2020-05-08
+-100,Connecticut,2020-05-09
+-100,Connecticut,2020-05-10
+-98.75,Connecticut,2020-05-11
+-100,Connecticut,2020-05-12
+-100,Connecticut,2020-05-13
+-99.87,Connecticut,2020-05-14
+-99.65,Connecticut,2020-05-15
+-96.36,Connecticut,2020-05-16
+-95.77,Connecticut,2020-05-17
+-97.19,Connecticut,2020-05-18
+-99.28,Connecticut,2020-05-19
+-81.13,Connecticut,2020-05-20
+-81.62,Connecticut,2020-05-21
+-80.38,Connecticut,2020-05-22
+-92.84,Connecticut,2020-05-23
+-75.66,Connecticut,2020-05-24
+-62.32,Connecticut,2020-05-25
+-64.42,Connecticut,2020-05-26
+-62.86,Connecticut,2020-05-27
+-82.9,Connecticut,2020-05-28
+-80.46,Connecticut,2020-05-29
+-71.94,Connecticut,2020-05-30
+-62.79,Connecticut,2020-05-31
+-65.45,Connecticut,2020-06-01
+-74.14,Connecticut,2020-06-02
+-72.68,Connecticut,2020-06-03
+-59.84,Connecticut,2020-06-04
+-76.72,Connecticut,2020-06-05
+-63.81,Connecticut,2020-06-06
+-46.11,Connecticut,2020-06-07
+-50.09,Connecticut,2020-06-08
+-55.14,Connecticut,2020-06-09
+-56.5,Connecticut,2020-06-10
+-82.82,Connecticut,2020-06-11
+-56.99,Connecticut,2020-06-12
+-59.01,Connecticut,2020-06-13
+-72.23,Connecticut,2020-06-14
+-61.66,Connecticut,2020-06-15
+-59.75,Connecticut,2020-06-16
+-42.52,Connecticut,2020-06-17
+-43.34,Connecticut,2020-06-18
+-37.72,Connecticut,2020-06-19
+-36.78,Connecticut,2020-06-20
+6.36,Connecticut,2020-06-21
+-41.92,Connecticut,2020-06-22
+-44.31,Connecticut,2020-06-23
+-47.57,Connecticut,2020-06-24
+-39.97,Connecticut,2020-06-25
+-37.34,Connecticut,2020-06-26
+-47.06,Connecticut,2020-06-27
+-41.29,Connecticut,2020-06-28
+-41.04,Connecticut,2020-06-29
+-40.7,Connecticut,2020-06-30
+-51.57,Connecticut,2020-07-01
+-3,Connecticut,2020-07-02
+-38.55,Connecticut,2020-07-03
+-52.61,Connecticut,2020-07-04
+-30.58,Connecticut,2020-07-05
+-31.41,Connecticut,2020-07-06
+-47.78,Connecticut,2020-07-07
+-50.05,Connecticut,2020-07-08
+-32.65,Connecticut,2020-07-09
+-54.48,Connecticut,2020-07-10
+-30.25,Connecticut,2020-07-11
+-16.47,Connecticut,2020-07-12
+-35.6,Connecticut,2020-07-13
+-31.43,Connecticut,2020-07-14
+-29.85,Connecticut,2020-07-15
+-24.57,Connecticut,2020-07-16
+-38.19,Connecticut,2020-07-17
+-32.34,Connecticut,2020-07-18
+-27.81,Connecticut,2020-07-19
+-27.96,Connecticut,2020-07-20
+-31.41,Connecticut,2020-07-21
+-36.02,Connecticut,2020-07-22
+-39.62,Connecticut,2020-07-23
+-25.34,Connecticut,2020-07-24
+-23.44,Connecticut,2020-07-25
+-18.05,Connecticut,2020-07-26
+-28.99,Connecticut,2020-07-27
+-36.49,Connecticut,2020-07-28
+-18.65,Connecticut,2020-07-29
+-22.63,Connecticut,2020-07-30
+-19.14,Connecticut,2020-07-31
+-20.47,Connecticut,2020-08-01
+-30.55,Connecticut,2020-08-02
+-21.15,Connecticut,2020-08-03
+-71.12,Connecticut,2020-08-04
+-24.04,Connecticut,2020-08-05
+-28.33,Connecticut,2020-08-06
+-23.1,Connecticut,2020-08-07
+-16.13,Connecticut,2020-08-08
+-16.4,Connecticut,2020-08-09
+-17.32,Connecticut,2020-08-10
+-21.95,Connecticut,2020-08-11
+-21.45,Connecticut,2020-08-12
+-16.96,Connecticut,2020-08-13
+-8.06,Connecticut,2020-08-14
+-6.4,Connecticut,2020-08-15
+-30.44,Connecticut,2020-08-16
+-16.65,Connecticut,2020-08-17
+-12.37,Connecticut,2020-08-18
+-20.7,Connecticut,2020-08-19
+-7.42,Connecticut,2020-08-20
+-5.28,Connecticut,2020-08-21
+-9.54,Connecticut,2020-08-22
+0.31,Connecticut,2020-08-23
+-9.99,Connecticut,2020-08-24
+-8.52,Connecticut,2020-08-25
+13.89,Connecticut,2020-08-26
+-31.8,Connecticut,2020-08-27
+-1.69,Connecticut,2020-08-28
+-15.71,Connecticut,2020-08-29
+-13.39,Connecticut,2020-08-30
+-32.89,Connecticut,2020-08-31
+26.57,Connecticut,2020-09-01
+-10.64,Connecticut,2020-09-02
+15.38,Connecticut,2020-09-03
+16.62,Connecticut,2020-09-04
+-3.19,Connecticut,2020-09-05
+48.54,Connecticut,2020-09-06
+66.74,Connecticut,2020-09-07
+-22.57,Connecticut,2020-09-08
+-16.95,Connecticut,2020-09-09
+-32.99,Connecticut,2020-09-10
+-5.3,Connecticut,2020-09-11
+-0.94,Connecticut,2020-09-12
+-4.66,Connecticut,2020-09-13
+-7.51,Connecticut,2020-09-14
+-26.47,Connecticut,2020-09-15
+-8.19,Connecticut,2020-09-16
+-11.79,Connecticut,2020-09-17
+-9.22,Connecticut,2020-09-18
+-3.94,Connecticut,2020-09-19
+7.81,Connecticut,2020-09-20
+-28.95,Connecticut,2020-09-21
+-34.95,Connecticut,2020-09-22
+-11.24,Connecticut,2020-09-23
+6.11,Connecticut,2020-09-24
+4.01,Connecticut,2020-09-25
+4.12,Connecticut,2020-09-26
+15.79,Connecticut,2020-09-27
+-23.94,Connecticut,2020-09-28
+-30.41,Connecticut,2020-09-29
+-11.1,Connecticut,2020-09-30
+1.65,Connecticut,2020-10-01
+-18.25,Connecticut,2020-10-02
+-8.16,Connecticut,2020-10-03
+7.91,Connecticut,2020-10-04
+5.92,Connecticut,2020-10-05
+-26.28,Connecticut,2020-10-06
+-28.28,Connecticut,2020-10-07
+-14.14,Connecticut,2020-10-08
+-6.15,Connecticut,2020-10-09
+-1.06,Connecticut,2020-10-10
+-3.73,Connecticut,2020-10-11
+-34.02,Connecticut,2020-10-12
+-45.57,Connecticut,2020-10-13
+-13.14,Connecticut,2020-10-14
+-0.7,Connecticut,2020-10-15
+-33.17,Connecticut,2020-10-16
+-6.65,Connecticut,2020-10-17
+3.56,Connecticut,2020-10-18
+-30.38,Connecticut,2020-10-19
+-31.7,Connecticut,2020-10-20
+-30.12,Connecticut,2020-10-21
+-10.89,Connecticut,2020-10-22
+-9.82,Connecticut,2020-10-23
+-3.69,Connecticut,2020-10-24
+-2.74,Connecticut,2020-10-25
+-40.4,Connecticut,2020-10-26
+-35.34,Connecticut,2020-10-27
+-32.58,Connecticut,2020-10-28
+-16.24,Connecticut,2020-10-29
+-37.5,Connecticut,2020-10-30
+-47.22,Connecticut,2020-10-31
+-38.19,Connecticut,2020-11-01
+-55.61,Connecticut,2020-11-02
+-55.02,Connecticut,2020-11-03
+-43.32,Connecticut,2020-11-04
+-28.64,Connecticut,2020-11-05
+-15.54,Connecticut,2020-11-06
+-11.68,Connecticut,2020-11-07
+-6.19,Connecticut,2020-11-08
+-33.91,Connecticut,2020-11-09
+-3.66,Connecticut,2020-11-10
+-34.47,Connecticut,2020-11-11
+-50.23,Connecticut,2020-11-12
+-46.85,Connecticut,2020-11-13
+-36.6,Connecticut,2020-11-14
+-47.51,Connecticut,2020-11-15
+-57.59,Connecticut,2020-11-16
+-62.09,Connecticut,2020-11-17
+-60.3,Connecticut,2020-11-18
+-56.99,Connecticut,2020-11-19
+-45.86,Connecticut,2020-11-20
+-43.52,Connecticut,2020-11-21
+-43.73,Connecticut,2020-11-22
+-58.74,Connecticut,2020-11-23
+-57.1,Connecticut,2020-11-24
+-55.38,Connecticut,2020-11-25
+-64.65,Connecticut,2020-11-26
+-53.21,Connecticut,2020-11-27
+-42.23,Connecticut,2020-11-28
+40.98,Connecticut,2020-11-29
+-41.87,Connecticut,2020-11-30
+-61.07,Connecticut,2020-12-01
+-64.73,Connecticut,2020-12-02
+-58.5,Connecticut,2020-12-03
+-54.31,Connecticut,2020-12-04
+-59.89,Connecticut,2020-12-05
+-51.24,Connecticut,2020-12-06
+-65.71,Connecticut,2020-12-07
+-73.71,Connecticut,2020-12-08
+-65.05,Connecticut,2020-12-09
+-66.09,Connecticut,2020-12-10
+-50.47,Connecticut,2020-12-11
+-43.88,Connecticut,2020-12-12
+-39.59,Connecticut,2020-12-13
+-75.87,Connecticut,2020-12-14
+-47.31,Connecticut,2020-12-15
+-83.4,Connecticut,2020-12-16
+-88.15,Connecticut,2020-12-17
+-60.1,Connecticut,2020-12-18
+-39.39,Connecticut,2020-12-19
+-55.2,Connecticut,2020-12-20
+-75.27,Connecticut,2020-12-21
+-69.54,Connecticut,2020-12-22
+18.52,Connecticut,2020-12-23
+-44.57,Connecticut,2020-12-24
+-87.86,Connecticut,2020-12-25
+-52.47,Connecticut,2020-12-26
+-40.11,Connecticut,2020-12-27
+-45.31,Connecticut,2020-12-28
+-74.3,Connecticut,2020-12-29
+-15.32,Connecticut,2020-12-30
+122.53,Connecticut,2020-12-31
+-39.4,Connecticut,2021-01-01
+-36.27,Connecticut,2021-01-02
+-45.53,Connecticut,2021-01-03
+-44.89,Connecticut,2021-01-04
+-54.88,Connecticut,2021-01-05
+-53.89,Connecticut,2021-01-06
+-53.55,Connecticut,2021-01-07
+-46.3,Connecticut,2021-01-08
+-44.19,Connecticut,2021-01-09
+-39.96,Connecticut,2021-01-10
+-58.66,Connecticut,2021-01-11
+-55.41,Connecticut,2021-01-12
+-53.7,Connecticut,2021-01-13
+-50.2,Connecticut,2021-01-14
+-45.87,Connecticut,2021-01-15
+-4.58,Connecticut,2021-01-16
+-34.88,Connecticut,2021-01-17
+-45.19,Connecticut,2021-01-18
+-51.66,Connecticut,2021-01-19
+-54.7,Connecticut,2021-01-20
+-51.27,Connecticut,2021-01-21
+-41.43,Connecticut,2021-01-22
+-30.95,Connecticut,2021-01-23
+-46.32,Connecticut,2021-01-24
+-61.04,Connecticut,2021-01-25
+-69.69,Connecticut,2021-01-26
+-58.14,Connecticut,2021-01-27
+-49.48,Connecticut,2021-01-28
+-42.73,Connecticut,2021-01-29
+-35.19,Connecticut,2021-01-30
+-5.03,Connecticut,2021-01-31
+-94.18,Connecticut,2021-02-01
+-74.17,Connecticut,2021-02-02
+-54.14,Connecticut,2021-02-03
+-33.61,Connecticut,2021-02-04
+-32.07,Connecticut,2021-02-05
+-32.07,Connecticut,2021-02-06
+-79.47,Connecticut,2021-02-07
+-52.15,Connecticut,2021-02-08
+-67.93,Connecticut,2021-02-09
+-48.26,Connecticut,2021-02-10
+-45.78,Connecticut,2021-02-11
+-57.6,Connecticut,2021-02-12
+-21.68,Connecticut,2021-02-13
+16.25,Connecticut,2021-02-14
+-36.5,Connecticut,2021-02-15
+-40.4,Connecticut,2021-02-16
+-40.54,Connecticut,2021-02-17
+-69.09,Connecticut,2021-02-18
+-48.11,Connecticut,2021-02-19
+-23.49,Connecticut,2021-02-20
+-22.47,Connecticut,2021-02-21
+-56.84,Connecticut,2021-02-22
+-52.11,Connecticut,2021-02-23
+-37.71,Connecticut,2021-02-24
+-29.06,Connecticut,2021-02-25
+-27.41,Connecticut,2021-02-26
+-25.08,Connecticut,2021-02-27
+-28.85,Connecticut,2021-02-28
+-49.15,Connecticut,2021-03-01
+-44.81,Connecticut,2021-03-02
+-30.29,Connecticut,2021-03-03
+-38.05,Connecticut,2021-03-04
+-24.88,Connecticut,2021-03-05
+-24.28,Connecticut,2021-03-06
+-2.19,Connecticut,2021-03-07
+-50.56,Connecticut,2021-03-08
+-38.53,Connecticut,2021-03-09
+-37.52,Connecticut,2021-03-10
+-26.12,Connecticut,2021-03-11
+-13.2,Connecticut,2021-03-12
+-17.75,Connecticut,2021-03-13
+-13.18,Connecticut,2021-03-14
+-47,Connecticut,2021-03-15
+-49.4,Connecticut,2021-03-16
+-25.28,Connecticut,2021-03-17
+-43.81,Connecticut,2021-03-18
+-13.43,Connecticut,2021-03-19
+-16.31,Connecticut,2021-03-20
+9.34,Connecticut,2021-03-21
+-26.21,Connecticut,2021-03-22
+-26.92,Connecticut,2021-03-23
+-40.31,Connecticut,2021-03-24
+-7,Connecticut,2021-03-25
+-7.66,Connecticut,2021-03-26
+-10.44,Connecticut,2021-03-27
+-16.31,Connecticut,2021-03-28
+-19.5,Connecticut,2021-03-29
+-17.33,Connecticut,2021-03-30
+-25.24,Connecticut,2021-03-31
+-7.57,Connecticut,2021-04-01
+-1.93,Connecticut,2021-04-02
+-19.67,Connecticut,2021-04-03
+22.99,Connecticut,2021-04-04
+-21.03,Connecticut,2021-04-05
+-14.33,Connecticut,2021-04-06
+-12.34,Connecticut,2021-04-07
+3.08,Connecticut,2021-04-08
+-6.81,Connecticut,2021-04-09
+3.4,Connecticut,2021-04-10
+-8.23,Connecticut,2021-04-11
+-45.02,Connecticut,2021-04-12
+-15.14,Connecticut,2021-04-13
+-5.08,Connecticut,2021-04-14
+-27.25,Connecticut,2021-04-15
+-7.9,Connecticut,2021-04-16
+-60.98,Connecticut,2021-04-17
+-38.02,Connecticut,2021-04-18
+-6.41,Connecticut,2021-04-19
+17.29,Connecticut,2021-04-20
+-25.57,Connecticut,2021-04-21
+-0.57,Connecticut,2021-04-22
+10.85,Connecticut,2021-04-23
+11.09,Connecticut,2021-04-24
+2.33,Connecticut,2021-04-25
+-22.93,Connecticut,2021-04-26
+-7.5,Connecticut,2021-04-27
+9.12,Connecticut,2021-04-28
+-11.24,Connecticut,2021-04-29
+2.03,Connecticut,2021-04-30
+12.73,Connecticut,2021-05-01
+29.1,Connecticut,2021-05-02
+-24.41,Connecticut,2021-05-03
+-11.25,Connecticut,2021-05-04
+-5.32,Connecticut,2021-05-05
+13.07,Connecticut,2021-05-06
+14.97,Connecticut,2021-05-07
+0.85,Connecticut,2021-05-08
+-11.75,Connecticut,2021-05-09
+-11.65,Connecticut,2021-05-10
+6.08,Connecticut,2021-05-11
+5.04,Connecticut,2021-05-12
+11.62,Connecticut,2021-05-13
+26.07,Connecticut,2021-05-14
+16.06,Connecticut,2021-05-15
+5.56,Connecticut,2021-05-16
+-15.06,Connecticut,2021-05-17
+6.83,Connecticut,2021-05-18
+32.83,Connecticut,2021-05-19
+35.53,Connecticut,2021-05-20
+25.73,Connecticut,2021-05-21
+40.72,Connecticut,2021-05-22
+16.57,Connecticut,2021-05-23
+12.96,Connecticut,2021-05-24
+63.75,Connecticut,2021-05-25
+44.05,Connecticut,2021-05-26
+52.18,Connecticut,2021-05-27
+18.4,Connecticut,2021-05-28
+18.29,Connecticut,2021-05-29
+53.32,Connecticut,2021-05-30
+50.14,Connecticut,2021-05-31
+-15.8,Connecticut,2021-06-01
+7.02,Connecticut,2021-06-02
+-3.06,Connecticut,2021-06-03
+11.16,Connecticut,2021-06-04
+28.74,Connecticut,2021-06-05
+28.07,Connecticut,2021-06-06
+2.54,Connecticut,2021-06-07
+2.6,Connecticut,2021-06-08
+1.26,Connecticut,2021-06-09
+14.32,Connecticut,2021-06-10
+25.77,Connecticut,2021-06-11
+22.73,Connecticut,2021-06-12
+-30.6,Connecticut,2021-06-13
+-17.2,Connecticut,2021-06-14
+10.31,Connecticut,2021-06-15
+43.56,Connecticut,2021-06-16
+38.36,Connecticut,2021-06-17
+39.53,Connecticut,2021-06-18
+33.72,Connecticut,2021-06-19
+119.51,Connecticut,2021-06-20
+22.23,Connecticut,2021-06-21
+9.2,Connecticut,2021-06-22
+26.55,Connecticut,2021-06-23
+27.57,Connecticut,2021-06-24
+33.91,Connecticut,2021-06-25
+30.54,Connecticut,2021-06-26
+39.35,Connecticut,2021-06-27
+34.18,Connecticut,2021-06-28
+-51.79,Connecticut,2021-06-29
+22.63,Connecticut,2021-06-30
+66.33,Connecticut,2021-07-01
+37.53,Connecticut,2021-07-02
+38.51,Connecticut,2021-07-03
+19.96,Connecticut,2021-07-04
+63.46,Connecticut,2021-07-05
+2.73,Connecticut,2021-07-06
+14.79,Connecticut,2021-07-07
+9.47,Connecticut,2021-07-08
+30.51,Connecticut,2021-07-09
+34.25,Connecticut,2021-07-10
+44.54,Connecticut,2021-07-11
+19.29,Connecticut,2021-07-12
+18.18,Connecticut,2021-07-13
+35.83,Connecticut,2021-07-14
+37.88,Connecticut,2021-07-15
+29.18,Connecticut,2021-07-16
+25.85,Connecticut,2021-07-17
+33.67,Connecticut,2021-07-18
+22.1,Connecticut,2021-07-19
+16.82,Connecticut,2021-07-20
+27.45,Connecticut,2021-07-21
+35.63,Connecticut,2021-07-22
+32.25,Connecticut,2021-07-23
+38.45,Connecticut,2021-07-24
+37.84,Connecticut,2021-07-25
+22.42,Connecticut,2021-07-26
+29.36,Connecticut,2021-07-27
+45.86,Connecticut,2021-07-28
+23.59,Connecticut,2021-07-29
+42.81,Connecticut,2021-07-30
+41.27,Connecticut,2021-07-31
+34.71,Connecticut,2021-08-01
+15.9,Connecticut,2021-08-02
+31.75,Connecticut,2021-08-03
+31.49,Connecticut,2021-08-04
+33.21,Connecticut,2021-08-05
+41.47,Connecticut,2021-08-06
+36.17,Connecticut,2021-08-07
+29.13,Connecticut,2021-08-08
+18.2,Connecticut,2021-08-09
+21.97,Connecticut,2021-08-10
+26.71,Connecticut,2021-08-11
+32.3,Connecticut,2021-08-12
+37.22,Connecticut,2021-08-13
+39.3,Connecticut,2021-08-14
+53.07,Connecticut,2021-08-15
+22.9,Connecticut,2021-08-16
+19.93,Connecticut,2021-08-17
+20.5,Connecticut,2021-08-18
+21.66,Connecticut,2021-08-19
+30.82,Connecticut,2021-08-20
+9.37,Connecticut,2021-08-21
+-67.15,Connecticut,2021-08-22
+-0.63,Connecticut,2021-08-23
+33.87,Connecticut,2021-08-24
+54.51,Connecticut,2021-08-25
+42.69,Connecticut,2021-08-26
+33.13,Connecticut,2021-08-27
+38.12,Connecticut,2021-08-28
+8.59,Connecticut,2021-08-29
+-15.69,Connecticut,2021-08-30
+80.92,Connecticut,2021-08-31
+6.29,Connecticut,2021-09-01
+43.23,Connecticut,2021-09-02
+54.61,Connecticut,2021-09-03
+34.85,Connecticut,2021-09-04
+67.87,Connecticut,2021-09-05
+87.89,Connecticut,2021-09-06
+3.87,Connecticut,2021-09-07
+9.67,Connecticut,2021-09-08
+5.54,Connecticut,2021-09-09
+28.48,Connecticut,2021-09-10
+34.36,Connecticut,2021-09-11
+35.04,Connecticut,2021-09-12
+16.23,Connecticut,2021-09-13
+5.43,Connecticut,2021-09-14
+24.65,Connecticut,2021-09-15
+21.68,Connecticut,2021-09-16
+32.41,Connecticut,2021-09-17
+37.44,Connecticut,2021-09-18
+47.13,Connecticut,2021-09-19
+0.96,Connecticut,2021-09-20
+-4.43,Connecticut,2021-09-21
+2.77,Connecticut,2021-09-22
+18.81,Connecticut,2021-09-23
+36.06,Connecticut,2021-09-24
+27.5,Connecticut,2021-09-25
+48.61,Connecticut,2021-09-26
+-2.29,Connecticut,2021-09-27
+11.79,Connecticut,2021-09-28
+26.35,Connecticut,2021-09-29
+31.08,Connecticut,2021-09-30
+29.54,Connecticut,2021-10-01
+28.79,Connecticut,2021-10-02
+37.54,Connecticut,2021-10-03
+41.22,Connecticut,2021-10-04
+1.81,Connecticut,2021-10-05
+16.51,Connecticut,2021-10-06
+37.51,Connecticut,2021-10-07
+37.89,Connecticut,2021-10-08
+26.79,Connecticut,2021-10-09
+16.13,Connecticut,2021-10-10
+7.95,Connecticut,2021-10-11
+14.78,Connecticut,2021-10-12
+27.09,Connecticut,2021-10-13
+39.15,Connecticut,2021-10-14
+50.04,Connecticut,2021-10-15
+33.68,Connecticut,2021-10-16
+48.08,Connecticut,2021-10-17
+-0.03,Connecticut,2021-10-18
+12.77,Connecticut,2021-10-19
+20.22,Connecticut,2021-10-20
+38.38,Connecticut,2021-10-21
+49.27,Connecticut,2021-10-22
+36,Connecticut,2021-10-23
+57.27,Connecticut,2021-10-24
+-0.42,Connecticut,2021-10-25
+-10.19,Connecticut,2021-10-26
+16.9,Connecticut,2021-10-27
+100.78,Connecticut,2021-10-28
+30.77,Connecticut,2021-10-29
+4.68,Connecticut,2021-10-30
+2.28,Connecticut,2021-10-31
+1.53,Connecticut,2021-11-01
+5.8,Connecticut,2021-11-02
+6.59,Connecticut,2021-11-03
+22.67,Connecticut,2021-11-04
+27.23,Connecticut,2021-11-05
+22.93,Connecticut,2021-11-06
+19.75,Connecticut,2021-11-07
+6.58,Connecticut,2021-11-08
+48.38,Connecticut,2021-11-09
+29.47,Connecticut,2021-11-10
+49.83,Connecticut,2021-11-11
+20.29,Connecticut,2021-11-12
+17.38,Connecticut,2021-11-13
+18.68,Connecticut,2021-11-14
+-8.68,Connecticut,2021-11-15
+-2.28,Connecticut,2021-11-16
+14.25,Connecticut,2021-11-17
+14.94,Connecticut,2021-11-18
+22,Connecticut,2021-11-19
+22.44,Connecticut,2021-11-20
+44.27,Connecticut,2021-11-21
+10.76,Connecticut,2021-11-22
+7.84,Connecticut,2021-11-23
+18.39,Connecticut,2021-11-24
+-7.32,Connecticut,2021-11-25
+9.97,Connecticut,2021-11-26
+24.17,Connecticut,2021-11-27
+150.29,Connecticut,2021-11-28
+74.15,Connecticut,2021-11-29
+0.25,Connecticut,2021-11-30
+6.11,Connecticut,2021-12-01
+-1.99,Connecticut,2021-12-02
+15.73,Connecticut,2021-12-03
+17.22,Connecticut,2021-12-04
+13.71,Connecticut,2021-12-05
+-21.78,Connecticut,2021-12-06
+-12.51,Connecticut,2021-12-07
+-4.79,Connecticut,2021-12-08
+-11.54,Connecticut,2021-12-09
+16.03,Connecticut,2021-12-10
+25.64,Connecticut,2021-12-11
+23.25,Connecticut,2021-12-12
+-13.01,Connecticut,2021-12-13
+54.66,Connecticut,2021-12-14
+1.97,Connecticut,2021-12-15
+0.16,Connecticut,2021-12-16
+15.31,Connecticut,2021-12-17
+22.22,Connecticut,2021-12-18
+10.07,Connecticut,2021-12-19
+-44.6,Connecticut,2021-12-20
+-33.77,Connecticut,2021-12-21
+106.81,Connecticut,2021-12-22
+16.22,Connecticut,2021-12-23
+-29.74,Connecticut,2021-12-24
+-76.52,Connecticut,2021-12-25
+3.29,Connecticut,2021-12-26
+-7.22,Connecticut,2021-12-27
+-55.42,Connecticut,2021-12-28
+49.69,Connecticut,2021-12-29
+125.23,Connecticut,2021-12-30
+71.38,Connecticut,2021-12-31
+-37.62,Connecticut,2022-01-01
+-5.74,Connecticut,2022-01-02
+-33.12,Connecticut,2022-01-03
+-35.73,Connecticut,2022-01-04
+-47.22,Connecticut,2022-01-05
+-33.66,Connecticut,2022-01-06
+-44.4,Connecticut,2022-01-07
+-13.06,Connecticut,2022-01-08
+-27.47,Connecticut,2022-01-09
+-43.77,Connecticut,2022-01-10
+-39.03,Connecticut,2022-01-11
+-33.27,Connecticut,2022-01-12
+-22.35,Connecticut,2022-01-13
+-6.65,Connecticut,2022-01-14
+17.86,Connecticut,2022-01-15
+160.76,Connecticut,2022-01-16
+1.27,Connecticut,2022-01-17
+-32.74,Connecticut,2022-01-18
+-18.32,Connecticut,2022-01-19
+-16.43,Connecticut,2022-01-20
+-6.33,Connecticut,2022-01-21
+4.05,Connecticut,2022-01-22
+-2.32,Connecticut,2022-01-23
+-32.59,Connecticut,2022-01-24
+-9.37,Connecticut,2022-01-25
+27.88,Connecticut,2022-01-26
+6.72,Connecticut,2022-01-27
+-11.66,Connecticut,2022-01-28
+-83.99,Connecticut,2022-01-29
+43.18,Connecticut,2022-01-30
+-7.26,Connecticut,2022-01-31
+-17.25,Connecticut,2022-02-01
+4.53,Connecticut,2022-02-02
+107.03,Connecticut,2022-02-03
+-23.3,Connecticut,2022-02-04
+27.33,Connecticut,2022-02-05
+33.44,Connecticut,2022-02-06
+-35.73,Connecticut,2022-02-07
+179.89,Connecticut,2022-02-08
+-4.69,Connecticut,2022-02-09
+-53.73,Connecticut,2022-02-10
+29.1,Connecticut,2022-02-11
+33.5,Connecticut,2022-02-12
+-25.62,Connecticut,2022-02-13
+172.45,Connecticut,2022-02-14
+7.52,Connecticut,2022-02-15
+33.2,Connecticut,2022-02-16
+5.65,Connecticut,2022-02-17
+16.93,Connecticut,2022-02-18
+18.45,Connecticut,2022-02-19
+80.11,Connecticut,2022-02-20
+85.58,Connecticut,2022-02-21
+24.71,Connecticut,2022-02-22
+50.13,Connecticut,2022-02-23
+18.72,Connecticut,2022-02-24
+-5.61,Connecticut,2022-02-25
+46,Connecticut,2022-02-26
+61.23,Connecticut,2022-02-27
+28.29,Connecticut,2022-02-28
+5.56,Connecticut,2022-03-01
+18.55,Connecticut,2022-03-02
+25.26,Connecticut,2022-03-03
+28.14,Connecticut,2022-03-04
+24.88,Connecticut,2022-03-05
+57.83,Connecticut,2022-03-06
+-11.74,Connecticut,2022-03-07
+-0.58,Connecticut,2022-03-08
+-11.41,Connecticut,2022-03-09
+14.67,Connecticut,2022-03-10
+31.32,Connecticut,2022-03-11
+-4.52,Connecticut,2022-03-12
+41.91,Connecticut,2022-03-13
+5.36,Connecticut,2022-03-14
+14.75,Connecticut,2022-03-15
+26.35,Connecticut,2022-03-16
+7.35,Connecticut,2022-03-17
+59.26,Connecticut,2022-03-18
+17.3,Connecticut,2022-03-19
+39.14,Connecticut,2022-03-20
+1.21,Connecticut,2022-03-21
+-2.29,Connecticut,2022-03-22
+11.56,Connecticut,2022-03-23
+14.34,Connecticut,2022-03-24
+31.67,Connecticut,2022-03-25
+19.21,Connecticut,2022-03-26
+39.02,Connecticut,2022-03-27
+1.53,Connecticut,2022-03-28
+15.64,Connecticut,2022-03-29
+24.44,Connecticut,2022-03-30
+42.71,Connecticut,2022-03-31
+3,New Jersey,2020-02-18
+70,New Jersey,2020-02-19
+-4,New Jersey,2020-02-20
+-2,New Jersey,2020-02-21
+3,New Jersey,2020-02-22
+12,New Jersey,2020-02-23
+6,New Jersey,2020-02-24
+-7,New Jersey,2020-02-25
+-9,New Jersey,2020-02-26
+-8,New Jersey,2020-02-27
+1,New Jersey,2020-02-28
+3,New Jersey,2020-02-29
+10,New Jersey,2020-03-01
+-5,New Jersey,2020-03-02
+-12,New Jersey,2020-03-03
+-2,New Jersey,2020-03-04
+-4,New Jersey,2020-03-05
+-16,New Jersey,2020-03-06
+-6,New Jersey,2020-03-07
+10,New Jersey,2020-03-08
+12,New Jersey,2020-03-09
+-4,New Jersey,2020-03-10
+-14,New Jersey,2020-03-11
+-26,New Jersey,2020-03-12
+-40,New Jersey,2020-03-13
+-44,New Jersey,2020-03-14
+-56,New Jersey,2020-03-15
+-72,New Jersey,2020-03-16
+-100,New Jersey,2020-03-17
+-100,New Jersey,2020-03-18
+-100,New Jersey,2020-03-19
+-100,New Jersey,2020-03-20
+-100,New Jersey,2020-03-21
+-100,New Jersey,2020-03-22
+-100,New Jersey,2020-03-23
+-100,New Jersey,2020-03-24
+-100,New Jersey,2020-03-25
+-100,New Jersey,2020-03-26
+-100,New Jersey,2020-03-27
+-100,New Jersey,2020-03-28
+-100,New Jersey,2020-03-29
+-100,New Jersey,2020-03-30
+-100,New Jersey,2020-03-31
+-100,New Jersey,2020-04-01
+-100,New Jersey,2020-04-02
+-100,New Jersey,2020-04-03
+-100,New Jersey,2020-04-04
+-100,New Jersey,2020-04-05
+-100,New Jersey,2020-04-06
+-100,New Jersey,2020-04-07
+-100,New Jersey,2020-04-08
+-100,New Jersey,2020-04-09
+-100,New Jersey,2020-04-10
+-100,New Jersey,2020-04-11
+-100,New Jersey,2020-04-12
+-100,New Jersey,2020-04-13
+-100,New Jersey,2020-04-14
+-100,New Jersey,2020-04-15
+-100,New Jersey,2020-04-16
+-100,New Jersey,2020-04-17
+-100,New Jersey,2020-04-18
+-100,New Jersey,2020-04-19
+-100,New Jersey,2020-04-20
+-100,New Jersey,2020-04-21
+-100,New Jersey,2020-04-22
+-100,New Jersey,2020-04-23
+-100,New Jersey,2020-04-24
+-100,New Jersey,2020-04-25
+-100,New Jersey,2020-04-26
+-100,New Jersey,2020-04-27
+-100,New Jersey,2020-04-28
+-100,New Jersey,2020-04-29
+-100,New Jersey,2020-04-30
+-100,New Jersey,2020-05-01
+-100,New Jersey,2020-05-02
+-100,New Jersey,2020-05-03
+-100,New Jersey,2020-05-04
+-100,New Jersey,2020-05-05
+-100,New Jersey,2020-05-06
+-100,New Jersey,2020-05-07
+-100,New Jersey,2020-05-08
+-100,New Jersey,2020-05-09
+-100,New Jersey,2020-05-10
+-99.93,New Jersey,2020-05-11
+-99.82,New Jersey,2020-05-12
+-99.87,New Jersey,2020-05-13
+-99.88,New Jersey,2020-05-14
+-99.85,New Jersey,2020-05-15
+-99.77,New Jersey,2020-05-16
+-99.86,New Jersey,2020-05-17
+-99.15,New Jersey,2020-05-18
+-99.04,New Jersey,2020-05-19
+-98.89,New Jersey,2020-05-20
+-98.72,New Jersey,2020-05-21
+-99.11,New Jersey,2020-05-22
+-98.37,New Jersey,2020-05-23
+-98.73,New Jersey,2020-05-24
+-99.96,New Jersey,2020-05-25
+-99.18,New Jersey,2020-05-26
+-99.3,New Jersey,2020-05-27
+-98.42,New Jersey,2020-05-28
+-98.97,New Jersey,2020-05-29
+-97.66,New Jersey,2020-05-30
+-97.87,New Jersey,2020-05-31
+-99.15,New Jersey,2020-06-01
+-99.28,New Jersey,2020-06-02
+-99.05,New Jersey,2020-06-03
+-99.32,New Jersey,2020-06-04
+-99.14,New Jersey,2020-06-05
+-98.79,New Jersey,2020-06-06
+-97.98,New Jersey,2020-06-07
+-99.68,New Jersey,2020-06-08
+-99.51,New Jersey,2020-06-09
+-99.29,New Jersey,2020-06-10
+-99.47,New Jersey,2020-06-11
+-99.64,New Jersey,2020-06-12
+-98.61,New Jersey,2020-06-13
+-99.17,New Jersey,2020-06-14
+-45.77,New Jersey,2020-06-15
+-55.55,New Jersey,2020-06-16
+-61.88,New Jersey,2020-06-17
+-62.08,New Jersey,2020-06-18
+-60.94,New Jersey,2020-06-19
+-64.56,New Jersey,2020-06-20
+-43.53,New Jersey,2020-06-21
+-57.8,New Jersey,2020-06-22
+-56.98,New Jersey,2020-06-23
+-53.63,New Jersey,2020-06-24
+-50.71,New Jersey,2020-06-25
+-48.57,New Jersey,2020-06-26
+-61.55,New Jersey,2020-06-27
+-57.77,New Jersey,2020-06-28
+-46.9,New Jersey,2020-06-29
+-55.34,New Jersey,2020-06-30
+-64.61,New Jersey,2020-07-01
+-28,New Jersey,2020-07-02
+-53.61,New Jersey,2020-07-03
+-68.36,New Jersey,2020-07-04
+-54.71,New Jersey,2020-07-05
+-66.98,New Jersey,2020-07-06
+-43.96,New Jersey,2020-07-07
+-47.08,New Jersey,2020-07-08
+-29.44,New Jersey,2020-07-09
+-89.03,New Jersey,2020-07-10
+-55.76,New Jersey,2020-07-11
+-48.3,New Jersey,2020-07-12
+-45.48,New Jersey,2020-07-13
+-37.49,New Jersey,2020-07-14
+-35.56,New Jersey,2020-07-15
+-28.12,New Jersey,2020-07-16
+-45.5,New Jersey,2020-07-17
+-49.1,New Jersey,2020-07-18
+-56.06,New Jersey,2020-07-19
+-51.12,New Jersey,2020-07-20
+-42.52,New Jersey,2020-07-21
+-59.91,New Jersey,2020-07-22
+-50.34,New Jersey,2020-07-23
+-52.7,New Jersey,2020-07-24
+-46.16,New Jersey,2020-07-25
+-47.45,New Jersey,2020-07-26
+-41.11,New Jersey,2020-07-27
+-49.9,New Jersey,2020-07-28
+-34.15,New Jersey,2020-07-29
+-37.29,New Jersey,2020-07-30
+-47.24,New Jersey,2020-07-31
+-44.81,New Jersey,2020-08-01
+-48.39,New Jersey,2020-08-02
+-39.26,New Jersey,2020-08-03
+-81.54,New Jersey,2020-08-04
+-29.33,New Jersey,2020-08-05
+-40.1,New Jersey,2020-08-06
+-55.95,New Jersey,2020-08-07
+-41.23,New Jersey,2020-08-08
+-37.4,New Jersey,2020-08-09
+-40.31,New Jersey,2020-08-10
+-31.14,New Jersey,2020-08-11
+-47.35,New Jersey,2020-08-12
+-46.5,New Jersey,2020-08-13
+-33.51,New Jersey,2020-08-14
+-37.97,New Jersey,2020-08-15
+-67.01,New Jersey,2020-08-16
+-35.24,New Jersey,2020-08-17
+-28.3,New Jersey,2020-08-18
+-38.29,New Jersey,2020-08-19
+-17.63,New Jersey,2020-08-20
+-26.75,New Jersey,2020-08-21
+-34.51,New Jersey,2020-08-22
+-39.26,New Jersey,2020-08-23
+-26.9,New Jersey,2020-08-24
+-34.97,New Jersey,2020-08-25
+-10.97,New Jersey,2020-08-26
+-32.8,New Jersey,2020-08-27
+-46.68,New Jersey,2020-08-28
+-47.96,New Jersey,2020-08-29
+-33.07,New Jersey,2020-08-30
+-41.05,New Jersey,2020-08-31
+9.16,New Jersey,2020-09-01
+-5.17,New Jersey,2020-09-02
+-10.03,New Jersey,2020-09-03
+12.43,New Jersey,2020-09-04
+-21.71,New Jersey,2020-09-05
+27.14,New Jersey,2020-09-06
+90.54,New Jersey,2020-09-07
+-15.35,New Jersey,2020-09-08
+-23.92,New Jersey,2020-09-09
+-25.94,New Jersey,2020-09-10
+-16.21,New Jersey,2020-09-11
+-14.07,New Jersey,2020-09-12
+-16.41,New Jersey,2020-09-13
+-3.17,New Jersey,2020-09-14
+-16.35,New Jersey,2020-09-15
+-11.44,New Jersey,2020-09-16
+-5.53,New Jersey,2020-09-17
+-17.68,New Jersey,2020-09-18
+-20.66,New Jersey,2020-09-19
+-17.62,New Jersey,2020-09-20
+-17.19,New Jersey,2020-09-21
+-19.4,New Jersey,2020-09-22
+-3.67,New Jersey,2020-09-23
+-4.9,New Jersey,2020-09-24
+-5.99,New Jersey,2020-09-25
+-14.37,New Jersey,2020-09-26
+-10.06,New Jersey,2020-09-27
+-4.35,New Jersey,2020-09-28
+-38.82,New Jersey,2020-09-29
+-14.83,New Jersey,2020-09-30
+16.81,New Jersey,2020-10-01
+-13.43,New Jersey,2020-10-02
+-11.89,New Jersey,2020-10-03
+-7.27,New Jersey,2020-10-04
+5.67,New Jersey,2020-10-05
+-12.81,New Jersey,2020-10-06
+-1.64,New Jersey,2020-10-07
+-2.29,New Jersey,2020-10-08
+-10.1,New Jersey,2020-10-09
+-10.06,New Jersey,2020-10-10
+-26.47,New Jersey,2020-10-11
+-49.87,New Jersey,2020-10-12
+-42.74,New Jersey,2020-10-13
+6.26,New Jersey,2020-10-14
+6.88,New Jersey,2020-10-15
+-39.76,New Jersey,2020-10-16
+-13.42,New Jersey,2020-10-17
+-5.35,New Jersey,2020-10-18
+-25.53,New Jersey,2020-10-19
+-27.56,New Jersey,2020-10-20
+-21.55,New Jersey,2020-10-21
+-16.92,New Jersey,2020-10-22
+-8.11,New Jersey,2020-10-23
+-8.59,New Jersey,2020-10-24
+-13.45,New Jersey,2020-10-25
+-36.76,New Jersey,2020-10-26
+-28.39,New Jersey,2020-10-27
+-22.95,New Jersey,2020-10-28
+-21.59,New Jersey,2020-10-29
+-38.28,New Jersey,2020-10-30
+-51.25,New Jersey,2020-10-31
+-40.48,New Jersey,2020-11-01
+-34.76,New Jersey,2020-11-02
+-41.35,New Jersey,2020-11-03
+-32.3,New Jersey,2020-11-04
+-8.96,New Jersey,2020-11-05
+-6.67,New Jersey,2020-11-06
+-8.25,New Jersey,2020-11-07
+-2.28,New Jersey,2020-11-08
+-27.94,New Jersey,2020-11-09
+-0.98,New Jersey,2020-11-10
+-31.87,New Jersey,2020-11-11
+-44.82,New Jersey,2020-11-12
+-40.29,New Jersey,2020-11-13
+-32.29,New Jersey,2020-11-14
+-39.82,New Jersey,2020-11-15
+-46.48,New Jersey,2020-11-16
+-58.19,New Jersey,2020-11-17
+-56.04,New Jersey,2020-11-18
+-48.22,New Jersey,2020-11-19
+-37.34,New Jersey,2020-11-20
+-35.08,New Jersey,2020-11-21
+-41.77,New Jersey,2020-11-22
+-54.7,New Jersey,2020-11-23
+-49.67,New Jersey,2020-11-24
+-51.27,New Jersey,2020-11-25
+-66.26,New Jersey,2020-11-26
+-51.9,New Jersey,2020-11-27
+-41.95,New Jersey,2020-11-28
+-4.32,New Jersey,2020-11-29
+-31.95,New Jersey,2020-11-30
+-56.85,New Jersey,2020-12-01
+-58.93,New Jersey,2020-12-02
+-53.27,New Jersey,2020-12-03
+-55.2,New Jersey,2020-12-04
+-52.09,New Jersey,2020-12-05
+-52.54,New Jersey,2020-12-06
+-65.55,New Jersey,2020-12-07
+-69.14,New Jersey,2020-12-08
+-67.7,New Jersey,2020-12-09
+-63.78,New Jersey,2020-12-10
+-50.04,New Jersey,2020-12-11
+-42.37,New Jersey,2020-12-12
+-41.16,New Jersey,2020-12-13
+-71.98,New Jersey,2020-12-14
+-60.29,New Jersey,2020-12-15
+-89.35,New Jersey,2020-12-16
+-77.66,New Jersey,2020-12-17
+-56.71,New Jersey,2020-12-18
+-42.81,New Jersey,2020-12-19
+-51.72,New Jersey,2020-12-20
+-68.75,New Jersey,2020-12-21
+-70.77,New Jersey,2020-12-22
+6.1,New Jersey,2020-12-23
+-35.2,New Jersey,2020-12-24
+-88,New Jersey,2020-12-25
+-55.05,New Jersey,2020-12-26
+-39.13,New Jersey,2020-12-27
+-46.88,New Jersey,2020-12-28
+-73.99,New Jersey,2020-12-29
+-1.21,New Jersey,2020-12-30
+110.91,New Jersey,2020-12-31
+-49.64,New Jersey,2021-01-01
+-31.08,New Jersey,2021-01-02
+-40.27,New Jersey,2021-01-03
+-36.82,New Jersey,2021-01-04
+-42.82,New Jersey,2021-01-05
+-41.85,New Jersey,2021-01-06
+-37,New Jersey,2021-01-07
+-43.66,New Jersey,2021-01-08
+-42.57,New Jersey,2021-01-09
+-36.17,New Jersey,2021-01-10
+-43.34,New Jersey,2021-01-11
+-44.28,New Jersey,2021-01-12
+-46.02,New Jersey,2021-01-13
+-36.23,New Jersey,2021-01-14
+-37.93,New Jersey,2021-01-15
+-5.23,New Jersey,2021-01-16
+-29.19,New Jersey,2021-01-17
+-29.21,New Jersey,2021-01-18
+-41.51,New Jersey,2021-01-19
+-41.28,New Jersey,2021-01-20
+-36.19,New Jersey,2021-01-21
+-37.02,New Jersey,2021-01-22
+-33.08,New Jersey,2021-01-23
+-44.17,New Jersey,2021-01-24
+-46.46,New Jersey,2021-01-25
+-61.2,New Jersey,2021-01-26
+-46.63,New Jersey,2021-01-27
+-40.87,New Jersey,2021-01-28
+-41.04,New Jersey,2021-01-29
+-34.53,New Jersey,2021-01-30
+-17.02,New Jersey,2021-01-31
+-90.75,New Jersey,2021-02-01
+-79.35,New Jersey,2021-02-02
+-50.9,New Jersey,2021-02-03
+-36.23,New Jersey,2021-02-04
+-32.14,New Jersey,2021-02-05
+-35.06,New Jersey,2021-02-06
+-80.91,New Jersey,2021-02-07
+-39.64,New Jersey,2021-02-08
+-47.69,New Jersey,2021-02-09
+-43.29,New Jersey,2021-02-10
+-47.79,New Jersey,2021-02-11
+-57.02,New Jersey,2021-02-12
+-34.09,New Jersey,2021-02-13
+10.5,New Jersey,2021-02-14
+-30.47,New Jersey,2021-02-15
+-30.64,New Jersey,2021-02-16
+-28.94,New Jersey,2021-02-17
+-76.15,New Jersey,2021-02-18
+-48.22,New Jersey,2021-02-19
+-31.7,New Jersey,2021-02-20
+-33.6,New Jersey,2021-02-21
+-47.03,New Jersey,2021-02-22
+-38.28,New Jersey,2021-02-23
+-15.44,New Jersey,2021-02-24
+-23.52,New Jersey,2021-02-25
+-23.29,New Jersey,2021-02-26
+-23.59,New Jersey,2021-02-27
+-34.86,New Jersey,2021-02-28
+-33.01,New Jersey,2021-03-01
+-35.63,New Jersey,2021-03-02
+-31.48,New Jersey,2021-03-03
+-37.84,New Jersey,2021-03-04
+-31.25,New Jersey,2021-03-05
+-28,New Jersey,2021-03-06
+-22.39,New Jersey,2021-03-07
+-39.14,New Jersey,2021-03-08
+-32.26,New Jersey,2021-03-09
+-26.37,New Jersey,2021-03-10
+0.3,New Jersey,2021-03-11
+-16.79,New Jersey,2021-03-12
+-18.62,New Jersey,2021-03-13
+-18.46,New Jersey,2021-03-14
+-29.1,New Jersey,2021-03-15
+-41.8,New Jersey,2021-03-16
+-21.04,New Jersey,2021-03-17
+-31.29,New Jersey,2021-03-18
+-18.44,New Jersey,2021-03-19
+-17.66,New Jersey,2021-03-20
+-12.1,New Jersey,2021-03-21
+-12.17,New Jersey,2021-03-22
+-24.91,New Jersey,2021-03-23
+-37.73,New Jersey,2021-03-24
+-14.32,New Jersey,2021-03-25
+-8.26,New Jersey,2021-03-26
+-18.93,New Jersey,2021-03-27
+-28.82,New Jersey,2021-03-28
+-4.64,New Jersey,2021-03-29
+3.79,New Jersey,2021-03-30
+-20.3,New Jersey,2021-03-31
+-6.66,New Jersey,2021-04-01
+-11.21,New Jersey,2021-04-02
+-28.98,New Jersey,2021-04-03
+10.15,New Jersey,2021-04-04
+3.54,New Jersey,2021-04-05
+13.21,New Jersey,2021-04-06
+-1.15,New Jersey,2021-04-07
+21.47,New Jersey,2021-04-08
+-7.08,New Jersey,2021-04-09
+-12.96,New Jersey,2021-04-10
+-28.05,New Jersey,2021-04-11
+-28.1,New Jersey,2021-04-12
+-21.94,New Jersey,2021-04-13
+-19.57,New Jersey,2021-04-14
+-37,New Jersey,2021-04-15
+-7.39,New Jersey,2021-04-16
+-40.56,New Jersey,2021-04-17
+-42.58,New Jersey,2021-04-18
+-16.61,New Jersey,2021-04-19
+-5,New Jersey,2021-04-20
+-33.99,New Jersey,2021-04-21
+-18.88,New Jersey,2021-04-22
+10.71,New Jersey,2021-04-23
+0.86,New Jersey,2021-04-24
+-14.44,New Jersey,2021-04-25
+-1.31,New Jersey,2021-04-26
+-4.44,New Jersey,2021-04-27
+32.12,New Jersey,2021-04-28
+-7.33,New Jersey,2021-04-29
+-2.14,New Jersey,2021-04-30
+-4.16,New Jersey,2021-05-01
+6.97,New Jersey,2021-05-02
+-17.71,New Jersey,2021-05-03
+-12.63,New Jersey,2021-05-04
+-13.12,New Jersey,2021-05-05
+8.09,New Jersey,2021-05-06
+-6.49,New Jersey,2021-05-07
+-21.11,New Jersey,2021-05-08
+-21.78,New Jersey,2021-05-09
+0.3,New Jersey,2021-05-10
+-9.33,New Jersey,2021-05-11
+-8.13,New Jersey,2021-05-12
+-0.83,New Jersey,2021-05-13
+1.75,New Jersey,2021-05-14
+-4.01,New Jersey,2021-05-15
+-7.33,New Jersey,2021-05-16
+-11.46,New Jersey,2021-05-17
+4.35,New Jersey,2021-05-18
+7.11,New Jersey,2021-05-19
+5.7,New Jersey,2021-05-20
+2.46,New Jersey,2021-05-21
+8.22,New Jersey,2021-05-22
+-9.36,New Jersey,2021-05-23
+-35.08,New Jersey,2021-05-24
+77.03,New Jersey,2021-05-25
+38.31,New Jersey,2021-05-26
+54.65,New Jersey,2021-05-27
+-5.48,New Jersey,2021-05-28
+-14.56,New Jersey,2021-05-29
+7.03,New Jersey,2021-05-30
+29.1,New Jersey,2021-05-31
+-23.88,New Jersey,2021-06-01
+-6.96,New Jersey,2021-06-02
+-12.57,New Jersey,2021-06-03
+-9.93,New Jersey,2021-06-04
+-0.81,New Jersey,2021-06-05
+0.98,New Jersey,2021-06-06
+13.66,New Jersey,2021-06-07
+-8.52,New Jersey,2021-06-08
+-2.68,New Jersey,2021-06-09
+14.08,New Jersey,2021-06-10
+-4.28,New Jersey,2021-06-11
+-4.62,New Jersey,2021-06-12
+-37.71,New Jersey,2021-06-13
+-6.79,New Jersey,2021-06-14
+4.76,New Jersey,2021-06-15
+12.48,New Jersey,2021-06-16
+10.35,New Jersey,2021-06-17
+9.09,New Jersey,2021-06-18
+4.27,New Jersey,2021-06-19
+57.97,New Jersey,2021-06-20
+4.4,New Jersey,2021-06-21
+-8.3,New Jersey,2021-06-22
+19.7,New Jersey,2021-06-23
+21.14,New Jersey,2021-06-24
+12.3,New Jersey,2021-06-25
+5.97,New Jersey,2021-06-26
+7.77,New Jersey,2021-06-27
+4.17,New Jersey,2021-06-28
+-58.13,New Jersey,2021-06-29
+-4.62,New Jersey,2021-06-30
+19.83,New Jersey,2021-07-01
+1.06,New Jersey,2021-07-02
+-0.69,New Jersey,2021-07-03
+-14.48,New Jersey,2021-07-04
+55.53,New Jersey,2021-07-05
+12.19,New Jersey,2021-07-06
+11.87,New Jersey,2021-07-07
+9.82,New Jersey,2021-07-08
+4.81,New Jersey,2021-07-09
+2.57,New Jersey,2021-07-10
+4.22,New Jersey,2021-07-11
+0.38,New Jersey,2021-07-12
+1.42,New Jersey,2021-07-13
+10.67,New Jersey,2021-07-14
+25.79,New Jersey,2021-07-15
+8.44,New Jersey,2021-07-16
+-1.03,New Jersey,2021-07-17
+6.48,New Jersey,2021-07-18
+20.01,New Jersey,2021-07-19
+9.61,New Jersey,2021-07-20
+-0.29,New Jersey,2021-07-21
+12.43,New Jersey,2021-07-22
+7.03,New Jersey,2021-07-23
+1.23,New Jersey,2021-07-24
+6.7,New Jersey,2021-07-25
+5.43,New Jersey,2021-07-26
+6.29,New Jersey,2021-07-27
+22.35,New Jersey,2021-07-28
+-5.13,New Jersey,2021-07-29
+10.21,New Jersey,2021-07-30
+4.31,New Jersey,2021-07-31
+4.41,New Jersey,2021-08-01
+8.89,New Jersey,2021-08-02
+4.96,New Jersey,2021-08-03
+15.21,New Jersey,2021-08-04
+8.09,New Jersey,2021-08-05
+3.76,New Jersey,2021-08-06
+-1.84,New Jersey,2021-08-07
+3.26,New Jersey,2021-08-08
+-5.8,New Jersey,2021-08-09
+4.16,New Jersey,2021-08-10
+2.19,New Jersey,2021-08-11
+0.98,New Jersey,2021-08-12
+-0.76,New Jersey,2021-08-13
+-0.72,New Jersey,2021-08-14
+10.17,New Jersey,2021-08-15
+0.52,New Jersey,2021-08-16
+-0.16,New Jersey,2021-08-17
+4.27,New Jersey,2021-08-18
+9.58,New Jersey,2021-08-19
+4.16,New Jersey,2021-08-20
+-3.83,New Jersey,2021-08-21
+-22.32,New Jersey,2021-08-22
+0.25,New Jersey,2021-08-23
+10.35,New Jersey,2021-08-24
+16.92,New Jersey,2021-08-25
+9.01,New Jersey,2021-08-26
+-1.91,New Jersey,2021-08-27
+1.67,New Jersey,2021-08-28
+-13.88,New Jersey,2021-08-29
+-10.31,New Jersey,2021-08-30
+46.29,New Jersey,2021-08-31
+-8.91,New Jersey,2021-09-01
+34.64,New Jersey,2021-09-02
+29.53,New Jersey,2021-09-03
+-2.47,New Jersey,2021-09-04
+40.32,New Jersey,2021-09-05
+82.39,New Jersey,2021-09-06
+-0.13,New Jersey,2021-09-07
+-8.13,New Jersey,2021-09-08
+-6.54,New Jersey,2021-09-09
+2.81,New Jersey,2021-09-10
+4.09,New Jersey,2021-09-11
+6.46,New Jersey,2021-09-12
+11.68,New Jersey,2021-09-13
+10.25,New Jersey,2021-09-14
+6.51,New Jersey,2021-09-15
+10.61,New Jersey,2021-09-16
+-2.21,New Jersey,2021-09-17
+1.59,New Jersey,2021-09-18
+15.01,New Jersey,2021-09-19
+7.23,New Jersey,2021-09-20
+0.4,New Jersey,2021-09-21
+-4.79,New Jersey,2021-09-22
+-16.08,New Jersey,2021-09-23
+6.01,New Jersey,2021-09-24
+4.25,New Jersey,2021-09-25
+15.36,New Jersey,2021-09-26
+0.65,New Jersey,2021-09-27
+-1.74,New Jersey,2021-09-28
+12.45,New Jersey,2021-09-29
+24.44,New Jersey,2021-09-30
+11.46,New Jersey,2021-10-01
+7.96,New Jersey,2021-10-02
+29.75,New Jersey,2021-10-03
+25.22,New Jersey,2021-10-04
+-2.12,New Jersey,2021-10-05
+14.36,New Jersey,2021-10-06
+15.03,New Jersey,2021-10-07
+11.2,New Jersey,2021-10-08
+-2.18,New Jersey,2021-10-09
+-6.07,New Jersey,2021-10-10
+-3.82,New Jersey,2021-10-11
+-5.85,New Jersey,2021-10-12
+20.72,New Jersey,2021-10-13
+16.25,New Jersey,2021-10-14
+16,New Jersey,2021-10-15
+3.31,New Jersey,2021-10-16
+28.09,New Jersey,2021-10-17
+-6.24,New Jersey,2021-10-18
+-2.49,New Jersey,2021-10-19
+4.9,New Jersey,2021-10-20
+9.2,New Jersey,2021-10-21
+13.92,New Jersey,2021-10-22
+4.76,New Jersey,2021-10-23
+29.83,New Jersey,2021-10-24
+-3.39,New Jersey,2021-10-25
+-25.84,New Jersey,2021-10-26
+13.68,New Jersey,2021-10-27
+69.16,New Jersey,2021-10-28
+-9.77,New Jersey,2021-10-29
+-13.1,New Jersey,2021-10-30
+-25.66,New Jersey,2021-10-31
+4,New Jersey,2021-11-01
+-3.17,New Jersey,2021-11-02
+-3.12,New Jersey,2021-11-03
+3.74,New Jersey,2021-11-04
+4.05,New Jersey,2021-11-05
+0.6,New Jersey,2021-11-06
+-0.31,New Jersey,2021-11-07
+-22.92,New Jersey,2021-11-08
+17.44,New Jersey,2021-11-09
+14.86,New Jersey,2021-11-10
+28.27,New Jersey,2021-11-11
+-0.75,New Jersey,2021-11-12
+-0.01,New Jersey,2021-11-13
+18.28,New Jersey,2021-11-14
+-3.14,New Jersey,2021-11-15
+-4.4,New Jersey,2021-11-16
+1.22,New Jersey,2021-11-17
+13.03,New Jersey,2021-11-18
+2.08,New Jersey,2021-11-19
+-0.07,New Jersey,2021-11-20
+17.66,New Jersey,2021-11-21
+-6.53,New Jersey,2021-11-22
+3.35,New Jersey,2021-11-23
+-2.45,New Jersey,2021-11-24
+-22.05,New Jersey,2021-11-25
+-10.14,New Jersey,2021-11-26
+-2.21,New Jersey,2021-11-27
+45.67,New Jersey,2021-11-28
+54.7,New Jersey,2021-11-29
+-14.22,New Jersey,2021-11-30
+-13.36,New Jersey,2021-12-01
+-10.69,New Jersey,2021-12-02
+-5.83,New Jersey,2021-12-03
+-3.96,New Jersey,2021-12-04
+-5.05,New Jersey,2021-12-05
+-18.41,New Jersey,2021-12-06
+-17.75,New Jersey,2021-12-07
+-14.64,New Jersey,2021-12-08
+-18.29,New Jersey,2021-12-09
+-2.88,New Jersey,2021-12-10
+0.07,New Jersey,2021-12-11
+0.92,New Jersey,2021-12-12
+-21.77,New Jersey,2021-12-13
+-10.8,New Jersey,2021-12-14
+-14.06,New Jersey,2021-12-15
+-11.9,New Jersey,2021-12-16
+-6.43,New Jersey,2021-12-17
+0.01,New Jersey,2021-12-18
+-3.1,New Jersey,2021-12-19
+-43,New Jersey,2021-12-20
+-49.88,New Jersey,2021-12-21
+79.11,New Jersey,2021-12-22
+-8.67,New Jersey,2021-12-23
+-31.51,New Jersey,2021-12-24
+-82.9,New Jersey,2021-12-25
+-21.45,New Jersey,2021-12-26
+-24.1,New Jersey,2021-12-27
+-63.13,New Jersey,2021-12-28
+30.92,New Jersey,2021-12-29
+91.07,New Jersey,2021-12-30
+35.72,New Jersey,2021-12-31
+-58.71,New Jersey,2022-01-01
+-29.14,New Jersey,2022-01-02
+-45.54,New Jersey,2022-01-03
+-40.63,New Jersey,2022-01-04
+-46.59,New Jersey,2022-01-05
+-36.46,New Jersey,2022-01-06
+-47.23,New Jersey,2022-01-07
+-27.19,New Jersey,2022-01-08
+-21.74,New Jersey,2022-01-09
+-35.7,New Jersey,2022-01-10
+-40.88,New Jersey,2022-01-11
+-35.75,New Jersey,2022-01-12
+-25.69,New Jersey,2022-01-13
+-12.22,New Jersey,2022-01-14
+3.2,New Jersey,2022-01-15
+6.87,New Jersey,2022-01-16
+-7.73,New Jersey,2022-01-17
+-24.68,New Jersey,2022-01-18
+-23.51,New Jersey,2022-01-19
+-25.03,New Jersey,2022-01-20
+-17.31,New Jersey,2022-01-21
+-16.78,New Jersey,2022-01-22
+-23.45,New Jersey,2022-01-23
+-26.71,New Jersey,2022-01-24
+-14.47,New Jersey,2022-01-25
+-4.74,New Jersey,2022-01-26
+-1.62,New Jersey,2022-01-27
+-27.32,New Jersey,2022-01-28
+-76.29,New Jersey,2022-01-29
+22.76,New Jersey,2022-01-30
+-13.09,New Jersey,2022-01-31
+-26.82,New Jersey,2022-02-01
+-13.89,New Jersey,2022-02-02
+48.21,New Jersey,2022-02-03
+-28.18,New Jersey,2022-02-04
+-6.31,New Jersey,2022-02-05
+-4.06,New Jersey,2022-02-06
+-18.14,New Jersey,2022-02-07
+55.51,New Jersey,2022-02-08
+-22.94,New Jersey,2022-02-09
+-65.26,New Jersey,2022-02-10
+-8.08,New Jersey,2022-02-11
+-2.07,New Jersey,2022-02-12
+-47.69,New Jersey,2022-02-13
+119.86,New Jersey,2022-02-14
+1.94,New Jersey,2022-02-15
+106.52,New Jersey,2022-02-16
+-5.09,New Jersey,2022-02-17
+-1.65,New Jersey,2022-02-18
+-3.31,New Jersey,2022-02-19
+35.56,New Jersey,2022-02-20
+73.93,New Jersey,2022-02-21
+-9.93,New Jersey,2022-02-22
+2.65,New Jersey,2022-02-23
+-9.84,New Jersey,2022-02-24
+-2.98,New Jersey,2022-02-25
+5,New Jersey,2022-02-26
+15.35,New Jersey,2022-02-27
+-7.89,New Jersey,2022-02-28
+-20.24,New Jersey,2022-03-01
+-8.41,New Jersey,2022-03-02
+-6.95,New Jersey,2022-03-03
+-3.78,New Jersey,2022-03-04
+-2.77,New Jersey,2022-03-05
+5.29,New Jersey,2022-03-06
+-9.54,New Jersey,2022-03-07
+-11.82,New Jersey,2022-03-08
+-22.96,New Jersey,2022-03-09
+-1.29,New Jersey,2022-03-10
+-3.51,New Jersey,2022-03-11
+-26.95,New Jersey,2022-03-12
+5.94,New Jersey,2022-03-13
+3.98,New Jersey,2022-03-14
+4.67,New Jersey,2022-03-15
+1.56,New Jersey,2022-03-16
+-0.14,New Jersey,2022-03-17
+15.88,New Jersey,2022-03-18
+0.42,New Jersey,2022-03-19
+-5.98,New Jersey,2022-03-20
+5.67,New Jersey,2022-03-21
+-8.8,New Jersey,2022-03-22
+-12.01,New Jersey,2022-03-23
+-7.1,New Jersey,2022-03-24
+2.15,New Jersey,2022-03-25
+-6.82,New Jersey,2022-03-26
+4.05,New Jersey,2022-03-27
+-5.93,New Jersey,2022-03-28
+-1.08,New Jersey,2022-03-29
+-6.88,New Jersey,2022-03-30
+-5.37,New Jersey,2022-03-31
+-1,New York,2020-02-18
+11,New York,2020-02-19
+1,New York,2020-02-20
+-4,New York,2020-02-21
+1,New York,2020-02-22
+13,New York,2020-02-23
+6,New York,2020-02-24
+1,New York,2020-02-25
+-1,New York,2020-02-26
+-5,New York,2020-02-27
+-2,New York,2020-02-28
+-1,New York,2020-02-29
+0,New York,2020-03-01
+-7,New York,2020-03-02
+-11,New York,2020-03-03
+-9,New York,2020-03-04
+-8,New York,2020-03-05
+-14,New York,2020-03-06
+-10,New York,2020-03-07
+-2,New York,2020-03-08
+-15,New York,2020-03-09
+-27,New York,2020-03-10
+-32,New York,2020-03-11
+-49,New York,2020-03-12
+-54,New York,2020-03-13
+-36,New York,2020-03-14
+-47,New York,2020-03-15
+-58,New York,2020-03-16
+-88,New York,2020-03-17
+-100,New York,2020-03-18
+-99.98,New York,2020-03-19
+-99.96,New York,2020-03-20
+-100,New York,2020-03-21
+-100,New York,2020-03-22
+-100,New York,2020-03-23
+-100,New York,2020-03-24
+-100,New York,2020-03-25
+-100,New York,2020-03-26
+-100,New York,2020-03-27
+-100,New York,2020-03-28
+-100,New York,2020-03-29
+-100,New York,2020-03-30
+-100,New York,2020-03-31
+-100,New York,2020-04-01
+-100,New York,2020-04-02
+-100,New York,2020-04-03
+-100,New York,2020-04-04
+-100,New York,2020-04-05
+-100,New York,2020-04-06
+-100,New York,2020-04-07
+-100,New York,2020-04-08
+-100,New York,2020-04-09
+-100,New York,2020-04-10
+-100,New York,2020-04-11
+-100,New York,2020-04-12
+-100,New York,2020-04-13
+-100,New York,2020-04-14
+-100,New York,2020-04-15
+-100,New York,2020-04-16
+-100,New York,2020-04-17
+-100,New York,2020-04-18
+-100,New York,2020-04-19
+-100,New York,2020-04-20
+-100,New York,2020-04-21
+-100,New York,2020-04-22
+-100,New York,2020-04-23
+-100,New York,2020-04-24
+-100,New York,2020-04-25
+-100,New York,2020-04-26
+-100,New York,2020-04-27
+-100,New York,2020-04-28
+-100,New York,2020-04-29
+-100,New York,2020-04-30
+-100,New York,2020-05-01
+-100,New York,2020-05-02
+-100,New York,2020-05-03
+-100,New York,2020-05-04
+-100,New York,2020-05-05
+-100,New York,2020-05-06
+-100,New York,2020-05-07
+-100,New York,2020-05-08
+-100,New York,2020-05-09
+-100,New York,2020-05-10
+-99.98,New York,2020-05-11
+-100,New York,2020-05-12
+-100,New York,2020-05-13
+-99.98,New York,2020-05-14
+-99.97,New York,2020-05-15
+-99.94,New York,2020-05-16
+-99.95,New York,2020-05-17
+-99.23,New York,2020-05-18
+-99.36,New York,2020-05-19
+-98.75,New York,2020-05-20
+-99.11,New York,2020-05-21
+-99.18,New York,2020-05-22
+-98.64,New York,2020-05-23
+-99.35,New York,2020-05-24
+-99.66,New York,2020-05-25
+-99.32,New York,2020-05-26
+-98.79,New York,2020-05-27
+-98.86,New York,2020-05-28
+-99.24,New York,2020-05-29
+-98.9,New York,2020-05-30
+-98.88,New York,2020-05-31
+-99.32,New York,2020-06-01
+-99.33,New York,2020-06-02
+-99.32,New York,2020-06-03
+-98.94,New York,2020-06-04
+-98.9,New York,2020-06-05
+-98.41,New York,2020-06-06
+-98.46,New York,2020-06-07
+-99.14,New York,2020-06-08
+-97.9,New York,2020-06-09
+-95.58,New York,2020-06-10
+-96.62,New York,2020-06-11
+-92.77,New York,2020-06-12
+-92.19,New York,2020-06-13
+-94.19,New York,2020-06-14
+-94.01,New York,2020-06-15
+-92.5,New York,2020-06-16
+-91.31,New York,2020-06-17
+-89.98,New York,2020-06-18
+-88.57,New York,2020-06-19
+-88.34,New York,2020-06-20
+-84.63,New York,2020-06-21
+-91.01,New York,2020-06-22
+-88.69,New York,2020-06-23
+-86.63,New York,2020-06-24
+-84.02,New York,2020-06-25
+-79.53,New York,2020-06-26
+-82.13,New York,2020-06-27
+-82.95,New York,2020-06-28
+-85.49,New York,2020-06-29
+-83.41,New York,2020-06-30
+-82.16,New York,2020-07-01
+-68.58,New York,2020-07-02
+-77.42,New York,2020-07-03
+-85.08,New York,2020-07-04
+-78.36,New York,2020-07-05
+-84.51,New York,2020-07-06
+-83.35,New York,2020-07-07
+-83.03,New York,2020-07-08
+-77.45,New York,2020-07-09
+-87.07,New York,2020-07-10
+-75.64,New York,2020-07-11
+-73.75,New York,2020-07-12
+-82.32,New York,2020-07-13
+-80.24,New York,2020-07-14
+-77.93,New York,2020-07-15
+-75.93,New York,2020-07-16
+-74.36,New York,2020-07-17
+-70.47,New York,2020-07-18
+-74.08,New York,2020-07-19
+-81.29,New York,2020-07-20
+-79.24,New York,2020-07-21
+-83.12,New York,2020-07-22
+-80.1,New York,2020-07-23
+-74.16,New York,2020-07-24
+-69.02,New York,2020-07-25
+-73.38,New York,2020-07-26
+-81.37,New York,2020-07-27
+-79.69,New York,2020-07-28
+-75.1,New York,2020-07-29
+-75.57,New York,2020-07-30
+-71.16,New York,2020-07-31
+-67.11,New York,2020-08-01
+-72.21,New York,2020-08-02
+-79.46,New York,2020-08-03
+-89.88,New York,2020-08-04
+-73.82,New York,2020-08-05
+-73.53,New York,2020-08-06
+-71.51,New York,2020-08-07
+-62.89,New York,2020-08-08
+-65.72,New York,2020-08-09
+-75.55,New York,2020-08-10
+-73.4,New York,2020-08-11
+-74.6,New York,2020-08-12
+-74.14,New York,2020-08-13
+-64.1,New York,2020-08-14
+-60.36,New York,2020-08-15
+-71.77,New York,2020-08-16
+-70.71,New York,2020-08-17
+-68.33,New York,2020-08-18
+-68.69,New York,2020-08-19
+-63.08,New York,2020-08-20
+-57.53,New York,2020-08-21
+-56.77,New York,2020-08-22
+-60.08,New York,2020-08-23
+-69.64,New York,2020-08-24
+-69.16,New York,2020-08-25
+-60.2,New York,2020-08-26
+-71.31,New York,2020-08-27
+-58.16,New York,2020-08-28
+-61.82,New York,2020-08-29
+-62.02,New York,2020-08-30
+-70.84,New York,2020-08-31
+-59.12,New York,2020-09-01
+-64.02,New York,2020-09-02
+-62.31,New York,2020-09-03
+-53.93,New York,2020-09-04
+-60.37,New York,2020-09-05
+-46.43,New York,2020-09-06
+-52.91,New York,2020-09-07
+-74.43,New York,2020-09-08
+-70.46,New York,2020-09-09
+-75.67,New York,2020-09-10
+-59.68,New York,2020-09-11
+-55.01,New York,2020-09-12
+-61.87,New York,2020-09-13
+-73,New York,2020-09-14
+-72.17,New York,2020-09-15
+-66.56,New York,2020-09-16
+-65.38,New York,2020-09-17
+-61.74,New York,2020-09-18
+-58.64,New York,2020-09-19
+-60.36,New York,2020-09-20
+-74.23,New York,2020-09-21
+-71.03,New York,2020-09-22
+-63.18,New York,2020-09-23
+-63.17,New York,2020-09-24
+-55.94,New York,2020-09-25
+-53.26,New York,2020-09-26
+-54.29,New York,2020-09-27
+-68.61,New York,2020-09-28
+-78.13,New York,2020-09-29
+-63.78,New York,2020-09-30
+-57.82,New York,2020-10-01
+-56.84,New York,2020-10-02
+-50.45,New York,2020-10-03
+-53.26,New York,2020-10-04
+-68.74,New York,2020-10-05
+-65.07,New York,2020-10-06
+-62.21,New York,2020-10-07
+-63.77,New York,2020-10-08
+-55.86,New York,2020-10-09
+-50.26,New York,2020-10-10
+-59.63,New York,2020-10-11
+-78.84,New York,2020-10-12
+-75.37,New York,2020-10-13
+-57.78,New York,2020-10-14
+-57.82,New York,2020-10-15
+-68.62,New York,2020-10-16
+-50.34,New York,2020-10-17
+-50.43,New York,2020-10-18
+-71.57,New York,2020-10-19
+-67.65,New York,2020-10-20
+-65.72,New York,2020-10-21
+-64.09,New York,2020-10-22
+-54.09,New York,2020-10-23
+-49.24,New York,2020-10-24
+-52.37,New York,2020-10-25
+-76.77,New York,2020-10-26
+-71.07,New York,2020-10-27
+-68.03,New York,2020-10-28
+-68.32,New York,2020-10-29
+-66.88,New York,2020-10-30
+-68.27,New York,2020-10-31
+-70.29,New York,2020-11-01
+-79.12,New York,2020-11-02
+-80.71,New York,2020-11-03
+-74.14,New York,2020-11-04
+-65.4,New York,2020-11-05
+-56.56,New York,2020-11-06
+-49.5,New York,2020-11-07
+-55.87,New York,2020-11-08
+-70.7,New York,2020-11-09
+-55.78,New York,2020-11-10
+-69.2,New York,2020-11-11
+-74.15,New York,2020-11-12
+-68.76,New York,2020-11-13
+-59.4,New York,2020-11-14
+-68.48,New York,2020-11-15
+-75.75,New York,2020-11-16
+-77.59,New York,2020-11-17
+-76.88,New York,2020-11-18
+-74.59,New York,2020-11-19
+-65.92,New York,2020-11-20
+-61.77,New York,2020-11-21
+-69.28,New York,2020-11-22
+-82.2,New York,2020-11-23
+-79.57,New York,2020-11-24
+-76.55,New York,2020-11-25
+-79.15,New York,2020-11-26
+-75.39,New York,2020-11-27
+-68.98,New York,2020-11-28
+-58.46,New York,2020-11-29
+-85.95,New York,2020-11-30
+-82.97,New York,2020-12-01
+-83.99,New York,2020-12-02
+-81.12,New York,2020-12-03
+-78.84,New York,2020-12-04
+-76.21,New York,2020-12-05
+-75.43,New York,2020-12-06
+-85.85,New York,2020-12-07
+-85.93,New York,2020-12-08
+-84.56,New York,2020-12-09
+-82.18,New York,2020-12-10
+-73.66,New York,2020-12-11
+-70.6,New York,2020-12-12
+-68.81,New York,2020-12-13
+-92.12,New York,2020-12-14
+-87.17,New York,2020-12-15
+-96.09,New York,2020-12-16
+-94.97,New York,2020-12-17
+-84.41,New York,2020-12-18
+-78.14,New York,2020-12-19
+-83.85,New York,2020-12-20
+-89.35,New York,2020-12-21
+-85.49,New York,2020-12-22
+-68.97,New York,2020-12-23
+-75.22,New York,2020-12-24
+-93.88,New York,2020-12-25
+-82.86,New York,2020-12-26
+-77.8,New York,2020-12-27
+-81.14,New York,2020-12-28
+-87.01,New York,2020-12-29
+-68.44,New York,2020-12-30
+-45.22,New York,2020-12-31
+-80.95,New York,2021-01-01
+-69.42,New York,2021-01-02
+-81.42,New York,2021-01-03
+-83.24,New York,2021-01-04
+-84.25,New York,2021-01-05
+-83.39,New York,2021-01-06
+-82.69,New York,2021-01-07
+-78.49,New York,2021-01-08
+-74.73,New York,2021-01-09
+-74.95,New York,2021-01-10
+-86.46,New York,2021-01-11
+-84.92,New York,2021-01-12
+-83.81,New York,2021-01-13
+-79.7,New York,2021-01-14
+-74.32,New York,2021-01-15
+-63.9,New York,2021-01-16
+-69.8,New York,2021-01-17
+-72.18,New York,2021-01-18
+-82.76,New York,2021-01-19
+-83.92,New York,2021-01-20
+-81.06,New York,2021-01-21
+-73.42,New York,2021-01-22
+-67.77,New York,2021-01-23
+-75.11,New York,2021-01-24
+-83.78,New York,2021-01-25
+-88.07,New York,2021-01-26
+-81.3,New York,2021-01-27
+-81.34,New York,2021-01-28
+-78.75,New York,2021-01-29
+-70.73,New York,2021-01-30
+-66.09,New York,2021-01-31
+-97.92,New York,2021-02-01
+-93.06,New York,2021-02-02
+-86.67,New York,2021-02-03
+-80.02,New York,2021-02-04
+-72.9,New York,2021-02-05
+-67.12,New York,2021-02-06
+-91.77,New York,2021-02-07
+-85.91,New York,2021-02-08
+-86.05,New York,2021-02-09
+-81.08,New York,2021-02-10
+-80.06,New York,2021-02-11
+-76.94,New York,2021-02-12
+-60.41,New York,2021-02-13
+-33.15,New York,2021-02-14
+-64.43,New York,2021-02-15
+-69.07,New York,2021-02-16
+-69.54,New York,2021-02-17
+-86.78,New York,2021-02-18
+-70.95,New York,2021-02-19
+-57.13,New York,2021-02-20
+-59,New York,2021-02-21
+-81.08,New York,2021-02-22
+-75.14,New York,2021-02-23
+-64.61,New York,2021-02-24
+-66.09,New York,2021-02-25
+-56.48,New York,2021-02-26
+-52.03,New York,2021-02-27
+-58.34,New York,2021-02-28
+-73.69,New York,2021-03-01
+-71.19,New York,2021-03-02
+-62.95,New York,2021-03-03
+-70.91,New York,2021-03-04
+-63.74,New York,2021-03-05
+-58.02,New York,2021-03-06
+-56.38,New York,2021-03-07
+-77.38,New York,2021-03-08
+-69.46,New York,2021-03-09
+-69.26,New York,2021-03-10
+-61.46,New York,2021-03-11
+-55.37,New York,2021-03-12
+-51.75,New York,2021-03-13
+-56.25,New York,2021-03-14
+-77.42,New York,2021-03-15
+-75.93,New York,2021-03-16
+-71.08,New York,2021-03-17
+-72.82,New York,2021-03-18
+-58.87,New York,2021-03-19
+-48.03,New York,2021-03-20
+-48.95,New York,2021-03-21
+-68.75,New York,2021-03-22
+-66.7,New York,2021-03-23
+-74.54,New York,2021-03-24
+-62.2,New York,2021-03-25
+-54.53,New York,2021-03-26
+-52.43,New York,2021-03-27
+-62.86,New York,2021-03-28
+-64.57,New York,2021-03-29
+-61.77,New York,2021-03-30
+-67.98,New York,2021-03-31
+-62.93,New York,2021-04-01
+-54.63,New York,2021-04-02
+-55.69,New York,2021-04-03
+-38.99,New York,2021-04-04
+-65.1,New York,2021-04-05
+-62.76,New York,2021-04-06
+-60.89,New York,2021-04-07
+-54.79,New York,2021-04-08
+-52.28,New York,2021-04-09
+-46.19,New York,2021-04-10
+-60.49,New York,2021-04-11
+-76.61,New York,2021-04-12
+-68.52,New York,2021-04-13
+-65.53,New York,2021-04-14
+-72,New York,2021-04-15
+-50.94,New York,2021-04-16
+-69.34,New York,2021-04-17
+-54.54,New York,2021-04-18
+-64.33,New York,2021-04-19
+-58.15,New York,2021-04-20
+-69.38,New York,2021-04-21
+-62.09,New York,2021-04-22
+-42.04,New York,2021-04-23
+-36.17,New York,2021-04-24
+-47.52,New York,2021-04-25
+-63.58,New York,2021-04-26
+-58.89,New York,2021-04-27
+-49.62,New York,2021-04-28
+-61.8,New York,2021-04-29
+-45.63,New York,2021-04-30
+-38.37,New York,2021-05-01
+-37.23,New York,2021-05-02
+-66.6,New York,2021-05-03
+-58.84,New York,2021-05-04
+-57.76,New York,2021-05-05
+-49.04,New York,2021-05-06
+-42.08,New York,2021-05-07
+-42.51,New York,2021-05-08
+-35.51,New York,2021-05-09
+-58.47,New York,2021-05-10
+-57.04,New York,2021-05-11
+-55.15,New York,2021-05-12
+-48.48,New York,2021-05-13
+-38.81,New York,2021-05-14
+-36.81,New York,2021-05-15
+-41.98,New York,2021-05-16
+-61.98,New York,2021-05-17
+-57.5,New York,2021-05-18
+-49.28,New York,2021-05-19
+-42.04,New York,2021-05-20
+-30.6,New York,2021-05-21
+-21.13,New York,2021-05-22
+-36.24,New York,2021-05-23
+-54.32,New York,2021-05-24
+-34.49,New York,2021-05-25
+-43.17,New York,2021-05-26
+-33.52,New York,2021-05-27
+-45.8,New York,2021-05-28
+-41.48,New York,2021-05-29
+-33.54,New York,2021-05-30
+-33.98,New York,2021-05-31
+-59.92,New York,2021-06-01
+-50.17,New York,2021-06-02
+-52.16,New York,2021-06-03
+-40.03,New York,2021-06-04
+-28.62,New York,2021-06-05
+-31.13,New York,2021-06-06
+-46.05,New York,2021-06-07
+-53.21,New York,2021-06-08
+-45.49,New York,2021-06-09
+-33.17,New York,2021-06-10
+-34.29,New York,2021-06-11
+-26.1,New York,2021-06-12
+-49.03,New York,2021-06-13
+-47.69,New York,2021-06-14
+-40.04,New York,2021-06-15
+-36.69,New York,2021-06-16
+-31.47,New York,2021-06-17
+-28.81,New York,2021-06-18
+-27.03,New York,2021-06-19
+-2.78,New York,2021-06-20
+-46.11,New York,2021-06-21
+-47.98,New York,2021-06-22
+-39.36,New York,2021-06-23
+-32.65,New York,2021-06-24
+-25.32,New York,2021-06-25
+-24.22,New York,2021-06-26
+-28.5,New York,2021-06-27
+-42.04,New York,2021-06-28
+-77.06,New York,2021-06-29
+-34.03,New York,2021-06-30
+-10.93,New York,2021-07-01
+-25.76,New York,2021-07-02
+-25.37,New York,2021-07-03
+-38.58,New York,2021-07-04
+-21.86,New York,2021-07-05
+-50.58,New York,2021-07-06
+-42.28,New York,2021-07-07
+-43.09,New York,2021-07-08
+-32.23,New York,2021-07-09
+-25.31,New York,2021-07-10
+-27.86,New York,2021-07-11
+-47.68,New York,2021-07-12
+-41.18,New York,2021-07-13
+-35.74,New York,2021-07-14
+-30.59,New York,2021-07-15
+-27.66,New York,2021-07-16
+-23.22,New York,2021-07-17
+-16.06,New York,2021-07-18
+-30.04,New York,2021-07-19
+-34.75,New York,2021-07-20
+-40.01,New York,2021-07-21
+-34.92,New York,2021-07-22
+-29.74,New York,2021-07-23
+-23.51,New York,2021-07-24
+-27.3,New York,2021-07-25
+-41.67,New York,2021-07-26
+-37.47,New York,2021-07-27
+-30.92,New York,2021-07-28
+-41.78,New York,2021-07-29
+-28.32,New York,2021-07-30
+-25.93,New York,2021-07-31
+-29.9,New York,2021-08-01
+-44.02,New York,2021-08-02
+-40.44,New York,2021-08-03
+-37.87,New York,2021-08-04
+-36.88,New York,2021-08-05
+-29.61,New York,2021-08-06
+-24.89,New York,2021-08-07
+-31.31,New York,2021-08-08
+-44.5,New York,2021-08-09
+-38.93,New York,2021-08-10
+-40.65,New York,2021-08-11
+-37.78,New York,2021-08-12
+-31.84,New York,2021-08-13
+-20.81,New York,2021-08-14
+-18.84,New York,2021-08-15
+-39.37,New York,2021-08-16
+-37.65,New York,2021-08-17
+-35.05,New York,2021-08-18
+-32.76,New York,2021-08-19
+-24.83,New York,2021-08-20
+-31.72,New York,2021-08-21
+-67.26,New York,2021-08-22
+-47.94,New York,2021-08-23
+-33.39,New York,2021-08-24
+-31.8,New York,2021-08-25
+-30.13,New York,2021-08-26
+-29.76,New York,2021-08-27
+-23.59,New York,2021-08-28
+-41.15,New York,2021-08-29
+-44.27,New York,2021-08-30
+-24.07,New York,2021-08-31
+-48.71,New York,2021-09-01
+-39.03,New York,2021-09-02
+-24.45,New York,2021-09-03
+-31.29,New York,2021-09-04
+-14.71,New York,2021-09-05
+-25.73,New York,2021-09-06
+-51.4,New York,2021-09-07
+-46.39,New York,2021-09-08
+-44.6,New York,2021-09-09
+-30.83,New York,2021-09-10
+-26.13,New York,2021-09-11
+-32.16,New York,2021-09-12
+-46.27,New York,2021-09-13
+-42.55,New York,2021-09-14
+-41.56,New York,2021-09-15
+-42.84,New York,2021-09-16
+-33.05,New York,2021-09-17
+-26.06,New York,2021-09-18
+-25.72,New York,2021-09-19
+-44.76,New York,2021-09-20
+-41.65,New York,2021-09-21
+-39.9,New York,2021-09-22
+-44.87,New York,2021-09-23
+-29.88,New York,2021-09-24
+-23.43,New York,2021-09-25
+-24.62,New York,2021-09-26
+-41.67,New York,2021-09-27
+-41.26,New York,2021-09-28
+-33.12,New York,2021-09-29
+-33.2,New York,2021-09-30
+-29.36,New York,2021-10-01
+-20.99,New York,2021-10-02
+-24.24,New York,2021-10-03
+-44.44,New York,2021-10-04
+-41.12,New York,2021-10-05
+-29.27,New York,2021-10-06
+-34.34,New York,2021-10-07
+-26.88,New York,2021-10-08
+-25.11,New York,2021-10-09
+-35.3,New York,2021-10-10
+-43.04,New York,2021-10-11
+-40.88,New York,2021-10-12
+-31.53,New York,2021-10-13
+-31.58,New York,2021-10-14
+-23.95,New York,2021-10-15
+-25.78,New York,2021-10-16
+-20.56,New York,2021-10-17
+-46.83,New York,2021-10-18
+-35.6,New York,2021-10-19
+-36.67,New York,2021-10-20
+-33.54,New York,2021-10-21
+-26.82,New York,2021-10-22
+-24.71,New York,2021-10-23
+-17.11,New York,2021-10-24
+-48.92,New York,2021-10-25
+-54.48,New York,2021-10-26
+-34.51,New York,2021-10-27
+-10.53,New York,2021-10-28
+-36.29,New York,2021-10-29
+-38.45,New York,2021-10-30
+-45.3,New York,2021-10-31
+-51.39,New York,2021-11-01
+-43.71,New York,2021-11-02
+-40.66,New York,2021-11-03
+-34.13,New York,2021-11-04
+-28.49,New York,2021-11-05
+-23.7,New York,2021-11-06
+-33.81,New York,2021-11-07
+-47.76,New York,2021-11-08
+-22.92,New York,2021-11-09
+-19.63,New York,2021-11-10
+-16.54,New York,2021-11-11
+-27.07,New York,2021-11-12
+-22.2,New York,2021-11-13
+-21.58,New York,2021-11-14
+-34.44,New York,2021-11-15
+-31.17,New York,2021-11-16
+-29.95,New York,2021-11-17
+-27.26,New York,2021-11-18
+-25.24,New York,2021-11-19
+-19.96,New York,2021-11-20
+-15.95,New York,2021-11-21
+-36.26,New York,2021-11-22
+-34.56,New York,2021-11-23
+-27.54,New York,2021-11-24
+-30.97,New York,2021-11-25
+-29.04,New York,2021-11-26
+-24.15,New York,2021-11-27
+-12.79,New York,2021-11-28
+-35.29,New York,2021-11-29
+-43.4,New York,2021-11-30
+-41.76,New York,2021-12-01
+-37.56,New York,2021-12-02
+-31.06,New York,2021-12-03
+-26.17,New York,2021-12-04
+-29.15,New York,2021-12-05
+-39.58,New York,2021-12-06
+-35.49,New York,2021-12-07
+-35.26,New York,2021-12-08
+-33.15,New York,2021-12-09
+-27.26,New York,2021-12-10
+-23.97,New York,2021-12-11
+-28.14,New York,2021-12-12
+-44.24,New York,2021-12-13
+-36.66,New York,2021-12-14
+-38.96,New York,2021-12-15
+-38.45,New York,2021-12-16
+-33.79,New York,2021-12-17
+-31.73,New York,2021-12-18
+-37.86,New York,2021-12-19
+-58.47,New York,2021-12-20
+-57.23,New York,2021-12-21
+-23.92,New York,2021-12-22
+-45.65,New York,2021-12-23
+-53.09,New York,2021-12-24
+-77.69,New York,2021-12-25
+-50.15,New York,2021-12-26
+-50.99,New York,2021-12-27
+-62.72,New York,2021-12-28
+-24.33,New York,2021-12-29
+-14.6,New York,2021-12-30
+-17.37,New York,2021-12-31
+-65.28,New York,2022-01-01
+-51.35,New York,2022-01-02
+-62.52,New York,2022-01-03
+-66.51,New York,2022-01-04
+-67.97,New York,2022-01-05
+-65.2,New York,2022-01-06
+-61.75,New York,2022-01-07
+-48.91,New York,2022-01-08
+-60.1,New York,2022-01-09
+-71.37,New York,2022-01-10
+-73.09,New York,2022-01-11
+-65.94,New York,2022-01-12
+-60.22,New York,2022-01-13
+-46.15,New York,2022-01-14
+-38.38,New York,2022-01-15
+-35.99,New York,2022-01-16
+-47.66,New York,2022-01-17
+-60.87,New York,2022-01-18
+-59.42,New York,2022-01-19
+-58.52,New York,2022-01-20
+-49.42,New York,2022-01-21
+-42.03,New York,2022-01-22
+-49.95,New York,2022-01-23
+-64.31,New York,2022-01-24
+-56.81,New York,2022-01-25
+-49.37,New York,2022-01-26
+-44.06,New York,2022-01-27
+-48.57,New York,2022-01-28
+-72.53,New York,2022-01-29
+-38.61,New York,2022-01-30
+-64.06,New York,2022-01-31
+-61.4,New York,2022-02-01
+-54.58,New York,2022-02-02
+-41.99,New York,2022-02-03
+-54.02,New York,2022-02-04
+-33.29,New York,2022-02-05
+-38.32,New York,2022-02-06
+-58.33,New York,2022-02-07
+-31.75,New York,2022-02-08
+-46.15,New York,2022-02-09
+-66,New York,2022-02-10
+-29.81,New York,2022-02-11
+-21.05,New York,2022-02-12
+-59.64,New York,2022-02-13
+30.87,New York,2022-02-14
+-42.39,New York,2022-02-15
+-32.8,New York,2022-02-16
+-44.32,New York,2022-02-17
+-37.05,New York,2022-02-18
+-26.89,New York,2022-02-19
+1.61,New York,2022-02-20
+-3.76,New York,2022-02-21
+-40.4,New York,2022-02-22
+-28.06,New York,2022-02-23
+-35.71,New York,2022-02-24
+-36.37,New York,2022-02-25
+-24.5,New York,2022-02-26
+-27.3,New York,2022-02-27
+-43.87,New York,2022-02-28
+-44.54,New York,2022-03-01
+-41.99,New York,2022-03-02
+-39.18,New York,2022-03-03
+-35.29,New York,2022-03-04
+-29.8,New York,2022-03-05
+-25.95,New York,2022-03-06
+-46.87,New York,2022-03-07
+-39.3,New York,2022-03-08
+-47.4,New York,2022-03-09
+-36.05,New York,2022-03-10
+-32.95,New York,2022-03-11
+-40.47,New York,2022-03-12
+-28.53,New York,2022-03-13
+-39.66,New York,2022-03-14
+-32.45,New York,2022-03-15
+-31.82,New York,2022-03-16
+-38,New York,2022-03-17
+-20.17,New York,2022-03-18
+-24.47,New York,2022-03-19
+-29.7,New York,2022-03-20
+-32.46,New York,2022-03-21
+-34.06,New York,2022-03-22
+-36,New York,2022-03-23
+-37.64,New York,2022-03-24
+-29.28,New York,2022-03-25
+-27.75,New York,2022-03-26
+-27.4,New York,2022-03-27
+-43.2,New York,2022-03-28
+-36.69,New York,2022-03-29
+-35.57,New York,2022-03-30
+-35.16,New York,2022-03-31
+1,NYC,2020-02-18
+11,NYC,2020-02-19
+3,NYC,2020-02-20
+0,NYC,2020-02-21
+3,NYC,2020-02-22
+13,NYC,2020-02-23
+7,NYC,2020-02-24
+1,NYC,2020-02-25
+1,NYC,2020-02-26
+-2,NYC,2020-02-27
+1,NYC,2020-02-28
+-2,NYC,2020-02-29
+-2,NYC,2020-03-01
+-6,NYC,2020-03-02
+-12,NYC,2020-03-03
+-12,NYC,2020-03-04
+-9,NYC,2020-03-05
+-15,NYC,2020-03-06
+-10,NYC,2020-03-07
+-4,NYC,2020-03-08
+-18,NYC,2020-03-09
+-30,NYC,2020-03-10
+-36,NYC,2020-03-11
+-52,NYC,2020-03-12
+-61,NYC,2020-03-13
+-64,NYC,2020-03-14
+-69,NYC,2020-03-15
+-77,NYC,2020-03-16
+-100,NYC,2020-03-17
+-100,NYC,2020-03-18
+-100,NYC,2020-03-19
+-100,NYC,2020-03-20
+-100,NYC,2020-03-21
+-100,NYC,2020-03-22
+-100,NYC,2020-03-23
+-100,NYC,2020-03-24
+-100,NYC,2020-03-25
+-100,NYC,2020-03-26
+-100,NYC,2020-03-27
+-100,NYC,2020-03-28
+-100,NYC,2020-03-29
+-100,NYC,2020-03-30
+-100,NYC,2020-03-31
+-100,NYC,2020-04-01
+-100,NYC,2020-04-02
+-100,NYC,2020-04-03
+-100,NYC,2020-04-04
+-100,NYC,2020-04-05
+-100,NYC,2020-04-06
+-100,NYC,2020-04-07
+-100,NYC,2020-04-08
+-100,NYC,2020-04-09
+-100,NYC,2020-04-10
+-100,NYC,2020-04-11
+-100,NYC,2020-04-12
+-100,NYC,2020-04-13
+-100,NYC,2020-04-14
+-100,NYC,2020-04-15
+-100,NYC,2020-04-16
+-100,NYC,2020-04-17
+-100,NYC,2020-04-18
+-100,NYC,2020-04-19
+-100,NYC,2020-04-20
+-100,NYC,2020-04-21
+-100,NYC,2020-04-22
+-100,NYC,2020-04-23
+-100,NYC,2020-04-24
+-100,NYC,2020-04-25
+-100,NYC,2020-04-26
+-100,NYC,2020-04-27
+-100,NYC,2020-04-28
+-100,NYC,2020-04-29
+-100,NYC,2020-04-30
+-100,NYC,2020-05-01
+-100,NYC,2020-05-02
+-100,NYC,2020-05-03
+-100,NYC,2020-05-04
+-100,NYC,2020-05-05
+-100,NYC,2020-05-06
+-100,NYC,2020-05-07
+-100,NYC,2020-05-08
+-100,NYC,2020-05-09
+-100,NYC,2020-05-10
+-99.98,NYC,2020-05-11
+-100,NYC,2020-05-12
+-100,NYC,2020-05-13
+-99.98,NYC,2020-05-14
+-99.96,NYC,2020-05-15
+-99.96,NYC,2020-05-16
+-99.96,NYC,2020-05-17
+-99.19,NYC,2020-05-18
+-99.36,NYC,2020-05-19
+-98.63,NYC,2020-05-20
+-99.12,NYC,2020-05-21
+-99.51,NYC,2020-05-22
+-99.5,NYC,2020-05-23
+-99.72,NYC,2020-05-24
+-99.66,NYC,2020-05-25
+-99.25,NYC,2020-05-26
+-98.69,NYC,2020-05-27
+-98.78,NYC,2020-05-28
+-99.27,NYC,2020-05-29
+-99.22,NYC,2020-05-30
+-99.52,NYC,2020-05-31
+-99.31,NYC,2020-06-01
+-99.32,NYC,2020-06-02
+-99.33,NYC,2020-06-03
+-99.3,NYC,2020-06-04
+-99.62,NYC,2020-06-05
+-99.49,NYC,2020-06-06
+-99.43,NYC,2020-06-07
+-99.77,NYC,2020-06-08
+-99.45,NYC,2020-06-09
+-99.15,NYC,2020-06-10
+-99.17,NYC,2020-06-11
+-99.62,NYC,2020-06-12
+-99.59,NYC,2020-06-13
+-99.58,NYC,2020-06-14
+-99.65,NYC,2020-06-15
+-99.67,NYC,2020-06-16
+-99.59,NYC,2020-06-17
+-99.24,NYC,2020-06-18
+-99.72,NYC,2020-06-19
+-99.63,NYC,2020-06-20
+-99.77,NYC,2020-06-21
+-97.45,NYC,2020-06-22
+-96.53,NYC,2020-06-23
+-95.96,NYC,2020-06-24
+-94.93,NYC,2020-06-25
+-93.73,NYC,2020-06-26
+-94.84,NYC,2020-06-27
+-94.59,NYC,2020-06-28
+-95.19,NYC,2020-06-29
+-94.42,NYC,2020-06-30
+-94.28,NYC,2020-07-01
+-89.52,NYC,2020-07-02
+-93.94,NYC,2020-07-03
+-92.18,NYC,2020-07-04
+-92.6,NYC,2020-07-05
+-96.22,NYC,2020-07-06
+-94.24,NYC,2020-07-07
+-95.07,NYC,2020-07-08
+-91.97,NYC,2020-07-09
+-98.4,NYC,2020-07-10
+-91.95,NYC,2020-07-11
+-89.23,NYC,2020-07-12
+-93.34,NYC,2020-07-13
+-92.1,NYC,2020-07-14
+-91.84,NYC,2020-07-15
+-90.7,NYC,2020-07-16
+-90.15,NYC,2020-07-17
+-87.83,NYC,2020-07-18
+-89.73,NYC,2020-07-19
+-93.6,NYC,2020-07-20
+-92.03,NYC,2020-07-21
+-95.68,NYC,2020-07-22
+-93.64,NYC,2020-07-23
+-90.55,NYC,2020-07-24
+-86.35,NYC,2020-07-25
+-89.14,NYC,2020-07-26
+-92.77,NYC,2020-07-27
+-92.02,NYC,2020-07-28
+-90.65,NYC,2020-07-29
+-91.22,NYC,2020-07-30
+-88.58,NYC,2020-07-31
+-85.06,NYC,2020-08-01
+-88.23,NYC,2020-08-02
+-91.35,NYC,2020-08-03
+-96.99,NYC,2020-08-04
+-88.56,NYC,2020-08-05
+-88.47,NYC,2020-08-06
+-89.76,NYC,2020-08-07
+-81.5,NYC,2020-08-08
+-83.78,NYC,2020-08-09
+-89.24,NYC,2020-08-10
+-88.75,NYC,2020-08-11
+-90.81,NYC,2020-08-12
+-90.4,NYC,2020-08-13
+-83.94,NYC,2020-08-14
+-80.4,NYC,2020-08-15
+-89.39,NYC,2020-08-16
+-86.85,NYC,2020-08-17
+-84.33,NYC,2020-08-18
+-86.91,NYC,2020-08-19
+-83.27,NYC,2020-08-20
+-78.57,NYC,2020-08-21
+-77.82,NYC,2020-08-22
+-80.32,NYC,2020-08-23
+-86.12,NYC,2020-08-24
+-85.83,NYC,2020-08-25
+-81.42,NYC,2020-08-26
+-88.66,NYC,2020-08-27
+-80.23,NYC,2020-08-28
+-82.03,NYC,2020-08-29
+-79.02,NYC,2020-08-30
+-83.2,NYC,2020-08-31
+-79.85,NYC,2020-09-01
+-84.06,NYC,2020-09-02
+-86.22,NYC,2020-09-03
+-79.23,NYC,2020-09-04
+-80.23,NYC,2020-09-05
+-73.57,NYC,2020-09-06
+-75.9,NYC,2020-09-07
+-87.02,NYC,2020-09-08
+-84.82,NYC,2020-09-09
+-90.23,NYC,2020-09-10
+-78.59,NYC,2020-09-11
+-75.55,NYC,2020-09-12
+-78.72,NYC,2020-09-13
+-84.14,NYC,2020-09-14
+-83.94,NYC,2020-09-15
+-81.51,NYC,2020-09-16
+-80.83,NYC,2020-09-17
+-79,NYC,2020-09-18
+-76.86,NYC,2020-09-19
+-77.95,NYC,2020-09-20
+-85.31,NYC,2020-09-21
+-83.07,NYC,2020-09-22
+-79.42,NYC,2020-09-23
+-79.6,NYC,2020-09-24
+-75.97,NYC,2020-09-25
+-73.62,NYC,2020-09-26
+-74.46,NYC,2020-09-27
+-81.38,NYC,2020-09-28
+-89.07,NYC,2020-09-29
+-77.91,NYC,2020-09-30
+-74.81,NYC,2020-10-01
+-73.29,NYC,2020-10-02
+-68.97,NYC,2020-10-03
+-72.44,NYC,2020-10-04
+-79.62,NYC,2020-10-05
+-76.87,NYC,2020-10-06
+-76.22,NYC,2020-10-07
+-77.69,NYC,2020-10-08
+-72.37,NYC,2020-10-09
+-68.51,NYC,2020-10-10
+-76.26,NYC,2020-10-11
+-88.62,NYC,2020-10-12
+-84.51,NYC,2020-10-13
+-73.98,NYC,2020-10-14
+-73.19,NYC,2020-10-15
+-82.3,NYC,2020-10-16
+-66.8,NYC,2020-10-17
+-68.88,NYC,2020-10-18
+-81.2,NYC,2020-10-19
+-78.49,NYC,2020-10-20
+-78.15,NYC,2020-10-21
+-78.38,NYC,2020-10-22
+-72.25,NYC,2020-10-23
+-66.73,NYC,2020-10-24
+-71.36,NYC,2020-10-25
+-84.97,NYC,2020-10-26
+-80.64,NYC,2020-10-27
+-79.16,NYC,2020-10-28
+-81.97,NYC,2020-10-29
+-80.02,NYC,2020-10-30
+-76.59,NYC,2020-10-31
+-81.73,NYC,2020-11-01
+-86.51,NYC,2020-11-02
+-89.66,NYC,2020-11-03
+-85.83,NYC,2020-11-04
+-79.51,NYC,2020-11-05
+-73.29,NYC,2020-11-06
+-67.96,NYC,2020-11-07
+-72.08,NYC,2020-11-08
+-79.79,NYC,2020-11-09
+-72.06,NYC,2020-11-10
+-82.91,NYC,2020-11-11
+-83.44,NYC,2020-11-12
+-79.94,NYC,2020-11-13
+-71.09,NYC,2020-11-14
+-79.08,NYC,2020-11-15
+-83.3,NYC,2020-11-16
+-84.83,NYC,2020-11-17
+-86.25,NYC,2020-11-18
+-83.99,NYC,2020-11-19
+-77.02,NYC,2020-11-20
+-73.1,NYC,2020-11-21
+-80.01,NYC,2020-11-22
+-87.04,NYC,2020-11-23
+-86.58,NYC,2020-11-24
+-85.79,NYC,2020-11-25
+-84.31,NYC,2020-11-26
+-83.73,NYC,2020-11-27
+-79.68,NYC,2020-11-28
+-74.05,NYC,2020-11-29
+-91.01,NYC,2020-11-30
+-88.24,NYC,2020-12-01
+-89.42,NYC,2020-12-02
+-87.16,NYC,2020-12-03
+-86.81,NYC,2020-12-04
+-83.79,NYC,2020-12-05
+-82.73,NYC,2020-12-06
+-90.22,NYC,2020-12-07
+-90.08,NYC,2020-12-08
+-89.7,NYC,2020-12-09
+-87.52,NYC,2020-12-10
+-81.07,NYC,2020-12-11
+-78.3,NYC,2020-12-12
+-75.89,NYC,2020-12-13
+-96.24,NYC,2020-12-14
+-94.06,NYC,2020-12-15
+-98.88,NYC,2020-12-16
+-98.09,NYC,2020-12-17
+-94.46,NYC,2020-12-18
+-91.47,NYC,2020-12-19
+-93.23,NYC,2020-12-20
+-94.53,NYC,2020-12-21
+-92,NYC,2020-12-22
+-88.63,NYC,2020-12-23
+-90.36,NYC,2020-12-24
+-94.9,NYC,2020-12-25
+-93.39,NYC,2020-12-26
+-91.05,NYC,2020-12-27
+-89.74,NYC,2020-12-28
+-92.39,NYC,2020-12-29
+-85.65,NYC,2020-12-30
+-80.87,NYC,2020-12-31
+-91.02,NYC,2021-01-01
+-83.4,NYC,2021-01-02
+-93.44,NYC,2021-01-03
+-91.6,NYC,2021-01-04
+-92.68,NYC,2021-01-05
+-92.75,NYC,2021-01-06
+-92.15,NYC,2021-01-07
+-90.41,NYC,2021-01-08
+-87.57,NYC,2021-01-09
+-87.6,NYC,2021-01-10
+-93.95,NYC,2021-01-11
+-92.49,NYC,2021-01-12
+-91.86,NYC,2021-01-13
+-89.47,NYC,2021-01-14
+-87.82,NYC,2021-01-15
+-81.64,NYC,2021-01-16
+-83.35,NYC,2021-01-17
+-82.32,NYC,2021-01-18
+-91.75,NYC,2021-01-19
+-93.33,NYC,2021-01-20
+-91.11,NYC,2021-01-21
+-86.93,NYC,2021-01-22
+-84.65,NYC,2021-01-23
+-87.77,NYC,2021-01-24
+-92.44,NYC,2021-01-25
+-95.13,NYC,2021-01-26
+-92.01,NYC,2021-01-27
+-93.24,NYC,2021-01-28
+-94.39,NYC,2021-01-29
+-88.07,NYC,2021-01-30
+-88.95,NYC,2021-01-31
+-99.73,NYC,2021-02-01
+-98.14,NYC,2021-02-02
+-95.18,NYC,2021-02-03
+-91.29,NYC,2021-02-04
+-88.7,NYC,2021-02-05
+-82.38,NYC,2021-02-06
+-96.13,NYC,2021-02-07
+-94.4,NYC,2021-02-08
+-94.62,NYC,2021-02-09
+-92.78,NYC,2021-02-10
+-92.43,NYC,2021-02-11
+-85.34,NYC,2021-02-12
+-74.59,NYC,2021-02-13
+-56.47,NYC,2021-02-14
+-75.62,NYC,2021-02-15
+-82.03,NYC,2021-02-16
+-83.07,NYC,2021-02-17
+-92.2,NYC,2021-02-18
+-81.93,NYC,2021-02-19
+-70,NYC,2021-02-20
+-71.98,NYC,2021-02-21
+-88.34,NYC,2021-02-22
+-84.14,NYC,2021-02-23
+-76.52,NYC,2021-02-24
+-78.94,NYC,2021-02-25
+-71.12,NYC,2021-02-26
+-65.63,NYC,2021-02-27
+-72.7,NYC,2021-02-28
+-81.99,NYC,2021-03-01
+-81.39,NYC,2021-03-02
+-75.41,NYC,2021-03-03
+-82.22,NYC,2021-03-04
+-77.79,NYC,2021-03-05
+-72.09,NYC,2021-03-06
+-72.26,NYC,2021-03-07
+-86.11,NYC,2021-03-08
+-78.67,NYC,2021-03-09
+-80.63,NYC,2021-03-10
+-73.19,NYC,2021-03-11
+-69.92,NYC,2021-03-12
+-66.72,NYC,2021-03-13
+-71.76,NYC,2021-03-14
+-85.17,NYC,2021-03-15
+-84.77,NYC,2021-03-16
+-82.23,NYC,2021-03-17
+-83.79,NYC,2021-03-18
+-74.34,NYC,2021-03-19
+-63.29,NYC,2021-03-20
+-64.64,NYC,2021-03-21
+-78.6,NYC,2021-03-22
+-78.06,NYC,2021-03-23
+-85.64,NYC,2021-03-24
+-76.25,NYC,2021-03-25
+-69.84,NYC,2021-03-26
+-66.72,NYC,2021-03-27
+-77.85,NYC,2021-03-28
+-77.78,NYC,2021-03-29
+-76.58,NYC,2021-03-30
+-81.47,NYC,2021-03-31
+-78.05,NYC,2021-04-01
+-70.55,NYC,2021-04-02
+-68,NYC,2021-04-03
+-61.36,NYC,2021-04-04
+-77.66,NYC,2021-04-05
+-75.57,NYC,2021-04-06
+-75.19,NYC,2021-04-07
+-71.23,NYC,2021-04-08
+-68.08,NYC,2021-04-09
+-62.31,NYC,2021-04-10
+-75.43,NYC,2021-04-11
+-84.52,NYC,2021-04-12
+-78.58,NYC,2021-04-13
+-77.33,NYC,2021-04-14
+-82.02,NYC,2021-04-15
+-67.69,NYC,2021-04-16
+-79.47,NYC,2021-04-17
+-64.16,NYC,2021-04-18
+-74.69,NYC,2021-04-19
+-70.68,NYC,2021-04-20
+-79.51,NYC,2021-04-21
+-74.48,NYC,2021-04-22
+-61.42,NYC,2021-04-23
+-54.08,NYC,2021-04-24
+-65.35,NYC,2021-04-25
+-74.34,NYC,2021-04-26
+-71.82,NYC,2021-04-27
+-66.58,NYC,2021-04-28
+-74.1,NYC,2021-04-29
+-62.57,NYC,2021-04-30
+-56.99,NYC,2021-05-01
+-54.53,NYC,2021-05-02
+-76.02,NYC,2021-05-03
+-70.18,NYC,2021-05-04
+-71.5,NYC,2021-05-05
+-64.81,NYC,2021-05-06
+-58.76,NYC,2021-05-07
+-57.19,NYC,2021-05-08
+-48.89,NYC,2021-05-09
+-71.22,NYC,2021-05-10
+-69.67,NYC,2021-05-11
+-69.35,NYC,2021-05-12
+-64.58,NYC,2021-05-13
+-56.4,NYC,2021-05-14
+-51.82,NYC,2021-05-15
+-58.03,NYC,2021-05-16
+-73.22,NYC,2021-05-17
+-70.2,NYC,2021-05-18
+-65.61,NYC,2021-05-19
+-58.17,NYC,2021-05-20
+-47.73,NYC,2021-05-21
+-38.63,NYC,2021-05-22
+-52.14,NYC,2021-05-23
+-63.07,NYC,2021-05-24
+-52.32,NYC,2021-05-25
+-61.08,NYC,2021-05-26
+-55.89,NYC,2021-05-27
+-64.44,NYC,2021-05-28
+-58.3,NYC,2021-05-29
+-56.03,NYC,2021-05-30
+-53.06,NYC,2021-05-31
+-70.34,NYC,2021-06-01
+-64.15,NYC,2021-06-02
+-64.8,NYC,2021-06-03
+-56.65,NYC,2021-06-04
+-44.55,NYC,2021-06-05
+-48.63,NYC,2021-06-06
+-58.74,NYC,2021-06-07
+-64.19,NYC,2021-06-08
+-59.17,NYC,2021-06-09
+-49.62,NYC,2021-06-10
+-49.49,NYC,2021-06-11
+-38.73,NYC,2021-06-12
+-51.2,NYC,2021-06-13
+-57.81,NYC,2021-06-14
+-54.21,NYC,2021-06-15
+-52.69,NYC,2021-06-16
+-49.5,NYC,2021-06-17
+-45.56,NYC,2021-06-18
+-43.71,NYC,2021-06-19
+-36.4,NYC,2021-06-20
+-59.49,NYC,2021-06-21
+-58.92,NYC,2021-06-22
+-54.3,NYC,2021-06-23
+-51.57,NYC,2021-06-24
+-44.96,NYC,2021-06-25
+-39.82,NYC,2021-06-26
+-45.21,NYC,2021-06-27
+-54.53,NYC,2021-06-28
+-80.96,NYC,2021-06-29
+-47.06,NYC,2021-06-30
+-34.73,NYC,2021-07-01
+-43.35,NYC,2021-07-02
+-40.24,NYC,2021-07-03
+-44.92,NYC,2021-07-04
+-46.34,NYC,2021-07-05
+-65.81,NYC,2021-07-06
+-59.64,NYC,2021-07-07
+-59.22,NYC,2021-07-08
+-49.63,NYC,2021-07-09
+-40.46,NYC,2021-07-10
+-45.15,NYC,2021-07-11
+-59.93,NYC,2021-07-12
+-53.97,NYC,2021-07-13
+-51.72,NYC,2021-07-14
+-46.8,NYC,2021-07-15
+-43.53,NYC,2021-07-16
+-36.33,NYC,2021-07-17
+-38.38,NYC,2021-07-18
+-47.76,NYC,2021-07-19
+-50.45,NYC,2021-07-20
+-55.31,NYC,2021-07-21
+-51.39,NYC,2021-07-22
+-46.74,NYC,2021-07-23
+-37.41,NYC,2021-07-24
+-44.97,NYC,2021-07-25
+-55.07,NYC,2021-07-26
+-51.98,NYC,2021-07-27
+-48.31,NYC,2021-07-28
+-58.07,NYC,2021-07-29
+-45.72,NYC,2021-07-30
+-40.55,NYC,2021-07-31
+-46.86,NYC,2021-08-01
+-57.16,NYC,2021-08-02
+-55,NYC,2021-08-03
+-55.2,NYC,2021-08-04
+-53.92,NYC,2021-08-05
+-46.71,NYC,2021-08-06
+-39.32,NYC,2021-08-07
+-48.75,NYC,2021-08-08
+-56.98,NYC,2021-08-09
+-54.67,NYC,2021-08-10
+-57.08,NYC,2021-08-11
+-55.28,NYC,2021-08-12
+-49.11,NYC,2021-08-13
+-38.51,NYC,2021-08-14
+-36.88,NYC,2021-08-15
+-52.91,NYC,2021-08-16
+-51.91,NYC,2021-08-17
+-53.55,NYC,2021-08-18
+-48.98,NYC,2021-08-19
+-41.09,NYC,2021-08-20
+-44.44,NYC,2021-08-21
+-74.59,NYC,2021-08-22
+-60.74,NYC,2021-08-23
+-52.36,NYC,2021-08-24
+-52.15,NYC,2021-08-25
+-51.44,NYC,2021-08-26
+-46.6,NYC,2021-08-27
+-39.38,NYC,2021-08-28
+-56.18,NYC,2021-08-29
+-54.14,NYC,2021-08-30
+-45.24,NYC,2021-08-31
+-66.62,NYC,2021-09-01
+-62.18,NYC,2021-09-02
+-47.5,NYC,2021-09-03
+-46.29,NYC,2021-09-04
+-36.09,NYC,2021-09-05
+-47.75,NYC,2021-09-06
+-65.28,NYC,2021-09-07
+-59.68,NYC,2021-09-08
+-55.97,NYC,2021-09-09
+-45.58,NYC,2021-09-10
+-40.73,NYC,2021-09-11
+-46.75,NYC,2021-09-12
+-56.29,NYC,2021-09-13
+-52.97,NYC,2021-09-14
+-56.09,NYC,2021-09-15
+-56.5,NYC,2021-09-16
+-46.57,NYC,2021-09-17
+-40.99,NYC,2021-09-18
+-42.1,NYC,2021-09-19
+-54.83,NYC,2021-09-20
+-52.67,NYC,2021-09-21
+-52.25,NYC,2021-09-22
+-57.51,NYC,2021-09-23
+-44.19,NYC,2021-09-24
+-37.31,NYC,2021-09-25
+-41.31,NYC,2021-09-26
+-49.84,NYC,2021-09-27
+-50.6,NYC,2021-09-28
+-47.59,NYC,2021-09-29
+-47.54,NYC,2021-09-30
+-44.69,NYC,2021-10-01
+-35.81,NYC,2021-10-02
+-40.88,NYC,2021-10-03
+-54.53,NYC,2021-10-04
+-48.04,NYC,2021-10-05
+-41.31,NYC,2021-10-06
+-46.87,NYC,2021-10-07
+-40.28,NYC,2021-10-08
+-37.29,NYC,2021-10-09
+-47.06,NYC,2021-10-10
+-54.2,NYC,2021-10-11
+-50.15,NYC,2021-10-12
+-44.3,NYC,2021-10-13
+-43.58,NYC,2021-10-14
+-37.9,NYC,2021-10-15
+-37.49,NYC,2021-10-16
+-36.13,NYC,2021-10-17
+-55.74,NYC,2021-10-18
+-44.81,NYC,2021-10-19
+-46.78,NYC,2021-10-20
+-45.43,NYC,2021-10-21
+-41.12,NYC,2021-10-22
+-36.58,NYC,2021-10-23
+-35.78,NYC,2021-10-24
+-56.38,NYC,2021-10-25
+-61.4,NYC,2021-10-26
+-45.49,NYC,2021-10-27
+-28.88,NYC,2021-10-28
+-49.87,NYC,2021-10-29
+-50.13,NYC,2021-10-30
+-51.54,NYC,2021-10-31
+-59.39,NYC,2021-11-01
+-50.72,NYC,2021-11-02
+-49.56,NYC,2021-11-03
+-43.61,NYC,2021-11-04
+-39.56,NYC,2021-11-05
+-34.06,NYC,2021-11-06
+-43.12,NYC,2021-11-07
+-51.44,NYC,2021-11-08
+-32.16,NYC,2021-11-09
+-35,NYC,2021-11-10
+-31.49,NYC,2021-11-11
+-37.74,NYC,2021-11-12
+-30.26,NYC,2021-11-13
+-31.89,NYC,2021-11-14
+-39.86,NYC,2021-11-15
+-36.2,NYC,2021-11-16
+-38.01,NYC,2021-11-17
+-36.55,NYC,2021-11-18
+-36.45,NYC,2021-11-19
+-29.14,NYC,2021-11-20
+-27.13,NYC,2021-11-21
+-41.71,NYC,2021-11-22
+-42.17,NYC,2021-11-23
+-37.48,NYC,2021-11-24
+-32.19,NYC,2021-11-25
+-35.56,NYC,2021-11-26
+-35.55,NYC,2021-11-27
+-29.05,NYC,2021-11-28
+-43.1,NYC,2021-11-29
+-49.01,NYC,2021-11-30
+-48.11,NYC,2021-12-01
+-44.08,NYC,2021-12-02
+-41.33,NYC,2021-12-03
+-35.2,NYC,2021-12-04
+-37.81,NYC,2021-12-05
+-42.55,NYC,2021-12-06
+-39.91,NYC,2021-12-07
+-40.41,NYC,2021-12-08
+-37.75,NYC,2021-12-09
+-35.59,NYC,2021-12-10
+-32.64,NYC,2021-12-11
+-36.58,NYC,2021-12-12
+-49.4,NYC,2021-12-13
+-43.43,NYC,2021-12-14
+-45.98,NYC,2021-12-15
+-46.75,NYC,2021-12-16
+-44.01,NYC,2021-12-17
+-42.41,NYC,2021-12-18
+-47.17,NYC,2021-12-19
+-60.17,NYC,2021-12-20
+-57.97,NYC,2021-12-21
+-47.65,NYC,2021-12-22
+-59.45,NYC,2021-12-23
+-61.51,NYC,2021-12-24
+-73.19,NYC,2021-12-25
+-57.92,NYC,2021-12-26
+-58.61,NYC,2021-12-27
+-58.69,NYC,2021-12-28
+-37,NYC,2021-12-29
+-36.67,NYC,2021-12-30
+-42.03,NYC,2021-12-31
+-68.94,NYC,2022-01-01
+-55.17,NYC,2022-01-02
+-66.58,NYC,2022-01-03
+-72.65,NYC,2022-01-04
+-74.76,NYC,2022-01-05
+-73.06,NYC,2022-01-06
+-69.44,NYC,2022-01-07
+-60.04,NYC,2022-01-08
+-69.34,NYC,2022-01-09
+-78.43,NYC,2022-01-10
+-80.68,NYC,2022-01-11
+-75.71,NYC,2022-01-12
+-72.01,NYC,2022-01-13
+-60.4,NYC,2022-01-14
+-55.49,NYC,2022-01-15
+-55.54,NYC,2022-01-16
+-55.99,NYC,2022-01-17
+-69.66,NYC,2022-01-18
+-69.46,NYC,2022-01-19
+-69.3,NYC,2022-01-20
+-62.49,NYC,2022-01-21
+-53.13,NYC,2022-01-22
+-59.53,NYC,2022-01-23
+-71.62,NYC,2022-01-24
+-67.36,NYC,2022-01-25
+-64.75,NYC,2022-01-26
+-58.54,NYC,2022-01-27
+-60.12,NYC,2022-01-28
+-72.69,NYC,2022-01-29
+-54.63,NYC,2022-01-30
+-72.85,NYC,2022-01-31
+-70.27,NYC,2022-02-01
+-64.94,NYC,2022-02-02
+-56.37,NYC,2022-02-03
+-61.97,NYC,2022-02-04
+-44.78,NYC,2022-02-05
+-52.13,NYC,2022-02-06
+-65.44,NYC,2022-02-07
+-46.17,NYC,2022-02-08
+-55.01,NYC,2022-02-09
+-64.19,NYC,2022-02-10
+-41.86,NYC,2022-02-11
+-32.3,NYC,2022-02-12
+-64.61,NYC,2022-02-13
+-16.79,NYC,2022-02-14
+-52.75,NYC,2022-02-15
+-47.73,NYC,2022-02-16
+-54.03,NYC,2022-02-17
+-49.54,NYC,2022-02-18
+-38.8,NYC,2022-02-19
+-17.36,NYC,2022-02-20
+-27.38,NYC,2022-02-21
+-54.79,NYC,2022-02-22
+-43.74,NYC,2022-02-23
+-49.56,NYC,2022-02-24
+-45.09,NYC,2022-02-25
+-36.53,NYC,2022-02-26
+-39.96,NYC,2022-02-27
+-51.93,NYC,2022-02-28
+-51.51,NYC,2022-03-01
+-50.03,NYC,2022-03-02
+-49.36,NYC,2022-03-03
+-47.78,NYC,2022-03-04
+-41.8,NYC,2022-03-05
+-39.83,NYC,2022-03-06
+-53.23,NYC,2022-03-07
+-45.79,NYC,2022-03-08
+-52.91,NYC,2022-03-09
+-44.79,NYC,2022-03-10
+-44.52,NYC,2022-03-11
+-47.88,NYC,2022-03-12
+-41.71,NYC,2022-03-13
+-44.89,NYC,2022-03-14
+-39.52,NYC,2022-03-15
+-38.68,NYC,2022-03-16
+-45.97,NYC,2022-03-17
+-32.16,NYC,2022-03-18
+-33.77,NYC,2022-03-19
+-37.54,NYC,2022-03-20
+-37.64,NYC,2022-03-21
+-39.06,NYC,2022-03-22
+-44.46,NYC,2022-03-23
+-45.39,NYC,2022-03-24
+-41.17,NYC,2022-03-25
+-38.8,NYC,2022-03-26
+-39.54,NYC,2022-03-27
+-48.66,NYC,2022-03-28
+-43.47,NYC,2022-03-29
+-42.5,NYC,2022-03-30
+-42.82,NYC,2022-03-31
