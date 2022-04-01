@@ -23,7 +23,7 @@ jobs:
       # install renv package
       - run: |-
           R -e 'install.packages("renv")'
-          R -e 'renv::upgrade(project = '2021_2022_INV_news12_stories.Rproj', reload = T, prompt = F)'
+          R -e 'renv::upgrade(project = ".", reload = T, prompt = F)'
       # set up cache
       - name: Cache packages
         uses: actions/cache@v2
