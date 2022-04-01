@@ -414,6 +414,45 @@ make_mobility_and_spending_charts <- function(c, df, type) {
   
 }
 
+# Function to make mobility by state
+make_mobility_by_state <- function(c, df) {
+  
+  col_name <- sym(c)
+  
+  
+  if (c == "gps_transit_stations") {
+    df <- df %>% filter(county != "Litchfield")
+  }
+  
+  chart_title <- paste(str_to_title(
+    str_replace_all(
+      str_remove(
+        c, "gps_"
+      ), "_", " "
+    )
+  ), "Travel")
+  
+  df %>% 
+    select(date, county, state, !!col_name) %>% 
+    mutate(month = month(date),
+           year = year(date),
+           max_month = if_else(day(max(date)) >= 15, 
+                               month(max(date)), month(max(date) %m-% months(1)))) %>% 
+    filter(year == max(year), month == max_month) %>% 
+    group_by(year, month, county, state) %>%
+    summarize(pct = median(!!col_name, na.rm = T), .groups = "drop") %>% 
+    mutate(date = base::as.Date(paste0(year, "-", month, "-01"))) %>% 
+    select(-c(year, month)) %>% 
+    comparison_bar_graph(measure = chart_title,
+                         time_comparison = "latest",
+                         data_freq = "monthly",
+                         geo_level = "county",
+                         item = "county",
+                         caption = mobility_agg_caption)
+  
+}
+
+
 # Function to make trailing seven-day averages
 make_trailing_seven <- function(df) {
   df %>% 
@@ -1100,6 +1139,19 @@ mobility_transit <- tryCatch({
   walk(mobility_col_names, ~make_mobility_and_spending_charts(c = .x, 
                                                               df = oi_google_mobility_tri_state,
                                                               type = "mobility"))
+  
+  walk(mobility_col_names, ~make_mobility_by_state(c = .x,
+                                                   df = oi_google_mobility_tri_state))
+  
+  oi_google_mobility_tri_state %>% 
+    group_split(state) %>% 
+    walk(function(x) {
+      walk(mobility_col_names, function(y) {
+        make_mobility_by_state(c = y, df = x)
+      })
+    })
+  
+    
   
   
   # By transit type trailing seven day average over time line graph
