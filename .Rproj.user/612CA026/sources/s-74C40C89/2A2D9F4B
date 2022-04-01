@@ -3,7 +3,7 @@
     "path": "~/Documents/finance/investopedia/2021_2022_INV_news12_stories/ny12_story_analysis.R",
     "project_path": "ny12_story_analysis.R",
     "type": "r_source",
-    "hash": "2831741983",
+    "hash": "2223612311",
     "contents": "",
     "dirty": false,
     "created": 1648216585587.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "1139,42",
-        "scrollLine": "1126"
+        "cursorPosition": "856,49",
+        "scrollLine": "843"
     },
     "folds": "",
-    "lastKnownWriteTime": 1648847125,
+    "lastKnownWriteTime": 1648849080,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1648847125827,
+    "last_content_update": 1648849080940,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -847,10 +847,23 @@ county_unemployment <- tryCatch({
                                item = "county",
                                caption = bls_caption))
   
-  
-  ## Bar graph employment MoM, YoY, 2019 - present
   laus_emp_tri_state_full %>% 
     filter(date <= max_combo_emp_date) -> laus_emp_tri_state_aligned
+  
+  # Line graph employment 
+  laus_emp_tri_state_aligned %>%
+    filter(date <= max_combo_emp_date) %>% 
+    group_split(state) %>% 
+    walk(~time_series_line_graph(.x, measure = "Employment Levels",
+                                 data_freq = "monthly",
+                                 value_format = "number",
+                                 geo_level = "county",
+                                 item = "county",
+                                 caption = bls_caption))
+  
+  
+  ## Bar graph employment MoM, YoY, 2019 - present
+  
   
   walk(time_frames, function(x) {
     laus_emp_tri_state_aligned %>% 
