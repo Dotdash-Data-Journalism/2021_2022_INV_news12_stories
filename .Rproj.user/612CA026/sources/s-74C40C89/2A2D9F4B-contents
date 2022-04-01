@@ -965,7 +965,7 @@ restaurant_reservations_jobs <- tryCatch({
   # Line graph of restaurant jobs by state
   time_series_line_graph(df = res_job_tri_state,
                          measure = "Restaurant Jobs",
-                         data_freq = "daily",
+                         data_freq = "monthly",
                          value_format = "number",
                          geo_level = "state",
                          item = "state",
