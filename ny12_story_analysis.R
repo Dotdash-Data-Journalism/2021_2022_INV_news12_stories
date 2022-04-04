@@ -91,7 +91,8 @@ home_prices_caption <- "Source: Zillow Home Value Index (ZHVI)"
 rent_cost_caption <- "Source: Apartment List Data & Rent Estimates"
 gas_price_caption <- "Source: Energy Information Administration"
 ot_stem <- "Source: OpenTable. "
-mobility_stem <- "Source: Google COVID-19 Community Mobility Reports via Opportunity Insights\n"
+mobility_stem <- paste0("Source: Google LLC \"Google COVID-19 Community Mobility Reports\".\nhttps://www.google.com/covid19/mobility/ Accessed: ",
+                        Sys.Date(), ". via Opportunity Insights\n")
 consumer_spending_stem <- "Source: Affinity Solutions via Opportunity Insights\n"
 
 ot_ts_caption <- paste0(ot_stem,
@@ -415,7 +416,7 @@ make_mobility_and_spending_charts <- function(c, df, type) {
 }
 
 # Function to make mobility by state
-make_mobility_by_state <- function(c, df) {
+make_mobility_spending_by_state <- function(c, df) {
   
   col_name <- sym(c)
   
@@ -424,13 +425,20 @@ make_mobility_by_state <- function(c, df) {
     df <- df %>% filter(county != "Litchfield")
   }
   
-  chart_title <- paste(str_to_title(
-    str_replace_all(
-      str_remove(
-        c, "gps_"
-      ), "_", " "
-    )
-  ), "Travel")
+  if (c == "value") {
+    chart_title <- "Consumer Spending"
+    chart_caption <- consumer_spending_agg_caption
+    
+  } else {
+    chart_title <- paste(str_to_title(
+      str_replace_all(
+        str_remove(
+          c, "gps_"
+        ), "_", " "
+      )
+    ), "Travel")
+    chart_caption <- mobility_agg_caption
+  }
   
   df %>% 
     select(date, county, state, !!col_name) %>% 
@@ -448,7 +456,7 @@ make_mobility_by_state <- function(c, df) {
                          data_freq = "monthly",
                          geo_level = "county",
                          item = "county",
-                         caption = mobility_agg_caption)
+                         caption = chart_caption)
   
 }
 
@@ -1153,14 +1161,11 @@ mobility_transit <- tryCatch({
                                                               df = oi_google_mobility_tri_state,
                                                               type = "mobility"))
   
-  walk(mobility_col_names, ~make_mobility_by_state(c = .x,
-                                                   df = oi_google_mobility_tri_state))
-  
   oi_google_mobility_tri_state %>% 
     group_split(state) %>% 
     walk(function(x) {
       walk(mobility_col_names, function(y) {
-        make_mobility_by_state(c = y, df = x)
+        make_mobility_spending_by_state(c = y, df = x)
       })
     })
   
@@ -1437,6 +1442,12 @@ consumer_spending <- tryCatch({
   walk(spending_col_names, ~make_mobility_and_spending_charts(c = .x, 
                                                               df = affinity_tri_state_state_categories,
                                                               type = "spending"))
+  
+  # By state bar graph of latest monthly median
+  affinity_tri_state_full %>% 
+    group_split(state) %>% 
+    walk(~make_mobility_spending_by_state(c = "value", df = .x))
+  
   
   
 },
