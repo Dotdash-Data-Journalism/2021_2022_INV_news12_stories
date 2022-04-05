@@ -15,6 +15,7 @@ library(ggplot2)
 library(scales)
 library(ggrepel)
 library(zoo)
+library(httr)
 
 ### Reading in reference files ###
 # Fips Code table
@@ -45,14 +46,11 @@ news_twelve_tri_state_no_nyc <- news_twelve_tri_state[!(
   news_twelve_tri_state %in% nyc_county_fips
   )]
 
-# State code references
-tibble(
-  name = state.name,
-  abb = state.abb
-) -> state_ref
-
 # Time frames for bar graphs
 time_frames <- list("Month-over-month", "Year-over-year", "2019 to present")
+
+### Socrata password ##
+SCT_PW <- Sys.getenv("SCT_PW")
 
 ### Captions ###
 ## Manipulation add-ons ##
@@ -1127,12 +1125,19 @@ mobility_transit <- tryCatch({
   
   # Getting MTA Subway, LIRR, Metro-North, and Bridges & Tunnels data
   
-  read_csv("https://new.mta.info/document/20441", 
-           col_names = T,
-           col_types = cols(.default = col_character())) %>% 
-  rename_with(.fn = make_clean_names, .cols = everything()) %>% 
-  mutate(date = mdy(date),
-         across(contains("percent"), ~str_remove(.x, "%")),
+  mta_rows <- as.integer(Sys.Date()) - as.integer(base::as.Date("2020-03-01"))
+  
+  mta_res <- GET(url = paste0("https://data.ny.gov/resource/vxuj-8kew.csv?$limit=", 
+                              mta_rows),
+                 authenticate(user = "anesta@dotdash.com", password = SCT_PW))
+  
+  stop_for_status(mta_res)
+  
+  mta_full_raw <- content(mta_res, encoding = "UTF-8", 
+                          col_types = cols(.default = col_character()))
+  
+  mta_full_raw %>% 
+  mutate(date = base::as.Date(date),
          across(!date, as.numeric)) -> mta_data
   
   mta_data %>% 

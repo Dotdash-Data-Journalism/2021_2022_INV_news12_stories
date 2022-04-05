@@ -37,6 +37,8 @@ jobs:
       - run: R -e 'renv::restore()'
       # execute Rscript
       - run: Rscript ny12_story_analysis.R
+        env:
+          SCT_PW: ${{ secrets.SCT_PW }}
       # push to git repo
       - name: Add and commit
         id: add_commit
