@@ -1144,15 +1144,16 @@ mobility_transit <- tryCatch({
     arrange(date) %>% 
     write_csv("./data/mta_usage_wide.csv")
   
-  mta_data %>% 
-    select(date, contains("percent_of")) %>% 
+  mta_data_long_clean <- mta_data %>% 
+    select(date, contains("of")) %>% 
     pivot_longer(!date, names_to = "state", values_to = "value") %>% 
     mutate(state = str_to_title(
       str_trim(
-        str_remove(str_replace_all(state, "_", " "), "percent.*")
+        str_remove(str_replace_all(state, "_", " "), "of.*")
+        )
       )
-    )
-    ) -> mta_data_long_clean
+    ) %>% 
+    mutate(state = if_else(state == "Lirr", str_to_upper(state), state))
   
   
   mta_data_long_clean %>% 
@@ -1174,12 +1175,8 @@ mobility_transit <- tryCatch({
       })
     })
   
-    
-  
-  
   # By transit type trailing seven day average over time line graph
   mta_data_long_clean %>% 
-    mutate(state = if_else(state == "Lirr", str_to_upper(state), state)) %>% 
     arrange(date) %>% 
     filter(!is.na(value)) %>% 
     make_trailing_seven() -> transit_method_trailing_seven
@@ -1197,8 +1194,7 @@ mobility_transit <- tryCatch({
   # By transit bar graph latest 4 months median
   mta_data_long_clean %>% 
     filter(!is.na(value)) %>%
-    mutate(state = if_else(state == "Lirr", str_to_upper(state), state),
-           value = value - 100) %>% 
+    mutate(value = value - 100) %>% 
     create_monthly_medians(level = "state") %>% 
     walk(~comparison_bar_graph(.x,
                                agg = T,
