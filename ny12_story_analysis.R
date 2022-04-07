@@ -1138,7 +1138,8 @@ mobility_transit <- tryCatch({
   
   mta_full_raw %>% 
   mutate(date = base::as.Date(date),
-         across(!date, as.numeric)) -> mta_data
+         across(!date, as.numeric),
+         across(contains("of"), function(x) x * 100)) -> mta_data
   
   mta_data %>% 
     arrange(date) %>% 
