@@ -1,72 +1,84 @@
 date,state,value
+2022-04-06,Subways,0.551
+2022-04-06,Buses,0.547
+2022-04-06,LIRR,0.57
+2022-04-06,Metro North,0.55
+2022-04-06,Access A Ride,0.785
+2022-04-06,Bridges And Tunnels,0.937
+2022-04-05,Subways,0.584
+2022-04-05,Buses,0.624
+2022-04-05,LIRR,0.59
+2022-04-05,Metro North,0.58
+2022-04-05,Access A Ride,0.822
+2022-04-05,Bridges And Tunnels,0.99
 2022-04-04,Subways,0.564
-2022-04-04,Buses,0.561
+2022-04-04,Buses,0.624
 2022-04-04,LIRR,0.55
 2022-04-04,Metro North,0.51
 2022-04-04,Access A Ride,0.838
 2022-04-04,Bridges And Tunnels,0.988
 2022-04-03,Subways,0.584
-2022-04-03,Buses,0.593
+2022-04-03,Buses,0.608
 2022-04-03,LIRR,0.63
 2022-04-03,Metro North,0.67
 2022-04-03,Access A Ride,0.675
 2022-04-03,Bridges And Tunnels,0.885
 2022-04-02,Subways,0.645
-2022-04-02,Buses,0.613
+2022-04-02,Buses,0.622
 2022-04-02,LIRR,0.68
 2022-04-02,Metro North,0.83
 2022-04-02,Access A Ride,0.804
 2022-04-02,Bridges And Tunnels,0.953
-2022-04-01,Subways,0.57
-2022-04-01,Buses,0.643
+2022-04-01,Subways,0.569
+2022-04-01,Buses,0.646
 2022-04-01,LIRR,0.49
 2022-04-01,Metro North,0.45
 2022-04-01,Access A Ride,0.84
 2022-04-01,Bridges And Tunnels,0.999
-2022-03-31,Subways,0.564
-2022-03-31,Buses,0.611
+2022-03-31,Subways,0.563
+2022-03-31,Buses,0.612
 2022-03-31,LIRR,0.57
 2022-03-31,Metro North,0.54
 2022-03-31,Access A Ride,0.773
 2022-03-31,Bridges And Tunnels,0.965
 2022-03-30,Subways,0.569
-2022-03-30,Buses,0.615
+2022-03-30,Buses,0.614
 2022-03-30,LIRR,0.58
 2022-03-30,Metro North,0.55
 2022-03-30,Access A Ride,0.762
 2022-03-30,Bridges And Tunnels,0.978
 2022-03-29,Subways,0.572
-2022-03-29,Buses,0.61
+2022-03-29,Buses,0.609
 2022-03-29,LIRR,0.57
 2022-03-29,Metro North,0.55
 2022-03-29,Access A Ride,0.802
 2022-03-29,Bridges And Tunnels,0.978
-2022-03-28,Subways,0.539
-2022-03-28,Buses,0.583
+2022-03-28,Subways,0.538
+2022-03-28,Buses,0.581
 2022-03-28,LIRR,0.53
 2022-03-28,Metro North,0.49
 2022-03-28,Access A Ride,0.775
 2022-03-28,Bridges And Tunnels,0.968
 2022-03-27,Subways,0.679
-2022-03-27,Buses,0.631
+2022-03-27,Buses,0.635
 2022-03-27,LIRR,0.69
 2022-03-27,Metro North,0.72
 2022-03-27,Access A Ride,0.678
 2022-03-27,Bridges And Tunnels,1.017
 2022-03-26,Subways,0.624
-2022-03-26,Buses,0.557
+2022-03-26,Buses,0.56
 2022-03-26,LIRR,0.64
 2022-03-26,Metro North,0.77
 2022-03-26,Access A Ride,0.765
 2022-03-26,Bridges And Tunnels,0.942
-2022-03-25,Subways,0.577
-2022-03-25,Buses,0.63
+2022-03-25,Subways,0.576
+2022-03-25,Buses,0.628
 2022-03-25,LIRR,0.53
 2022-03-25,Metro North,0.5
 2022-03-25,Access A Ride,0.813
 2022-03-25,Bridges And Tunnels,0.982
-2022-03-24,Subways,0.556
-2022-03-24,Buses,0.592
+2022-03-24,Subways,0.555
+2022-03-24,Buses,0.59
 2022-03-24,LIRR,0.56
 2022-03-24,Metro North,0.51
 2022-03-24,Access A Ride,0.754
