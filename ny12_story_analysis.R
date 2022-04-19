@@ -1557,7 +1557,8 @@ home_prices <- tryCatch({
     mutate(date = rollback(date, roll_to_first = T)) %>% 
     filter(date >= base::as.Date("2019-01-01")) %>% 
     left_join(cpi_inf, by = "date") %>% 
-    mutate(value = value * inf_pct) %>% 
+    mutate(inf_pct = if_else(is.na(inf_pct), 1, inf_pct),
+           value = value * inf_pct) %>% 
     select(-inf_pct)
   
   write_csv(home_price_tri_state_full,
@@ -1664,7 +1665,8 @@ rent_cost <- tryCatch({
   rent_tri_state_full <- bind_rows(rent_tri_state, rent_nyc) %>% 
     filter(date >= base::as.Date("2019-01-01")) %>% 
     left_join(cpi_inf, by = "date") %>% 
-    mutate(value = value * inf_pct) %>% 
+    mutate(inf_pct = if_else(is.na(inf_pct), 1, inf_pct),
+           value = value * inf_pct) %>% 
     select(-inf_pct)
   
   write_csv(rent_tri_state_full,
@@ -1848,7 +1850,10 @@ gas_prices <- tryCatch({
     mutate(value = round(value, 2),
            month = rollback(date, roll_to_first = T)) %>% 
     left_join(cpi_inf, by = c("month" = "date")) %>% 
-    mutate(value = value * inf_pct) %>% 
+    mutate(
+      inf_pct = if_else(is.na(inf_pct), 1, inf_pct),
+      value = value * inf_pct
+      ) %>% 
     select(-c(inf_pct, month)) -> gas_tri_state
   
   write_csv(gas_tri_state, "./data/gas_prices_long.csv")
@@ -1921,7 +1926,8 @@ wages <- tryCatch({
     select(date, series_id, state, industry_code, value) %>% 
     inner_join(industry_codes, by = "industry_code")  %>% 
     left_join(cpi_inf, by = "date") %>% 
-    mutate(value = value * inf_pct) %>% 
+    mutate(inf_pct = if_else(is.na(inf_pct), 1, inf_pct),
+           value = value * inf_pct) %>% 
     select(-inf_pct) -> wages_tri_state
   
   Sys.sleep(5)
