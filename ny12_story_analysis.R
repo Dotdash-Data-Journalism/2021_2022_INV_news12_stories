@@ -56,6 +56,7 @@ SCT_PW <- Sys.getenv("SCT_PW")
 ## Manipulation add-ons ##
 ts_caption <- "Data reflects trailing seven-day average."
 agg_caption <- "Data reflects monthly average of percent changes."
+inf_caption <- "Dollars inflation adjusted to most recent dollar value with BLS New York-Newark-Jersey City, NY-NJ-PA MSA CPI for all items."
 
 ## Opportunity insights citation ##
 oi_addition <- paste0("\n\"The Economic Impacts of COVID-19: Evidence from a New Public Database Built Using Private Sector Data\",\n",
@@ -744,6 +745,39 @@ comparison_bar_graph <- function(df, agg = F, measure, time_comparison,
 }
 
 ### Data reading sections ###
+## Inflation
+nyc_msa_inflation <- tryCatch({
+  
+  general_cpi_nyc_msa <- read_delim(file = "https://download.bls.gov/pub/time.series/cu/cu.data.1.AllItems",
+                                    delim = "\t", trim_ws = T, col_names = T,
+                                    col_types = "cccd") %>% 
+    filter(series_id == "CUURS12ASA0") %>% 
+    mutate(date = base::as.Date(paste0(year, 
+                                       "-", 
+                                       str_sub(period, 2, 3),
+                                       "-01"))) %>% 
+    filter(!is.na(date)) %>% 
+    select(date, value)
+  
+  latest_nyc_msa_cpi_value <- filter(general_cpi_nyc_msa, date == max(date))$value
+  
+  cpi_inf <- general_cpi_nyc_msa %>% 
+    mutate(inf_pct = ((latest_nyc_msa_cpi_value - value) / value) + 1) %>% 
+    select(-value)
+  
+},
+error = function(e) {
+  e_full <- error_cnd(class = "inflation_error", message = paste(
+    "An error occured with the inflation update:", e, "on", 
+    Sys.Date(), "\n"))
+  
+  message(e_full[["message"]])
+  
+  return(e_full)
+}
+
+)
+
 
 ## Unemployment
 
@@ -1521,7 +1555,10 @@ home_prices <- tryCatch({
   home_price_tri_state_full <- bind_rows(home_price_tri_state,
                                          home_price_nyc) %>%
     mutate(date = rollback(date, roll_to_first = T)) %>% 
-    filter(date >= base::as.Date("2019-01-01"))
+    filter(date >= base::as.Date("2019-01-01")) %>% 
+    left_join(cpi_inf, by = "date") %>% 
+    mutate(value = value * inf_pct) %>% 
+    select(-inf_pct)
   
   write_csv(home_price_tri_state_full,
             "./data/home_prices_long.csv")
@@ -1625,7 +1662,10 @@ rent_cost <- tryCatch({
            date = ymd(paste0(date, "_01"))) -> rent_tri_state 
   
   rent_tri_state_full <- bind_rows(rent_tri_state, rent_nyc) %>% 
-    filter(date >= base::as.Date("2019-01-01"))
+    filter(date >= base::as.Date("2019-01-01")) %>% 
+    left_join(cpi_inf, by = "date") %>% 
+    mutate(value = value * inf_pct) %>% 
+    select(-inf_pct)
   
   write_csv(rent_tri_state_full,
             "./data/rent_cost_long.csv")
@@ -1805,7 +1845,11 @@ gas_prices <- tryCatch({
            `New York State` = weekly_new_york_regular_all_formulations_retail_gasoline_prices_dollars_per_gallon,
            `New York City` = weekly_new_york_city_regular_all_formulations_retail_gasoline_prices_dollars_per_gallon) %>% 
     pivot_longer(!date, names_to = "state", values_to = "value") %>% 
-    mutate(value = round(value, 2)) -> gas_tri_state
+    mutate(value = round(value, 2),
+           month = rollback(date, roll_to_first = T)) %>% 
+    left_join(cpi_inf, by = c("month" = "date")) %>% 
+    mutate(value = value * inf_pct) %>% 
+    select(-c(inf_pct, month)) -> gas_tri_state
   
   write_csv(gas_tri_state, "./data/gas_prices_long.csv")
   
@@ -1875,7 +1919,10 @@ wages <- tryCatch({
     filter(area %in% c("0900000", "3400000", "3600000"),
            data_type == "03", seasonal_adjustment == "U") %>% 
     select(date, series_id, state, industry_code, value) %>% 
-    inner_join(industry_codes, by = "industry_code") -> wages_tri_state
+    inner_join(industry_codes, by = "industry_code")  %>% 
+    left_join(cpi_inf, by = "date") %>% 
+    mutate(value = value * inf_pct) %>% 
+    select(-inf_pct) -> wages_tri_state
   
   Sys.sleep(5)
   
