@@ -1580,7 +1580,9 @@ home_prices <- tryCatch({
                                  value_format = "dollar",
                                  geo_level = "county",
                                  item = "county",
-                                 caption = home_prices_caption))
+                                 caption = paste(home_prices_caption, 
+                                                 inf_caption,
+                                                 sep = "\n")))
     
   
   # By state bar graph MoM, YoY, and 2019-present percent changes
@@ -1595,7 +1597,9 @@ home_prices <- tryCatch({
                                  data_freq = "monthly",
                                  geo_level = "county",
                                  item = "county",
-                                 caption = home_prices_caption))
+                                 caption = paste(home_prices_caption, 
+                                                 inf_caption,
+                                                 sep = "\n")))
     
   })
   
@@ -1618,10 +1622,59 @@ rent_cost <- tryCatch({
   
   # From ApartmentsList
   # https://www.apartmentlist.com/research/category/data-rent-estimates
+  read_html("https://www.apartmentlist.com/research/category/data-rent-estimates") %>% 
+    html_nodes("script") -> rent_scripts
+  
+  rent_data_script <- which(
+    map_lgl(
+      map_chr(rent_scripts, html_text), ~str_detect(.x, "Apartment_List_Rent_Estimates_County")
+    )
+  )
+  
+  rent_raw_text <- rent_scripts %>%
+    nth(rent_data_script) %>%
+    html_text()
+  
+  Sys.sleep(5)
+  
+  fromJSON(json_str = rent_raw_text) -> rent_json
+  
+  rent_json %>% 
+    extract2("props") %>% 
+    extract2("pageProps") %>% 
+    extract2("component") %>% 
+    extract2("searchResults") %>% 
+    nth(1) %>% 
+    extract2("fields") %>% 
+    extract2("downloadableAssets") %>% 
+    nth(5) %>% 
+    extract2("fields") %>% 
+    extract2("attachment") %>% 
+    extract2("fields") %>%
+    extract2("file") %>% 
+    extract2("url") -> rent_url_county
+  
+  rent_json %>% 
+    extract2("props") %>% 
+    extract2("pageProps") %>% 
+    extract2("component") %>% 
+    extract2("searchResults") %>% 
+    nth(1) %>% 
+    extract2("fields") %>% 
+    extract2("downloadableAssets") %>% 
+    nth(6) %>% 
+    extract2("fields") %>% 
+    extract2("attachment") %>% 
+    extract2("fields") %>%
+    extract2("file") %>% 
+    extract2("url") -> rent_url_city
+  
+  Sys.sleep(3)
   
   # Rent by City
   read_csv(
-    "https://assets.ctfassets.net/jeox55pd4d8n/2QcueWduZDvVORgKJtXveW/407262141f9b1669748e6e147f112c13/Apartment_List_Rent_Estimates_City_2022_2.csv",
+    paste0("https:", 
+           rent_url_city),
     col_names = T,
     col_types = cols(.default = col_character())
   ) %>% 
@@ -1641,7 +1694,8 @@ rent_cost <- tryCatch({
   
   # Rent by County
   read_csv(
-    "https://assets.ctfassets.net/jeox55pd4d8n/5QjarzhisRRlIlbatcIg03/87532fd8c8bba1be092324c686812083/Apartment_List_Rent_Estimates_County_2022_2.csv",
+    paste0("https:", 
+           rent_url_county),
     col_names = T,
     col_types = cols(.default = col_character())
   ) %>% 
@@ -1688,7 +1742,9 @@ rent_cost <- tryCatch({
                                  value_format = "dollar",
                                  geo_level = "county",
                                  item = "county",
-                                 caption = rent_cost_caption))
+                                 caption = paste(rent_cost_caption, 
+                                                 inf_caption,
+                                                 sep = "\n")))
   
   # By state bar graph MoM, YoY, and 2019-present percent changes
 
@@ -1702,7 +1758,9 @@ rent_cost <- tryCatch({
                                  data_freq = "monthly",
                                  geo_level = "county",
                                  item = "county",
-                                 caption = rent_cost_caption))
+                                 caption = paste(rent_cost_caption, 
+                                                 inf_caption,
+                                                 sep = "\n")))
     
   })
   
@@ -1870,7 +1928,9 @@ gas_prices <- tryCatch({
                          value_format = "dollar",
                          geo_level = "state",
                          item = "state",
-                         caption = gas_price_caption)
+                         caption = paste(gas_price_caption,
+                                         inf_caption, 
+                                         sep = "\n"))
   
   # By region WoW, MoM, YoY, 2019 - present
   walk(c("Week-over-week", time_frames), function(x) {
@@ -1881,7 +1941,9 @@ gas_prices <- tryCatch({
                            data_freq = "weekly",
                            geo_level = "state",
                            item = "state",
-                           caption = gas_price_caption)
+                           caption = paste(gas_price_caption,
+                                           inf_caption, 
+                                           sep = "\n"))
     
   })
   
@@ -1950,7 +2012,9 @@ wages <- tryCatch({
                          value_format = "dollar",
                          geo_level = "state",
                          item = "state",
-                         caption = bls_caption
+                         caption = paste(bls_caption,
+                                         inf_caption,
+                                         sep = "\n")
                          ))
   
   # By state bar graph MoM, YoY, and 2019-present percent changes (top four)
@@ -1969,11 +2033,15 @@ wages <- tryCatch({
         
         comparison_bar_graph(risers, measure = "Hourly Wages", item = "industry_name",
                              time_comparison = x, data_freq = "monthly",
-                             geo_level = "state", caption = bls_caption)
+                             geo_level = "state", caption = paste(bls_caption,
+                                                                  inf_caption,
+                                                                  sep = "\n"))
         
         comparison_bar_graph(fallers, measure = "Hourly Wages", item = "industry_name",
                              time_comparison = x, data_freq = "monthly",
-                             geo_level = "state", caption = bls_caption)
+                             geo_level = "state", caption = paste(bls_caption,
+                                                                  inf_caption,
+                                                                  sep = "\n"))
         
       })
     
