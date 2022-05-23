@@ -820,6 +820,10 @@ value,state,date
 -20.39,Connecticut,2022-05-16
 13.77,Connecticut,2022-05-17
 31.94,Connecticut,2022-05-18
+27.85,Connecticut,2022-05-19
+37.69,Connecticut,2022-05-20
+62.29,Connecticut,2022-05-21
+44.9,Connecticut,2022-05-22
 3,New Jersey,2020-02-18
 70,New Jersey,2020-02-19
 -4,New Jersey,2020-02-20
@@ -1641,6 +1645,10 @@ value,state,date
 -19.18,New Jersey,2022-05-16
 0.77,New Jersey,2022-05-17
 2.7,New Jersey,2022-05-18
+-3.89,New Jersey,2022-05-19
+-6.46,New Jersey,2022-05-20
+13.98,New Jersey,2022-05-21
+-6.84,New Jersey,2022-05-22
 -1,New York,2020-02-18
 11,New York,2020-02-19
 1,New York,2020-02-20
@@ -2462,6 +2470,10 @@ value,state,date
 -45.08,New York,2022-05-16
 -32.69,New York,2022-05-17
 -27.48,New York,2022-05-18
+-24.73,New York,2022-05-19
+-23.26,New York,2022-05-20
+-7.29,New York,2022-05-21
+-22.82,New York,2022-05-22
 1,NYC,2020-02-18
 11,NYC,2020-02-19
 3,NYC,2020-02-20
@@ -3283,3 +3295,7 @@ value,state,date
 -47.74,NYC,2022-05-16
 -37.65,NYC,2022-05-17
 -32.53,NYC,2022-05-18
+-30.03,NYC,2022-05-19
+-30.71,NYC,2022-05-20
+-17.63,NYC,2022-05-21
+-34.31,NYC,2022-05-22
