@@ -1,4 +1,28 @@
 date,state,value
+2022-05-23,Subways,NA
+2022-05-23,Buses,NA
+2022-05-23,LIRR,59
+2022-05-23,Metro North,56.99999999999999
+2022-05-23,Access A Ride,210.4
+2022-05-23,Bridges And Tunnels,91.5
+2022-05-22,Subways,NA
+2022-05-22,Buses,NA
+2022-05-22,LIRR,84
+2022-05-22,Metro North,90
+2022-05-22,Access A Ride,72.1
+2022-05-22,Bridges And Tunnels,96.1
+2022-05-21,Subways,NA
+2022-05-21,Buses,NA
+2022-05-21,LIRR,84
+2022-05-21,Metro North,96
+2022-05-21,Access A Ride,94.6
+2022-05-21,Bridges And Tunnels,92.10000000000001
+2022-05-20,Subways,NA
+2022-05-20,Buses,NA
+2022-05-20,LIRR,59
+2022-05-20,Metro North,54
+2022-05-20,Access A Ride,85.5
+2022-05-20,Bridges And Tunnels,95.19999999999999
 2022-05-19,Subways,61
 2022-05-19,Buses,59.4
 2022-05-19,LIRR,60
