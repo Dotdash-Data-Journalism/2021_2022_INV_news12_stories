@@ -396,9 +396,8 @@
     "renv": {
       "Package": "renv",
       "Version": "0.15.4",
-      "OS_type": NA,
-      "Repository": "CRAN",
       "Source": "Repository",
+      "Repository": "MRAN",
       "Requirements": []
     },
     "rjson": {
