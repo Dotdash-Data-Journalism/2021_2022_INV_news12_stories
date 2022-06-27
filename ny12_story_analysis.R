@@ -953,11 +953,17 @@ restaurant_reservations_jobs <- tryCatch({
   Sys.sleep(5)
   
   # Using regex to extract and clean json string data
-  ot_raw_json <- ot_raw_text %>%
+  ot_raw_text %>%
     str_match(regex("w.__INITIAL_STATE__ =\\s+(.*)", dotall = T)) %>%
-    nth(2) %>%
-    str_sub(start = 1L, end = nth(str_locate(., "]\\}]\\}\\}\\}"), 2))
+    nth(2) -> ot_str_json_dirty
   
+  Sys.sleep(3)
+  
+  end_nchar_ot_json <- nth(str_locate(ot_str_json_dirty, "]\\}]\\}\\}\\}"), 2)
+  
+  Sys.sleep(3)
+  
+  ot_raw_json <- str_sub(ot_str_json_dirty, start = 1L, end = end_nchar_ot_json)
   
   Sys.sleep(5)
   
