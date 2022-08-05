@@ -68298,6 +68298,83 @@ countyfips,date,county,state,measure,pct
 36119,2022-07-29,Westchester,NY,gps_workplaces,-26.4
 36119,2022-07-29,Westchester,NY,gps_residential,4
 36119,2022-07-29,Westchester,NY,gps_away_from_home,-4
+09001,2022-07-30,Fairfield,CT,gps_retail_and_recreation,-7.9
+09001,2022-07-30,Fairfield,CT,gps_grocery_and_pharmacy,-5.6
+09001,2022-07-30,Fairfield,CT,gps_parks,102
+09001,2022-07-30,Fairfield,CT,gps_transit_stations,13.6
+09001,2022-07-30,Fairfield,CT,gps_workplaces,-29.3
+09001,2022-07-30,Fairfield,CT,gps_residential,2.3
+09001,2022-07-30,Fairfield,CT,gps_away_from_home,-2
+09003,2022-07-30,Hartford,CT,gps_retail_and_recreation,-7.7
+09003,2022-07-30,Hartford,CT,gps_grocery_and_pharmacy,-4.1
+09003,2022-07-30,Hartford,CT,gps_parks,78.6
+09003,2022-07-30,Hartford,CT,gps_transit_stations,-25.4
+09003,2022-07-30,Hartford,CT,gps_workplaces,-28.4
+09003,2022-07-30,Hartford,CT,gps_residential,3.9
+09003,2022-07-30,Hartford,CT,gps_away_from_home,-3.9
+09005,2022-07-30,Litchfield,CT,gps_retail_and_recreation,7.3
+09005,2022-07-30,Litchfield,CT,gps_grocery_and_pharmacy,6.9
+09005,2022-07-30,Litchfield,CT,gps_parks,NA
+09005,2022-07-30,Litchfield,CT,gps_transit_stations,NA
+09005,2022-07-30,Litchfield,CT,gps_workplaces,-19.3
+09005,2022-07-30,Litchfield,CT,gps_residential,3
+09005,2022-07-30,Litchfield,CT,gps_away_from_home,-3
+09009,2022-07-30,New Haven,CT,gps_retail_and_recreation,-7.3
+09009,2022-07-30,New Haven,CT,gps_grocery_and_pharmacy,-5.4
+09009,2022-07-30,New Haven,CT,gps_parks,52.6
+09009,2022-07-30,New Haven,CT,gps_transit_stations,1.4
+09009,2022-07-30,New Haven,CT,gps_workplaces,-23.4
+09009,2022-07-30,New Haven,CT,gps_residential,3
+09009,2022-07-30,New Haven,CT,gps_away_from_home,-3
+34003,2022-07-30,Bergen,NJ,gps_retail_and_recreation,-7.1
+34003,2022-07-30,Bergen,NJ,gps_grocery_and_pharmacy,2.1
+34003,2022-07-30,Bergen,NJ,gps_parks,96.1
+34003,2022-07-30,Bergen,NJ,gps_transit_stations,-8
+34003,2022-07-30,Bergen,NJ,gps_workplaces,-31.9
+34003,2022-07-30,Bergen,NJ,gps_residential,4.9
+34003,2022-07-30,Bergen,NJ,gps_away_from_home,-5
+34017,2022-07-30,Hudson,NJ,gps_retail_and_recreation,-15.4
+34017,2022-07-30,Hudson,NJ,gps_grocery_and_pharmacy,-4.4
+34017,2022-07-30,Hudson,NJ,gps_parks,76
+34017,2022-07-30,Hudson,NJ,gps_transit_stations,-26.6
+34017,2022-07-30,Hudson,NJ,gps_workplaces,-29.1
+34017,2022-07-30,Hudson,NJ,gps_residential,4.9
+34017,2022-07-30,Hudson,NJ,gps_away_from_home,-4.9
+34025,2022-07-30,Monmouth,NJ,gps_retail_and_recreation,2.6
+34025,2022-07-30,Monmouth,NJ,gps_grocery_and_pharmacy,13.6
+34025,2022-07-30,Monmouth,NJ,gps_parks,233
+34025,2022-07-30,Monmouth,NJ,gps_transit_stations,0.3
+34025,2022-07-30,Monmouth,NJ,gps_workplaces,-31.9
+34025,2022-07-30,Monmouth,NJ,gps_residential,3.6
+34025,2022-07-30,Monmouth,NJ,gps_away_from_home,-3.5
+34027,2022-07-30,Morris,NJ,gps_retail_and_recreation,-11.9
+34027,2022-07-30,Morris,NJ,gps_grocery_and_pharmacy,2.7
+34027,2022-07-30,Morris,NJ,gps_parks,59.9
+34027,2022-07-30,Morris,NJ,gps_transit_stations,-29.3
+34027,2022-07-30,Morris,NJ,gps_workplaces,-34.3
+34027,2022-07-30,Morris,NJ,gps_residential,5.4
+34027,2022-07-30,Morris,NJ,gps_away_from_home,-5.4
+36059,2022-07-30,Nassau,NY,gps_retail_and_recreation,-12
+36059,2022-07-30,Nassau,NY,gps_grocery_and_pharmacy,-6.7
+36059,2022-07-30,Nassau,NY,gps_parks,140
+36059,2022-07-30,Nassau,NY,gps_transit_stations,-33.4
+36059,2022-07-30,Nassau,NY,gps_workplaces,-33.3
+36059,2022-07-30,Nassau,NY,gps_residential,4.3
+36059,2022-07-30,Nassau,NY,gps_away_from_home,-4.3
+36103,2022-07-30,Suffolk,NY,gps_retail_and_recreation,-2.1
+36103,2022-07-30,Suffolk,NY,gps_grocery_and_pharmacy,1.9
+36103,2022-07-30,Suffolk,NY,gps_parks,208
+36103,2022-07-30,Suffolk,NY,gps_transit_stations,7.3
+36103,2022-07-30,Suffolk,NY,gps_workplaces,-24
+36103,2022-07-30,Suffolk,NY,gps_residential,2.3
+36103,2022-07-30,Suffolk,NY,gps_away_from_home,-2.1
+36119,2022-07-30,Westchester,NY,gps_retail_and_recreation,-11.1
+36119,2022-07-30,Westchester,NY,gps_grocery_and_pharmacy,-1.3
+36119,2022-07-30,Westchester,NY,gps_parks,64.6
+36119,2022-07-30,Westchester,NY,gps_transit_stations,-20.1
+36119,2022-07-30,Westchester,NY,gps_workplaces,-26.3
+36119,2022-07-30,Westchester,NY,gps_residential,4
+36119,2022-07-30,Westchester,NY,gps_away_from_home,-4
 3651000,2020-02-24,NYC,NY,gps_retail_and_recreation,2
 3651000,2020-02-24,NYC,NY,gps_grocery_and_pharmacy,-2.4
 3651000,2020-02-24,NYC,NY,gps_parks,13.9
@@ -74507,3 +74584,10 @@ countyfips,date,county,state,measure,pct
 3651000,2022-07-29,NYC,NY,gps_workplaces,-31.8
 3651000,2022-07-29,NYC,NY,gps_residential,4.9
 3651000,2022-07-29,NYC,NY,gps_away_from_home,-5.2
+3651000,2022-07-30,NYC,NY,gps_retail_and_recreation,-24.6
+3651000,2022-07-30,NYC,NY,gps_grocery_and_pharmacy,-13.8
+3651000,2022-07-30,NYC,NY,gps_parks,35.8
+3651000,2022-07-30,NYC,NY,gps_transit_stations,-28.1
+3651000,2022-07-30,NYC,NY,gps_workplaces,-31.7
+3651000,2022-07-30,NYC,NY,gps_residential,4.7
+3651000,2022-07-30,NYC,NY,gps_away_from_home,-4.9
