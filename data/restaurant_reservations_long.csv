@@ -967,6 +967,14 @@ value,state,date
 32.09,Connecticut,2022-10-10
 15.69,Connecticut,2022-10-11
 40.06,Connecticut,2022-10-12
+27.1,Connecticut,2022-10-13
+43.41,Connecticut,2022-10-14
+46.59,Connecticut,2022-10-15
+57.04,Connecticut,2022-10-16
+6.11,Connecticut,2022-10-17
+27.53,Connecticut,2022-10-18
+27.66,Connecticut,2022-10-19
+36.45,Connecticut,2022-10-20
 3,New Jersey,2020-02-18
 70,New Jersey,2020-02-19
 -4,New Jersey,2020-02-20
@@ -1935,6 +1943,14 @@ value,state,date
 8.12,New Jersey,2022-10-10
 4.5,New Jersey,2022-10-11
 33.22,New Jersey,2022-10-12
+1.14,New Jersey,2022-10-13
+7.64,New Jersey,2022-10-14
+8.05,New Jersey,2022-10-15
+19.51,New Jersey,2022-10-16
+8.6,New Jersey,2022-10-17
+3.41,New Jersey,2022-10-18
+-1.21,New Jersey,2022-10-19
+5.83,New Jersey,2022-10-20
 -1,New York,2020-02-18
 11,New York,2020-02-19
 1,New York,2020-02-20
@@ -2903,6 +2919,14 @@ value,state,date
 -28.75,New York,2022-10-10
 -27.18,New York,2022-10-11
 -16.98,New York,2022-10-12
+-31.78,New York,2022-10-13
+-21.5,New York,2022-10-14
+-19.74,New York,2022-10-15
+-17.73,New York,2022-10-16
+-33.98,New York,2022-10-17
+-22.54,New York,2022-10-18
+-26.57,New York,2022-10-19
+-27.46,New York,2022-10-20
 1,NYC,2020-02-18
 11,NYC,2020-02-19
 3,NYC,2020-02-20
@@ -3871,3 +3895,11 @@ value,state,date
 -37.9,NYC,2022-10-10
 -32.79,NYC,2022-10-11
 -25.56,NYC,2022-10-12
+-37.55,NYC,2022-10-13
+-32.64,NYC,2022-10-14
+-29.48,NYC,2022-10-15
+-28.59,NYC,2022-10-16
+-40.56,NYC,2022-10-17
+-27.79,NYC,2022-10-18
+-33.06,NYC,2022-10-19
+-35.39,NYC,2022-10-20
