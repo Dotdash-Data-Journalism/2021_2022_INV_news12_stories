@@ -1,122 +1,122 @@
 date,state,display_level,item_name,value,nineteen_to_present_pct
-2022-09-01,New England,detailed,Alcoholic beverages,111.501,11.27
-2022-09-01,New York City MSA,detailed,Alcoholic beverages,296.748,10.5
-2022-09-01,New England,broad,All items,117.29,12.4
-2022-09-01,New York City MSA,broad,All items,313.88,12.37
-2022-09-01,New York City MSA,broad,All items - old base,907.384,12.37
-2022-09-01,New England,broad,All items less energy,115.209,10.08
-2022-09-01,New York City MSA,broad,All items less energy,321.25,11.14
-2022-09-01,New England,broad,All items less food and energy,113.908,8.63
-2022-09-01,New York City MSA,broad,All items less food and energy,323.291,9.98
-2022-09-01,New England,broad,All items less medical care,117.391,12.95
-2022-09-01,New York City MSA,broad,All items less medical care,302.232,12.35
-2022-09-01,New England,broad,All items less shelter,118.936,14.58
-2022-09-01,New York City MSA,broad,All items less shelter,274.886,16.21
-2022-09-01,New England,broad,Apparel,104.002,-9.67
-2022-09-01,New York City MSA,broad,Apparel,133.312,6.56
-2022-09-01,New England,detailed,Cereals and bakery products,127.744,22.82
-2022-09-01,New York City MSA,detailed,Cereals and bakery products,365.245,20.28
-2022-09-01,New England,broad,Commodities,120.853,17.3
-2022-09-01,New York City MSA,broad,Commodities,224.197,17.03
-2022-09-01,New England,broad,Commodities less food,119.772,16.51
-2022-09-01,New York City MSA,broad,Commodities less food,171.454,15.87
-2022-09-01,New England,broad,Commodities less food and beverages,120.152,16.72
-2022-09-01,New York City MSA,broad,Commodities less food and beverages,166.515,16.18
-2022-09-01,New England,detailed,Dairy and related products,125.891,19.84
-2022-09-01,New York City MSA,detailed,Dairy and related products,267.57,16.16
-2022-09-01,New England,broad,Durables,120.507,22.48
-2022-09-01,New York City MSA,broad,Durables,112.939,21.74
-2022-09-01,New England,broad,Education and communication,108.188,4.44
-2022-09-01,New York City MSA,broad,Education and communication,156.339,6.21
-2022-09-01,New England,broad,Education and communication commodities,85.701,-7.89
-2022-09-01,New York City MSA,broad,Education and communication commodities,64.289,-9.11
-2022-09-01,New England,broad,Education and communication services,109.892,5.29
-2022-09-01,New York City MSA,broad,Education and communication services,120.266,7.48
-2022-09-01,New England,detailed,Electricity,141.774,36.49
-2022-09-01,New York City MSA,detailed,Electricity,217.457,19.32
-2022-09-01,New England,broad,Energy,145.178,44.42
-2022-09-01,New York City MSA,broad,Energy,267.439,34.03
-2022-09-01,New England,detailed,Energy services,143.538,45.75
-2022-09-01,New York City MSA,detailed,Energy services,229.34,29.4
-2022-09-01,New England,broad,Food,123.305,19.21
-2022-09-01,New York City MSA,broad,Food,322.838,18.65
-2022-09-01,New England,broad,Food and beverages,122.424,18.67
-2022-09-01,New York City MSA,broad,Food and beverages,321.447,18.1
-2022-09-01,New England,detailed,Food at home,120.046,18.5
-2022-09-01,New York City MSA,detailed,Food at home,308.665,19.42
-2022-09-01,New England,detailed,Food away from home,127.234,19.74
-2022-09-01,New York City MSA,detailed,Food away from home,349.964,17.1
-2022-09-01,New England,detailed,Fruits and vegetables,115.73,15.73
-2022-09-01,New York City MSA,detailed,Fruits and vegetables,375.459,13.03
-2022-09-01,New England,broad,Fuels and utilities,145.073,44.73
-2022-09-01,New York City MSA,broad,Fuels and utilities,252.862,29.63
-2022-09-01,New England,detailed,Gasoline (all types),141.869,38.85
-2022-09-01,New York City MSA,detailed,Gasoline (all types),291.441,36.15
-2022-09-01,New England,detailed,"Gasoline, unleaded midgrade",151.03,44.81
-2022-09-01,New York City MSA,detailed,"Gasoline, unleaded midgrade",309.329,37.15
-2022-09-01,New England,detailed,"Gasoline, unleaded premium",149.2,43.98
-2022-09-01,New York City MSA,detailed,"Gasoline, unleaded premium",313.305,37.39
-2022-09-01,New England,detailed,"Gasoline, unleaded regular",140.733,38.05
-2022-09-01,New York City MSA,detailed,"Gasoline, unleaded regular",288.716,35.94
-2022-09-01,New England,detailed,Household energy,147.554,48.77
-2022-09-01,New York City MSA,detailed,Household energy,245.319,32.02
-2022-09-01,New England,broad,Household furnishings and operations,113.874,13.23
-2022-09-01,New York City MSA,broad,Household furnishings and operations,128.183,16.56
-2022-09-01,New England,broad,Household furnishings and supplies,111.773,12.25
-2022-09-01,New York City MSA,broad,Household furnishings and supplies,95.275,16.63
-2022-09-01,New England,broad,Housing,117.432,12.48
-2022-09-01,New York City MSA,broad,Housing,332.46,9.08
-2022-09-01,New England,detailed,"Meats, poultry, fish, and eggs",119.948,22.95
-2022-09-01,New York City MSA,detailed,"Meats, poultry, fish, and eggs",315.37,24.69
-2022-09-01,New England,broad,Medical care,116.603,7.08
-2022-09-01,New York City MSA,broad,Medical care,582.938,12.67
-2022-09-01,New England,detailed,Motor fuel,142.063,38.97
-2022-09-01,New York City MSA,detailed,Motor fuel,292.852,36.16
-2022-09-01,New England,detailed,New and used motor vehicles,131.319,32.67
-2022-09-01,New York City MSA,detailed,New and used motor vehicles,125.586,41.26
-2022-09-01,New England,detailed,New vehicles,112.181,-55.94
-2022-09-01,New York City MSA,detailed,New vehicles,254.62,25.87
-2022-09-01,New England,detailed,Nonalcoholic beverages and beverage materials,115.035,12.07
-2022-09-01,New York City MSA,detailed,Nonalcoholic beverages and beverage materials,298.191,16.64
-2022-09-01,New England,broad,Nondurables,121.834,16.26
-2022-09-01,New York City MSA,broad,Nondurables,266.314,16.22
-2022-09-01,New England,broad,Nondurables less food,120.378,13.43
-2022-09-01,New York City MSA,broad,Nondurables less food,214.066,13.53
-2022-09-01,New England,broad,Nondurables less food and beverages,121.145,13.52
-2022-09-01,New York City MSA,broad,Nondurables less food and beverages,208.745,13.81
-2022-09-01,New England,detailed,Other food at home,118.597,16.53
-2022-09-01,New York City MSA,detailed,Other food at home,274.851,22.4
-2022-09-01,New England,broad,Other goods,122.176,18.35
-2022-09-01,New York City MSA,broad,Other goods,113.645,1.4
-2022-09-01,New England,broad,Other goods and services,120.723,15.42
-2022-09-01,New York City MSA,broad,Other goods and services,476.643,8.54
-2022-09-01,New England,broad,Other personal services,119.315,12.77
-2022-09-01,New York City MSA,broad,Other personal services,138.324,12.36
-2022-09-01,New England,detailed,Owners' equivalent rent of primary residence,114.036,8.78
-2022-09-01,New York City MSA,detailed,Owners' equivalent rent of primary residence,422.095,7.41
-2022-09-01,New England,detailed,Owners' equivalent rent of residences,114.059,8.75
-2022-09-01,New York City MSA,detailed,Owners' equivalent rent of residences,422.618,7.41
-2022-09-01,New England,broad,Private transportation,126.541,26.67
-2022-09-01,New York City MSA,broad,Private transportation,270.048,31.04
-2022-09-01,New England,broad,Recreation,110.488,4.61
-2022-09-01,New York City MSA,broad,Recreation,141.277,14.77
-2022-09-01,New England,detailed,Rent of primary residence,115.151,9.58
-2022-09-01,New York City MSA,detailed,Rent of primary residence,422.015,4.67
-2022-09-01,New England,broad,Services,115.244,9.66
-2022-09-01,New York City MSA,broad,Services,389.828,10.4
-2022-09-01,New England,broad,Services less medical care services,114.92,9.76
-2022-09-01,New York City MSA,broad,Services less medical care services,372.339,9.79
-2022-09-01,New England,broad,Services less rent of shelter,116.418,11.24
-2022-09-01,New York City MSA,broad,Services less rent of shelter,378.068,15.5
-2022-09-01,New England,broad,Shelter,113.967,8.08
-2022-09-01,New York City MSA,broad,Shelter,411.946,6.4
-2022-09-01,New England,broad,Transportation,123.857,22.77
-2022-09-01,New York City MSA,broad,Transportation,270.454,23.2
-2022-09-01,New England,broad,Transportation commodities less motor fuel,129.442,31.17
-2022-09-01,New York City MSA,broad,Transportation commodities less motor fuel,138.165,32.4
-2022-09-01,New England,detailed,"Tuition, other school fees, and childcare",111.055,5.27
-2022-09-01,New York City MSA,detailed,"Tuition, other school fees, and childcare",1330.562,7.2
-2022-09-01,New England,detailed,Used cars and trucks,154.416,49.95
-2022-09-01,New York City MSA,detailed,Used cars and trucks,397.046,48.73
-2022-09-01,New England,detailed,Utility (piped) gas service,147.106,69.56
-2022-09-01,New York City MSA,detailed,Utility (piped) gas service,237.399,49.08
+2022-10-01,New England,detailed,Alcoholic beverages,112.111,11.91
+2022-10-01,New York City MSA,detailed,Alcoholic beverages,298.499,11.63
+2022-10-01,New England,broad,All items,117.924,13.3
+2022-10-01,New York City MSA,broad,All items,314.338,12.56
+2022-10-01,New York City MSA,broad,All items - old base,908.707,12.56
+2022-10-01,New England,broad,All items less energy,115.581,10.7
+2022-10-01,New York City MSA,broad,All items less energy,321.865,11.27
+2022-10-01,New England,broad,All items less food and energy,114.13,9.12
+2022-10-01,New York City MSA,broad,All items less food and energy,323.668,10.08
+2022-10-01,New England,broad,All items less medical care,118.143,14.02
+2022-10-01,New York City MSA,broad,All items less medical care,302.817,12.62
+2022-10-01,New England,broad,All items less shelter,119.468,15.21
+2022-10-01,New York City MSA,broad,All items less shelter,274.812,16.02
+2022-10-01,New England,broad,Apparel,102.663,-10.45
+2022-10-01,New York City MSA,broad,Apparel,129.743,5.16
+2022-10-01,New England,detailed,Cereals and bakery products,129.413,26.83
+2022-10-01,New York City MSA,detailed,Cereals and bakery products,373.297,22.13
+2022-10-01,New England,broad,Commodities,121.584,18.17
+2022-10-01,New York City MSA,broad,Commodities,224.172,17.13
+2022-10-01,New England,broad,Commodities less food,120.196,17.1
+2022-10-01,New York City MSA,broad,Commodities less food,170.679,15.95
+2022-10-01,New England,broad,Commodities less food and beverages,120.569,17.31
+2022-10-01,New York City MSA,broad,Commodities less food and beverages,165.681,16.21
+2022-10-01,New England,detailed,Dairy and related products,128.96,26.02
+2022-10-01,New York City MSA,detailed,Dairy and related products,266.022,15.78
+2022-10-01,New England,broad,Durables,119.85,21.79
+2022-10-01,New York City MSA,broad,Durables,111.843,20.95
+2022-10-01,New England,broad,Education and communication,108.252,4.39
+2022-10-01,New York City MSA,broad,Education and communication,156.708,6.58
+2022-10-01,New England,broad,Education and communication commodities,85.876,-6.75
+2022-10-01,New York City MSA,broad,Education and communication commodities,62.263,-12.1
+2022-10-01,New England,broad,Education and communication services,109.944,5.15
+2022-10-01,New York City MSA,broad,Education and communication services,120.968,8.24
+2022-10-01,New England,detailed,Electricity,142.041,36.65
+2022-10-01,New York City MSA,detailed,Electricity,208.94,21.35
+2022-10-01,New England,broad,Energy,149.371,49.33
+2022-10-01,New York City MSA,broad,Energy,266.048,35.46
+2022-10-01,New England,detailed,Energy services,145.178,47.3
+2022-10-01,New York City MSA,detailed,Energy services,223.51,29.44
+2022-10-01,New England,broad,Food,124.645,20.61
+2022-10-01,New York City MSA,broad,Food,324.816,18.82
+2022-10-01,New England,broad,Food and beverages,123.712,20.02
+2022-10-01,New York City MSA,broad,Food and beverages,323.412,18.34
+2022-10-01,New England,detailed,Food at home,121.072,19.87
+2022-10-01,New York City MSA,detailed,Food at home,310.55,19.09
+2022-10-01,New England,detailed,Food away from home,129.152,21.34
+2022-10-01,New York City MSA,detailed,Food away from home,352.119,17.89
+2022-10-01,New England,detailed,Fruits and vegetables,115.848,12.12
+2022-10-01,New York City MSA,detailed,Fruits and vegetables,376.44,12.56
+2022-10-01,New England,broad,Fuels and utilities,152.534,52.11
+2022-10-01,New York City MSA,broad,Fuels and utilities,254.865,32.92
+2022-10-01,New England,detailed,Gasoline (all types),139.727,38.37
+2022-10-01,New York City MSA,detailed,Gasoline (all types),284.268,34.2
+2022-10-01,New England,detailed,"Gasoline, unleaded midgrade",146.409,41.7
+2022-10-01,New York City MSA,detailed,"Gasoline, unleaded midgrade",299.876,34.24
+2022-10-01,New England,detailed,"Gasoline, unleaded premium",145.814,41.9
+2022-10-01,New York City MSA,detailed,"Gasoline, unleaded premium",304.637,34.66
+2022-10-01,New England,detailed,"Gasoline, unleaded regular",138.794,37.83
+2022-10-01,New York City MSA,detailed,"Gasoline, unleaded regular",281.763,34.12
+2022-10-01,New England,detailed,Household energy,156.119,57.33
+2022-10-01,New York City MSA,detailed,Household energy,247.06,35.59
+2022-10-01,New England,broad,Household furnishings and operations,114.425,13.23
+2022-10-01,New York City MSA,broad,Household furnishings and operations,127.314,16.79
+2022-10-01,New England,broad,Household furnishings and supplies,112.222,12.11
+2022-10-01,New York City MSA,broad,Household furnishings and supplies,94.54,17.47
+2022-10-01,New England,broad,Housing,118.981,14.43
+2022-10-01,New York City MSA,broad,Housing,333.699,9.95
+2022-10-01,New England,detailed,"Meats, poultry, fish, and eggs",119.353,21.73
+2022-10-01,New York City MSA,detailed,"Meats, poultry, fish, and eggs",317.735,23.38
+2022-10-01,New England,broad,Medical care,115.92,6.11
+2022-10-01,New York City MSA,broad,Medical care,580.004,11.89
+2022-10-01,New England,detailed,Motor fuel,140.006,38.56
+2022-10-01,New York City MSA,detailed,Motor fuel,285.758,34.26
+2022-10-01,New England,detailed,New and used motor vehicles,130.951,32.25
+2022-10-01,New York City MSA,detailed,New and used motor vehicles,122.803,38.17
+2022-10-01,New England,detailed,New vehicles,113.192,18.66
+2022-10-01,New York City MSA,detailed,New vehicles,254.787,26.15
+2022-10-01,New England,detailed,Nonalcoholic beverages and beverage materials,119.283,17.31
+2022-10-01,New York City MSA,detailed,Nonalcoholic beverages and beverage materials,306.939,19.58
+2022-10-01,New England,broad,Nondurables,123.245,17.82
+2022-10-01,New York City MSA,broad,Nondurables,267.165,16.65
+2022-10-01,New England,broad,Nondurables less food,121.86,15.14
+2022-10-01,New York City MSA,broad,Nondurables less food,213.962,14.17
+2022-10-01,New England,broad,Nondurables less food and beverages,122.7,15.32
+2022-10-01,New York City MSA,broad,Nondurables less food and beverages,208.528,14.41
+2022-10-01,New England,detailed,Other food at home,119.203,18.81
+2022-10-01,New York City MSA,detailed,Other food at home,272.672,20.11
+2022-10-01,New England,broad,Other goods,121.539,17.68
+2022-10-01,New York City MSA,broad,Other goods,119.17,5.04
+2022-10-01,New England,broad,Other goods and services,120.504,15.18
+2022-10-01,New York City MSA,broad,Other goods and services,484.434,9.74
+2022-10-01,New England,broad,Other personal services,119.46,12.9
+2022-10-01,New York City MSA,broad,Other personal services,138.163,12.08
+2022-10-01,New England,detailed,Owners' equivalent rent of primary residence,114.592,9.4
+2022-10-01,New York City MSA,detailed,Owners' equivalent rent of primary residence,423.846,7.83
+2022-10-01,New England,detailed,Owners' equivalent rent of residences,114.615,9.37
+2022-10-01,New York City MSA,detailed,Owners' equivalent rent of residences,424.372,7.83
+2022-10-01,New England,broad,Private transportation,126.018,26.46
+2022-10-01,New York City MSA,broad,Private transportation,267.152,29.95
+2022-10-01,New England,broad,Recreation,110.215,4.53
+2022-10-01,New York City MSA,broad,Recreation,144.058,13.45
+2022-10-01,New England,detailed,Rent of primary residence,115.827,10.3
+2022-10-01,New York City MSA,detailed,Rent of primary residence,423.709,5.24
+2022-10-01,New England,broad,Services,115.821,10.57
+2022-10-01,New York City MSA,broad,Services,390.71,10.66
+2022-10-01,New England,broad,Services less medical care services,115.65,10.9
+2022-10-01,New York City MSA,broad,Services less medical care services,373.465,10.16
+2022-10-01,New England,broad,Services less rent of shelter,116.705,11.58
+2022-10-01,New York City MSA,broad,Services less rent of shelter,377.9,15.07
+2022-10-01,New England,broad,Shelter,114.812,9.5
+2022-10-01,New York City MSA,broad,Shelter,413.77,7.15
+2022-10-01,New England,broad,Transportation,123.388,23
+2022-10-01,New York City MSA,broad,Transportation,267.935,22.05
+2022-10-01,New England,broad,Transportation commodities less motor fuel,128.31,29.74
+2022-10-01,New York City MSA,broad,Transportation commodities less motor fuel,136.953,31.41
+2022-10-01,New England,detailed,"Tuition, other school fees, and childcare",111.023,5.24
+2022-10-01,New York City MSA,detailed,"Tuition, other school fees, and childcare",1341.453,8.05
+2022-10-01,New England,detailed,Used cars and trucks,150.735,46.83
+2022-10-01,New York City MSA,detailed,Used cars and trucks,387.77,45.47
+2022-10-01,New England,detailed,Utility (piped) gas service,152.167,75.22
+2022-10-01,New York City MSA,detailed,Utility (piped) gas service,237.375,45.22
