@@ -1047,6 +1047,8 @@ value,state,date
 264.64,Connecticut,2022-12-29
 114.73,Connecticut,2022-12-30
 70.9,Connecticut,2022-12-31
+69.04,Connecticut,2023-01-01
+133.4,Connecticut,2023-01-02
 3,New Jersey,2020-02-18
 70,New Jersey,2020-02-19
 -4,New Jersey,2020-02-20
@@ -2095,6 +2097,8 @@ value,state,date
 182.75,New Jersey,2022-12-29
 48.25,New Jersey,2022-12-30
 23.21,New Jersey,2022-12-31
+12.58,New Jersey,2023-01-01
+102.71,New Jersey,2023-01-02
 -1,New York,2020-02-18
 11,New York,2020-02-19
 1,New York,2020-02-20
@@ -3143,6 +3147,8 @@ value,state,date
 39.36,New York,2022-12-29
 14.88,New York,2022-12-30
 -4.42,New York,2022-12-31
+-10.82,New York,2023-01-01
+33.07,New York,2023-01-02
 1,NYC,2020-02-18
 11,NYC,2020-02-19
 3,NYC,2020-02-20
@@ -4191,3 +4197,5 @@ value,state,date
 16.5,NYC,2022-12-29
 1.37,NYC,2022-12-30
 -28.78,NYC,2022-12-31
+-17,NYC,2023-01-01
+15.67,NYC,2023-01-02
