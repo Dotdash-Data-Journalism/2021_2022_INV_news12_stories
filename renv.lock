@@ -395,11 +395,12 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.16.0",
-      "OS_type": NA,
+      "Version": "0.17.0",
+      "OS_type": null,
+      "NeedsCompilation": "no",
       "Repository": "CRAN",
-      "Source": "Repository",
-      "Requirements": []
+      "Path": null,
+      "Source": "Repository"
     },
     "rjson": {
       "Package": "rjson",
