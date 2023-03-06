@@ -1108,6 +1108,9 @@ value,state,date
 -30.17,Connecticut,2023-02-28
 29.4,Connecticut,2023-03-01
 24.04,Connecticut,2023-03-02
+25.22,Connecticut,2023-03-03
+26.46,Connecticut,2023-03-04
+50.89,Connecticut,2023-03-05
 3,New Jersey,2020-02-18
 70,New Jersey,2020-02-19
 -4,New Jersey,2020-02-20
@@ -2217,6 +2220,9 @@ value,state,date
 -7.15,New Jersey,2023-02-28
 -8.03,New Jersey,2023-03-01
 -3.31,New Jersey,2023-03-02
+8.23,New Jersey,2023-03-03
+2.35,New Jersey,2023-03-04
+2.14,New Jersey,2023-03-05
 -1,New York,2020-02-18
 11,New York,2020-02-19
 1,New York,2020-02-20
@@ -3326,6 +3332,9 @@ value,state,date
 -33.02,New York,2023-02-28
 -24.96,New York,2023-03-01
 -25.51,New York,2023-03-02
+-19.1,New York,2023-03-03
+-13.58,New York,2023-03-04
+-9.46,New York,2023-03-05
 1,NYC,2020-02-18
 11,NYC,2020-02-19
 3,NYC,2020-02-20
@@ -4435,3 +4444,6 @@ value,state,date
 -36.68,NYC,2023-02-28
 -31.72,NYC,2023-03-01
 -33.15,NYC,2023-03-02
+-29.02,NYC,2023-03-03
+-21.23,NYC,2023-03-04
+-20.73,NYC,2023-03-05

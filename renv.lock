@@ -397,9 +397,7 @@
       "Package": "renv",
       "Version": "0.17.0",
       "OS_type": null,
-      "NeedsCompilation": "no",
       "Repository": "CRAN",
-      "Path": null,
       "Source": "Repository"
     },
     "rjson": {
